@@ -1,0 +1,4 @@
+{{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
+<article class="{{ if $image.exists }}has-image{{ end }} article-card" data-date="{{ .Date.Format "2006-01-02" }}">
+    {{ partial "article/components/header" . }}
+</article> 

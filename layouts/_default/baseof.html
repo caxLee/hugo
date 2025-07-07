@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
+    <head>
+        {{- partial "head/head.html" . -}}
+        {{- block "head" . -}}{{ end }}
+    </head>
+    <body class="{{ block `body-class` . }}{{ end }} simplified-layout">
+        {{- partial "head/colorScheme" . -}}
+        
+        {{- partial "top-header.html" . -}}
+
+        <div class="container main-container">
+            <main class="main full-width">
+                {{- block "main" . }}{{- end }}
+            </main>
+        </div>
+        {{ partial "footer/include.html" . }}
+    </body>
+</html> 

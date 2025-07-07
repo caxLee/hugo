@@ -1,0 +1,11 @@
+/* Custom styles for the site */
+
+/* Global 110% scaling */
+html {
+    font-size: 68.75%; /* 62.5% * 1.1 = 68.75% for 110% scaling */
+}
+
+/* Adjust body font size to maintain proportions */
+body {
+    font-size: 1.6rem; /* Keep the same relative size */
+} 

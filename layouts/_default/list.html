@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <header>
+        <h1 class="section-title">{{ .Title }}</h1>
+    </header>
+
+    {{- $pages := .Pages.ByDate.Reverse -}}
+    
+    <section class="article-grid">
+        {{ range $pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }} 

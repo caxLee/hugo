@@ -1,0 +1,32 @@
+<div class="top-header">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">{{ .Site.Params.sidebar.emoji }}</span>
+            <span class="ai-news-title">AI News</span>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select">{{ T "select_date" }}</label>
+            {{ $today := now.Format "2006-01-02" }}
+            <input type="date" id="date-select" value="{{ $today }}">
+        </div>
+    </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('date-select');
+    const cards = document.querySelectorAll('.article-card');
+    function filterPosts() {
+      const val = select.value;
+      cards.forEach(card => {
+        if (!val) {
+          card.style.display = '';
+        } else {
+          card.style.display = card.dataset.date === val ? '' : 'none';
+        }
+      });
+    }
+    select.addEventListener('change', filterPosts);
+    filterPosts();
+  });
+</script> 
