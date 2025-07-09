@@ -2,7 +2,6 @@
 date = '2025-07-04T20:13:19+08:00'
 draft = false
 title = 'MIT and Mass General Hospital researchers find disparities in organ allocation'
-url = 'news.mit.edu/2025/mit-mgh-researchers-find-disparities-organ-allocation-0703'
 +++
 
 摘要：1954年，世界上第一例成功的器官移植手术在布里格姆和妇女医院完成，这是一例从一对孪生兄弟之间移植肾脏的手术。随着免疫抑制药物的进步，器官移植的可行性和需求逐渐增加，美国已经进行了超过100万例器官移植手术。然而，尽管医学、计算和技术不断创新，美国仍然有超过10万人在器官移植等待名单上，并且每天有13人因等待器官移植而死亡。
