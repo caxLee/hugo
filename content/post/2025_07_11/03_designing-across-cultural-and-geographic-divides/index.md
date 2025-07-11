@@ -1,6 +1,6 @@
 +++
 title = 'Designing across cultural and geographic divides'
-date = "2025-07-11T10:30:06.762249+08:00"
+date = "2025-07-11T18:51:05.328805+08:00"
 draft = false
 tags = ["\u591a\u6a21\u6001", "\u5177\u8eab\u667a\u80fd", "\u80fd\u6548\u4f18\u5316"]
 summary = "MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观"

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>基模 on Example Site</title>
+        <link>https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/</link>
+        <description>Recent content in 基模 on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Fri, 11 Jul 2025 18:51:05 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Supporting mission-driven space innovation, for Earth and beyond</title>
+        <link>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</link>
+        <pubDate>Fri, 11 Jul 2025 18:51:05 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</guid>
+        <description>&lt;p&gt;Aurelia Institute成立于MIT的校友和前研究科学家组成，致力于使太空技术和建筑对全人类都有益处。该机构通过微重力飞行等活动，培养下一代太空爱好者，同时致力于为低地球轨道的大规模基础设施项目提供技术支持。他们的工作包括自组装太空建筑技术TESSERAE以及设计人类规模的建筑和栖息地，旨在将太空技术和理念带回地球。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>告别Transformer！北大、北邮、华为开源纯卷积DiC：3x3卷积实现SOTA性能，比DiT快5倍！</title>
+        <link>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</link>
+        <pubDate>Fri, 11 Jul 2025 18:51:05 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</guid>
+        <description>&lt;p&gt;近期北大、北邮和华为联合研究提出了一种新的纯卷积扩散模型DiC，重新审视了深度学习中的基础模块3x3卷积，超越了Diffusion Transformer在性能和推理速度上，证明了简单的卷积网络在生成任务中的潜力。他们通过精心设计的U-Net Hourglass架构、条件注入和激活函数替换等方式，将平庸的卷积网络打造成性能卓越的模型。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>拍我AI（PixVerse）上线多关键帧生成功能 ，AI视频创作从“片段”迈向“故事性表达” </title>
+        <link>https://caxlee.github.io/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/</link>
+        <pubDate>Fri, 11 Jul 2025 18:51:05 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/</guid>
+        <description>&lt;p&gt;拍我AI新增了多关键帧生成功能，用户可上传最多7张图片，在首尾帧模式下生成最长30秒的连贯视频，增强了创作者对AI视频叙事的掌控力。这一功能使AI视频创作更具完整叙事连贯性，能够实现角色动作、场景转换的自然衔接，智能切换不同景别与视角，显著提升叙事表现力，为高叙事需求场景提升创作效率。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>马斯克吹牛了吗？Grok 4第一波实测出炉：既能完虐o3，也菜到数不清6根手指</title>
+        <link>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</link>
+        <pubDate>Fri, 11 Jul 2025 18:51:05 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</guid>
+        <description>&lt;p&gt;马斯克亮相 Grok 4 发布会，宣称所有学科都达到博士后水平，吸引全球网友兴趣。比较 Grok 4 和 o3 在多个测试中表现，Grok 4 获得更多胜利。Grok 4 在教育领域应用潜力巨大，能够让抽象概念可视化，制作经典游戏和模拟。然而在实测中也出现翻车现象，引发一些讨论。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>8小时处理300万细胞数据，复旦&amp;上交研发双分支架构模型，登Nature子刊</title>
+        <link>https://caxlee.github.io/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
+        <description>&lt;p&gt;复旦大学与上海交通大学团队提出了 River 框架，利用双分支预测架构和事后归因策略，能够识别基因空间位置变化的关键信号。River 在识别差异空间表达模式基因方面表现优异，比传统方法更具优势。研究展示了 River 在不同数据集上的性能优势，以及在实际生物场景中的强大表现。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Collaborating with the force of nature</title>
+        <link>https://caxlee.github.io/p/collaborating-with-the-force-of-nature/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/collaborating-with-the-force-of-nature/</guid>
+        <description>&lt;p&gt;麻省理工学院的教授们在冰岛部署了一系列轻便的钢结构，用于与火山熔岩互动并成功转移其流向，以保护人类居住区和重要基础设施。他们的研究得到了教授阿马尔·G·博斯研究基金的支持。通过设计不同形状和材料的结构，他们希望与火山熔岩合作，而非对抗它。这项研究的目标是为全球其他活火山地区开发关键基础设施。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Implantable device could save diabetes patients from dangerously low blood sugar</title>
+        <link>https://caxlee.github.io/p/implantable-device-could-save-diabetes-patients-from-dangerously/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/implantable-device-could-save-diabetes-patients-from-dangerously/</guid>
+        <description>&lt;p&gt;麻省理工学院工程师设计了一种可植入的胰高血糖素释放装置，可在血糖水平过低时释放药物，帮助糖尿病患者应对低血糖危机。这种装置还可用于释放肾上腺素，应对心脏病发作和严重过敏反应。研究人员计划未来三年内开始临床试验。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Meta为他豪掷2亿美元，上交校友庞若鸣，晒出在苹果的最新论文</title>
+        <link>https://caxlee.github.io/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</guid>
+        <description>&lt;p&gt;庞若鸣即将加入 Meta 新成立的超级智能团队，但在苹果负责的最后一项研究中，他介绍了基于多模态大规模模型训练的 AXLearn 系统，具备高度模块化和对异构硬件的支持。该系统通过严格封装实现模块化，成功集成了 RoPE 和 MoE 功能，保持恒定的代码复杂性，并在异构硬件上展现出优异的性能。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>人类增强子突变敏感性图谱首次绘制：AI 与体内实验揭示发育调控密码</title>
+        <link>https://caxlee.github.io/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/</guid>
+        <description>&lt;p&gt;ENCODE计划揭示人类基因组中大部分序列为非编码区，长期调控功能成谜。研究团队通过转基因小鼠模型和机器学习系统性绘制了人类发育增强子的突变敏感性图谱，揭示了增强子在动物发育中的重要作用。研究结果有助于解释人类非编码变异和进化变化，为设计合成增强子以满足生物技术和治疗需求提供基础。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>基于工作记忆的认知测试显示LLM的检索局限：100%混淆无效信息与正确答案</title>
+        <link>https://caxlee.github.io/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</guid>
+        <description>&lt;p&gt;本文发现了一个影响所有大型语言模型的信息检索问题，即无法稳定地提取动态数据中的最新信息，对全局记忆和长推理任务造成损害。研究表明，所有主流语言模型在处理动态数据时会出现明显的错误，并呈现出一致的对数线性下降趋势。作者提出这一问题可能源于模型的基础架构或依赖的注意力机制。实验结果暗示，模型的抗干扰容量不足，需要在模型架构设计或训练方法上进行创新性调整。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>我们用飞书开了个选题会，一下进入现代化办公，编辑部直呼：真香</title>
+        <link>https://caxlee.github.io/p/%E6%88%91%E4%BB%AC%E7%94%A8%E9%A3%9E%E4%B9%A6%E5%BC%80%E4%BA%86%E4%B8%AA%E9%80%89%E9%A2%98%E4%BC%9A%E4%B8%80%E4%B8%8B%E8%BF%9B%E5%85%A5%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%8A%9E%E5%85%AC%E7%BC%96%E8%BE%91%E9%83%A8%E7%9B%B4%E5%91%BC%E7%9C%9F%E9%A6%99/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%88%91%E4%BB%AC%E7%94%A8%E9%A3%9E%E4%B9%A6%E5%BC%80%E4%BA%86%E4%B8%AA%E9%80%89%E9%A2%98%E4%BC%9A%E4%B8%80%E4%B8%8B%E8%BF%9B%E5%85%A5%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%8A%9E%E5%85%AC%E7%BC%96%E8%BE%91%E9%83%A8%E7%9B%B4%E5%91%BC%E7%9C%9F%E9%A6%99/</guid>
+        <description>&lt;p&gt;飞书在2025飞书未来无限大会上发布了多项新产品和升级，包括知识问答、AI会议、飞书Aily、飞书妙搭等。其中，飞书知识问答达到了M3标准，能够快速检索和整合信息；飞书会议则达到了M4标准，支持声纹识别和实时总结。另外，多维表格也迎来重大升级，包括性能提升和AI工具全家桶的发布。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>联合国点赞爱诗科技，PixVerse入选AI for Good优秀案例</title>
+        <link>https://caxlee.github.io/p/%E8%81%94%E5%90%88%E5%9B%BD%E7%82%B9%E8%B5%9E%E7%88%B1%E8%AF%97%E7%A7%91%E6%8A%80pixverse%E5%85%A5%E9%80%89ai-for-good%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E8%81%94%E5%90%88%E5%9B%BD%E7%82%B9%E8%B5%9E%E7%88%B1%E8%AF%97%E7%A7%91%E6%8A%80pixverse%E5%85%A5%E9%80%89ai-for-good%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B/</guid>
+        <description>&lt;p&gt;爱诗科技旗下生成式AI视频平台PixVerse在联合国举办的人工智能向善全球峰会上分享了其创意和数字包容成果，旨在推动“AI视频向善”的理念。通过创新的一键生成技术，PixVerse赋予全球数亿用户视频创作能力，重构创作经济生态，实现了视频创作的普惠。PixVerse的包容性潜力得到了实际印证，各国用户通过平台创作出惊艳作品，彰显了AI视频技术的巨大潜力和影响力。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>AI药物发现再进化：分子之心、斯坦福开发SurfFlow系统，破解治疗性肽设计表面互补难题</title>
+        <link>https://caxlee.github.io/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</link>
+        <pubDate>Wed, 09 Jul 2025 12:59:00 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</guid>
+        <description>&lt;p&gt;近年来，科学家在设计靶向难成药位点的治疗性肽方面取得进展，但忽略了蛋白质相互作用中分子表面的重要影响。为弥补这一差距，研究团队提出了一种基于表面的全设计肽生成算法SurfFlow，采用多模态条件流匹配架构来提高肽结合的准确性。该算法在全面的基准测试中表现优异，展现了整合多种蛋白质模态的潜力。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>RL 圈的夏夜之约！12 人唠嗑局：当强化学习撞上大模型 Agent</title>
+        <link>https://caxlee.github.io/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/</link>
+        <pubDate>Wed, 09 Jul 2025 12:59:00 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/</guid>
+        <description>&lt;p&gt;本文介绍了由机器之心主办、东浩兰生支持的「强化学习新范式探索之夜」活动，主题是从基础模型到 Agent 的进阶之路，邀请学术界和产业界的专家分享关于强化学习和大模型智能体的讨论。活动将围绕强化学习与大模型智能体的组合、训练推理策略选择以及智能体评估等议题展开，旨在打造一个小而精的交流平台。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>模拟3D分子编辑，北大高毅勤团队开发整合物理信息和偏好对齐的MolEdit，登Nature子刊</title>
+        <link>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
+        <pubDate>Wed, 09 Jul 2025 12:59:00 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
+        <description>&lt;p&gt;北京大学团队提出了理论指导，用于弥合图像 GenAI 和分子 GenAI 之间的方法论差距，实现对 3D 分子生成基础模型的预训练。他们开发的多模态分子 GenAI——MolEdit 能够生成具有全面对称性的有效分子，平衡构型稳定性和构象多样性，支持复杂三维结构的生成。研究人员通过物理信息学习和数据驱动学习相结合，解决了分子 GenAI 的幻觉问题，使得 MolEdit 在药物设计等领域具有广泛应用前景。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>登《Cell》，中科院高彩霞等开发AiCE：一种AI蛋白质工程通用策略</title>
+        <link>https://caxlee.github.io/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</link>
+        <pubDate>Wed, 09 Jul 2025 12:59:00 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</guid>
+        <description>&lt;p&gt;中国科学院团队开发的AiCE框架通过整合结构和进化约束到反向折叠模型中，实现了快速高效的蛋白质工程，无需专门训练。该框架在蛋白质工程任务中取得了显著成功，能够预测高适应性突变并优化蛋白质结构，展现出良好的应用前景。&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,478 @@
+/* Custom styles for original link and summary */
+.original-source,
+.original-summary {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #6c757d;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: none; /* Hide by default */
+}
+
+.original-source h4,
+.original-summary h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #495057;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.original-source a {
+    word-break: break-all;
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.original-source a:hover {
+    color: #004080;
+    text-decoration: underline;
+}
+
+.original-summary {
+    margin-top: 1rem;
+}
+
+.original-summary p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+/* Overlay trigger styles */
+.original-content-trigger {
+    position: relative;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.original-content-trigger:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.original-content-trigger .trigger-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #f0f7ff;
+    border: 1px solid #d0e3ff;
+    border-radius: 8px;
+    gap: 1rem;
+    text-align: center;
+}
+
+.original-content-trigger .trigger-icon {
+    font-size: 1.5rem;
+}
+
+.original-content-trigger .trigger-text {
+    font-size: 1.1rem;
+    color: #0066cc;
+    font-weight: 500;
+}
+
+.original-content-trigger:hover .trigger-box {
+    background-color: #e0f0ff;
+    border-color: #b8d7ff;
+}
+
+/* Modal styles */
+.original-content-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    overflow-y: auto;
+    backdrop-filter: blur(2px);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 10vh auto;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    animation: modalFadeIn 0.3s ease;
+}
+
+.modal-content-inner {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.modal-content-inner .original-source,
+.modal-content-inner .original-summary {
+    display: block !important;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.close-modal:hover {
+    color: #333;
+}
+
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.75rem;
+}
+
+/* 文章卡片样式 */
+article {
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.article-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-details {
+    padding: 0 1rem 1rem;
+}
+
+/* 不要显示链接下划线 */
+.article-link:hover .article-title {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* 主页文章卡片增强样式 */
+.article-wrapper {
+    cursor: pointer;
+}
+
+.article-wrapper .article-title a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+
+.article-wrapper .article-summary {
+    position: relative;
+    z-index: 2;
+}
+
+/* 文章卡片悬停效果 */
+.article-wrapper:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* 隐藏在预览中的原文链接和摘要 */
+.preview .original-source,
+.preview .original-summary {
+    display: none !important;
+}
+
+/* 模拟卡片点击效果 */
+.article-wrapper:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Header Styles - Inspired by daily-arXiv-ai-enhanced */
+.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px 30px; /* increase height */
+}
+
+.top-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ai-news-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem;
+}
+
+.ai-news-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.date-selector label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* New calendar-style input */
+.date-selector input[type="date"] {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 220px;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa;
+    background-color: #f0f0f0;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Section Title */
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 30px 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+/* Add padding to main container to account for fixed header */
+.main-container {
+    padding-top: 80px !important;
+    max-width: 1400px !important;
+    margin: 0 auto;
+}
+
+/* Simplified Layout */
+.simplified-layout .container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.simplified-layout .main {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Article Grid Layout - 3x3 grid */
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* three cards per row */
+    gap: 30px;
+    margin-top: 30px;
+    padding: 0 20px;
+    counter-reset: article-counter !important; /* 强制重置计数器 */
+}
+
+.article-grid article {
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    overflow: visible !important; /* 确保伪元素不被裁剪 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative !important; /* 确保定位上下文 */
+}
+
+.article-grid .article-image {
+    height: 200px; /* normal image height */
+}
+
+.article-grid .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.article-grid article:hover .article-image img {
+    transform: scale(1.05);
+}
+
+.article-grid .article-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.article-grid .article-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.article-grid .article-summary {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.article-grid .article-time {
+    font-size: 0.9rem;
+}
+
+/* Improved Article Numbering */
+.article-grid article {
+    position: relative;
+}
+
+/* 修复伪元素样式 */
+.article-grid article::before {
+    counter-increment: article-counter;
+    content: counter(article-counter) !important; /* 强制生成内容 */
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    pointer-events: none; /* 防止阻止点击 */
+    background-color: rgba(0, 0, 0, 0.5) !important; /* 半透明黑色 */
+    color: #ffffff !important; /* 白色文字 */
+    width: 28px !important; /* 调整为28px */
+    height: 28px !important; /* 调整为28px */
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.9rem !important; /* 调整为0.9rem */
+    font-weight: bold;
+    z-index: 100 !important; /* 提高z-index确保显示在最上层 */
+    transition: transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 添加阴影增强可见性 */
+}
+
+.article-grid article:hover::before {
+    background-color: rgba(0, 0, 0, 0.7) !important; /* 悬停更深黑 */
+    transform: translate(50%, -50%) scale(1.05);
+}
+
+/* Numbered Post in List View */
+.numbered-post {
+    display: flex;
+    position: relative;
+    padding-left: 40px;
+}
+
+.post-number {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.post-content {
+    flex-grow: 1;
+}
+
+/* Hide footer */
+.footer {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .article-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .main-container {
+        padding-top: 140px !important;
+    }
+    
+    .article-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 0 20px;
+    }
+    .article-grid .article-image {
+        height: 350px;
+    }
+    
+    .date-selector {
+        width: 100%;
+    }
+    
+    .date-selector select {
+        width: 100%;
+    }
+} 

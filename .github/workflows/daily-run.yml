@@ -1,53 +1,65 @@
-name: Daily Article Generation and Hugo Build
+name: Daily Data Fetch and Hugo Build
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # 允许手动触发, 以便测试
   schedule:
-    - cron: '0 22 * * *' # Runs at 22:00 UTC every day
+    - cron: '0 22 * * *' # 每天 UTC 22 点执行
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout Tools Repo
-        uses: actions/checkout@v3
-        with:
-          path: scraper_tool
+      # 步骤 1: 检出工具仓库 (您当前的项目)
+      - name: Checkout Tooling Repository
+        uses: actions/checkout@v4
 
-      - name: Checkout Hugo Source Repo
-        uses: actions/checkout@v3
+      # 步骤 2: 检出 Hugo 内容仓库到 hugo_source 目录
+      - name: Checkout Hugo Content Repository
+        uses: actions/checkout@v4
         with:
-          repository: ${{ secrets.HUGO_REPO }} # e.g., 'your-username/your-hugo-site-repo'
-          token: ${{ secrets.GH_PAT }} # A personal access token with repo scope
+          repository: ${{ github.repository }} # 使用当前仓库，而不是另一个仓库
           path: hugo_source
+          token: ${{ secrets.GH_PAT }} # 请确保这个 secret 是有权限访问仓库的 PAT
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r scraper_tool/blogdata/requirements.txt
-        shell: bash
-
-      - name: Install Playwright Browsers
-        run: playwright install --with-deps
-        working-directory: ./scraper_tool
-        shell: bash
-        
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
 
-      - name: Run Scripts
+      # 步骤 3: 运行脚本
+      - name: Install Dependencies and Run Scripts
+        run: |
+          # 安装 Python 依赖
+          pip install -r requirements.txt
+          
+          # 安装 Playwright 的浏览器和系统依赖
+          playwright install --with-deps
+          
+          # 运行主脚本
+          python run_all_daily.py
         env:
+          # 这个环境变量是连接两个仓库的关键
+          HUGO_PROJECT_PATH: ${{ github.workspace }}/hugo_source
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
-          HUGO_PROJECT_PATH: ${{ github.workspace }}/hugo_source
+          GH_PAT: ${{ secrets.GH_PAT }}
+          # Git配置
+          GIT_COMMIT_EMAIL: 'github-actions[bot]@users.noreply.github.com'
+          GIT_COMMIT_NAME: 'github-actions[bot]'
+          # GitHub Pages 仓库配置
+          PAGES_REPO_URL: ${{ github.repository }}
+          PAGES_BRANCH: 'gh-pages'
+
+      # 步骤 4: 检查结果 (可选，但建议保留)
+      - name: Verify Generated Content
         run: |
-          python scraper_tool/blogdata/run_all_daily.py
-          python scraper_tool/blogdata/auto_push_github.py
-        shell: bash 
+          echo "--- Verifying generated content in hugo_source/content/post ---"
+          ls -lR ${{ github.workspace }}/hugo_source/content/post 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>大模型 on Example Site</title>
+        <link>https://caxlee.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</link>
+        <description>Recent content in 大模型 on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Fri, 11 Jul 2025 18:51:05 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>打破大模型编程「数据污染」与「能力虚胖」困境，Meituan-M17团队构建新一代AI编程评测新标准——OIBench</title>
+        <link>https://caxlee.github.io/p/%E6%89%93%E7%A0%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%BC%96%E7%A8%8B%E6%95%B0%E6%8D%AE%E6%B1%A1%E6%9F%93%E4%B8%8E%E8%83%BD%E5%8A%9B%E8%99%9A%E8%83%96%E5%9B%B0%E5%A2%83meituan-m17%E5%9B%A2%E9%98%9F%E6%9E%84%E5%BB%BA%E6%96%B0%E4%B8%80%E4%BB%A3ai%E7%BC%96%E7%A8%8B%E8%AF%84%E6%B5%8B%E6%96%B0%E6%A0%87%E5%87%86oibench/</link>
+        <pubDate>Fri, 11 Jul 2025 18:51:05 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%89%93%E7%A0%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%BC%96%E7%A8%8B%E6%95%B0%E6%8D%AE%E6%B1%A1%E6%9F%93%E4%B8%8E%E8%83%BD%E5%8A%9B%E8%99%9A%E8%83%96%E5%9B%B0%E5%A2%83meituan-m17%E5%9B%A2%E9%98%9F%E6%9E%84%E5%BB%BA%E6%96%B0%E4%B8%80%E4%BB%A3ai%E7%BC%96%E7%A8%8B%E8%AF%84%E6%B5%8B%E6%96%B0%E6%A0%87%E5%87%86oibench/</guid>
+        <description>&lt;p&gt;当前大语言模型在编程领域的能力受到广泛关注，但实际评测结果与宣称存在较大差距，揭示了评估体系的诸多局限性。为解决评估困境，Meituan-M17团队推出了更真实、更具区分度的评估基准OIBench数据集。OIBench通过邀请人类选手参与评测，清晰揭示了顶级LLM在算法挑战中与人类水平的真实差距，为整个行业带来新思考。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>7月19日，相聚北京！一起聊聊ACL 2025爆点研究</title>
+        <link>https://caxlee.github.io/p/7%E6%9C%8819%E6%97%A5%E7%9B%B8%E8%81%9A%E5%8C%97%E4%BA%AC%E4%B8%80%E8%B5%B7%E8%81%8A%E8%81%8Aacl-2025%E7%88%86%E7%82%B9%E7%A0%94%E7%A9%B6/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/7%E6%9C%8819%E6%97%A5%E7%9B%B8%E8%81%9A%E5%8C%97%E4%BA%AC%E4%B8%80%E8%B5%B7%E8%81%8A%E8%81%8Aacl-2025%E7%88%86%E7%82%B9%E7%A0%94%E7%A9%B6/</guid>
+        <description>&lt;p&gt;2025年是AI领域令人兴奋的一年，各大科技公司、机构发布了众多研究成果，技术更新的节奏之快让人难以适应。ACL 2025将于7月27日-8月1日在奥地利维也纳举行，设置了丰富的环节，包括Keynote演讲。本次会议的Keynote演讲将聚焦ACL的发展趋势和大模型强化学习与复杂推理能力的探讨。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>刚刚，马斯克发布Grok 4！全榜第一，年费飚到2万&#43;</title>
+        <link>https://caxlee.github.io/p/%E5%88%9A%E5%88%9A%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83grok-4%E5%85%A8%E6%A6%9C%E7%AC%AC%E4%B8%80%E5%B9%B4%E8%B4%B9%E9%A3%9A%E5%88%B02%E4%B8%87/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%88%9A%E5%88%9A%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83grok-4%E5%85%A8%E6%A6%9C%E7%AC%AC%E4%B8%80%E5%B9%B4%E8%B4%B9%E9%A3%9A%E5%88%B02%E4%B8%87/</guid>
+        <description>&lt;p&gt;Grok 4 是一款 xAI 大模型，具有超强的推理能力，能在各类考试中取得高分，包括 SAT 和 GRE。其性能在多个基准测试中表现出色，包括在 ARC-AGI 和 Vending-Bench 上取得最新 SOTA。此外，Grok 4 还在语音能力和多模态方面得到加强，支持多种语音和新增角色 Eve 和 Sal。&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

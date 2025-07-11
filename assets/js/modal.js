@@ -16,13 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
 
             const url = card.dataset.url;
+            const originalLink = card.dataset.originalLink; // <-- 新增：获取原始链接
+
             if (url) {
-                openModalWithUrl(url);
+                openModalWithContent(url, originalLink); // <-- 修改：将原始链接传给弹窗函数
             }
         });
     });
     
-    function openModalWithUrl(url) {
+    function openModalWithContent(url, originalLink) { // <-- 修改：函数接收原始链接
         body.classList.add('modal-open');
         modal.classList.add('is-active');
         modalContent.innerHTML = '<p>Loading...</p>';
@@ -40,10 +42,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 const article = doc.querySelector('.article-content');
                 
                 if (article) {
-                    // To prevent images/scripts in fetched content from loading relative to the wrong path
-                    // we can either fix src attributes, or just show the text content.
-                    // For now, let's inject the whole thing and see.
-                    modalContent.innerHTML = article.innerHTML;
+                    // 如果存在原始链接，则创建 "阅读原文" 的 HTML
+                    let originalLinkHTML = '';
+                    if (originalLink) {
+                        originalLinkHTML = `<p><a href="${originalLink}" target="_blank" rel="noopener noreferrer">阅读原文</a></p><hr>`;
+                    }
+
+                    // 组合链接和文章摘要内容
+                    modalContent.innerHTML = originalLinkHTML + article.innerHTML;
                 } else {
                     modalContent.innerHTML = '<p>Could not load article content. The selector ".article-content" might be incorrect.</p>';
                     console.error("Could not find '.article-content' in fetched document from URL:", url);
