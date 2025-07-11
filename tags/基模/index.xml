@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 11 Jul 2025 21:07:37 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Jul 2025 06:11:02 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Supporting mission-driven space innovation, for Earth and beyond</title>
         <link>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</guid>
         <description>&lt;p&gt;Aurelia Institute成立于MIT的校友和前研究科学家组成，致力于使太空技术和建筑对全人类都有益处。该机构通过微重力飞行等活动，培养下一代太空爱好者，同时致力于为低地球轨道的大规模基础设施项目提供技术支持。他们的工作包括自组装太空建筑技术TESSERAE以及设计人类规模的建筑和栖息地，旨在将太空技术和理念带回地球。&lt;/p&gt;</description>
@@ -18,7 +18,7 @@
         <item>
         <title>告别Transformer！北大、北邮、华为开源纯卷积DiC：3x3卷积实现SOTA性能，比DiT快5倍！</title>
         <link>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</guid>
         <description>&lt;p&gt;近期北大、北邮和华为联合研究提出了一种新的纯卷积扩散模型DiC，重新审视了深度学习中的基础模块3x3卷积，超越了Diffusion Transformer在性能和推理速度上，证明了简单的卷积网络在生成任务中的潜力。他们通过精心设计的U-Net Hourglass架构、条件注入和激活函数替换等方式，将平庸的卷积网络打造成性能卓越的模型。&lt;/p&gt;</description>
@@ -26,7 +26,7 @@
         <item>
         <title>拍我AI（PixVerse）上线多关键帧生成功能 ，AI视频创作从“片段”迈向“故事性表达” </title>
         <link>https://caxlee.github.io/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/</guid>
         <description>&lt;p&gt;拍我AI新增了多关键帧生成功能，用户可上传最多7张图片，在首尾帧模式下生成最长30秒的连贯视频，增强了创作者对AI视频叙事的掌控力。这一功能使AI视频创作更具完整叙事连贯性，能够实现角色动作、场景转换的自然衔接，智能切换不同景别与视角，显著提升叙事表现力，为高叙事需求场景提升创作效率。&lt;/p&gt;</description>
@@ -34,7 +34,7 @@
         <item>
         <title>马斯克吹牛了吗？Grok 4第一波实测出炉：既能完虐o3，也菜到数不清6根手指</title>
         <link>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</guid>
         <description>&lt;p&gt;马斯克亮相 Grok 4 发布会，宣称所有学科都达到博士后水平，吸引全球网友兴趣。比较 Grok 4 和 o3 在多个测试中表现，Grok 4 获得更多胜利。Grok 4 在教育领域应用潜力巨大，能够让抽象概念可视化，制作经典游戏和模拟。然而在实测中也出现翻车现象，引发一些讨论。&lt;/p&gt;</description>

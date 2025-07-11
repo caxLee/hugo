@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 11 Jul 2025 21:07:37 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Jul 2025 06:11:02 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Agent</title>
         <link>https://caxlee.github.io/tags/agent/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/agent/</guid>
         <description></description>
@@ -18,7 +18,7 @@
         <item>
         <title>AI4S</title>
         <link>https://caxlee.github.io/tags/ai4s/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/ai4s/</guid>
         <description></description>
@@ -26,7 +26,7 @@
         <item>
         <title>AMASE</title>
         <link>https://caxlee.github.io/tags/amase/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/amase/</guid>
         <description></description>
@@ -34,7 +34,7 @@
         <item>
         <title>GenAI</title>
         <link>https://caxlee.github.io/tags/genai/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/genai/</guid>
         <description></description>
@@ -42,7 +42,7 @@
         <item>
         <title>IDSS</title>
         <link>https://caxlee.github.io/tags/idss/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/idss/</guid>
         <description></description>
@@ -50,7 +50,7 @@
         <item>
         <title>Infra</title>
         <link>https://caxlee.github.io/tags/infra/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/infra/</guid>
         <description></description>
@@ -58,7 +58,7 @@
         <item>
         <title>OIBench</title>
         <link>https://caxlee.github.io/tags/oibench/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/oibench/</guid>
         <description></description>
@@ -66,7 +66,7 @@
         <item>
         <title>具身智能</title>
         <link>https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</guid>
         <description></description>
@@ -74,7 +74,7 @@
         <item>
         <title>垂直大模型</title>
         <link>https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/</guid>
         <description></description>
@@ -82,7 +82,7 @@
         <item>
         <title>基模</title>
         <link>https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/</guid>
         <description></description>
@@ -90,7 +90,7 @@
         <item>
         <title>多模态</title>
         <link>https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/</guid>
         <description></description>
@@ -98,31 +98,55 @@
         <item>
         <title>大模型</title>
         <link>https://caxlee.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</guid>
         <description></description>
         </item>
         <item>
+        <title>探索之路</title>
+        <link>https://caxlee.github.io/tags/%E6%8E%A2%E7%B4%A2%E4%B9%8B%E8%B7%AF/</link>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/tags/%E6%8E%A2%E7%B4%A2%E4%B9%8B%E8%B7%AF/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>教授职位</title>
         <link>https://caxlee.github.io/tags/%E6%95%99%E6%8E%88%E8%81%8C%E4%BD%8D/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E6%95%99%E6%8E%88%E8%81%8C%E4%BD%8D/</guid>
         <description></description>
         </item>
         <item>
+        <title>教科书</title>
+        <link>https://caxlee.github.io/tags/%E6%95%99%E7%A7%91%E4%B9%A6/</link>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/tags/%E6%95%99%E7%A7%91%E4%B9%A6/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>机器学习</title>
         <link>https://caxlee.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
         <description></description>
         </item>
         <item>
+        <title>神经科学</title>
+        <link>https://caxlee.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/</link>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>能效优化</title>
         <link>https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/</guid>
         <description></description>
@@ -130,7 +154,7 @@
         <item>
         <title>评估困境</title>
         <link>https://caxlee.github.io/tags/%E8%AF%84%E4%BC%B0%E5%9B%B0%E5%A2%83/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/tags/%E8%AF%84%E4%BC%B0%E5%9B%B0%E5%A2%83/</guid>
         <description></description>

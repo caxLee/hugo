@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>探索之路 on Example Site</title>
+        <link>https://caxlee.github.io/tags/%E6%8E%A2%E7%B4%A2%E4%B9%8B%E8%B7%AF/</link>
+        <description>Recent content in 探索之路 on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Sat, 12 Jul 2025 06:11:02 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E6%8E%A2%E7%B4%A2%E4%B9%8B%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How an MIT professor introduced hundreds of thousands of students to neuroscience</title>
+        <link>https://caxlee.github.io/p/how-an-mit-professor-introduced-hundreds-of-thousands-of-students/</link>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/how-an-mit-professor-introduced-hundreds-of-thousands-of-students/</guid>
+        <description>&lt;p&gt;MIT教授Mark Bear的教科书《神经科学：探索大脑》自1995年首次印刷以来，在30年间成为领先的神经科学入门教材，覆盖全球数百所大学的数十万学生。该教科书致力于以易懂且令人兴奋的方式呈现神经科学领域的硬科学知识，同时通过插图和发现过程的讲述激发学生的兴趣。新版本继续延续这一理念，包括由知名神经科学家撰写的“探索之路”专栏，使学生能够更好地理解科学的乐趣和创新过程。&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 11 Jul 2025 21:07:37 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Jul 2025 06:11:02 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Designing across cultural and geographic divides</title>
         <link>https://caxlee.github.io/p/designing-across-cultural-and-geographic-divides/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/designing-across-cultural-and-geographic-divides/</guid>
         <description>&lt;p&gt;MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。&lt;/p&gt;</description>
@@ -18,15 +18,23 @@
         <item>
         <title>ICML spotlight | 一种会「进化」的合成数据！无需上传隐私，也能生成高质量垂域数据</title>
         <link>https://caxlee.github.io/p/icml-spotlight-%E4%B8%80%E7%A7%8D%E4%BC%9A%E8%BF%9B%E5%8C%96%E7%9A%84%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%E6%97%A0%E9%9C%80%E4%B8%8A%E4%BC%A0%E9%9A%90%E7%A7%81%E4%B9%9F%E8%83%BD%E7%94%9F%E6%88%90%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9E%82%E5%9F%9F%E6%95%B0%E6%8D%AE/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/icml-spotlight-%E4%B8%80%E7%A7%8D%E4%BC%9A%E8%BF%9B%E5%8C%96%E7%9A%84%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%E6%97%A0%E9%9C%80%E4%B8%8A%E4%BC%A0%E9%9A%90%E7%A7%81%E4%B9%9F%E8%83%BD%E7%94%9F%E6%88%90%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9E%82%E5%9F%9F%E6%95%B0%E6%8D%AE/</guid>
-        <description>&lt;p&gt;张剑清是一名上海交通大学在读博士生，主要研究大模型、合成数据集进化生成、联邦学习与推荐系统等领域，在解决数据短缺问题方面取得了系列成果。针对数据短缺问题，提出了合成数据自主进化框架 PCEvolve，通过少量标注样本保护隐私并生成整个数据集。该框架旨在解决大模型无法直接合成垂直领域数据的问题，提高合成数据的质量和适配性。&lt;/p&gt;</description>
+        <description>&lt;p&gt;张剑清是一名上海交通大学在读博士生，在代码大模型、合成数据集进化生成等领域取得成果。针对数据短缺问题，提出了合成数据自主进化框架 PCEvolve，通过少量标注样本生成整个数据集。该框架采用隐私保护方法，解决了垂域数据合成的问题。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Simulation-based pipeline tailors training data for dexterous robots</title>
+        <link>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</link>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</guid>
+        <description>&lt;p&gt;研究人员开发了一种名为PhysicsGen的模拟驱动方法，定制了机器人训练数据，帮助机器人找到任务的最有效动作。这一系统能将少数几个虚拟现实演示扩展到每台机器几乎3000次模拟。通过这种方法，机器人可以学会处理物体的不同方式，实现任务的高效完成。PhysicsGen的潜力还包括将旧机器人或不同环境的数据转化为新机器的有用指令，未来还有望扩展到教授机器执行多样化任务的领域。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Supporting mission-driven space innovation, for Earth and beyond</title>
         <link>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</guid>
         <description>&lt;p&gt;Aurelia Institute成立于MIT的校友和前研究科学家组成，致力于使太空技术和建筑对全人类都有益处。该机构通过微重力飞行等活动，培养下一代太空爱好者，同时致力于为低地球轨道的大规模基础设施项目提供技术支持。他们的工作包括自组装太空建筑技术TESSERAE以及设计人类规模的建筑和栖息地，旨在将太空技术和理念带回地球。&lt;/p&gt;</description>
@@ -34,7 +42,7 @@
         <item>
         <title>从「一团乱麻」到清晰分型，AI精准解析肿瘤细胞多样性，助力个性化联合疗法设计</title>
         <link>https://caxlee.github.io/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</guid>
         <description>&lt;p&gt;肿瘤异质性是指肿瘤内细胞在基因、表型、功能等方面存在差异，导致肿瘤行为复杂化。加文医学研究所团队开发了新的人工智能工具 AAnet，可以更好地表征肿瘤内单个细胞的多样性，为个性化治疗提供可能。他们发现肿瘤内存在五种不同的癌细胞群，这些群体具有不同的基因表达谱，为更有针对性的治疗方法打开了大门。&lt;/p&gt;</description>
@@ -42,7 +50,7 @@
         <item>
         <title>微软研究院BioEmu登上Science，用生成式AI重塑蛋白质功能研究</title>
         <link>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</link>
-        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 06:11:02 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</guid>
         <description>&lt;p&gt;微软研究院AI for Science团队提出了一种名为BioEmu的生成式深度学习模型，能够高效模拟蛋白质的构象变化，为理解蛋白质功能机制和加速药物发现提供新路径。该模型结合了静态结构、分子动力学模拟数据和蛋白稳定性实验数据进行训练，具有模拟蛋白质关键结构变化、自由能预测准确等优点，已在GitHub和HuggingFace上开源。&lt;/p&gt;</description>
