@@ -7,18 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 11 Jul 2025 20:32:11 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>ICML spotlight | 一种会「进化」的合成数据！无需上传隐私，也能生成高质量垂域数据</title>
-        <link>https://caxlee.github.io/p/icml-spotlight-%E4%B8%80%E7%A7%8D%E4%BC%9A%E8%BF%9B%E5%8C%96%E7%9A%84%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%E6%97%A0%E9%9C%80%E4%B8%8A%E4%BC%A0%E9%9A%90%E7%A7%81%E4%B9%9F%E8%83%BD%E7%94%9F%E6%88%90%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9E%82%E5%9F%9F%E6%95%B0%E6%8D%AE/</link>
-        <pubDate>Fri, 11 Jul 2025 20:32:11 +0800</pubDate>
-        
-        <guid>https://caxlee.github.io/p/icml-spotlight-%E4%B8%80%E7%A7%8D%E4%BC%9A%E8%BF%9B%E5%8C%96%E7%9A%84%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%E6%97%A0%E9%9C%80%E4%B8%8A%E4%BC%A0%E9%9A%90%E7%A7%81%E4%B9%9F%E8%83%BD%E7%94%9F%E6%88%90%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9E%82%E5%9F%9F%E6%95%B0%E6%8D%AE/</guid>
-        <description>&lt;p&gt;张剑清是上海交通大学在读博士生，在大模型、合成数据集进化生成等方向取得成果。为解决数据短缺问题，提出了合成数据自主进化框架 PCEvolve，可在保护隐私的情况下进化出完整数据集。垂直领域的数据特性丰富，大模型生成的数据无法直接满足需求，PCEvolve 的隐私保护方法适配了垂域场景的数据稀缺问题。&lt;/p&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Fri, 11 Jul 2025 21:07:37 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>实测Vidu Q1参考生功能，看到诸葛亮丘吉尔拿破仑在长城拍照留念</title>
         <link>https://caxlee.github.io/p/%E5%AE%9E%E6%B5%8Bvidu-q1%E5%8F%82%E8%80%83%E7%94%9F%E5%8A%9F%E8%83%BD%E7%9C%8B%E5%88%B0%E8%AF%B8%E8%91%9B%E4%BA%AE%E4%B8%98%E5%90%89%E5%B0%94%E6%8B%BF%E7%A0%B4%E4%BB%91%E5%9C%A8%E9%95%BF%E5%9F%8E%E6%8B%8D%E7%85%A7%E7%95%99%E5%BF%B5/</link>
-        <pubDate>Fri, 11 Jul 2025 18:51:05 +0800</pubDate>
+        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E5%AE%9E%E6%B5%8Bvidu-q1%E5%8F%82%E8%80%83%E7%94%9F%E5%8A%9F%E8%83%BD%E7%9C%8B%E5%88%B0%E8%AF%B8%E8%91%9B%E4%BA%AE%E4%B8%98%E5%90%89%E5%B0%94%E6%8B%BF%E7%A0%B4%E4%BB%91%E5%9C%A8%E9%95%BF%E5%9F%8E%E6%8B%8D%E7%85%A7%E7%95%99%E5%BF%B5/</guid>
         <description>&lt;p&gt;生数科技旗下 AI 视频模型 Vidu Q1 推出参考生功能，简化传统内容生产流程，实现「一个人就是一个剧组」。用户上传少量参考图，即可生成多个参考元素融合的视频素材，实现零分镜生成。社交平台上网友们创作出各种想象力丰富的作品，展示了 AI 参考生视频的强大功能。&lt;/p&gt;</description>
@@ -26,7 +18,7 @@
         <item>
         <title>是的，LeCun要向28岁的Alexandr Wang汇报！这是Meta新AI团队的一些独家内部消息</title>
         <link>https://caxlee.github.io/p/%E6%98%AF%E7%9A%84lecun%E8%A6%81%E5%90%9128%E5%B2%81%E7%9A%84alexandr-wang%E6%B1%87%E6%8A%A5%E8%BF%99%E6%98%AFmeta%E6%96%B0ai%E5%9B%A2%E9%98%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8B%AC%E5%AE%B6%E5%86%85%E9%83%A8%E6%B6%88%E6%81%AF/</link>
-        <pubDate>Fri, 11 Jul 2025 18:51:05 +0800</pubDate>
+        <pubDate>Fri, 11 Jul 2025 21:07:37 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%98%AF%E7%9A%84lecun%E8%A6%81%E5%90%9128%E5%B2%81%E7%9A%84alexandr-wang%E6%B1%87%E6%8A%A5%E8%BF%99%E6%98%AFmeta%E6%96%B0ai%E5%9B%A2%E9%98%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8B%AC%E5%AE%B6%E5%86%85%E9%83%A8%E6%B6%88%E6%81%AF/</guid>
         <description>&lt;p&gt;Meta近期强势挖人行动震撼科技圈，挖走了苹果AI团队负责人庞若鸣等大牛，成立了全新的AI研究部门MSL。Meta内部人员澄清了FAIR与GenAI、MSL之间的区别，指出它们是互相独立的。同时，Meta面临着团队构建、研究方向以及公司文化等多方面的挑战和调整。&lt;/p&gt;</description>
