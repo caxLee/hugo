@@ -138,7 +138,7 @@ with open(output_file, 'a', encoding='utf-8') as out_f, \
             # 增加更多调试信息
             print(f"正在为文章 '{title}' 调用OpenAI API生成摘要...")
             # 调用 GPT-3.5 生成摘要（带重试）
-            keywords = ["基模", "多模态", "Infra", "AI4S", "具身智能", "垂直大模型", "Agent", "能效优化"]
+            keywords = ["基模", "多模态", "Infra", "AI4S", "具身智能", "垂类大模型", "Agent", "能效优化"]
             keywords_str = ", ".join(f'"{k}"' for k in keywords)
             
             # --- 使用三引号和 textwrap 优化 Prompt 结构 ---
