@@ -11,7 +11,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="{{ .RelPermalink }}">
+            <a href="javascript:void(0);">
                 {{- .Title -}}
             </a>
         </h2>
@@ -45,6 +45,21 @@
                 </time>
             </div>
         {{ end }}
+    </footer>
+    {{ end }}
+
+    {{ if .Params.tags }}
+    <footer class="article-tags">
+        {{ partial "helper/icon" "tag" }}
+        <ul class="article-tags-list">
+            {{ range .Params.tags }}
+            <li class="article-tags-list-item">
+                <a href="{{ "tags/" | absURL }}{{ . | urlize }}/" class="article-tags-list-link">
+                    {{ . }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
     </footer>
     {{ end }}
 

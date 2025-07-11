@@ -3,6 +3,64 @@
     <head>
         {{- partial "head/head.html" . -}}
         {{- block "head" . -}}{{ end }}
+        <style>
+            .article-modal {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0,0,0,0.4);
+            }
+            .article-modal.is-active {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .modal-content-wrapper {
+                background-color: var(--card-background);
+                color: var(--card-text-color);
+                margin: auto;
+                padding: 20px;
+                border: 1px solid var(--border-color);
+                width: 80%;
+                max-width: 800px;
+                max-height: 80vh;
+                overflow-y: auto;
+                border-radius: var(--card-border-radius);
+            }
+            body.modal-open {
+                overflow: hidden;
+            }
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            .article-tags .article-tags-list-item a {
+                display: inline-block;
+                background: var(--tertiary-background-color);
+                color: var(--secondary-text-color);
+                padding: 0.25rem 0.75rem;
+                border-radius: var(--card-border-radius);
+                font-size: 0.875rem;
+                text-decoration: none;
+                transition: background-color 0.2s, color 0.2s;
+            }
+            .article-tags .article-tags-list-item a:hover {
+                background: var(--theme-color);
+                color: var(--background-color);
+            }
+        </style>
     </head>
     <body class="{{ block `body-class` . }}{{ end }} simplified-layout">
         {{- partial "head/colorScheme" . -}}
@@ -15,5 +73,11 @@
             </main>
         </div>
         {{ partial "footer/include.html" . }}
+
+        <div id="article-modal" class="article-modal">
+            <div class="modal-content-wrapper">
+                <div id="modal-content"></div>
+            </div>
+        </div>
     </body>
 </html> 

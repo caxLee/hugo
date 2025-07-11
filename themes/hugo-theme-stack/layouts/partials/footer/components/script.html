@@ -10,3 +10,8 @@
     {{- $customScript := . | js.Build $opts | fingerprint -}}
     <script type="text/javascript" src="{{ $customScript.RelPermalink }}" defer></script>
 {{- end -}}
+
+{{- with resources.Get "js/modal.js" -}}
+    {{- $modalScript := . | js.Build $opts | fingerprint -}}
+    <script type="text/javascript" src="{{ $modalScript.RelPermalink }}" defer></script>
+{{- end -}}
