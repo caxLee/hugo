@@ -190,25 +190,38 @@ def main():
         
         # 将构建好的文件从临时目录移动到public目录
         print("🚚 移动构建文件到发布目录...")
-        # 删除public目录中除了.git之外的所有内容
-        for item in os.listdir(public_path):
-            if item == '.git':
-                continue
-            item_path = os.path.join(public_path, item)
-            if os.path.isdir(item_path):
-                shutil.rmtree(item_path)
-            else:
-                os.remove(item_path)
         
-        # 从temp_build移动文件
+        # 保留p目录下的内容，只更新或添加新内容
+        print("📦 智能合并内容，保留历史数据...")
+        
+        # 从temp_build移动文件，保留已有内容
         for item in os.listdir(temp_build_path):
             src_path = os.path.join(temp_build_path, item)
             dst_path = os.path.join(public_path, item)
+            
+            # 如果是目录，使用更智能的合并策略
             if os.path.isdir(src_path):
-                if os.path.exists(dst_path):
-                    shutil.rmtree(dst_path)
-                shutil.copytree(src_path, dst_path)
+                if not os.path.exists(dst_path):
+                    # 如果目标目录不存在，直接复制
+                    shutil.copytree(src_path, dst_path)
+                else:
+                    # 如果目标目录存在，递归合并内容
+                    # 这里我们不删除目标目录，而是将新内容复制过去
+                    for root, dirs, files in os.walk(src_path):
+                        # 计算相对路径
+                        rel_path = os.path.relpath(root, src_path)
+                        target_dir = os.path.join(dst_path, rel_path)
+                        
+                        # 确保目标目录存在
+                        os.makedirs(target_dir, exist_ok=True)
+                        
+                        # 复制文件
+                        for file in files:
+                            src_file = os.path.join(root, file)
+                            dst_file = os.path.join(target_dir, file)
+                            shutil.copy2(src_file, dst_file)
             else:
+                # 对于文件，直接复制或覆盖
                 shutil.copy2(src_path, dst_path)
         
         shutil.rmtree(temp_build_path) # 清理临时构建目录
