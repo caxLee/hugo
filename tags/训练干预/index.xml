@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Jul 2025 18:28:13 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E8%AE%AD%E7%BB%83%E5%B9%B2%E9%A2%84/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Jul 2025 20:50:12 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E8%AE%AD%E7%BB%83%E5%B9%B2%E9%A2%84/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Transformer死角，只需500步后训练，循环模型突破256k长度泛化极限</title>
         <link>https://caxlee.github.io/p/transformer%E6%AD%BB%E8%A7%92%E5%8F%AA%E9%9C%80500%E6%AD%A5%E5%90%8E%E8%AE%AD%E7%BB%83%E5%BE%AA%E7%8E%AF%E6%A8%A1%E5%9E%8B%E7%AA%81%E7%A0%B4256k%E9%95%BF%E5%BA%A6%E6%B3%9B%E5%8C%96%E6%9E%81%E9%99%90/</link>
-        <pubDate>Sun, 13 Jul 2025 18:28:13 +0800</pubDate>
+        <pubDate>Sun, 13 Jul 2025 20:50:12 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/transformer%E6%AD%BB%E8%A7%92%E5%8F%AA%E9%9C%80500%E6%AD%A5%E5%90%8E%E8%AE%AD%E7%BB%83%E5%BE%AA%E7%8E%AF%E6%A8%A1%E5%9E%8B%E7%AA%81%E7%A0%B4256k%E9%95%BF%E5%BA%A6%E6%B3%9B%E5%8C%96%E6%9E%81%E9%99%90/</guid>
         <description>&lt;p&gt;循环模型在处理长序列时无法实现长度泛化，因为模型在训练过程中未能接触到超出训练长度范围的状态，导致性能下降。研究者通过训练干预的方法，成功实现了循环模型在长序列上的泛化能力，展现了循环模型潜在的性能提升。同时，通过有效记忆的度量，研究者深入探讨了模型如何处理上下文的行为。&lt;/p&gt;</description>

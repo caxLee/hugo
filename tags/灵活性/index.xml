@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Jul 2025 18:28:13 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E7%81%B5%E6%B4%BB%E6%80%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Jul 2025 20:50:12 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E7%81%B5%E6%B4%BB%E6%80%A7/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Study could lead to LLMs that are better at complex reasoning</title>
         <link>https://caxlee.github.io/p/study-could-lead-to-llms-that-are-better-at-complex-reasoning/</link>
-        <pubDate>Sun, 13 Jul 2025 18:28:13 +0800</pubDate>
+        <pubDate>Sun, 13 Jul 2025 20:50:12 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/study-could-lead-to-llms-that-are-better-at-complex-reasoning/</guid>
         <description>&lt;p&gt;麻省理工学院的研究人员发现，通过测试时训练（test-time training）可以显著提高大型语言模型（LLMs）在复杂任务上的性能，这种方法包括在部署过程中临时更新模型的内部工作方式。他们的研究表明，这种策略可以使模型的准确性提高六倍，有望改善模型的灵活性，使其适应需要规划或抽象思维的复杂任务，从而在医疗诊断到供应链管理等许多需要逻辑推理的应用中提供更准确的结果。&lt;/p&gt;</description>
