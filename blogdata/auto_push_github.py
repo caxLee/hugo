@@ -161,7 +161,7 @@ def main():
             print(f"❌ 错误: PAGES_REPO_URL 格式不正确: {repo_url_env}")
             print("   应该是 'owner/repo' 格式")
             sys.exit(1)
-            
+        
         remote_url = f"https://{token}@github.com/{repo_url_env}.git"
         
         # 删除旧的public目录(如果存在)
@@ -186,8 +186,8 @@ def main():
                 success, _ = run_command(cmd, cwd=public_path)
                 if not success:
                     print(f"❌ 初始化仓库失败: {' '.join(cmd)}")
-                    sys.exit(1)
-        
+            sys.exit(1)
+            
         # 将构建好的文件从临时目录移动到public目录
         print("🚚 移动构建文件到发布目录...")
         
