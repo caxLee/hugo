@@ -3,7 +3,7 @@ name: Daily Data Fetch and Hugo Build
 on:
   workflow_dispatch: # 允许手动触发, 以便测试
   schedule:
-    - cron: '0 22 * * *' # 每天 UTC 22 点执行
+    - cron: '0 0,8,10,12,18 * * *' # 每天 UTC 0点(24点)、8点、10点、12点和18点执行
 
 jobs:
   build-and-deploy:
