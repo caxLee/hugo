@@ -1,4 +1,88 @@
 {{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
 <article class="{{ if $image.exists }}has-image{{ end }} article-card" data-date="{{ .Date.Format "2006-01-02" }}" data-url="{{ .RelPermalink }}" data-original-link="{{ .Params.link }}">
-    {{ partial "article/components/header" . }}
+    {{ if $image.exists }}
+        <div class="article-image">
+            <a href="javascript:void(0);">
+                {{ if $image.resource }}
+                    {{- $Permalink := $image.resource.RelPermalink -}}
+                    {{- $Width := $image.resource.Width -}}
+                    {{- $Height := $image.resource.Height -}}
+                    {{- $Srcset := "" -}}
+                    
+                    {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                        {{- $thumbnail := $image.resource.Resize "800x" -}}
+                        {{- $thumbnailRetina := $image.resource.Resize "1600x" -}}
+                        {{- $Srcset = printf "%s 800w, %s 1600w" $thumbnail.RelPermalink $thumbnailRetina.RelPermalink -}}
+                        {{- $Permalink = $thumbnail.RelPermalink -}}
+                        {{- $Width = $thumbnail.Width -}}
+                        {{- $Height = $thumbnail.Height -}}
+                    {{- end -}}
+
+                    <img src="{{ $Permalink }}"
+                        {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+                        width="{{ $Width }}" 
+                        height="{{ $Height }}" 
+                        loading="lazy"
+                        alt="Featured image of post {{ .Title }}" />
+                {{ else }}
+                    <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+                {{ end }}
+            </a>
+        </div>
+    {{ end }}
+
+    <div class="article-details">
+        {{ if .Params.categories }}
+        <header class="article-category">
+            {{ range (.GetTerms "categories") }}
+                <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+                    {{ .LinkTitle }}
+                </a>
+            {{ end }}
+        </header>
+        {{ end }}
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="javascript:void(0);">
+                    {{- .Title -}}
+                </a>
+            </h2>
+            
+            <!-- 添加摘要部分 -->
+            {{ with .Params.summary }}
+            <div class="article-summary">
+                {{ . | truncate 150 }}
+            </div>
+            {{ end }}
+        </div>
+
+        <footer class="article-footer">
+            {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
+            {{ $showDate := not .Date.IsZero }}
+            {{ if $showDate }}
+                <div class="article-time">
+                    {{ partial "helper/icon" "date" }}
+                    <time class="article-time--published">
+                        {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                    </time>
+                </div>
+            {{ end }}
+
+            {{ if .Params.tags }}
+            <div class="article-tags">
+                {{ partial "helper/icon" "tag" }}
+                <ul class="article-tags-list">
+                    {{ range .Params.tags }}
+                    <li class="article-tags-list-item">
+                        <a href="{{ "tags/" | absURL }}{{ . | urlize }}/" class="article-tags-list-link">
+                            {{ . }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </footer>
+    </div>
 </article> 
