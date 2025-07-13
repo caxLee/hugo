@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Jul 2025 06:11:14 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Jul 2025 23:34:59 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>打破大模型编程「数据污染」与「能力虚胖」困境，Meituan-M17团队构建新一代AI编程评测新标准——OIBench</title>
         <link>https://caxlee.github.io/p/%E6%89%93%E7%A0%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%BC%96%E7%A8%8B%E6%95%B0%E6%8D%AE%E6%B1%A1%E6%9F%93%E4%B8%8E%E8%83%BD%E5%8A%9B%E8%99%9A%E8%83%96%E5%9B%B0%E5%A2%83meituan-m17%E5%9B%A2%E9%98%9F%E6%9E%84%E5%BB%BA%E6%96%B0%E4%B8%80%E4%BB%A3ai%E7%BC%96%E7%A8%8B%E8%AF%84%E6%B5%8B%E6%96%B0%E6%A0%87%E5%87%86oibench/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%89%93%E7%A0%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%BC%96%E7%A8%8B%E6%95%B0%E6%8D%AE%E6%B1%A1%E6%9F%93%E4%B8%8E%E8%83%BD%E5%8A%9B%E8%99%9A%E8%83%96%E5%9B%B0%E5%A2%83meituan-m17%E5%9B%A2%E9%98%9F%E6%9E%84%E5%BB%BA%E6%96%B0%E4%B8%80%E4%BB%A3ai%E7%BC%96%E7%A8%8B%E8%AF%84%E6%B5%8B%E6%96%B0%E6%A0%87%E5%87%86oibench/</guid>
         <description>&lt;p&gt;当前大语言模型在编程领域的能力受到广泛关注，但实际评测结果与宣称存在较大差距，揭示了评估体系的诸多局限性。为解决评估困境，Meituan-M17团队推出了更真实、更具区分度的评估基准OIBench数据集。OIBench通过邀请人类选手参与评测，清晰揭示了顶级LLM在算法挑战中与人类水平的真实差距，为整个行业带来新思考。&lt;/p&gt;</description>

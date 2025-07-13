@@ -7,10 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 13 Jul 2025 06:11:14 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Jul 2025 16:31:31 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Inspiring student growth</title>
+        <link>https://caxlee.github.io/p/inspiring-student-growth/</link>
+        <pubDate>Sun, 13 Jul 2025 16:31:31 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/inspiring-student-growth/</guid>
+        <description>&lt;p&gt;Xiao Wang是麻省理工学院的化学系副教授，她致力于为学生创造培养成长的环境，并通过讨论研究兴趣和学术目标等方式支持他们的发展。Rodrigo Verdi是麻省理工斯隆管理学院的副院长，致力于指导学生，提供反馈和帮助，展现出对学生成功的关心和承诺。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Study: Babies’ poor vision may help organize visual brain pathways</title>
+        <link>https://caxlee.github.io/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/</link>
+        <pubDate>Sun, 13 Jul 2025 16:31:31 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/</guid>
+        <description>&lt;p&gt;麻省理工学院的一项新研究提供了关于视觉系统中两条通路如何受发育因素影响的解释。研究发现，早期视觉模糊、色彩有限的输入可能导致大细胞系统和小细胞系统的发展。通过训练计算视觉模型，研究人员发现，模型在接受模拟人类婴儿视觉发展轨迹的低质量图像后，展现出类似于真实视觉系统中两个通路的特征。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>A bionic knee integrated into tissue can restore natural movement</title>
         <link>https://caxlee.github.io/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/</guid>
         <description>&lt;p&gt;麻省理工学院的研究人员开发了一种新型仿生膝关节，可以帮助膝上截肢者比传统义肢更快地行走、爬楼梯和更容易避开障碍物。这种系统直接与用户的肌肉和骨组织集成，提供了更大的稳定性和更多对义肢运动的控制。研究还表明，参与小型临床研究的人员报告称，与传统膝上截肢者相比，他们感觉新的仿生肢体更像自己身体的一部分。&lt;/p&gt;</description>
@@ -18,39 +34,15 @@
         <item>
         <title>Designing across cultural and geographic divides</title>
         <link>https://caxlee.github.io/p/designing-across-cultural-and-geographic-divides/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/designing-across-cultural-and-geographic-divides/</guid>
         <description>&lt;p&gt;MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>Inspiring student growth</title>
-        <link>https://caxlee.github.io/p/inspiring-student-growth/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
-        
-        <guid>https://caxlee.github.io/p/inspiring-student-growth/</guid>
-        <description>&lt;p&gt;Xiao Wang是麻省理工学院的化学系副教授，她致力于为学生创造培养成长的环境，并通过讨论研究兴趣和学术目标等方式支持他们的发展。Rodrigo Verdi是麻省理工斯隆管理学院的副院长，致力于指导学生，提供反馈和帮助，展现出对学生成功的关心和承诺。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>Simulation-based pipeline tailors training data for dexterous robots</title>
-        <link>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
-        
-        <guid>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</guid>
-        <description>&lt;p&gt;研究人员开发了一种名为PhysicsGen的基于模拟的方法，通过定制机器人训练数据来帮助机器人找到任务的最有效动作。该系统将少数虚拟现实演示扩展成每台机器近3000次模拟，为机器人提供高质量的指导。PhysicsGen有望帮助工程师建立庞大的数据集，指导机器人如何处理物体，甚至在协作环境中完成任务。研究人员计划将这一方法扩展到教授机器人执行多样化任务的领域。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>Study: Babies’ poor vision may help organize visual brain pathways</title>
-        <link>https://caxlee.github.io/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
-        
-        <guid>https://caxlee.github.io/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/</guid>
-        <description>&lt;p&gt;麻省理工学院的一项新研究提供了关于视觉系统中两条通路如何受发育因素影响的解释。研究发现，早期视觉模糊、色彩有限的输入可能导致大细胞系统和小细胞系统的发展。通过训练计算视觉模型，研究人员发现，模型在接受模拟人类婴儿视觉发展轨迹的低质量图像后，展现出类似于真实视觉系统中两个通路的特征。&lt;/p&gt;</description>
-        </item>
-        <item>
         <title>从「一团乱麻」到清晰分型，AI精准解析肿瘤细胞多样性，助力个性化联合疗法设计</title>
         <link>https://caxlee.github.io/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</guid>
         <description>&lt;p&gt;肿瘤异质性是指肿瘤内细胞在基因、表型、功能等方面存在差异，导致肿瘤行为复杂化。加文医学研究所团队开发了新的人工智能工具 AAnet，可以更好地表征肿瘤内单个细胞的多样性，为个性化治疗提供可能。他们发现肿瘤内存在五种不同的癌细胞群，这些群体具有不同的基因表达谱，为更有针对性的治疗方法打开了大门。&lt;/p&gt;</description>
@@ -58,7 +50,7 @@
         <item>
         <title>告别Transformer！北大、北邮、华为开源纯卷积DiC：3x3卷积实现SOTA性能，比DiT快5倍！</title>
         <link>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</guid>
         <description>&lt;p&gt;近期北大、北邮和华为联合研究提出了一种新的纯卷积扩散模型DiC，重新审视了深度学习中的基础模块3x3卷积，超越了Diffusion Transformer在性能和推理速度上，证明了简单的卷积网络在生成任务中的潜力。他们通过精心设计的U-Net Hourglass架构、条件注入和激活函数替换等方式，将平庸的卷积网络打造成性能卓越的模型。&lt;/p&gt;</description>
@@ -66,23 +58,15 @@
         <item>
         <title>微软研究院BioEmu登上Science，用生成式AI重塑蛋白质功能研究</title>
         <link>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</guid>
         <description>&lt;p&gt;微软研究院AI for Science团队提出了一种名为BioEmu的生成式深度学习模型，能够高效模拟蛋白质的构象变化，为理解蛋白质功能机制和加速药物发现提供新路径。该模型结合了静态结构、分子动力学模拟数据和蛋白稳定性实验数据进行训练，具有模拟蛋白质关键结构变化、自由能预测准确等优点，已在GitHub和HuggingFace上开源。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>模拟大脑功能分化！北大与港中文发布Fast-in-Slow VLA，让“快行动”和“慢推理”统一协作</title>
-        <link>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E8%84%91%E5%8A%9F%E8%83%BD%E5%88%86%E5%8C%96%E5%8C%97%E5%A4%A7%E4%B8%8E%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8F%91%E5%B8%83fast-in-slow-vla%E8%AE%A9%E5%BF%AB%E8%A1%8C%E5%8A%A8%E5%92%8C%E6%85%A2%E6%8E%A8%E7%90%86%E7%BB%9F%E4%B8%80%E5%8D%8F%E4%BD%9C/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
-        
-        <guid>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E8%84%91%E5%8A%9F%E8%83%BD%E5%88%86%E5%8C%96%E5%8C%97%E5%A4%A7%E4%B8%8E%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8F%91%E5%B8%83fast-in-slow-vla%E8%AE%A9%E5%BF%AB%E8%A1%8C%E5%8A%A8%E5%92%8C%E6%85%A2%E6%8E%A8%E7%90%86%E7%BB%9F%E4%B8%80%E5%8D%8F%E4%BD%9C/</guid>
-        <description>&lt;p&gt;北京大学与香港中文大学的研究团队联合发布了名为Fast-in-Slow（FiS-VLA）的全新双系统视觉-语言-动作模型，通过将快速执行模块嵌入预训练视觉-语言模型中，实现了快慢系统一体化的设计。该模型在多个仿真与真机平台上取得了优异表现，其中FiS-VLA-7B可以实现高达117.7Hz的控制频率，展现了广阔的实际应用潜力。&lt;/p&gt;</description>
-        </item>
-        <item>
         <title>首次实现「自驱动」，材料发现效率提升6倍，贝叶斯优化&#43;CALPHAD计算的新方法</title>
         <link>https://caxlee.github.io/p/%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%87%AA%E9%A9%B1%E5%8A%A8%E6%9D%90%E6%96%99%E5%8F%91%E7%8E%B0%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%876%E5%80%8D%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96calphad%E8%AE%A1%E7%AE%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/</link>
-        <pubDate>Sun, 13 Jul 2025 06:11:14 +0800</pubDate>
+        <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%87%AA%E9%A9%B1%E5%8A%A8%E6%9D%90%E6%96%99%E5%8F%91%E7%8E%B0%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%876%E5%80%8D%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96calphad%E8%AE%A1%E7%AE%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/</guid>
         <description>&lt;p&gt;马里兰大学研究人员提出了自主材料搜索引擎（AMASE），通过实验和计算预测的自主驱动连续循环交互来探索材料，实现了快速绘制薄膜共晶相图。AMASE 运算令人兴奋的自然扩展包括整合其他类型的计算工作，以及在材料科学以外的研究领域中将线程式实验-理论循环耦合起来，展示了自主科学的实用性和影响力。&lt;/p&gt;</description>
