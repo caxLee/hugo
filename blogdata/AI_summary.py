@@ -83,27 +83,30 @@ if os.path.exists(output_file):
 def call_openai_with_function_calling(content, title):
     """使用 function calling 调用 OpenAI API 生成摘要和标签"""
     
+    # 预定义的标签列表（包含"未识别"）
+    predefined_tags = ["基模", "多模态", "Infra", "AI4S", "具身智能", "垂直大模型", "Agent", "能效优化", "未识别"]
+    
     # 定义函数架构
     functions = [
         {
             "type": "function",
             "function": {
                 "name": "generate_summary_and_tags",
-                "description": "根据文章内容生成摘要和标签",
+                "description": "生成极简中文摘要和标签",
                 "parameters": {
                     "type": "object",
                     "properties": {
                         "summary": {
                             "type": "string",
-                            "description": "3-5句话的中文摘要，客观、准确地概括文章的核心内容"
+                            "description": "1-2句极简中文摘要，不超过50字，直击核心内容"
                         },
                         "tags": {
                             "type": "array",
                             "items": {
                                 "type": "string",
-                                "enum": ["基模", "多模态", "Infra", "AI4S", "具身智能", "垂直大模型", "Agent", "能效优化"]
+                                "enum": predefined_tags
                             },
-                            "description": "从预定义列表中选择1-3个最相关的关键词"
+                            "description": "从预定义标签中选择1-2个最相关的，若都不相关则选择'未识别'"
                         }
                     },
                     "required": ["summary", "tags"]
@@ -113,14 +116,23 @@ def call_openai_with_function_calling(content, title):
     ]
     
     # 构建系统提示
-    system_prompt = textwrap.dedent("""
-        你是一名专业的新闻编辑。请根据提供的新闻原文，生成摘要和提取关键词。
-        摘要应该是3-5句话的中文摘要，客观、准确地概括文章的核心内容。
-        关键词应该从预定义列表中选择1-3个最相关的。
+    system_prompt = textwrap.dedent(f"""
+        你是一名精通技术的编辑，需要生成极简中文摘要。
+        
+        【摘要要求】
+        - 只用1-2句话，不超过50字
+        - 直接点明核心内容，不要铺垫
+        - 删除所有修饰词
+        - 使用简单直接的表达
+        - 必须是中文摘要
+        
+        【标签要求】
+        - 仅从以下标签中选择1-2个最相关的：{', '.join(predefined_tags[:-1])}
+        - 若文章内容与上述标签都不相关，仅返回["未识别"]
     """).strip()
     
     # 构建用户提示
-    user_prompt = f"文章标题：{title}\n\n新闻原文：\n{content}"
+    user_prompt = f"标题：{title}\n\n内容：\n{content}"
     
     # 调用 API
     response = client.chat.completions.create(
@@ -130,8 +142,8 @@ def call_openai_with_function_calling(content, title):
             {"role": "user", "content": user_prompt}
         ],
         functions=functions,
-        function_call={"name": "generate_summary_and_tags"},  # 强制调用特定函数
-        temperature=0.5
+        function_call={"name": "generate_summary_and_tags"},
+        temperature=0.3  # 降低温度以获得更确定性的输出
     )
     
     # 提取函数调用结果
@@ -142,13 +154,24 @@ def call_openai_with_function_calling(content, title):
             args = json.loads(function_call.arguments)
             summary = args.get("summary", "")
             tags = args.get("tags", [])
-            return summary, tags
+            
+            # 验证返回的标签是否都在预定义列表中
+            valid_tags = []
+            for tag in tags:
+                if tag in predefined_tags:
+                    valid_tags.append(tag)
+            
+            # 如果没有有效标签，则返回"未识别"
+            if not valid_tags:
+                valid_tags = ["未识别"]
+                
+            return summary, valid_tags
         except json.JSONDecodeError:
             print(f"❌ 解析函数调用参数失败")
-            return "", []
+            return "", ["未识别"]
     else:
         print(f"❌ 未获取到预期的函数调用")
-        return "", []
+        return "", ["未识别"]
 
 # 处理所有输入文件
 articles = []
