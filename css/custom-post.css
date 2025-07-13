@@ -1,3 +1,160 @@
+/* 隐藏阅读时间显示 */
+.article-time--reading {
+    display: none !important;
+}
+
+/* 隐藏文章卡片中的日期显示 - 可通过移除此规则重新启用 */
+.article-footer .article-time {
+    display: none !important;
+}
+
+/* 在标题下方添加分隔线 */
+.article-grid .article-title {
+    position: relative;
+    padding-bottom: 15px; /* 增加底部内边距，为分隔线留出空间 */
+    margin-bottom: 15px; /* 增加底部外边距，与下方内容保持距离 */
+}
+
+.article-grid .article-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* 宽度占满 */
+    height: 1px; /* 高度为1像素 */
+    background: linear-gradient(to right, #e0e0e0, #f0f0f0, #e0e0e0); /* 渐变效果 */
+    opacity: 0.8; /* 透明度 */
+}
+
+/* 调整标签在隐藏日期后的布局 - 改为左对齐 */
+.article-footer {
+    justify-content: flex-start; /* 当日期隐藏时，标签靠左对齐 */
+}
+
+/* 调整标签容器 - 改为左对齐 */
+.article-grid .article-tags {
+    display: flex;
+    justify-content: flex-start; /* 靠左对齐 */
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    text-align: left;
+}
+
+.article-grid .article-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-start; /* 靠左对齐 */
+}
+
+.article-grid .article-tags-list-item {
+    margin-right: 8px; /* 改回右边距，因为靠左对齐 */
+    margin-left: 0; /* 移除左边距 */
+    margin-bottom: 5px;
+}
+
+/* 修改文章序号位置 - 从右上角移到左上角 */
+.article-grid article::before {
+    transform: translate(-50%, -50%) !important; /* 修改为左上角定位 */
+    left: 0 !important; /* 设置为左侧 */
+    right: auto !important; /* 取消右侧定位 */
+}
+
+.article-grid article:hover::before {
+    transform: translate(-50%, -50%) scale(1.05) !important; /* 保持悬停效果 */
+}
+
+/* 全局字体变量覆盖 */
+:root {
+    --zh-font-family: "等线", "DengXian", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback";
+    --base-font-family: "等线", "DengXian", var(--sys-font-family), var(--zh-font-family), sans-serif;
+    --article-font-family: "等线", "DengXian", var(--base-font-family);
+}
+
+/* 文章卡片内容对齐样式 */
+.article-grid article {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* 确保卡片高度一致 */
+}
+
+.article-grid .article-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* 让内容区域占据剩余空间 */
+    padding: 15px;
+    justify-content: space-between; /* 内容两端对齐 */
+    height: 250px; /* 固定卡片内容高度 */
+}
+
+/* 标题区域固定高度，确保对齐 */
+.article-grid .article-title {
+    height: 4.5em; /* 约3行文字高度 */
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* 隐藏调试信息 */
+.article-details pre {
+    display: none !important;
+}
+
+/* 创建一个内容区域的弹性空间，确保底部元素对齐 */
+.article-content-wrapper {
+    flex-grow: 0; /* 不要伸展 */
+    margin-bottom: auto; /* 推动底部元素向下 */
+}
+
+/* 底部信息区域（日期、标签）固定在底部并对齐 */
+.article-footer {
+    margin-top: auto; /* 推到底部 */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* 调整日期显示 */
+.article-grid .article-time {
+    font-size: 0.85rem;
+    color: #777;
+    flex: 0 0 auto; /* 不伸缩 */
+}
+
+/* 调整标签容器 */
+.article-grid .article-category {
+    margin-bottom: 10px;
+}
+
+.article-grid .article-tags {
+    display: flex;
+    justify-content: flex-end; /* 靠右对齐 */
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto; /* 可伸缩 */
+    text-align: right;
+}
+
+.article-grid .article-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: flex-end; /* 靠右对齐 */
+}
+
+.article-grid .article-tags-list-item {
+    margin-left: 8px; /* 改为左边距，因为靠右对齐 */
+    margin-bottom: 5px;
+}
+
 /* Custom styles for original link and summary */
 .original-source,
 .original-summary {
@@ -162,6 +319,8 @@ article {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 1.5rem;
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: 500; /* 加粗整个卡片的字体 */
 }
 
 article:hover {
@@ -177,6 +336,26 @@ article:hover {
 
 .article-details {
     padding: 0 1rem 1rem;
+}
+
+/* 文章标题字体 */
+.article-title {
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: 600; /* 增加标题的粗细 */
+}
+
+/* 文章摘要字体 */
+.article-summary {
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: 500; /* 增加摘要的粗细 */
+}
+
+/* 标签字体样式 */
+.article-category a,
+.article-tags-list-item a,
+.article-tags {
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: normal; /* 标签使用正常字重 */
 }
 
 /* 不要显示链接下划线 */
