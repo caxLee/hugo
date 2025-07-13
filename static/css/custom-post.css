@@ -26,12 +26,15 @@
     opacity: 0.8; /* 透明度 */
 }
 
-/* 调整标签在隐藏日期后的布局 - 改为左对齐 */
+/* 调整标签在隐藏日期后的布局 - 统一左对齐 */
 .article-footer {
     justify-content: flex-start; /* 当日期隐藏时，标签靠左对齐 */
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-/* 调整标签容器 - 改为左对齐 */
+/* 调整标签容器 - 统一左对齐 */
 .article-grid .article-tags {
     display: flex;
     justify-content: flex-start; /* 靠左对齐 */
@@ -100,6 +103,18 @@
     -webkit-box-orient: vertical;
 }
 
+/* 摘要区域固定高度，确保对齐 */
+.article-grid .article-summary {
+    height: 4.5em; /* 约3行文字高度 */
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 0.9em;
+    color: #666;
+}
+
 /* 隐藏调试信息 */
 .article-details pre {
     display: none !important;
@@ -107,17 +122,20 @@
 
 /* 创建一个内容区域的弹性空间，确保底部元素对齐 */
 .article-content-wrapper {
-    flex-grow: 0; /* 不要伸展 */
-    margin-bottom: auto; /* 推动底部元素向下 */
+    flex-grow: 1; /* 让内容区域伸展 */
+    display: flex;
+    flex-direction: column;
+    min-height: 150px; /* 确保内容区域最小高度 */
 }
 
 /* 底部信息区域（日期、标签）固定在底部并对齐 */
 .article-footer {
     margin-top: auto; /* 推到底部 */
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: flex-start; /* 统一左对齐 */
+    align-items: center;
     width: 100%;
+    height: 30px; /* 固定高度确保对齐 */
 }
 
 /* 调整日期显示 */
@@ -132,13 +150,14 @@
     margin-bottom: 10px;
 }
 
+/* 移除冲突的右对齐样式，统一使用左对齐 */
 .article-grid .article-tags {
     display: flex;
-    justify-content: flex-end; /* 靠右对齐 */
+    justify-content: flex-start; /* 靠左对齐 */
     align-items: center;
     flex-wrap: wrap;
     flex: 1 1 auto; /* 可伸缩 */
-    text-align: right;
+    text-align: left;
 }
 
 .article-grid .article-tags-list {
@@ -147,7 +166,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    justify-content: flex-end; /* 靠右对齐 */
+    justify-content: flex-start; /* 靠左对齐 */
 }
 
 .article-grid .article-tags-list-item {
@@ -195,6 +214,28 @@
 .original-summary p {
     margin-bottom: 0;
     line-height: 1.5;
+}
+
+/* 添加原始链接按钮样式 */
+.article-original-link {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto; /* 推到右侧 */
+    font-size: 0.85rem;
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.article-original-link:hover {
+    color: #004080;
+    text-decoration: underline;
+}
+
+.article-original-link svg {
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
 }
 
 /* Overlay trigger styles */
@@ -654,4 +695,66 @@ article:hover {
     .date-selector select {
         width: 100%;
     }
+} 
+
+/* 模态框关闭按钮样式 */
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.modal-close-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* 悬停指示器样式 */
+.article-card {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.article-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--theme-color, #0066cc);
+    transition: width 1.5s ease;
+    z-index: 10;
+}
+
+.article-card:hover::after {
+    width: 100%;
+}
+
+/* 确保模态框内容容器有相对定位，以便放置关闭按钮 */
+.modal-content-wrapper {
+    position: relative;
+}
+
+/* 调整文章卡片链接样式 */
+.article-title a, 
+.article-image a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-title a:hover {
+    color: var(--theme-color, #0066cc);
 } 

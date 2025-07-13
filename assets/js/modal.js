@@ -8,23 +8,48 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
+    let hoverTimer; // 用于跟踪悬停时间的计时器
+    const hoverDelay = 1500; // 悬停1.5秒后触发
+
     document.querySelectorAll('.article-card').forEach(card => {
-        card.style.cursor = 'pointer';
-        card.addEventListener('click', (e) => {
-            // Stop propagation to prevent nested links from firing if any
-            e.stopPropagation();
-            e.preventDefault();
-
+        // 移除点击事件，改为悬停事件
+        card.addEventListener('mouseenter', (e) => {
             const url = card.dataset.url;
-            const originalLink = card.dataset.originalLink; // <-- 新增：获取原始链接
+            const originalLink = card.dataset.originalLink;
 
-            if (url) {
-                openModalWithContent(url, originalLink); // <-- 修改：将原始链接传给弹窗函数
+            // 设置悬停计时器
+            hoverTimer = setTimeout(() => {
+                if (url) {
+                    openModalWithContent(url, originalLink);
+                }
+            }, hoverDelay);
+        });
+
+        // 当鼠标离开时清除计时器
+        card.addEventListener('mouseleave', () => {
+            clearTimeout(hoverTimer);
+        });
+
+        // 添加点击事件，直接跳转到原始链接
+        card.addEventListener('click', (e) => {
+            // 如果点击的是标签链接，不要阻止默认行为
+            if (e.target.closest('.article-tags-list-item') || 
+                e.target.closest('.article-original-link')) {
+                return;
+            }
+            
+            // 阻止事件冒泡
+            e.stopPropagation();
+            
+            // 获取原始链接并跳转
+            const originalLink = card.dataset.originalLink;
+            if (originalLink) {
+                window.open(originalLink, '_blank', 'noopener,noreferrer');
             }
         });
     });
     
-    function openModalWithContent(url, originalLink) { // <-- 修改：函数接收原始链接
+    function openModalWithContent(url, originalLink) {
         body.classList.add('modal-open');
         modal.classList.add('is-active');
         modalContent.innerHTML = '<p>Loading...</p>';
@@ -61,9 +86,24 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
+    // 点击模态框外部或鼠标离开时关闭
     modal.addEventListener('mouseleave', () => {
         closeModal();
     });
+
+    // 点击模态框外部关闭
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+
+    // 添加关闭按钮
+    const closeButton = document.createElement('button');
+    closeButton.className = 'modal-close-button';
+    closeButton.innerHTML = '&times;';
+    closeButton.addEventListener('click', closeModal);
+    modal.querySelector('.modal-content-wrapper').appendChild(closeButton);
 
     function closeModal() {
         modal.classList.remove('is-active');
