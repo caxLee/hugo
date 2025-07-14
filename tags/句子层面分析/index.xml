@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 14 Jul 2025 18:30:02 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%8F%A5%E5%AD%90%E5%B1%82%E9%9D%A2%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 14 Jul 2025 20:55:40 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%8F%A5%E5%AD%90%E5%B1%82%E9%9D%A2%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>长思维链里的推理步骤，哪些最关键？三招锁定LLM的「命门句子」</title>
         <link>https://caxlee.github.io/p/%E9%95%BF%E6%80%9D%E7%BB%B4%E9%93%BE%E9%87%8C%E7%9A%84%E6%8E%A8%E7%90%86%E6%AD%A5%E9%AA%A4%E5%93%AA%E4%BA%9B%E6%9C%80%E5%85%B3%E9%94%AE%E4%B8%89%E6%8B%9B%E9%94%81%E5%AE%9Allm%E7%9A%84%E5%91%BD%E9%97%A8%E5%8F%A5%E5%AD%90/</link>
-        <pubDate>Mon, 14 Jul 2025 18:30:02 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E9%95%BF%E6%80%9D%E7%BB%B4%E9%93%BE%E9%87%8C%E7%9A%84%E6%8E%A8%E7%90%86%E6%AD%A5%E9%AA%A4%E5%93%AA%E4%BA%9B%E6%9C%80%E5%85%B3%E9%94%AE%E4%B8%89%E6%8B%9B%E9%94%81%E5%AE%9Allm%E7%9A%84%E5%91%BD%E9%97%A8%E5%8F%A5%E5%AD%90/</guid>
         <description>&lt;p&gt;研究者提出了三种方法来分析LLM的推理过程，旨在识别关键步骤，即“思维锚”，这些步骤对后续推理过程具有重大影响。通过反事实、注意力聚集和注意力抑制等方法，他们揭示了句子层面的重要性以及句子间的因果关系。研究为提高推理模型可靠性打开了新的可能性。&lt;/p&gt;</description>
