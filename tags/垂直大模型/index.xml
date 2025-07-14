@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 14 Jul 2025 10:19:56 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 14 Jul 2025 16:39:12 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>KAG-Thinker：「结构化」思考新范式，支持逻辑严谨的大模型复杂推理</title>
         <link>https://caxlee.github.io/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/</link>
-        <pubDate>Mon, 14 Jul 2025 10:19:56 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 16:39:12 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/</guid>
         <description>&lt;p&gt;蚂蚁集团知识引擎团队联合浙江大学、同济大学发布了KAG-Thinker模型，该模型是KAG框架的升级，通过结构化思考提升复杂推理任务的逻辑性和稳定性。KAG-Thinker在多轮检索和规划推理中表现优异，通过广度拆分与深度求解相结合，提高了问题求解的严谨性，并引入知识边界判定机制和内容抗噪模块优化推理过程。&lt;/p&gt;</description>
