@@ -7,10 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 14 Jul 2025 20:55:40 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Jul 2025 02:40:55 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Meta扩张继续！挖走OpenAI 2名多模态AI研发人员，收购语音初创公司PlayAI</title>
+        <link>https://caxlee.github.io/p/meta%E6%89%A9%E5%BC%A0%E7%BB%A7%E7%BB%AD%E6%8C%96%E8%B5%B0openai-2%E5%90%8D%E5%A4%9A%E6%A8%A1%E6%80%81ai%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E6%94%B6%E8%B4%AD%E8%AF%AD%E9%9F%B3%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8playai/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/meta%E6%89%A9%E5%BC%A0%E7%BB%A7%E7%BB%AD%E6%8C%96%E8%B5%B0openai-2%E5%90%8D%E5%A4%9A%E6%A8%A1%E6%80%81ai%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E6%94%B6%E8%B4%AD%E8%AF%AD%E9%9F%B3%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8playai/</guid>
+        <description>&lt;p&gt;Meta挖走OpenAI 2名多模态AI研发人员，收购语音初创公司PlayAI。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Simulation-based pipeline tailors training data for dexterous robots</title>
+        <link>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</guid>
+        <description>&lt;p&gt;MIT&amp;rsquo;s PhysicsGen tailors robot training data via simulations, enhancing efficiency in task completion. It converts human demonstrations into diverse instructional trajectories for various robots, improving accuracy and collaboration.&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>ICML 2025 | 清华、上海AI Lab提出专家级医学基准MedXpertQA，看o3、R1哪家强</title>
         <link>https://caxlee.github.io/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/</link>
-        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/</guid>
         <description>&lt;p&gt;MedXpertQA是一个高难度、高临床相关性、全面的医学基准，旨在评估专家级医学知识和高级推理能力。该基准包括文本医学评估和多模态医学评估两个子集，涵盖了17个专业和11个身体系统的4460个问题。通过严格的筛选和增强，MedXpertQA有效区分前沿模型并提供真实诊断场景的临床相关性。&lt;/p&gt;</description>
@@ -18,7 +34,7 @@
         <item>
         <title>斯坦福毕业，用RL做Agent，华人创业团队种子轮融资1200万美元</title>
         <link>https://caxlee.github.io/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/</link>
-        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/</guid>
         <description>&lt;p&gt;Pokee AI 创始人朱哲清介绍了公司的发展历程和产品特点。Pokee.ai 聚焦于开发一款交互式、个性化、高效的 AI Agent，以 RL 为核心构建 Agent，与传统的以 LLM 为核心的模型有所不同。公司最新完成了 1200 万美元种子轮融资，公开测试版也已上线。朱哲清表示创业是一种全新的体验，公司团队一直秉承着轻量级的理念，目前团队规模为 7 人，强调远程办公的高效性。&lt;/p&gt;</description>
@@ -26,7 +42,7 @@
         <item>
         <title>还在为AI数据发愁？张文涛和鄂维南院士团队推出Data-centric AI系统</title>
         <link>https://caxlee.github.io/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/</link>
-        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/</guid>
         <description>&lt;p&gt;近年来，大型科技公司主导大模型发展，但学术界在大模型训练数据构建与优化方面受限。张文涛和鄂维南院士团队提出了以数据为中心的 AI 系统 DataFlow，支持多模态数据治理，可提升大语言模型在通用及特定领域的性能。该系统提供多种数据处理流水线，算子和 Agent 自动化任务处理系统。&lt;/p&gt;</description>

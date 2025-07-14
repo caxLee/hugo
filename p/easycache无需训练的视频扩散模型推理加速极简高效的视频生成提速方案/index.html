@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="本文介绍了一种名为EasyCache的推理加速新框架，旨在提高视频生成过程中的效率。EasyCache通过动态检测模型输出的稳定期，复用历史计算结果以减少冗余推理步骤，在保持视频质量的前提下显著提升推理速度。实验证实，EasyCache在多个视频生成模型上取得了显著的加速效果，为视频扩散模型的实际应用提供了新思路。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="EasyCache是无需训练的视频扩散模型推理加速方案，通过动态检测稳定期减少冗余推理步骤。实验结果显示在多个视频生成模型上取得显著加速且质量几乎无损。\n">
 <title>EasyCache：无需训练的视频扩散模型推理加速——极简高效的视频生成提速方案</title>
 
 <link rel='canonical' href='https://caxlee.github.io/p/easycache%E6%97%A0%E9%9C%80%E8%AE%AD%E7%BB%83%E7%9A%84%E8%A7%86%E9%A2%91%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8A%A0%E9%80%9F%E6%9E%81%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%8F%90%E9%80%9F%E6%96%B9%E6%A1%88/'>
 
 <link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="EasyCache：无需训练的视频扩散模型推理加速——极简高效的视频生成提速方案">
-<meta property='og:description' content="本文介绍了一种名为EasyCache的推理加速新框架，旨在提高视频生成过程中的效率。EasyCache通过动态检测模型输出的稳定期，复用历史计算结果以减少冗余推理步骤，在保持视频质量的前提下显著提升推理速度。实验证实，EasyCache在多个视频生成模型上取得了显著的加速效果，为视频扩散模型的实际应用提供了新思路。\n">
+<meta property='og:description' content="EasyCache是无需训练的视频扩散模型推理加速方案，通过动态检测稳定期减少冗余推理步骤。实验结果显示在多个视频生成模型上取得显著加速且质量几乎无损。\n">
 <meta property='og:url' content='https://caxlee.github.io/p/easycache%E6%97%A0%E9%9C%80%E8%AE%AD%E7%BB%83%E7%9A%84%E8%A7%86%E9%A2%91%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8A%A0%E9%80%9F%E6%9E%81%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%8F%90%E9%80%9F%E6%96%B9%E6%A1%88/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-13T06:11:14&#43;08:00'/><meta property='article:modified_time' content='2025-07-13T06:11:14&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='具身智能' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-15T02:40:55&#43;08:00'/><meta property='article:modified_time' content='2025-07-15T02:40:55&#43;08:00'/>
 <meta name="twitter:title" content="EasyCache：无需训练的视频扩散模型推理加速——极简高效的视频生成提速方案">
-<meta name="twitter:description" content="本文介绍了一种名为EasyCache的推理加速新框架，旨在提高视频生成过程中的效率。EasyCache通过动态检测模型输出的稳定期，复用历史计算结果以减少冗余推理步骤，在保持视频质量的前提下显著提升推理速度。实验证实，EasyCache在多个视频生成模型上取得了显著的加速效果，为视频扩散模型的实际应用提供了新思路。\n">
+<meta name="twitter:description" content="EasyCache是无需训练的视频扩散模型推理加速方案，通过动态检测稳定期减少冗余推理步骤。实验结果显示在多个视频生成模型上取得显著加速且质量几乎无损。\n">
 <style>
     .original-source,
     .original-summary {
@@ -135,7 +135,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-12">
+            <input type="date" id="date-select" value="2025-07-14">
         </div>
     </div>
 </div>
@@ -188,24 +188,10 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 13, 2025</time>
+                <time class="article-time--published">Jul 15, 2025</time>
             </div>
         
 
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    1 minute read
-                </time>
-            </div>
         
     </footer>
     
@@ -223,8 +209,14 @@
         <ul class="article-tags-list">
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                    多模态
+                <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                    基模
+                </a>
+            </li>
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                    具身智能
                 </a>
             </li>
             
@@ -243,13 +235,15 @@
 </header>
     
     <section class="article-content">
-    <p>本文介绍了一种名为EasyCache的推理加速新框架，旨在提高视频生成过程中的效率。EasyCache通过动态检测模型输出的稳定期，复用历史计算结果以减少冗余推理步骤，在保持视频质量的前提下显著提升推理速度。实验证实，EasyCache在多个视频生成模型上取得了显著的加速效果，为视频扩散模型的实际应用提供了新思路。</p></section>
+    <p>EasyCache是无需训练的视频扩散模型推理加速方案，通过动态检测稳定期减少冗余推理步骤。实验结果显示在多个视频生成模型上取得显著加速且质量几乎无损。</p></section>
     
     <footer class="article-footer">
     
     <section class="article-tags">
         
-            <a href="/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/">多模态</a>
+            <a href="/tags/%E5%9F%BA%E6%A8%A1/">基模</a>
+        
+            <a href="/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/">具身智能</a>
         
             <a href="/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/">能效优化</a>
         
@@ -278,25 +272,13 @@
 
 
         <span>
-            Last updated on Jul 13, 2025 06:11 &#43;0800
+            Last updated on Jul 15, 2025 02:40 &#43;0800
         </span>
     </section></footer>
 
     
     
     
-    
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <time class="article-time--reading">
-            
-        </time>
     
 </article> 
 
@@ -790,7 +772,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.99c95cb2e2fdac81f8accc4269991d170d53a54531c952178d2c822be0c62bee.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

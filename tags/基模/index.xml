@@ -7,10 +7,178 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 14 Jul 2025 20:55:40 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Jul 2025 02:40:55 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>「流匹配」成ICML 2025超热门主题！网友：都说了学物理的不准转计算机</title>
+        <link>https://caxlee.github.io/p/%E6%B5%81%E5%8C%B9%E9%85%8D%E6%88%90icml-2025%E8%B6%85%E7%83%AD%E9%97%A8%E4%B8%BB%E9%A2%98%E7%BD%91%E5%8F%8B%E9%83%BD%E8%AF%B4%E4%BA%86%E5%AD%A6%E7%89%A9%E7%90%86%E7%9A%84%E4%B8%8D%E5%87%86%E8%BD%AC%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%B5%81%E5%8C%B9%E9%85%8D%E6%88%90icml-2025%E8%B6%85%E7%83%AD%E9%97%A8%E4%B8%BB%E9%A2%98%E7%BD%91%E5%8F%8B%E9%83%BD%E8%AF%B4%E4%BA%86%E5%AD%A6%E7%89%A9%E7%90%86%E7%9A%84%E4%B8%8D%E5%87%86%E8%BD%AC%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+        <description>&lt;p&gt;流匹配技术在生成式 AI 领域备受关注，结合流体力学原理，实现噪声到数据的转化。ICML 2025将探讨其高效、简洁的模型形态。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>ACL 2025｜自我怀疑还是自我纠正？清华团队揭示LLMs反思技术的暗面</title>
+        <link>https://caxlee.github.io/p/acl-2025%E8%87%AA%E6%88%91%E6%80%80%E7%96%91%E8%BF%98%E6%98%AF%E8%87%AA%E6%88%91%E7%BA%A0%E6%AD%A3%E6%B8%85%E5%8D%8E%E5%9B%A2%E9%98%9F%E6%8F%AD%E7%A4%BAllms%E5%8F%8D%E6%80%9D%E6%8A%80%E6%9C%AF%E7%9A%84%E6%9A%97%E9%9D%A2/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/acl-2025%E8%87%AA%E6%88%91%E6%80%80%E7%96%91%E8%BF%98%E6%98%AF%E8%87%AA%E6%88%91%E7%BA%A0%E6%AD%A3%E6%B8%85%E5%8D%8E%E5%9B%A2%E9%98%9F%E6%8F%AD%E7%A4%BAllms%E5%8F%8D%E6%80%9D%E6%8A%80%E6%9C%AF%E7%9A%84%E6%9A%97%E9%9D%A2/</guid>
+        <description>&lt;p&gt;研究揭示反思技术在LLMs中的失败原因：内部答案波动、提示语偏差、认知偏差。提出问题重复和少样本微调缓解策略。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>AI下半场的「Game Changer」，直让老外惊呼「Amazing」</title>
+        <link>https://caxlee.github.io/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</guid>
+        <description>&lt;p&gt;中国电信推出的智传网（AI Flow）技术，通过端-边-云协同、家族式同源模型和智能涌现，实现普适智能应用，解决AI下半场挑战。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>AI编程「反直觉」调研引300万围观！开发者坚信提速20%，实测反慢19%</title>
+        <link>https://caxlee.github.io/p/ai%E7%BC%96%E7%A8%8B%E5%8F%8D%E7%9B%B4%E8%A7%89%E8%B0%83%E7%A0%94%E5%BC%95300%E4%B8%87%E5%9B%B4%E8%A7%82%E5%BC%80%E5%8F%91%E8%80%85%E5%9D%9A%E4%BF%A1%E6%8F%90%E9%80%9F20%E5%AE%9E%E6%B5%8B%E5%8F%8D%E6%85%A219/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/ai%E7%BC%96%E7%A8%8B%E5%8F%8D%E7%9B%B4%E8%A7%89%E8%B0%83%E7%A0%94%E5%BC%95300%E4%B8%87%E5%9B%B4%E8%A7%82%E5%BC%80%E5%8F%91%E8%80%85%E5%9D%9A%E4%BF%A1%E6%8F%90%E9%80%9F20%E5%AE%9E%E6%B5%8B%E5%8F%8D%E6%85%A219/</guid>
+        <description>&lt;p&gt;AI编程工具预期提速20%，实测反慢19%。METR调研显示，AI对开发者生产力影响不如预期。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>EasyCache：无需训练的视频扩散模型推理加速——极简高效的视频生成提速方案</title>
+        <link>https://caxlee.github.io/p/easycache%E6%97%A0%E9%9C%80%E8%AE%AD%E7%BB%83%E7%9A%84%E8%A7%86%E9%A2%91%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8A%A0%E9%80%9F%E6%9E%81%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%8F%90%E9%80%9F%E6%96%B9%E6%A1%88/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/easycache%E6%97%A0%E9%9C%80%E8%AE%AD%E7%BB%83%E7%9A%84%E8%A7%86%E9%A2%91%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8A%A0%E9%80%9F%E6%9E%81%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%8F%90%E9%80%9F%E6%96%B9%E6%A1%88/</guid>
+        <description>&lt;p&gt;EasyCache是无需训练的视频扩散模型推理加速方案，通过动态检测稳定期减少冗余推理步骤。实验结果显示在多个视频生成模型上取得显著加速且质量几乎无损。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>How an MIT professor introduced hundreds of thousands of students to neuroscience</title>
+        <link>https://caxlee.github.io/p/how-an-mit-professor-introduced-hundreds-of-thousands-of-students/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/how-an-mit-professor-introduced-hundreds-of-thousands-of-students/</guid>
+        <description>&lt;p&gt;MIT教授Mark Bear的《神经科学：探索大脑》是领先的入门神经科学教材，通过引人入胜的方式向数十万学生介绍神经科学领域。书籍注重科学严谨性，同时以精美插图和发现历程为特色，传达对大脑的热爱和兴奋。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>ICCV 2025 | 清华&amp;腾讯混元X发现「视觉头」机制：仅5%注意力头负责多模态视觉理解</title>
+        <link>https://caxlee.github.io/p/iccv-2025-%E6%B8%85%E5%8D%8E%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83x%E5%8F%91%E7%8E%B0%E8%A7%86%E8%A7%89%E5%A4%B4%E6%9C%BA%E5%88%B6%E4%BB%855%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%A4%B4%E8%B4%9F%E8%B4%A3%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E8%A7%89%E7%90%86%E8%A7%A3/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/iccv-2025-%E6%B8%85%E5%8D%8E%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83x%E5%8F%91%E7%8E%B0%E8%A7%86%E8%A7%89%E5%A4%B4%E6%9C%BA%E5%88%B6%E4%BB%855%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%A4%B4%E8%B4%9F%E8%B4%A3%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E8%A7%89%E7%90%86%E8%A7%A3/</guid>
+        <description>&lt;p&gt;发现多模态大模型中仅5%的视觉头负责视觉理解，提出SparseMM优化KV-Cache资源分配，取得性能与效率平衡&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>ICCV2025 | 多视图生成新范式-利用自回归模型探索多视图生成</title>
+        <link>https://caxlee.github.io/p/iccv2025-%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F-%E5%88%A9%E7%94%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E6%8E%A2%E7%B4%A2%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/iccv2025-%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F-%E5%88%A9%E7%94%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E6%8E%A2%E7%B4%A2%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90/</guid>
+        <description>&lt;p&gt;MVAR是一种自回归生成多视图图像的方法，提高多视图一致性。解决了Diffusion模型的局限性，包括多模态条件控制和数据稀缺。采用多模态条件嵌入网络和ShufV数据增强策略优化生成质量。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>ICML 2025 Oral！北大和腾讯优图破解AI生成图像检测泛化难题：正交子空间分解</title>
+        <link>https://caxlee.github.io/p/icml-2025-oral%E5%8C%97%E5%A4%A7%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BC%98%E5%9B%BE%E7%A0%B4%E8%A7%A3ai%E7%94%9F%E6%88%90%E5%9B%BE%E5%83%8F%E6%A3%80%E6%B5%8B%E6%B3%9B%E5%8C%96%E9%9A%BE%E9%A2%98%E6%AD%A3%E4%BA%A4%E5%AD%90%E7%A9%BA%E9%97%B4%E5%88%86%E8%A7%A3/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/icml-2025-oral%E5%8C%97%E5%A4%A7%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BC%98%E5%9B%BE%E7%A0%B4%E8%A7%A3ai%E7%94%9F%E6%88%90%E5%9B%BE%E5%83%8F%E6%A3%80%E6%B5%8B%E6%B3%9B%E5%8C%96%E9%9A%BE%E9%A2%98%E6%AD%A3%E4%BA%A4%E5%AD%90%E7%A9%BA%E9%97%B4%E5%88%86%E8%A7%A3/</guid>
+        <description>&lt;p&gt;北大和腾讯优图破解AI生成图像检测泛化难题，提出正交子空间分解方法，显著提升泛化能力。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>OpenAI的o3在新的「解答科学问题AI排行榜」上排名第一，DeepSeek的R1排名第二</title>
+        <link>https://caxlee.github.io/p/openai%E7%9A%84o3%E5%9C%A8%E6%96%B0%E7%9A%84%E8%A7%A3%E7%AD%94%E7%A7%91%E5%AD%A6%E9%97%AE%E9%A2%98ai%E6%8E%92%E8%A1%8C%E6%A6%9C%E4%B8%8A%E6%8E%92%E5%90%8D%E7%AC%AC%E4%B8%80deepseek%E7%9A%84r1%E6%8E%92%E5%90%8D%E7%AC%AC%E4%BA%8C/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/openai%E7%9A%84o3%E5%9C%A8%E6%96%B0%E7%9A%84%E8%A7%A3%E7%AD%94%E7%A7%91%E5%AD%A6%E9%97%AE%E9%A2%98ai%E6%8E%92%E8%A1%8C%E6%A6%9C%E4%B8%8A%E6%8E%92%E5%90%8D%E7%AC%AC%E4%B8%80deepseek%E7%9A%84r1%E6%8E%92%E5%90%8D%E7%AC%AC%E4%BA%8C/</guid>
+        <description>&lt;p&gt;OpenAI的o3在解答科学问题AI排行榜上位居第一，DeepSeek的R1排名第二。SciArena评选23个大型语言模型在科学问题上的表现，o3脱颖而出。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Scientists discover compounds that help cells fight a wide range of viruses</title>
+        <link>https://caxlee.github.io/p/scientists-discover-compounds-that-help-cells-fight-a-wide-range/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/scientists-discover-compounds-that-help-cells-fight-a-wide-range/</guid>
+        <description>&lt;p&gt;科学家发现化合物可激活宿主细胞内的防御途径，对抗多种病毒感染，包括RSV、单纯疱疹病毒和寨卡病毒。这些化合物有望成为广谱抗病毒药物，可对抗各类病毒，激活细胞防御系统，提高对病毒感染的抵抗力。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Study shows a link between obesity and what’s on local restaurant menus</title>
+        <link>https://caxlee.github.io/p/study-shows-a-link-between-obesity-and-whats-on-local-restaurant/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/study-shows-a-link-between-obesity-and-whats-on-local-restaurant/</guid>
+        <description>&lt;p&gt;研究发现，当地餐厅菜单与肥胖之间存在关联。研究使用新方法分析全球三大城市，发现附近饮食选择少且营养不良与肥胖等健康问题相关。研究突破以往对食品荒漠的研究，更全面评估人们消费的食物。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Windsurf交易内幕疯传：24亿美元被瓜分，背刺数百员工？</title>
+        <link>https://caxlee.github.io/p/windsurf%E4%BA%A4%E6%98%93%E5%86%85%E5%B9%95%E7%96%AF%E4%BC%A024%E4%BA%BF%E7%BE%8E%E5%85%83%E8%A2%AB%E7%93%9C%E5%88%86%E8%83%8C%E5%88%BA%E6%95%B0%E7%99%BE%E5%91%98%E5%B7%A5/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/windsurf%E4%BA%A4%E6%98%93%E5%86%85%E5%B9%95%E7%96%AF%E4%BC%A024%E4%BA%BF%E7%BE%8E%E5%85%83%E8%A2%AB%E7%93%9C%E5%88%86%E8%83%8C%E5%88%BA%E6%95%B0%E7%99%BE%E5%91%98%E5%B7%A5/</guid>
+        <description>&lt;p&gt;Windsurf交易内幕：24亿美元被瓜分，背刺员工。谷歌截胡收购，创始人和工程师获利，员工陷困境。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>刚刚，OpenAI想收购的Windsurf，被谷歌DeepMind抢走了核心团队</title>
+        <link>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Aopenai%E6%83%B3%E6%94%B6%E8%B4%AD%E7%9A%84windsurf%E8%A2%AB%E8%B0%B7%E6%AD%8Cdeepmind%E6%8A%A2%E8%B5%B0%E4%BA%86%E6%A0%B8%E5%BF%83%E5%9B%A2%E9%98%9F/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Aopenai%E6%83%B3%E6%94%B6%E8%B4%AD%E7%9A%84windsurf%E8%A2%AB%E8%B0%B7%E6%AD%8Cdeepmind%E6%8A%A2%E8%B5%B0%E4%BA%86%E6%A0%B8%E5%BF%83%E5%9B%A2%E9%98%9F/</guid>
+        <description>&lt;p&gt;谷歌DeepMind截胡OpenAI收购的Windsurf，核心团队加入Gemini项目。交易排他性期限到期，Windsurf选择谷歌。Windsurf员工分歧，高管跑路，新任领导层上任。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>夜场预告 | WAIC UP!之夜：不是大会延长时，而是另一种打开AI的方式</title>
+        <link>https://caxlee.github.io/p/%E5%A4%9C%E5%9C%BA%E9%A2%84%E5%91%8A-waic-up%E4%B9%8B%E5%A4%9C%E4%B8%8D%E6%98%AF%E5%A4%A7%E4%BC%9A%E5%BB%B6%E9%95%BF%E6%97%B6%E8%80%8C%E6%98%AF%E5%8F%A6%E4%B8%80%E7%A7%8D%E6%89%93%E5%BC%80ai%E7%9A%84%E6%96%B9%E5%BC%8F/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%A4%9C%E5%9C%BA%E9%A2%84%E5%91%8A-waic-up%E4%B9%8B%E5%A4%9C%E4%B8%8D%E6%98%AF%E5%A4%A7%E4%BC%9A%E5%BB%B6%E9%95%BF%E6%97%B6%E8%80%8C%E6%98%AF%E5%8F%A6%E4%B8%80%E7%A7%8D%E6%89%93%E5%BC%80ai%E7%9A%84%E6%96%B9%E5%BC%8F/</guid>
+        <description>&lt;p&gt;WAIC推出首份刊物《WAIC UP!》，探索AI时代进化之路。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>无Tokenizer时代真要来了？Mamba作者再发颠覆性论文，挑战Transformer</title>
+        <link>https://caxlee.github.io/p/%E6%97%A0tokenizer%E6%97%B6%E4%BB%A3%E7%9C%9F%E8%A6%81%E6%9D%A5%E4%BA%86mamba%E4%BD%9C%E8%80%85%E5%86%8D%E5%8F%91%E9%A2%A0%E8%A6%86%E6%80%A7%E8%AE%BA%E6%96%87%E6%8C%91%E6%88%98transformer/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%97%A0tokenizer%E6%97%B6%E4%BB%A3%E7%9C%9F%E8%A6%81%E6%9D%A5%E4%BA%86mamba%E4%BD%9C%E8%80%85%E5%86%8D%E5%8F%91%E9%A2%A0%E8%A6%86%E6%80%A7%E8%AE%BA%E6%96%87%E6%8C%91%E6%88%98transformer/</guid>
+        <description>&lt;p&gt;Mamba作者提出的H-Net挑战Transformer，通过动态分块取代Tokenizer，实现端到端语言建模。研究展示H-Net在多领域表现优异，无需Tokenizer训练，性能超越基于BPE的Transformer模型。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</title>
+        <link>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90robobrain-20roboos-20%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90robobrain-20roboos-20%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</guid>
+        <description>&lt;p&gt;智源发布RoboBrain 2.0和RoboOS 2.0，刷新具身大脑基准，实现跨本体多机协作。RoboBrain 2.0突破空间理解、时间建模、长链推理瓶颈，RoboOS 2.0构建具身智能SaaS开源框架，推动群体智能发展。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>智能科学实验室加速未来科学发现，首版仿真智驱实验室LabUtopia发布</title>
+        <link>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%8A%A0%E9%80%9F%E6%9C%AA%E6%9D%A5%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E9%A6%96%E7%89%88%E4%BB%BF%E7%9C%9F%E6%99%BA%E9%A9%B1%E5%AE%9E%E9%AA%8C%E5%AE%A4labutopia%E5%8F%91%E5%B8%83/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%8A%A0%E9%80%9F%E6%9C%AA%E6%9D%A5%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E9%A6%96%E7%89%88%E4%BB%BF%E7%9C%9F%E6%99%BA%E9%A9%B1%E5%AE%9E%E9%AA%8C%E5%AE%A4labutopia%E5%8F%91%E5%B8%83/</guid>
+        <description>&lt;p&gt;LabUtopia发布智能科学实验室，融合认知大模型与具身智能，推动科学发现自动化。LabUtopia支持化学反应建模、流体物理模拟，提出五级任务评估体系，引领具身智能科研新时代。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>深夜开源首个万亿模型K2，压力给到OpenAI，Kimi时刻要来了？</title>
+        <link>https://caxlee.github.io/p/%E6%B7%B1%E5%A4%9C%E5%BC%80%E6%BA%90%E9%A6%96%E4%B8%AA%E4%B8%87%E4%BA%BF%E6%A8%A1%E5%9E%8Bk2%E5%8E%8B%E5%8A%9B%E7%BB%99%E5%88%B0openaikimi%E6%97%B6%E5%88%BB%E8%A6%81%E6%9D%A5%E4%BA%86/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%B7%B1%E5%A4%9C%E5%BC%80%E6%BA%90%E9%A6%96%E4%B8%AA%E4%B8%87%E4%BA%BF%E6%A8%A1%E5%9E%8Bk2%E5%8E%8B%E5%8A%9B%E7%BB%99%E5%88%B0openaikimi%E6%97%B6%E5%88%BB%E8%A6%81%E6%9D%A5%E4%BA%86/</guid>
+        <description>&lt;p&gt;Kimi K2是首个万亿模型，采用MuonClip优化器和通用强化学习，具备高效工具调用能力。月之暗面挑战传统优化器，填补数据空白，推动强化学习技术扩展。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>用动作分块突破RL极限，伯克利引入模仿学习，超越离线/在线SOTA</title>
+        <link>https://caxlee.github.io/p/%E7%94%A8%E5%8A%A8%E4%BD%9C%E5%88%86%E5%9D%97%E7%AA%81%E7%A0%B4rl%E6%9E%81%E9%99%90%E4%BC%AF%E5%85%8B%E5%88%A9%E5%BC%95%E5%85%A5%E6%A8%A1%E4%BB%BF%E5%AD%A6%E4%B9%A0%E8%B6%85%E8%B6%8A%E7%A6%BB%E7%BA%BF%E5%9C%A8%E7%BA%BFsota/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E7%94%A8%E5%8A%A8%E4%BD%9C%E5%88%86%E5%9D%97%E7%AA%81%E7%A0%B4rl%E6%9E%81%E9%99%90%E4%BC%AF%E5%85%8B%E5%88%A9%E5%BC%95%E5%85%A5%E6%A8%A1%E4%BB%BF%E5%AD%A6%E4%B9%A0%E8%B6%85%E8%B6%8A%E7%A6%BB%E7%BA%BF%E5%9C%A8%E7%BA%BFsota/</guid>
+        <description>&lt;p&gt;伯克利提出Q-chunking方法，将动作分块引入强化学习，解决探索效率和值传播问题。实验证明在稀疏奖励环境中，QC表现优异，特别适用于离线到在线RL场景。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>英伟达&amp;MIT等推出Long-RL，长视频训练速度翻倍</title>
+        <link>https://caxlee.github.io/p/%E8%8B%B1%E4%BC%9F%E8%BE%BEmit%E7%AD%89%E6%8E%A8%E5%87%BAlong-rl%E9%95%BF%E8%A7%86%E9%A2%91%E8%AE%AD%E7%BB%83%E9%80%9F%E5%BA%A6%E7%BF%BB%E5%80%8D/</link>
+        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E8%8B%B1%E4%BC%9F%E8%BE%BEmit%E7%AD%89%E6%8E%A8%E5%87%BAlong-rl%E9%95%BF%E8%A7%86%E9%A2%91%E8%AE%AD%E7%BB%83%E9%80%9F%E5%BA%A6%E7%BF%BB%E5%80%8D/</guid>
+        <description>&lt;p&gt;英伟达&amp;amp;MIT推出Long-RL，加速长视频训练。MR-SP并行框架提升训练速度2倍。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>A new platform for developing advanced metals at scale</title>
         <link>https://caxlee.github.io/p/a-new-platform-for-developing-advanced-metals-at-scale/</link>
-        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/a-new-platform-for-developing-advanced-metals-at-scale/</guid>
         <description>&lt;p&gt;Foundation Alloy是由麻省理工学院团队创立的公司，他们利用一种新型生产工艺生产超高性能金属合金，不依赖于熔化原材料。他们的固态冶金技术使得下一代合金的开发和制造变得更简单，产品开发速度更快，强度是传统金属的两倍。公司旨在为航空航天、自行车、汽车等行业提供更可靠、性能更高的金属材料。&lt;/p&gt;</description>
@@ -18,7 +186,7 @@
         <item>
         <title>AI药物发现再进化：分子之心、斯坦福开发SurfFlow系统，破解治疗性肽设计表面互补难题</title>
         <link>https://caxlee.github.io/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</link>
-        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</guid>
         <description>&lt;p&gt;近年来，科学家在设计靶向难成药位点的治疗性肽方面取得进展，但忽略了蛋白质相互作用中分子表面的重要影响。为弥补这一差距，研究团队提出了一种基于表面的全设计肽生成算法SurfFlow，采用多模态条件流匹配架构来提高肽结合的准确性。该算法在全面的基准测试中表现优异，展现了整合多种蛋白质模态的潜力。&lt;/p&gt;</description>
@@ -26,7 +194,7 @@
         <item>
         <title>RL 圈的夏夜之约！12 人唠嗑局：当强化学习撞上大模型 Agent</title>
         <link>https://caxlee.github.io/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/</link>
-        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/</guid>
         <description>&lt;p&gt;本文介绍了由机器之心主办、东浩兰生支持的「强化学习新范式探索之夜」活动，主题是从基础模型到 Agent 的进阶之路，邀请学术界和产业界的专家分享关于强化学习和大模型智能体的讨论。活动将围绕强化学习与大模型智能体的组合、训练推理策略选择以及智能体评估等议题展开，旨在打造一个小而精的交流平台。&lt;/p&gt;</description>
@@ -34,7 +202,7 @@
         <item>
         <title>模拟3D分子编辑，北大高毅勤团队开发整合物理信息和偏好对齐的MolEdit，登Nature子刊</title>
         <link>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
-        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
         <description>&lt;p&gt;北京大学团队提出了理论指导，用于弥合图像 GenAI 和分子 GenAI 之间的方法论差距，实现对 3D 分子生成基础模型的预训练。他们开发的多模态分子 GenAI——MolEdit 能够生成具有全面对称性的有效分子，平衡构型稳定性和构象多样性，支持复杂三维结构的生成。研究人员通过物理信息学习和数据驱动学习相结合，解决了分子 GenAI 的幻觉问题，使得 MolEdit 在药物设计等领域具有广泛应用前景。&lt;/p&gt;</description>
@@ -42,7 +210,7 @@
         <item>
         <title>登《Cell》，中科院高彩霞等开发AiCE：一种AI蛋白质工程通用策略</title>
         <link>https://caxlee.github.io/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</link>
-        <pubDate>Mon, 14 Jul 2025 20:55:40 +0800</pubDate>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</guid>
         <description>&lt;p&gt;中国科学院团队开发的AiCE框架通过整合结构和进化约束到反向折叠模型中，实现了快速高效的蛋白质工程，无需专门训练。该框架在蛋白质工程任务中取得了显著成功，能够预测高适应性突变并优化蛋白质结构，展现出良好的应用前景。&lt;/p&gt;</description>
