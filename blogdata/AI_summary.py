@@ -54,7 +54,7 @@ input_files = [
     os.path.join(base_dir, "jiqizhixin_articles_summarized.jsonl")
 ]
 output_file = os.path.join(base_dir, "summarized_articles.jsonl")
-markdown_file = os.path.join(base_dir, "summarized_articles.md")  # 新增Markdown文件名
+# 删除 markdown_file 变量，不再生成MD文件
 
 # 用于去重的内容哈希集合
 content_hash_set = set()
@@ -78,16 +78,15 @@ if os.path.exists(output_file):
             except:
                 continue
 
-# 在 AI_summary.py 中替换现有的 OpenAI 调用部分
-
+# 使用最新的OpenAI function calling格式
 def call_openai_with_function_calling(content, title):
     """使用 function calling 调用 OpenAI API 生成摘要和标签"""
     
     # 预定义的标签列表（包含"未识别"）
     predefined_tags = ["基模", "多模态", "Infra", "AI4S", "具身智能", "垂直大模型", "Agent", "能效优化", "未识别"]
     
-    # 定义函数架构
-    functions = [
+    # 定义工具（最新格式）
+    tools = [
         {
             "type": "function",
             "function": {
@@ -98,7 +97,7 @@ def call_openai_with_function_calling(content, title):
                     "properties": {
                         "summary": {
                             "type": "string",
-                            "description": "1-2句极简中文摘要，不超过50字，直击核心内容"
+                            "description": "2-3句极简中文摘要，不超过50字，直击核心内容"
                         },
                         "tags": {
                             "type": "array",
@@ -106,7 +105,8 @@ def call_openai_with_function_calling(content, title):
                                 "type": "string",
                                 "enum": predefined_tags
                             },
-                            "description": "从预定义标签中选择1-2个最相关的，若都不相关则选择'未识别'"
+                            "maxItems": 3,
+                            "description": "必须且只能从预定义标签列表中选择，最多3个标签。不允许创建新标签。"
                         }
                     },
                     "required": ["summary", "tags"]
@@ -120,57 +120,71 @@ def call_openai_with_function_calling(content, title):
         你是一名精通技术的编辑，需要生成极简中文摘要。
         
         【摘要要求】
-        - 只用1-2句话，不超过50字
+        - 只用2-3句话，不超过50字
         - 直接点明核心内容，不要铺垫
         - 删除所有修饰词
         - 使用简单直接的表达
         - 必须是中文摘要
         
         【标签要求】
-        - 仅从以下标签中选择1-2个最相关的：{', '.join(predefined_tags[:-1])}
-        - 若文章内容与上述标签都不相关，仅返回["未识别"]
+        - 严格限制：必须且只能从以下预定义标签中选择1-3个最相关的：{', '.join(predefined_tags)}
+        - 不允许创建或使用列表之外的任何标签
+        - 若文章内容与以下任何标签都不相关: {', '.join(predefined_tags[:-1])}，则只返回["未识别"]
+        - 不返回任何自创标签，只能从提供的列表中选择
     """).strip()
     
     # 构建用户提示
     user_prompt = f"标题：{title}\n\n内容：\n{content}"
     
-    # 调用 API
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ],
-        functions=functions,
-        function_call={"name": "generate_summary_and_tags"},
-        temperature=0.3  # 降低温度以获得更确定性的输出
-    )
-    
-    # 提取函数调用结果
-    function_call = response.choices[0].message.function_call
-    if function_call and function_call.name == "generate_summary_and_tags":
-        try:
-            # 解析函数调用的参数
-            args = json.loads(function_call.arguments)
-            summary = args.get("summary", "")
-            tags = args.get("tags", [])
-            
-            # 验证返回的标签是否都在预定义列表中
-            valid_tags = []
-            for tag in tags:
-                if tag in predefined_tags:
-                    valid_tags.append(tag)
-            
-            # 如果没有有效标签，则返回"未识别"
-            if not valid_tags:
-                valid_tags = ["未识别"]
+    # 调用 API（使用最新格式）
+    try:
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            tools=tools,  # 使用tools而非functions
+            tool_choice={"type": "function", "function": {"name": "generate_summary_and_tags"}},  # 指定要使用的工具
+            temperature=0.1  # 降低温度，使输出更确定性
+        )
+        
+        # 提取函数调用结果（使用最新格式）
+        tool_calls = response.choices[0].message.tool_calls
+        if tool_calls and tool_calls[0].function.name == "generate_summary_and_tags":
+            try:
+                # 解析函数调用的参数
+                args = json.loads(tool_calls[0].function.arguments)
+                summary = args.get("summary", "")
+                tags = args.get("tags", [])
                 
-            return summary, valid_tags
-        except json.JSONDecodeError:
-            print(f"❌ 解析函数调用参数失败")
+                # 强化验证：确保返回的标签都在预定义列表中
+                valid_tags = []
+                for tag in tags:
+                    if tag in predefined_tags:
+                        valid_tags.append(tag)
+                    else:
+                        print(f"⚠️ 忽略无效标签: {tag}")
+                
+                # 如果没有有效标签，则返回"未识别"
+                if not valid_tags:
+                    print("❗ 未找到有效标签，使用默认标签: '未识别'")
+                    valid_tags = ["未识别"]
+                
+                # 如果标签过多，只保留前三个
+                if len(valid_tags) > 3:
+                    valid_tags = valid_tags[:3]
+                    print(f"⚠️ 标签数量过多，截取为: {valid_tags}")
+                    
+                return summary, valid_tags
+            except json.JSONDecodeError as e:
+                print(f"❌ 解析函数调用参数失败: {e}")
+                return "", ["未识别"]
+        else:
+            print(f"❌ 未获取到预期的函数调用")
             return "", ["未识别"]
-    else:
-        print(f"❌ 未获取到预期的函数调用")
+    except Exception as e:
+        print(f"❌ API 调用失败: {str(e)}")
         return "", ["未识别"]
 
 # 处理所有输入文件
@@ -202,11 +216,9 @@ print(f"开始生成摘要，共 {len(articles)} 篇，已有摘要 {len(summari
 
 # 确保输出目录存在
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
-os.makedirs(os.path.dirname(markdown_file), exist_ok=True)
 
-# 插入数据并写入 jsonl
-with open(output_file, 'a', encoding='utf-8') as out_f, \
-     open(markdown_file, 'a', encoding='utf-8') as md_f:  # 同时打开Markdown文件
+# 修改：只写入JSONL文件，不再生成MD文件
+with open(output_file, 'a', encoding='utf-8') as out_f:
     for article in tqdm(articles, desc="🌐 正在生成摘要"):
         title = article["title"]
         content = article["content"]
@@ -238,15 +250,6 @@ with open(output_file, 'a', encoding='utf-8') as out_f, \
             out_f.write(json.dumps(article_data, ensure_ascii=False) + "\n")
             out_f.flush()
             summarized_titles.add(title)
-            # 写入Markdown
-            md_f.write(f"## {title}\n\n")
-            if url:
-                md_f.write(f"**原文链接：** [{url}]({url})\n\n")
-            if tags:
-                md_f.write(f"**标签：** {', '.join(tags)}\n\n")
-            md_f.write(f"**摘要：**\n\n{summary}\n\n")
-            md_f.write("---\n\n")
-            md_f.flush()
 
             print(f"✅ 成功生成并保存摘要: {title}")
 

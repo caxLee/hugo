@@ -32,6 +32,34 @@ if os.path.exists(output_file):
 # ========== 摘要生成函数 (已移除) ==========
 
 # ========== 主爬虫逻辑 ==========
+async def extract_image_url(page):
+    # 尝试定位文章卡片右侧的图片
+    try:
+        # 首先尝试最精确的选择器
+        img_element = await page.locator("div.article-card__right img").first()
+        if img_element:
+            image_url = await img_element.get_attribute("src")
+            if image_url:
+                return image_url
+                
+        # 如果找不到，尝试更宽泛的选择器
+        img_element = await page.locator("div.home__list__article img").first()
+        if img_element:
+            image_url = await img_element.get_attribute("src")
+            if image_url:
+                return image_url
+                
+        # 最后尝试获取任何图片
+        img_element = await page.locator("img").first()
+        if img_element:
+            image_url = await img_element.get_attribute("src")
+            return image_url
+            
+    except Exception as e:
+        print(f"提取图片URL时出错: {e}")
+    
+    return None
+
 async def main():
     # 确保输出目录存在
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
