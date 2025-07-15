@@ -276,71 +276,44 @@ def generate_daily_news_folders():
             skipped_articles += 1
             continue
 
-        # 生成更健壮的文章URL slug
-        # 1. 转为小写
-        s = title.lower()
-        # 2. 移除非法字符 (保留字母、数字、- 和空格)
-        s = re.sub(r'[^\w\s-]', '', s)
-        # 3. 多个空格或-替换为单个-
-        s = re.sub(r'[\s-]+', '-', s).strip('-')
-        # 4. 截断
-        post_slug = s[:65] # 缩短以容纳前缀
+        # 移除标题中的非法字符
+        safe_title = re.sub(r'[\\/*?:"<>|]', "", title)
 
-
-        # 添加数字前缀
-        post_slug_with_prefix = f"{next_article_index:02d}_{post_slug}"
-
-        post_folder = os.path.join(today_folder, post_slug_with_prefix)
+        post_folder = os.path.join(today_folder, f'{next_article_index:02d}_{safe_filename(safe_title)}')
         os.makedirs(post_folder, exist_ok=True)
-        
-        # 将当前文章的哈希值加入集合
-        today_content_hashes.add(content_hash)
-        today_title_hashes.add(title_hash)
-        
-        # --- front matter ---
-        front_matter = f"""
----
-title: '{title.replace("'", "''")}'
+        print(f"正在创建文章: {post_folder}")
+
+        # 准备 Front Matter
+        escaped_title = title.replace("'", "''")
+        escaped_summary = summary.replace("'", "''")
+
+        md_content = f"""---
+title: '{escaped_title}'
 date: {today}
 tags: {json.dumps(tags, ensure_ascii=False)}
-summary: '{summary.replace("'", "''")}'
+summary: '{escaped_summary}'
+image: '{image_path if image_path else ""}'
+link: '{url}'
+---
 """
-
-        # 如果有图片路径，则添加到 front matter
-        if image_path and os.path.exists(os.path.join(hugo_project_path, 'static', image_path.lstrip('/'))):
-            front_matter += f"image: '{image_path}'\n"
         
-        front_matter += "---\n"
-
-        # --- 正文内容 ---
-        # 如果有图片，也在正文开头显示
-        body_content = ""
-        if image_path and os.path.exists(os.path.join(hugo_project_path, 'static', image_path.lstrip('/'))):
-            body_content += f"![{title}]({image_path})\n\n"
-
-        # 来源信息
-        body_content += f"> 来源: [{source}]({url}) | 作者: {author}\n\n"
+        # 正文内容
+        if image_path:
+            md_content += f"![{escaped_title}]({image_path})\n\n"
         
-        # 摘要
-        body_content += f"**摘要**: {summary}\n\n"
-
-        # 原始内容
-        if original_content:
-            body_content += "--- \n\n"
-            body_content += f"### 全文如下\n\n{original_content}\n"
-
-        md_content = front_matter + body_content
+        md_content += f"**摘要**: {escaped_summary}\n"
 
         index_file_path = os.path.join(post_folder, 'index.md')
         with open(index_file_path, 'w', encoding='utf-8') as md_file:
             md_file.write(md_content)
             
-        print(f"✅ 成功生成文章: {post_slug_with_prefix}")
         generated_articles += 1
-        next_article_index += 1 # 为下一篇文章增加序号
+        today_content_hashes.add(content_hash)
+        today_title_hashes.add(title_hash)
+        next_article_index += 1
 
-    print("\n--- 生成完毕 ---")
-    print(f"总共处理文章: {total_articles}")
+    print("\n--- 处理结果 ---")
+    print(f"总共文章数: {total_articles}")
     print(f"成功生成: {generated_articles}")
     print(f"因重复跳过: {skipped_articles}")
     print("--- --- ---")

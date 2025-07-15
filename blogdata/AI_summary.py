@@ -249,7 +249,8 @@ with open(output_file, 'a', encoding='utf-8') as out_f:
                 "tags": tags,
                 "url": url,
                 "original_content": "",
-                "image_path": image_path  # 添加 image_path
+                "image_path": image_path,
+                "link": url
             }
             out_f.write(json.dumps(article_data, ensure_ascii=False) + "\n")
             out_f.flush()  # 确保立即写入磁盘
@@ -261,3 +262,5 @@ with open(output_file, 'a', encoding='utf-8') as out_f:
 
         except Exception as e:
             print(f"\n❌ 摘要生成失败: {title}\n原因: {e}")
+
+print("所有摘要处理完成。")
