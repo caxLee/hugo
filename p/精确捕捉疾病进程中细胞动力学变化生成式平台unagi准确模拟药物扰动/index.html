@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="UNAGI是一种生成式平台，能准确模拟疾病细胞动力学变化和药物扰动，填补研究空白。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。\n">
+<title>精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</title>
+
+<link rel='canonical' href='https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/'>
+
+<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动">
+<meta property='og:description' content="UNAGI是一种生成式平台，能准确模拟疾病细胞动力学变化和药物扰动，填补研究空白。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。\n">
+<meta property='og:url' content='https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='Infra' /><meta property='article:published_time' content='2025-07-15T18:30:45&#43;08:00'/><meta property='article:modified_time' content='2025-07-15T18:30:45&#43;08:00'/>
+<meta name="twitter:title" content="精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动">
+<meta name="twitter:description" content="UNAGI是一种生成式平台，能准确模拟疾病细胞动力学变化和药物扰动，填补研究空白。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。\n">
+<style>
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/css/custom-post.css"> 
+        <style>
+            .article-modal {
+                display: none;
+                position: fixed;
+                z-index: 1000;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0,0,0,0.4);
+            }
+            .article-modal.is-active {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .modal-content-wrapper {
+                background-color: var(--card-background);
+                color: var(--card-text-color);
+                margin: auto;
+                padding: 20px;
+                border: 1px solid var(--border-color);
+                width: 80%;
+                max-width: 800px;
+                max-height: 80vh;
+                overflow-y: auto;
+                border-radius: var(--card-border-radius);
+            }
+            body.modal-open {
+                overflow: hidden;
+            }
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            .article-tags .article-tags-list-item a {
+                display: inline-block;
+                background: var(--tertiary-background-color);
+                color: var(--secondary-text-color);
+                padding: 0.25rem 0.75rem;
+                border-radius: var(--card-border-radius);
+                font-size: 0.875rem;
+                text-decoration: none;
+                transition: background-color 0.2s, color 0.2s;
+            }
+            .article-tags .article-tags-list-item a:hover {
+                background: var(--theme-color);
+                color: var(--background-color);
+            }
+        </style>
+    </head>
+    <body class="
+    article-page
+     simplified-layout">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="top-header">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">🍥</span>
+            <span class="ai-news-title">AI News</span>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select">Select Date</label>
+            
+            <input type="date" id="date-select" value="2025-07-15">
+        </div>
+    </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('date-select');
+    const cards = document.querySelectorAll('.article-card');
+    function filterPosts() {
+      const val = select.value;
+      cards.forEach(card => {
+        if (!val) {
+          card.style.display = '';
+        } else {
+          card.style.display = card.dataset.date === val ? '' : 'none';
+        }
+      });
+    }
+    select.addEventListener('change', filterPosts);
+    filterPosts();
+  });
+</script> <div class="container main-container">
+            <main class="main full-width">
+    <article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);">精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 15, 2025</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+    <footer class="article-tags">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+        <ul class="article-tags-list">
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                    基模
+                </a>
+            </li>
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                    多模态
+                </a>
+            </li>
+            
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                    Infra
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+    
+
+    
+</div> 
+</header>
+    
+    <section class="article-content">
+    <p>UNAGI是一种生成式平台，能准确模拟疾病细胞动力学变化和药物扰动，填补研究空白。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。</p></section>
+    
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%9F%BA%E6%A8%A1/">基模</a>
+        
+            <a href="/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/">多模态</a>
+        
+            <a href="/tags/infra/">Infra</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Jul 15, 2025 18:30 &#43;0800
+        </span>
+    </section></footer>
+
+    
+    
+    
+    
+</article> 
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class=" preview">
+    <a href="" class="article-link">
+        
+            <div class="article-image">
+                
+                    <img src="" data-src="" alt="" 
+                        
+                        
+                        loading="lazy"
+                    />
+                
+            </div>
+        
+
+        <div class="article-details">
+            <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 0001</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+
+    
+</div> 
+</header><footer class="article-footer">
+    
+
+    </footer>
+
+        </div>
+    </a>
+</article> 
+            
+                
+<article class=" preview">
+    <a href="" class="article-link">
+        
+            <div class="article-image">
+                
+                    <img src="" data-src="" alt="" 
+                        
+                        
+                        loading="lazy"
+                    />
+                
+            </div>
+        
+
+        <div class="article-details">
+            <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 0001</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+
+    
+</div> 
+</header><footer class="article-footer">
+    
+
+    </footer>
+
+        </div>
+    </a>
+</article> 
+            
+                
+<article class=" preview">
+    <a href="" class="article-link">
+        
+            <div class="article-image">
+                
+                    <img src="" data-src="" alt="" 
+                        
+                        
+                        loading="lazy"
+                    />
+                
+            </div>
+        
+
+        <div class="article-details">
+            <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 0001</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+
+    
+</div> 
+</header><footer class="article-footer">
+    
+
+    </footer>
+
+        </div>
+    </a>
+</article> 
+            
+                
+<article class=" preview">
+    <a href="" class="article-link">
+        
+            <div class="article-image">
+                
+                    <img src="" data-src="" alt="" 
+                        
+                        
+                        loading="lazy"
+                    />
+                
+            </div>
+        
+
+        <div class="article-details">
+            <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 0001</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+
+    
+</div> 
+</header><footer class="article-footer">
+    
+
+    </footer>
+
+        </div>
+    </a>
+</article> 
+            
+                
+<article class=" preview">
+    <a href="" class="article-link">
+        
+            <div class="article-image">
+                
+                    <img src="" data-src="" alt="" 
+                        
+                        
+                        loading="lazy"
+                    />
+                
+            </div>
+        
+
+        <div class="article-details">
+            <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);"></a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 0001</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+
+    
+</div> 
+</header><footer class="article-footer">
+    
+
+    </footer>
+
+        </div>
+    </a>
+</article> 
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+        <div id="article-modal" class="article-modal">
+            <div class="modal-content-wrapper">
+                <div id="modal-content"></div>
+            </div>
+        </div>
+    </body>
+</html> 

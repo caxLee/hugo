@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 15 Jul 2025 10:13:44 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Jul 2025 18:30:45 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>EasyCache：无需训练的视频扩散模型推理加速——极简高效的视频生成提速方案</title>
         <link>https://caxlee.github.io/p/easycache%E6%97%A0%E9%9C%80%E8%AE%AD%E7%BB%83%E7%9A%84%E8%A7%86%E9%A2%91%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8A%A0%E9%80%9F%E6%9E%81%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%8F%90%E9%80%9F%E6%96%B9%E6%A1%88/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/easycache%E6%97%A0%E9%9C%80%E8%AE%AD%E7%BB%83%E7%9A%84%E8%A7%86%E9%A2%91%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8A%A0%E9%80%9F%E6%9E%81%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%8F%90%E9%80%9F%E6%96%B9%E6%A1%88/</guid>
         <description>&lt;p&gt;EasyCache是无需训练的视频扩散模型推理加速方案，通过动态检测稳定期减少冗余推理步骤。实验结果显示在多个视频生成模型上取得显著加速且质量几乎无损。&lt;/p&gt;</description>
@@ -18,10 +18,18 @@
         <item>
         <title>ICCV 2025 | 清华&amp;腾讯混元X发现「视觉头」机制：仅5%注意力头负责多模态视觉理解</title>
         <link>https://caxlee.github.io/p/iccv-2025-%E6%B8%85%E5%8D%8E%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83x%E5%8F%91%E7%8E%B0%E8%A7%86%E8%A7%89%E5%A4%B4%E6%9C%BA%E5%88%B6%E4%BB%855%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%A4%B4%E8%B4%9F%E8%B4%A3%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E8%A7%89%E7%90%86%E8%A7%A3/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/iccv-2025-%E6%B8%85%E5%8D%8E%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83x%E5%8F%91%E7%8E%B0%E8%A7%86%E8%A7%89%E5%A4%B4%E6%9C%BA%E5%88%B6%E4%BB%855%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%A4%B4%E8%B4%9F%E8%B4%A3%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E8%A7%89%E7%90%86%E8%A7%A3/</guid>
-        <description>&lt;p&gt;发现多模态大模型中仅5%的视觉头负责主导视觉理解任务，提出基于视觉头的KV-Cache优化策略SparseMM，取得性能和效率平衡。&lt;/p&gt;</description>
+        <description>&lt;p&gt;发现多模态大模型中仅5%的视觉头负责视觉理解，提出SparseMM优化KV-Cache资源分配，取得性能与效率平衡&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快</title>
+        <link>https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</guid>
+        <description>&lt;p&gt;POET通过谱不变原理重参数化LLM训练，保持稳定性与效率，提升泛化性能。&lt;/p&gt;</description>
         </item>
         <item>
         <title>500万视频数据集&#43;全新评测框架！北大开源主体一致性视频生成领域新基建OpenS2V-Nexus，生成视频 「像」 又 「自然」</title>

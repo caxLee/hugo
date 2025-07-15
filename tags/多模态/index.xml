@@ -7,50 +7,82 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 15 Jul 2025 10:13:44 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Jul 2025 18:30:45 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ICCV 2025 | 清华&amp;腾讯混元X发现「视觉头」机制：仅5%注意力头负责多模态视觉理解</title>
         <link>https://caxlee.github.io/p/iccv-2025-%E6%B8%85%E5%8D%8E%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83x%E5%8F%91%E7%8E%B0%E8%A7%86%E8%A7%89%E5%A4%B4%E6%9C%BA%E5%88%B6%E4%BB%855%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%A4%B4%E8%B4%9F%E8%B4%A3%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E8%A7%89%E7%90%86%E8%A7%A3/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/iccv-2025-%E6%B8%85%E5%8D%8E%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83x%E5%8F%91%E7%8E%B0%E8%A7%86%E8%A7%89%E5%A4%B4%E6%9C%BA%E5%88%B6%E4%BB%855%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%A4%B4%E8%B4%9F%E8%B4%A3%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E8%A7%89%E7%90%86%E8%A7%A3/</guid>
-        <description>&lt;p&gt;发现多模态大模型中仅5%的视觉头负责主导视觉理解任务，提出基于视觉头的KV-Cache优化策略SparseMM，取得性能和效率平衡。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>ICCV 2025满分论文：一个模型实现空间理解与主动探索大统一</title>
-        <link>https://caxlee.github.io/p/iccv-2025%E6%BB%A1%E5%88%86%E8%AE%BA%E6%96%87%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E5%AE%9E%E7%8E%B0%E7%A9%BA%E9%97%B4%E7%90%86%E8%A7%A3%E4%B8%8E%E4%B8%BB%E5%8A%A8%E6%8E%A2%E7%B4%A2%E5%A4%A7%E7%BB%9F%E4%B8%80/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
-        
-        <guid>https://caxlee.github.io/p/iccv-2025%E6%BB%A1%E5%88%86%E8%AE%BA%E6%96%87%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E5%AE%9E%E7%8E%B0%E7%A9%BA%E9%97%B4%E7%90%86%E8%A7%A3%E4%B8%8E%E4%B8%BB%E5%8A%A8%E6%8E%A2%E7%B4%A2%E5%A4%A7%E7%BB%9F%E4%B8%80/</guid>
-        <description>&lt;p&gt;ICCV 2025满分论文MTU3D实现空间理解与主动探索大统一，结合探索与视觉落地协同训练，提升具身导航效率与泛化能力。&lt;/p&gt;</description>
+        <description>&lt;p&gt;发现多模态大模型中仅5%的视觉头负责视觉理解，提出SparseMM优化KV-Cache资源分配，取得性能与效率平衡&lt;/p&gt;</description>
         </item>
         <item>
         <title>ICCV2025 | 多视图生成新范式-利用自回归模型探索多视图生成</title>
         <link>https://caxlee.github.io/p/iccv2025-%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F-%E5%88%A9%E7%94%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E6%8E%A2%E7%B4%A2%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/iccv2025-%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F-%E5%88%A9%E7%94%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E6%8E%A2%E7%B4%A2%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90/</guid>
         <description>&lt;p&gt;MVAR是一种自回归生成多视图图像的方法，提高多视图一致性。解决了Diffusion模型的局限性，包括多模态条件控制和数据稀缺。采用多模态条件嵌入网络和ShufV数据增强策略优化生成质量。&lt;/p&gt;</description>
         </item>
         <item>
+        <title>ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制</title>
+        <link>https://caxlee.github.io/p/icml-2025-m%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/icml-2025-m%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/</guid>
+        <description>&lt;p&gt;M+框架扩展MemoryLLM，引入LLM隐空间记忆，有效记忆跨度提升至160k tokens。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名</title>
+        <link>https://caxlee.github.io/p/icml-2025%E6%9D%B0%E5%87%BA%E8%AE%BA%E6%96%87%E5%87%BA%E7%82%898%E7%AF%87%E8%8E%B7%E5%A5%96%E5%8D%97%E5%A4%A7%E7%A0%94%E7%A9%B6%E8%80%85%E6%A6%9C%E4%B8%8A%E6%9C%89%E5%90%8D/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/icml-2025%E6%9D%B0%E5%87%BA%E8%AE%BA%E6%96%87%E5%87%BA%E7%82%898%E7%AF%87%E8%8E%B7%E5%A5%96%E5%8D%97%E5%A4%A7%E7%A0%94%E7%A9%B6%E8%80%85%E6%A6%9C%E4%B8%8A%E6%9C%89%E5%90%8D/</guid>
+        <description>&lt;p&gt;ICML 2025揭晓8篇获奖论文，包括6篇杰出论文奖和2篇杰出立场论文奖，南大研究者入选。研究涉及MDMs、公平福利分配、大语言模型协作、创造性极限、共形预测与贝叶斯求积、分数匹配与缺失数据、同行评审改革、AI安全与未来工作。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Meta扩张继续！挖走OpenAI 2名多模态AI研发人员，收购语音初创公司PlayAI</title>
         <link>https://caxlee.github.io/p/meta%E6%89%A9%E5%BC%A0%E7%BB%A7%E7%BB%AD%E6%8C%96%E8%B5%B0openai-2%E5%90%8D%E5%A4%9A%E6%A8%A1%E6%80%81ai%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E6%94%B6%E8%B4%AD%E8%AF%AD%E9%9F%B3%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8playai/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/meta%E6%89%A9%E5%BC%A0%E7%BB%A7%E7%BB%AD%E6%8C%96%E8%B5%B0openai-2%E5%90%8D%E5%A4%9A%E6%A8%A1%E6%80%81ai%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E6%94%B6%E8%B4%AD%E8%AF%AD%E9%9F%B3%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8playai/</guid>
         <description>&lt;p&gt;Meta挖走OpenAI 2名多模态AI研发人员，收购语音初创公司PlayAI。&lt;/p&gt;</description>
         </item>
         <item>
+        <title>MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</title>
+        <link>https://caxlee.github.io/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%81999%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%81999%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/</guid>
+        <description>&lt;p&gt;MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>New AI system uncovers hidden cell subtypes, boosts precision medicine</title>
         <link>https://caxlee.github.io/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medi/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medi/</guid>
         <description>&lt;p&gt;新AI系统揭示隐藏的细胞亚型，提升精准医疗。&lt;/p&gt;</description>
         </item>
         <item>
+        <title>南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述</title>
+        <link>https://caxlee.github.io/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</guid>
+        <description>&lt;p&gt;具身智能关注机器人在物理世界中感知、推理与行动。物理模拟器与世界模型深度融合推动智能体自主性与泛化能力。研究回顾了学习具身智能的关键技术与进展。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻</title>
+        <link>https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/</guid>
+        <description>&lt;p&gt;WAIC 2025聚焦大模型技术发展与产业应用，探讨主权模型与开源生态竞争，Agent技术在智能体应用中的关键作用。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>无Tokenizer时代真要来了？Mamba作者再发颠覆性论文，挑战Transformer</title>
         <link>https://caxlee.github.io/p/%E6%97%A0tokenizer%E6%97%B6%E4%BB%A3%E7%9C%9F%E8%A6%81%E6%9D%A5%E4%BA%86mamba%E4%BD%9C%E8%80%85%E5%86%8D%E5%8F%91%E9%A2%A0%E8%A6%86%E6%80%A7%E8%AE%BA%E6%96%87%E6%8C%91%E6%88%98transformer/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%97%A0tokenizer%E6%97%B6%E4%BB%A3%E7%9C%9F%E8%A6%81%E6%9D%A5%E4%BA%86mamba%E4%BD%9C%E8%80%85%E5%86%8D%E5%8F%91%E9%A2%A0%E8%A6%86%E6%80%A7%E8%AE%BA%E6%96%87%E6%8C%91%E6%88%98transformer/</guid>
         <description>&lt;p&gt;Mamba作者提出的H-Net挑战Transformer，通过动态分块取代Tokenizer，实现端到端语言建模。研究展示H-Net在多领域表现优异，无需Tokenizer训练，性能超越基于BPE的Transformer模型。&lt;/p&gt;</description>
@@ -58,23 +90,15 @@
         <item>
         <title>智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</title>
         <link>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90robobrain-20roboos-20%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90robobrain-20roboos-20%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</guid>
-        <description>&lt;p&gt;智源发布RoboBrain 2.0+RoboOS 2.0，具身大脑问鼎基准，刷新多机协作技术。RoboBrain 2.0突破空间、时间、推理瓶颈，多模态数据集训练提升性能。RoboOS 2.0实现多本体规划，全面开源构建具身智能生态圈。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>智能科学实验室加速未来科学发现，首版仿真智驱实验室LabUtopia发布</title>
-        <link>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%8A%A0%E9%80%9F%E6%9C%AA%E6%9D%A5%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E9%A6%96%E7%89%88%E4%BB%BF%E7%9C%9F%E6%99%BA%E9%A9%B1%E5%AE%9E%E9%AA%8C%E5%AE%A4labutopia%E5%8F%91%E5%B8%83/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
-        
-        <guid>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%8A%A0%E9%80%9F%E6%9C%AA%E6%9D%A5%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E9%A6%96%E7%89%88%E4%BB%BF%E7%9C%9F%E6%99%BA%E9%A9%B1%E5%AE%9E%E9%AA%8C%E5%AE%A4labutopia%E5%8F%91%E5%B8%83/</guid>
-        <description>&lt;p&gt;LabUtopia发布智能科学实验室，深度融合认知智能与具身智能，推动科学发现自动化。&lt;/p&gt;</description>
+        <description>&lt;p&gt;智源发布RoboBrain 2.0+RoboOS 2.0，刷新具身大脑基准，实现跨本体多机协作。RoboBrain 2.0突破空间理解、时间建模、长链推理瓶颈，RoboOS 2.0构建具身智能SaaS框架，支持多智能体协作部署&lt;/p&gt;</description>
         </item>
         <item>
         <title>模拟大脑功能分化！北大与港中文发布Fast-in-Slow VLA，让“快行动”和“慢推理”统一协作</title>
         <link>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E8%84%91%E5%8A%9F%E8%83%BD%E5%88%86%E5%8C%96%E5%8C%97%E5%A4%A7%E4%B8%8E%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8F%91%E5%B8%83fast-in-slow-vla%E8%AE%A9%E5%BF%AB%E8%A1%8C%E5%8A%A8%E5%92%8C%E6%85%A2%E6%8E%A8%E7%90%86%E7%BB%9F%E4%B8%80%E5%8D%8F%E4%BD%9C/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E8%84%91%E5%8A%9F%E8%83%BD%E5%88%86%E5%8C%96%E5%8C%97%E5%A4%A7%E4%B8%8E%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8F%91%E5%B8%83fast-in-slow-vla%E8%AE%A9%E5%BF%AB%E8%A1%8C%E5%8A%A8%E5%92%8C%E6%85%A2%E6%8E%A8%E7%90%86%E7%BB%9F%E4%B8%80%E5%8D%8F%E4%BD%9C/</guid>
         <description>&lt;p&gt;北大与港中文发布Fast-in-Slow VLA，实现快行动和慢推理统一协作，提升机器人操控效率。&lt;/p&gt;</description>
@@ -82,18 +106,26 @@
         <item>
         <title>深夜开源首个万亿模型K2，压力给到OpenAI，Kimi时刻要来了？</title>
         <link>https://caxlee.github.io/p/%E6%B7%B1%E5%A4%9C%E5%BC%80%E6%BA%90%E9%A6%96%E4%B8%AA%E4%B8%87%E4%BA%BF%E6%A8%A1%E5%9E%8Bk2%E5%8E%8B%E5%8A%9B%E7%BB%99%E5%88%B0openaikimi%E6%97%B6%E5%88%BB%E8%A6%81%E6%9D%A5%E4%BA%86/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/%E6%B7%B1%E5%A4%9C%E5%BC%80%E6%BA%90%E9%A6%96%E4%B8%AA%E4%B8%87%E4%BA%BF%E6%A8%A1%E5%9E%8Bk2%E5%8E%8B%E5%8A%9B%E7%BB%99%E5%88%B0openaikimi%E6%97%B6%E5%88%BB%E8%A6%81%E6%9D%A5%E4%BA%86/</guid>
         <description>&lt;p&gt;Kimi K2是首个万亿模型，采用MuonClip优化器和通用强化学习，具备高效工具调用能力。月之暗面挑战传统优化器，填补数据空白，推动强化学习技术扩展。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>英伟达&amp;MIT等推出Long-RL，长视频训练速度翻倍</title>
-        <link>https://caxlee.github.io/p/%E8%8B%B1%E4%BC%9F%E8%BE%BEmit%E7%AD%89%E6%8E%A8%E5%87%BAlong-rl%E9%95%BF%E8%A7%86%E9%A2%91%E8%AE%AD%E7%BB%83%E9%80%9F%E5%BA%A6%E7%BF%BB%E5%80%8D/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <title>精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</title>
+        <link>https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E8%8B%B1%E4%BC%9F%E8%BE%BEmit%E7%AD%89%E6%8E%A8%E5%87%BAlong-rl%E9%95%BF%E8%A7%86%E9%A2%91%E8%AE%AD%E7%BB%83%E9%80%9F%E5%BA%A6%E7%BF%BB%E5%80%8D/</guid>
-        <description>&lt;p&gt;英伟达&amp;amp;MIT推出Long-RL，加速长视频训练。MR-SP并行框架提升训练速度2.1倍。&lt;/p&gt;</description>
+        <guid>https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</guid>
+        <description>&lt;p&gt;UNAGI是一种生成式平台，能准确模拟疾病细胞动力学变化和药物扰动，填补研究空白。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网</title>
+        <link>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/</guid>
+        <description>&lt;p&gt;马斯克推出Grok新功能“智能伴侣”，用户热议。Ani和Rudy是可选角色，Ani具有NSFW模式。用户对交互体验褒贬不一，期待功能改进。&lt;/p&gt;</description>
         </item>
         <item>
         <title>500万视频数据集&#43;全新评测框架！北大开源主体一致性视频生成领域新基建OpenS2V-Nexus，生成视频 「像」 又 「自然」</title>

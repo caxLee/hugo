@@ -7,21 +7,69 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 15 Jul 2025 10:13:44 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Jul 2025 18:30:45 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Meta扩张继续！挖走OpenAI 2名多模态AI研发人员，收购语音初创公司PlayAI</title>
         <link>https://caxlee.github.io/p/meta%E6%89%A9%E5%BC%A0%E7%BB%A7%E7%BB%AD%E6%8C%96%E8%B5%B0openai-2%E5%90%8D%E5%A4%9A%E6%A8%A1%E6%80%81ai%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E6%94%B6%E8%B4%AD%E8%AF%AD%E9%9F%B3%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8playai/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/meta%E6%89%A9%E5%BC%A0%E7%BB%A7%E7%BB%AD%E6%8C%96%E8%B5%B0openai-2%E5%90%8D%E5%A4%9A%E6%A8%A1%E6%80%81ai%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E6%94%B6%E8%B4%AD%E8%AF%AD%E9%9F%B3%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8playai/</guid>
         <description>&lt;p&gt;Meta挖走OpenAI 2名多模态AI研发人员，收购语音初创公司PlayAI。&lt;/p&gt;</description>
         </item>
         <item>
+        <title>MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</title>
+        <link>https://caxlee.github.io/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%81999%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%81999%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/</guid>
+        <description>&lt;p&gt;MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Simulation-based pipeline tailors training data for dexterous robots</title>
         <link>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</link>
-        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</guid>
         <description>&lt;p&gt;MIT&amp;rsquo;s PhysicsGen tailors robot training data via simulations, enhancing efficiency in task completion. It converts human demonstrations into diverse instructional trajectories for various robots, improving accuracy and collaboration.&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>什么都不做就能得分？智能体基准测试出现大问题</title>
+        <link>https://caxlee.github.io/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</guid>
+        <description>&lt;p&gt;现有AI智能体基准测试存在严重问题，智能体能轻松取得高分而不具实际能力。研究提出有效性判据和检查清单以确保基准测试准确评估智能体能力。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻</title>
+        <link>https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/</guid>
+        <description>&lt;p&gt;WAIC 2025聚焦大模型技术发展与产业应用，探讨主权模型与开源生态竞争，Agent技术在智能体应用中的关键作用。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>智能时代，同球共济！2025世界人工智能大会将于7月26日启幕</title>
+        <link>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%90%8C%E7%90%83%E5%85%B1%E6%B5%8E2025%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E7%E6%9C%8826%E6%97%A5%E5%90%AF%E5%B9%95/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%90%8C%E7%90%83%E5%85%B1%E6%B5%8E2025%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E7%E6%9C%8826%E6%97%A5%E5%90%AF%E5%B9%95/</guid>
+        <description>&lt;p&gt;2025世界人工智能大会将于7月26日启幕，聚焦全球人工智能发展与治理，展示技术前沿与产业趋势。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队</title>
+        <link>https://caxlee.github.io/p/%E7%AA%81%E5%8F%91%E5%8A%A8%E8%8D%A172%E5%B0%8F%E6%97%B6%E5%90%8E%E5%8D%8E%E4%BA%BA%E5%9B%A2%E9%98%9Fcognition%E6%94%B6%E8%B4%ADwindsurf%E5%89%A9%E4%BD%99%E5%9B%A2%E9%98%9F/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E7%AA%81%E5%8F%91%E5%8A%A8%E8%8D%A172%E5%B0%8F%E6%97%B6%E5%90%8E%E5%8D%8E%E4%BA%BA%E5%9B%A2%E9%98%9Fcognition%E6%94%B6%E8%B4%ADwindsurf%E5%89%A9%E4%BD%99%E5%9B%A2%E9%98%9F/</guid>
+        <description>&lt;p&gt;Cognition宣布收购Windsurf剩余团队及资产，获得超过1亿美元资金。收购后Windsurf将继续独立运营，Cognition整合其产品和团队。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网</title>
+        <link>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/</link>
+        <pubDate>Tue, 15 Jul 2025 18:30:45 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/</guid>
+        <description>&lt;p&gt;马斯克推出Grok新功能“智能伴侣”，用户热议。Ani和Rudy是可选角色，Ani具有NSFW模式。用户对交互体验褒贬不一，期待功能改进。&lt;/p&gt;</description>
         </item>
         <item>
         <title>ICML 2025 | 清华、上海AI Lab提出专家级医学基准MedXpertQA，看o3、R1哪家强</title>
