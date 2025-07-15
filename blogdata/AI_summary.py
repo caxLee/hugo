@@ -229,6 +229,9 @@ with open(output_file, 'a', encoding='utf-8') as out_f:
             print(f"⏭️ 跳过已处理的标题: {title}")
             continue
 
+        # 新增: 从原始article字典中获取 image_path
+        image_path = article.get("image_path")
+
         try:
             # 增加更多调试信息
             print(f"正在为文章 '{title}' 调用OpenAI API生成摘要...")
@@ -245,10 +248,13 @@ with open(output_file, 'a', encoding='utf-8') as out_f:
                 "summary": summary,
                 "tags": tags,
                 "url": url,
-                "original_content": ""
+                "original_content": "",
+                "image_path": image_path  # 添加 image_path
             }
             out_f.write(json.dumps(article_data, ensure_ascii=False) + "\n")
-            out_f.flush()
+            out_f.flush()  # 确保立即写入磁盘
+            
+            # 更新已处理的标题集合
             summarized_titles.add(title)
 
             print(f"✅ 成功生成并保存摘要: {title}")

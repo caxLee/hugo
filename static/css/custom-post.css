@@ -662,41 +662,6 @@ article:hover {
     display: none;
 }
 
-/* Responsive adjustments */
-@media (max-width: 1200px) {
-    .article-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .top-header-container {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .main-container {
-        padding-top: 140px !important;
-    }
-    
-    .article-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
-        padding: 0 20px;
-    }
-    .article-grid .article-image {
-        height: 350px;
-    }
-    
-    .date-selector {
-        width: 100%;
-    }
-    
-    .date-selector select {
-        width: 100%;
-    }
-} 
-
 /* 模态框关闭按钮样式 */
 .modal-close-button {
     position: absolute;
@@ -757,4 +722,88 @@ article:hover {
 
 .article-title a:hover {
     color: var(--theme-color, #0066cc);
+} 
+
+/* 单列布局样式 - 覆盖所有文章列表布局类型 */
+.article-list, 
+.article-grid, 
+.article-list--compact, 
+.article-list--tile {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important; 
+}
+
+.article-list article, 
+.article-grid article, 
+.article-list--compact article, 
+.article-list--tile article {
+    width: 100% !important;
+    margin-bottom: 2rem !important;
+    height: auto !important;
+    max-width: 100% !important;
+}
+
+/* 取消所有响应式布局中的网格设置 */
+@media (max-width: 1200px), (max-width: 768px) {
+    .article-list, 
+    .article-grid, 
+    .article-list--compact, 
+    .article-list--tile {
+        grid-template-columns: none !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+} 
+
+/* 水平布局样式 - 图片和内容左右排列 */
+.horizontal-layout {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.horizontal-layout .article-image {
+    flex: 1 0 33%; /* 图片占1/3宽度 */
+    max-width: 33%;
+    margin-right: 2%;
+    position: relative;
+    overflow: hidden;
+}
+
+.horizontal-layout .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.horizontal-layout .article-details {
+    flex: 2 0 65%; /* 内容占2/3宽度 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* 确保在移动设备上恢复为垂直布局 */
+@media (max-width: 768px) {
+    .horizontal-layout {
+        flex-direction: column !important;
+    }
+    
+    .horizontal-layout .article-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-right: 0;
+        height: 200px;
+        position: relative;
+    }
+    
+    .horizontal-layout .article-details {
+        flex: 0 0 100%;
+    }
 } 

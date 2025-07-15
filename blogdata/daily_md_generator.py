@@ -247,41 +247,32 @@ def generate_daily_news_folders():
         url = article.get('url', '')
         original_content = article.get('original_content', '')
         tags = article.get('tags', []) # 直接从JSON获取tags
+        image_path = article.get('image_path') # 获取图片路径
+        source = article.get('source', '未知来源') # 获取来源
+        author = article.get('author', '未知作者') # 获取作者
 
-        # --- 诊断日志: 开始 ---
-        print(f"\n--- 正在处理文章: \"{title}\"")
-        # --- 诊断日志: 结束 ---
-
+        # 检查标题和内容是否重复
+        content_for_hash = summary + original_content
+        content_hash = get_content_hash(content_for_hash)
         # 检查标题是否重复
         title_hash = get_title_hash(title)
-        # --- 诊断日志: 开始 ---
-        print(f"    - 标题哈希: {title_hash}")
-        # --- 诊断日志: 结束 ---
+        # 检查内容是否重复
+        if content_hash in existing_content_hashes:
+            print(f"⏭️ 跳过重复内容: {title}")
+            skipped_articles += 1
+            continue
+        if content_hash in today_content_hashes:
+            print(f"⏭️ 跳过当天重复内容: {title}")
+            skipped_articles += 1
+            continue
         if title_hash in existing_title_hash_map:
             duplicate_folder = existing_title_hash_map[title_hash]
             print(f"⏭️ 跳过重复标题: {title}")
             print(f"   已存在于: {duplicate_folder}")
             skipped_articles += 1
             continue
-        
         if title_hash in today_title_hashes:
             print(f"⏭️ 跳过当天重复标题: {title}")
-            skipped_articles += 1
-            continue
-
-        # 内容去重
-        content_to_hash = summary + original_content
-        content_hash = get_content_hash(content_to_hash)
-        # --- 诊断日志: 开始 ---
-        print(f"    - 内容哈希: {content_hash}")
-        # --- 诊断日志: 结束 ---
-        if content_hash in existing_content_hashes:
-            print(f"⏭️ 跳过重复内容: {title}")
-            skipped_articles += 1
-            continue
-
-        if content_hash in today_content_hashes:
-            print(f"⏭️ 跳过当天重复内容: {title}")
             skipped_articles += 1
             continue
 
@@ -306,34 +297,43 @@ def generate_daily_news_folders():
         today_content_hashes.add(content_hash)
         today_title_hashes.add(title_hash)
         
-        # 在子文件夹内创建 index.md
-        index_path = os.path.join(post_folder, 'index.md')
-        
-        # 准备Front Matter
-        # 使用 TOML 格式
-        # 将tags列表转换为TOML格式的字符串数组
-        tags_toml = json.dumps(tags)
-        
-        # 移除 "摘要：" 和 "标签："
-        summary_cleaned = summary.replace("摘要：", "").strip()
-        
-        front_matter = f"""+++
-title = '{title.replace("'", "''")}'
-date = "{datetime.now(TARGET_TIMEZONE).isoformat()}"
-draft = false
-tags = {tags_toml}
-summary = "{summary_cleaned.replace('"', '""')[:150]}"
-slug = "{post_slug}"
-link = "{url}"
-+++
-
-{summary_cleaned}
-
-<!--more-->
+        # --- front matter ---
+        front_matter = f"""
+---
+title: '{title.replace("'", "''")}'
+date: {today}
+tags: {json.dumps(tags, ensure_ascii=False)}
+summary: '{summary.replace("'", "''")}'
 """
+
+        # 如果有图片路径，则添加到 front matter
+        if image_path and os.path.exists(os.path.join(hugo_project_path, 'static', image_path.lstrip('/'))):
+            front_matter += f"image: '{image_path}'\n"
         
-        with open(index_path, 'w', encoding='utf-8') as f:
-            f.write(front_matter)
+        front_matter += "---\n"
+
+        # --- 正文内容 ---
+        # 如果有图片，也在正文开头显示
+        body_content = ""
+        if image_path and os.path.exists(os.path.join(hugo_project_path, 'static', image_path.lstrip('/'))):
+            body_content += f"![{title}]({image_path})\n\n"
+
+        # 来源信息
+        body_content += f"> 来源: [{source}]({url}) | 作者: {author}\n\n"
+        
+        # 摘要
+        body_content += f"**摘要**: {summary}\n\n"
+
+        # 原始内容
+        if original_content:
+            body_content += "--- \n\n"
+            body_content += f"### 全文如下\n\n{original_content}\n"
+
+        md_content = front_matter + body_content
+
+        index_file_path = os.path.join(post_folder, 'index.md')
+        with open(index_file_path, 'w', encoding='utf-8') as md_file:
+            md_file.write(md_content)
             
         print(f"✅ 成功生成文章: {post_slug_with_prefix}")
         generated_articles += 1
