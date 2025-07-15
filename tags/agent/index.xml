@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 15 Jul 2025 02:40:55 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Jul 2025 10:13:44 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Meta扩张继续！挖走OpenAI 2名多模态AI研发人员，收购语音初创公司PlayAI</title>
         <link>https://caxlee.github.io/p/meta%E6%89%A9%E5%BC%A0%E7%BB%A7%E7%BB%AD%E6%8C%96%E8%B5%B0openai-2%E5%90%8D%E5%A4%9A%E6%A8%A1%E6%80%81ai%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E6%94%B6%E8%B4%AD%E8%AF%AD%E9%9F%B3%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8playai/</link>
-        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/meta%E6%89%A9%E5%BC%A0%E7%BB%A7%E7%BB%AD%E6%8C%96%E8%B5%B0openai-2%E5%90%8D%E5%A4%9A%E6%A8%A1%E6%80%81ai%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E6%94%B6%E8%B4%AD%E8%AF%AD%E9%9F%B3%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8playai/</guid>
         <description>&lt;p&gt;Meta挖走OpenAI 2名多模态AI研发人员，收购语音初创公司PlayAI。&lt;/p&gt;</description>
@@ -18,7 +18,7 @@
         <item>
         <title>Simulation-based pipeline tailors training data for dexterous robots</title>
         <link>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</link>
-        <pubDate>Tue, 15 Jul 2025 02:40:55 +0800</pubDate>
+        <pubDate>Tue, 15 Jul 2025 10:13:44 +0800</pubDate>
         
         <guid>https://caxlee.github.io/p/simulation-based-pipeline-tailors-training-data-for-dexterous-rob/</guid>
         <description>&lt;p&gt;MIT&amp;rsquo;s PhysicsGen tailors robot training data via simulations, enhancing efficiency in task completion. It converts human demonstrations into diverse instructional trajectories for various robots, improving accuracy and collaboration.&lt;/p&gt;</description>
