@@ -3,6 +3,15 @@
     <head>
         {{- partial "head/head.html" . -}}
         {{- block "head" . -}}{{ end }}
+        
+        <!-- 错误处理脚本 -->
+        {{ $errorHandler := resources.Get "js/error-handler.js" | fingerprint }}
+        <script src="{{ $errorHandler.RelPermalink }}"></script>
+        
+        <!-- 图片处理器脚本 -->
+        {{ $imageHandler := resources.Get "js/image-handler.js" | fingerprint }}
+        <script src="{{ $imageHandler.RelPermalink }}"></script>
+        
         <!-- 保留主要布局样式，但移除可能与顶部导航冲突的样式 -->
         <style>
             /* 强制水平布局样式 - 全局应用 */

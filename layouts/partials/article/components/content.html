@@ -74,4 +74,11 @@
     </script>
     {{- end -}}
 </section>
+{{- else -}}
+<!-- 如果文章设置了image参数，显示为顶部图片 -->
+{{- if .Params.image -}}
+<section class="article-hero">
+    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-hero-image">
+</section>
+{{- end -}}
 {{- end -}} 

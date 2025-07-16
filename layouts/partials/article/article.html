@@ -1,6 +1,12 @@
 <article class="{{ if .Params.pinned }}pinned{{ end }}">
     {{ partial "article/components/header" . }}
     
+    {{- if .Params.image -}}
+    <div class="article-image-container">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+    </div>
+    {{- end -}}
+    
     {{ partial "article/components/content" . }}
     
     {{ partial "article/components/footer" . }}
