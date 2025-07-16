@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动">
 <meta property='og:description' content="UNAGI是一种生成式平台，能准确模拟疾病进程中的细胞动力学变化和药物扰动效果。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。">
 <meta property='og:url' content='https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/'>
 <meta property='og:site_name' content='Example Site'>
@@ -83,6 +83,19 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
@@ -132,37 +145,6 @@
                 }
             }
             
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
-            }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
-            }
-            body.modal-open {
-                overflow: hidden;
-            }
             .article-tags {
                 margin-top: 1rem;
             }
@@ -174,6 +156,7 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
+             
             .article-tags .article-tags-list-item a {
                 display: inline-block;
                 background: var(--tertiary-background-color);
@@ -233,8 +216,16 @@
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('date-select');
     const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
+    const today = new Date().toISOString().slice(0, 10);
+
+    function filterPosts(isInitialLoad = false) {
+      let val = select.value;
+
+      if (isInitialLoad) {
+        select.value = today;
+        val = today;
+      }
+
       cards.forEach(card => {
         if (!val) {
           card.style.display = '';
@@ -243,8 +234,9 @@
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+
+    select.addEventListener('change', () => filterPosts(false));
+    filterPosts(true);
   });
 </script> <div class="container main-container">
             <main class="main full-width">
@@ -409,25 +401,6 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" loading="lazy" data-key="" data-hash="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/">
         
         
@@ -466,18 +439,37 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/">
+    <a href="/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/413d071c-81d5-4931-a83d-370949a84599.png" loading="lazy" data-key="" data-hash="/images/articles/413d071c-81d5-4931-a83d-370949a84599.png"/>
+                    <img src="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" loading="lazy" data-key="" data-hash="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</h2>
+            <h2 class="article-title">智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E7%A7%8D%E5%AD%90%E8%BD%AE%E5%B0%B1%E4%BC%B0%E5%80%BC120%E4%BA%BF%E7%BE%8E%E5%85%83%E5%A5%B9%E8%83%BD%E6%89%93%E9%80%A0%E5%8F%A6%E4%B8%80%E4%B8%AAopenai%E5%90%97/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/articles/ad946cb8-c93b-405c-9d25-5ccaac52b8cf.jpg" loading="lazy" data-key="" data-hash="/images/articles/ad946cb8-c93b-405c-9d25-5ccaac52b8cf.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">种子轮就估值120亿美元，她能打造另一个OpenAI吗？</h2>
         </div>
     </a>
 </article>
@@ -634,7 +626,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -647,11 +639,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 

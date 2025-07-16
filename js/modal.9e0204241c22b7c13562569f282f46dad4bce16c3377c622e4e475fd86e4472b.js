@@ -1,0 +1,1 @@
+(()=>{document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".article-card").forEach(e=>{e.addEventListener("click",t=>{if(t.target.closest(".article-tags-list-item"))return;t.stopPropagation();let n=e.dataset.originalLink;n&&window.open(n,"_blank","noopener,noreferrer")})})});})();

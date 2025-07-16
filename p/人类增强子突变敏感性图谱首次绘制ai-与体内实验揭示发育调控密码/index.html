@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://caxlee.github.io/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="人类增强子突变敏感性图谱首次绘制：AI 与体内实验揭示发育调控密码">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="人类增强子突变敏感性图谱首次绘制：AI 与体内实验揭示发育调控密码">
 <meta property='og:description' content="ENCODE计划揭示人类基因组中大部分序列为非编码区，长期调控功能成谜。研究团队通过转基因小鼠模型和机器学习系统性绘制了人类发育增强子的突变敏感性图谱，揭示了增强子在动物发育中的重要作用。研究结果有助于解释人类非编码变异和进化变化，为设计合成增强子以满足生物技术和治疗需求提供基础。\n">
 <meta property='og:url' content='https://caxlee.github.io/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/'>
 <meta property='og:site_name' content='Example Site'>
@@ -82,6 +82,19 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
@@ -131,37 +144,6 @@
                 }
             }
             
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
-            }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
-            }
-            body.modal-open {
-                overflow: hidden;
-            }
             .article-tags {
                 margin-top: 1rem;
             }
@@ -173,6 +155,7 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
+             
             .article-tags .article-tags-list-item a {
                 display: inline-block;
                 background: var(--tertiary-background-color);
@@ -232,8 +215,16 @@
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('date-select');
     const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
+    const today = new Date().toISOString().slice(0, 10);
+
+    function filterPosts(isInitialLoad = false) {
+      let val = select.value;
+
+      if (isInitialLoad) {
+        select.value = today;
+        val = today;
+      }
+
       cards.forEach(card => {
         if (!val) {
           card.style.display = '';
@@ -242,8 +233,9 @@
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+
+    select.addEventListener('change', () => filterPosts(false));
+    filterPosts(true);
   });
 </script> <div class="container main-container">
             <main class="main full-width">
@@ -596,7 +588,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -609,11 +601,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 

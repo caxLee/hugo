@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://caxlee.github.io/tags/%E9%9B%86%E6%88%90%E5%85%89%E5%AD%90%E5%AD%A6/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="Tag: 集成光子学 - Example Site">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Tag: 集成光子学 - Example Site">
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/tags/%E9%9B%86%E6%88%90%E5%85%89%E5%AD%90%E5%AD%A6/'>
 <meta property='og:site_name' content='Example Site'>
@@ -82,6 +82,19 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
@@ -131,37 +144,6 @@
                 }
             }
             
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
-            }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
-            }
-            body.modal-open {
-                overflow: hidden;
-            }
             .article-tags {
                 margin-top: 1rem;
             }
@@ -173,6 +155,7 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
+             
             .article-tags .article-tags-list-item a {
                 display: inline-block;
                 background: var(--tertiary-background-color);
@@ -230,8 +213,16 @@
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('date-select');
     const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
+    const today = new Date().toISOString().slice(0, 10);
+
+    function filterPosts(isInitialLoad = false) {
+      let val = select.value;
+
+      if (isInitialLoad) {
+        select.value = today;
+        val = today;
+      }
+
       cards.forEach(card => {
         if (!val) {
           card.style.display = '';
@@ -240,8 +231,9 @@
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+
+    select.addEventListener('change', () => filterPosts(false));
+    filterPosts(true);
   });
 </script> <div class="container main-container">
             <main class="main full-width">
@@ -259,53 +251,7 @@
     </header><section class="article-list">
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/p/the-high-tech-wizardry-of-integrated-photonics/" data-original-link="https://news.mit.edu/2025/sabrina-corsetti-explores-high-tech-wizardry-integrated-photonics-0702">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="https://news.mit.edu/2025/sabrina-corsetti-explores-high-tech-wizardry-integrated-photonics-0702">
     
 
     <div class="article-details">
@@ -359,16 +305,7 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/sabrina-corsetti-explores-high-tech-wizardry-integrated-photonics-0702" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
@@ -397,7 +334,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -410,11 +347,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 

@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://caxlee.github.io/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="8小时处理300万细胞数据，复旦&上交研发双分支架构模型，登Nature子刊">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="8小时处理300万细胞数据，复旦&上交研发双分支架构模型，登Nature子刊">
 <meta property='og:description' content="复旦大学与上海交通大学团队提出了 River 框架，利用双分支预测架构和事后归因策略，能够识别基因空间位置变化的关键信号。River 在识别差异空间表达模式基因方面表现优异，比传统方法更具优势。研究展示了 River 在不同数据集上的性能优势，以及在实际生物场景中的强大表现。\n">
 <meta property='og:url' content='https://caxlee.github.io/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/'>
 <meta property='og:site_name' content='Example Site'>
@@ -82,6 +82,19 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
@@ -131,37 +144,6 @@
                 }
             }
             
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
-            }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
-            }
-            body.modal-open {
-                overflow: hidden;
-            }
             .article-tags {
                 margin-top: 1rem;
             }
@@ -173,6 +155,7 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
+             
             .article-tags .article-tags-list-item a {
                 display: inline-block;
                 background: var(--tertiary-background-color);
@@ -232,8 +215,16 @@
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('date-select');
     const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
+    const today = new Date().toISOString().slice(0, 10);
+
+    function filterPosts(isInitialLoad = false) {
+      let val = select.value;
+
+      if (isInitialLoad) {
+        select.value = today;
+        val = today;
+      }
+
       cards.forEach(card => {
         if (!val) {
           card.style.display = '';
@@ -242,8 +233,9 @@
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+
+    select.addEventListener('change', () => filterPosts(false));
+    filterPosts(true);
   });
 </script> <div class="container main-container">
             <main class="main full-width">
@@ -596,7 +588,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -609,11 +601,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 

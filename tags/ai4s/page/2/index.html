@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://caxlee.github.io/tags/ai4s/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="Tag: AI4S - Example Site">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Tag: AI4S - Example Site">
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/tags/ai4s/'>
 <meta property='og:site_name' content='Example Site'>
@@ -82,6 +82,19 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
@@ -131,37 +144,6 @@
                 }
             }
             
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
-            }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
-            }
-            body.modal-open {
-                overflow: hidden;
-            }
             .article-tags {
                 margin-top: 1rem;
             }
@@ -173,6 +155,7 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
+             
             .article-tags .article-tags-list-item a {
                 display: inline-block;
                 background: var(--tertiary-background-color);
@@ -230,8 +213,16 @@
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('date-select');
     const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
+    const today = new Date().toISOString().slice(0, 10);
+
+    function filterPosts(isInitialLoad = false) {
+      let val = select.value;
+
+      if (isInitialLoad) {
+        select.value = today;
+        val = today;
+      }
+
       cards.forEach(card => {
         if (!val) {
           card.style.display = '';
@@ -240,8 +231,9 @@
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+
+    select.addEventListener('change', () => filterPosts(false));
+    filterPosts(true);
   });
 </script> <div class="container main-container">
             <main class="main full-width">
@@ -259,53 +251,7 @@
     </header><section class="article-list">
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-url="/p/%E7%A7%91%E5%AD%A6%E6%99%BA%E8%83%BD%E5%90%88%E8%BE%91ai%E4%BC%9A%E6%88%90%E4%B8%BA%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%9A%84%E5%90%8C%E9%81%93%E8%80%85%E8%BF%98%E6%98%AF%E5%8F%AA%E6%98%AF%E7%BB%9F%E8%AE%A1%E4%B8%8A%E6%9B%B4%E8%81%AA%E6%98%8E%E7%9A%84%E8%9E%BA%E4%B8%9D%E5%88%80/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-14">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-14">
     
         <div class="article-image">
             <a href="https://www.jiqizhixin.com/articles/2025-07-15-14" target="_blank" rel="noopener noreferrer">
@@ -367,73 +313,154 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-14" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-url="/p/%E5%BE%AE%E8%BD%AFai4s%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91orbformer-%E5%91%8A%E5%88%AB%E5%A4%9A%E5%8F%82%E8%80%83%E4%BD%93%E7%B3%BB%E7%9A%84%E7%AE%97%E4%B8%8D%E5%87%86%E5%92%8C%E7%AE%97%E4%B8%8D%E8%B5%B7/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-25">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-14">
     
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-14" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/14bc487f-f566-4003-b18d-9b35796dc8ae.png" loading="lazy" alt="Featured image of post 科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-14" target="_blank" rel="noopener noreferrer">科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                科学研究面临AI合作转折，挑战深奥科学问题。资源不均衡限制科研发展。WAIC 2025探讨AI在科学智能领域的作用与挑战。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-8">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-16-8" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/e00f68c7-3366-426e-9c40-2ada53e82811.png" loading="lazy" alt="Featured image of post 玻色子采样在量子人工智能领域首次找到实际应用" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-16-8" target="_blank" rel="noopener noreferrer">玻色子采样在量子人工智能领域首次找到实际应用</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                玻色子采样在量子人工智能领域首次实际应用，利用随机干涉仪生成复杂动力学，成功解决图像识别问题。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-25">
     
         <div class="article-image">
             <a href="https://www.jiqizhixin.com/articles/2025-07-15-25" target="_blank" rel="noopener noreferrer">
                 
-                    <img src="/images/articles/1d8a8cf2-5968-4a9e-8071-389fa3c5b4f3.png" loading="lazy" alt="Featured image of post 微软AI4S团队开发Orbformer: 告别多参考体系的「算不准」和「算不起」" />
+                    <img src="/images/articles/b057435c-54f5-44ec-a8c2-0086db0686ab.png" loading="lazy" alt="Featured image of post 微软AI4S团队开发Orbformer: 告别多参考体系的「算不准」和「算不起」" />
                 
             </a>
         </div>
@@ -450,7 +477,7 @@
             
             
             <div class="article-summary">
-                微软AI4S团队开发Orbformer，实现高精度化学波函数计算的成本平衡。利用新范式解决多体电子波函数计算挑战，提高计算效率。
+                微软AI4S团队开发Orbformer，实现高精度化学波函数计算的成本效益平衡。利用新模型处理多体电子波函数，解决强弱关联系统挑战。
             </div>
             
         </div>
@@ -478,68 +505,69 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-25" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-url="/p/%E5%85%83%E7%A7%91%E5%AD%A6%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%A7%91%E5%AD%A6%E4%BD%86%E5%AE%83%E4%B9%9F%E5%BF%85%E9%A1%BB%E5%AF%B9%E7%A4%BE%E4%BC%9A%E6%9C%89%E7%94%A8/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-7">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-25">
     
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-25" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/b057435c-54f5-44ec-a8c2-0086db0686ab.png" loading="lazy" alt="Featured image of post 微软AI4S团队开发Orbformer: 告别多参考体系的「算不准」和「算不起」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-25" target="_blank" rel="noopener noreferrer">微软AI4S团队开发Orbformer: 告别多参考体系的「算不准」和「算不起」</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                微软AI4S团队开发Orbformer，实现高精度化学波函数计算的成本效益平衡。利用新模型处理多体电子波函数，解决强弱关联系统挑战。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-7">
     
         <div class="article-image">
             <a href="https://www.jiqizhixin.com/articles/2025-07-15-7" target="_blank" rel="noopener noreferrer">
@@ -601,68 +629,217 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-7" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/%E7%A7%91%E5%AD%A6%E6%99%BA%E8%83%BD%E5%90%88%E8%BE%91ai%E4%BC%9A%E6%88%90%E4%B8%BA%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%9A%84%E5%90%8C%E9%81%93%E8%80%85%E8%BF%98%E6%98%AF%E5%8F%AA%E6%98%AF%E7%BB%9F%E8%AE%A1%E4%B8%8A%E6%9B%B4%E8%81%AA%E6%98%8E%E7%9A%84%E8%9E%BA%E4%B8%9D%E5%88%80/" data-original-link="">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-7">
     
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-7" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/1bf58b88-6586-4d52-844b-8b92a105319f.png" loading="lazy" alt="Featured image of post 元科学可以改进科学——但它也必须对社会有用" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-7" target="_blank" rel="noopener noreferrer">元科学可以改进科学——但它也必须对社会有用</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                元科学联盟推动科学改进，应对社会挑战。AI和大型语言模型助力科研发展。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-10">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-16-10" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/d7057f68-072c-4b94-8c03-bb684e8466d2.png" loading="lazy" alt="Featured image of post 亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-16-10" target="_blank" rel="noopener noreferrer">亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                亚马逊云科技推出Kiro AI IDE，以结构化协作取代碎片式生成，助力开发者高效编码、设计、管理任务。Kiro具备Hooks机制，自动执行关键任务，改变人类与AI协作方式。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-7">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-16-7" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/5e078a5c-64d3-4620-91ff-97b4e216f921.png" loading="lazy" alt="Featured image of post AI驱动的自主酶工程平台，底物偏好提升90倍，伊利诺伊大学新研究登Nature子刊" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-16-7" target="_blank" rel="noopener noreferrer">AI驱动的自主酶工程平台，底物偏好提升90倍，伊利诺伊大学新研究登Nature子刊</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                伊利诺伊大学提出AI驱动的自主酶工程平台，底物偏好提升90倍，登Nature子刊。平台集成大型语言模型与生物制造自动化，推动蛋白质工程创新。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
     
         <div class="article-image">
             <a href="" target="_blank" rel="noopener noreferrer">
@@ -724,60 +901,13 @@
             </div>
             
             
-            
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-url="/p/%E5%85%83%E7%A7%91%E5%AD%A6%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%A7%91%E5%AD%A6%E4%BD%86%E5%AE%83%E4%B9%9F%E5%BF%85%E9%A1%BB%E5%AF%B9%E7%A4%BE%E4%BC%9A%E6%9C%89%E7%94%A8/" data-original-link="">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
     
         <div class="article-image">
             <a href="" target="_blank" rel="noopener noreferrer">
@@ -839,60 +969,13 @@
             </div>
             
             
-            
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/p/%E7%BE%8E%E5%9B%BD%E8%83%BD%E6%BA%90%E9%83%A8%E5%85%B3%E6%B3%A8%E7%9A%84%E6%A0%B8%E7%89%A9%E7%90%86%E9%80%86%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3sagips%E5%AE%9E%E7%8E%B0%E6%95%88%E7%8E%87-80-%E5%80%8D%E6%8F%90%E5%8D%87/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-9">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-9">
     
 
     <div class="article-details">
@@ -946,68 +1029,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-08-9" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/p/%E7%94%A8%E9%9A%90%E8%97%8F%E6%8C%87%E4%BB%A4%E8%AF%B1%E5%AF%BCai%E7%BB%99%E8%AE%BA%E6%96%87%E6%89%93%E9%AB%98%E5%88%86%E8%B0%A2%E8%B5%9B%E5%AE%81%E5%90%88%E8%91%97%E8%AE%BA%E6%96%87%E8%A2%AB%E7%82%B9%E5%90%8D%E8%AE%A4%E9%94%99%E7%BB%9D%E4%B8%8D%E9%BC%93%E5%8A%B1/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-12">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-12">
     
 
     <div class="article-details">
@@ -1061,68 +1089,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-08-12" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-url="/p/new-postdoctoral-fellowship-program-to-accelerate-innovation-in-h/" data-original-link="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707">
     
 
     <div class="article-details">
@@ -1176,68 +1149,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-url="/p/qs-ranks-mit-the-worlds-no-1-university-for-2025-26/" data-original-link="https://news.mit.edu/2025/qs-ranks-mit-worlds-no-1-university-0618">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="https://news.mit.edu/2025/qs-ranks-mit-worlds-no-1-university-0618">
     
 
     <div class="article-details">
@@ -1291,68 +1209,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/qs-ranks-mit-worlds-no-1-university-0618" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-9">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-9">
     
 
     <div class="article-details">
@@ -1406,68 +1269,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-9" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-url="/p/%E5%AE%9E%E6%B5%8Bvidu-q1%E5%8F%82%E8%80%83%E7%94%9F%E5%8A%9F%E8%83%BD%E7%9C%8B%E5%88%B0%E8%AF%B8%E8%91%9B%E4%BA%AE%E4%B8%98%E5%90%89%E5%B0%94%E6%8B%BF%E7%A0%B4%E4%BB%91%E5%9C%A8%E9%95%BF%E5%9F%8E%E6%8B%8D%E7%85%A7%E7%95%99%E5%BF%B5/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-7">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-7">
     
 
     <div class="article-details">
@@ -1521,68 +1329,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-7" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/p/%E8%81%94%E5%90%88%E5%9B%BD%E7%82%B9%E8%B5%9E%E7%88%B1%E8%AF%97%E7%A7%91%E6%8A%80pixverse%E5%85%A5%E9%80%89ai-for-good%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-11">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-11">
     
 
     <div class="article-details">
@@ -1636,68 +1389,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-11" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/p/%E6%88%91%E4%BB%AC%E7%94%A8%E9%A3%9E%E4%B9%A6%E5%BC%80%E4%BA%86%E4%B8%AA%E9%80%89%E9%A2%98%E4%BC%9A%E4%B8%80%E4%B8%8B%E8%BF%9B%E5%85%A5%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%8A%9E%E5%85%AC%E7%BC%96%E8%BE%91%E9%83%A8%E7%9B%B4%E5%91%BC%E7%9C%9F%E9%A6%99/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-20">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-20">
     
 
     <div class="article-details">
@@ -1751,68 +1449,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-20" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-13">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-13">
     
 
     <div class="article-details">
@@ -1866,68 +1509,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-13" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/p/changing-the-conversation-in-health-care/" data-original-link="https://news.mit.edu/2025/changing-conversation-health-care-0709">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://news.mit.edu/2025/changing-conversation-health-care-0709">
     
 
     <div class="article-details">
@@ -1981,68 +1569,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/changing-conversation-health-care-0709" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/p/ai-shapes-autonomous-underwater-gliders/" data-original-link="https://news.mit.edu/2025/ai-shapes-autonomous-underwater-gliders-0709">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://news.mit.edu/2025/ai-shapes-autonomous-underwater-gliders-0709">
     
 
     <div class="article-details">
@@ -2096,68 +1629,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/ai-shapes-autonomous-underwater-gliders-0709" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-url="/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-12">
-    <style>
-         
-        .custom-horizontal-layout {
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: stretch !important;
-            overflow: hidden !important;
-        }
-        .custom-horizontal-layout .article-image {
-            flex: 1 0 33% !important;
-            max-width: 33% !important;
-            margin-right: 2% !important;
-            height: auto !important;
-            min-height: 200px !important;
-            position: relative !important;
-        }
-        .custom-horizontal-layout .article-image img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            position: absolute !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-        .custom-horizontal-layout .article-details {
-            flex: 2 0 65% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            padding: 1rem !important;
-        }
-        @media (max-width: 768px) {
-            .custom-horizontal-layout {
-                flex-direction: column !important;
-            }
-            .custom-horizontal-layout .article-image {
-                flex: 0 0 100% !important;
-                max-width: 100% !important;
-                margin-right: 0 !important;
-                height: 200px !important;
-            }
-            .custom-horizontal-layout .article-details {
-                flex: 0 0 100% !important;
-            }
-        }
-    </style>
-    
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-12">
     
 
     <div class="article-details">
@@ -2211,16 +1689,7 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-12" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
@@ -2249,7 +1718,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -2262,11 +1731,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 
