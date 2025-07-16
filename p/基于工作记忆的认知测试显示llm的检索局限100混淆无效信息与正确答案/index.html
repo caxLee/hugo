@@ -14,6 +14,51 @@
 <meta name="twitter:title" content="基于工作记忆的认知测试显示LLM的检索局限：100%混淆无效信息与正确答案">
 <meta name="twitter:description" content="本文发现了一个影响所有大型语言模型的信息检索问题，即无法稳定地提取动态数据中的最新信息，对全局记忆和长推理任务造成损害。研究表明，所有主流语言模型在处理动态数据时会出现明显的错误，并呈现出一致的对数线性下降趋势。作者提出这一问题可能源于模型的基础架构或依赖的注意力机制。实验结果暗示，模型的抗干扰容量不足，需要在模型架构设计或训练方法上进行创新性调整。\n">
 <style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
     .original-source,
     .original-summary {
         margin-top: 2rem;
@@ -42,6 +87,50 @@
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
         <style>
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
             .article-modal {
                 display: none;
                 position: fixed;
@@ -135,7 +224,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-15">
+            <input type="date" id="date-select" value="2025-07-16">
         </div>
     </div>
 </div>
@@ -292,334 +381,99 @@
         <div class="flex article-list--tile">
             
                 
-<article class=" preview">
-    <a href="" class="article-link">
+<article class="has-image">
+    <a href="/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/">
+        
         
             <div class="article-image">
                 
-                    <img src="" data-src="" alt="" 
-                        
-                        
-                        loading="lazy"
-                    />
+                    <img src="/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg" loading="lazy" data-key="" data-hash="/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <header class="article-header">
-
-    <div class="article-details">
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="javascript:void(0);"></a>
-        </h2>
-    
-        
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Jan 01, 0001</time>
-            </div>
-        
-
-        
-    </footer>
-    
-
-    
-
-    
-</div> 
-</header><footer class="article-footer">
-    
-
-    </footer>
-
+            <h2 class="article-title">南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述</h2>
         </div>
     </a>
-</article> 
+</article>
+
             
                 
-<article class=" preview">
-    <a href="" class="article-link">
+<article class="has-image">
+    <a href="/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/">
+        
         
             <div class="article-image">
                 
-                    <img src="" data-src="" alt="" 
-                        
-                        
-                        loading="lazy"
-                    />
+                    <img src="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" loading="lazy" data-key="" data-hash="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <header class="article-header">
-
-    <div class="article-details">
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="javascript:void(0);"></a>
-        </h2>
-    
-        
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Jan 01, 0001</time>
-            </div>
-        
-
-        
-    </footer>
-    
-
-    
-
-    
-</div> 
-</header><footer class="article-footer">
-    
-
-    </footer>
-
+            <h2 class="article-title">智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</h2>
         </div>
     </a>
-</article> 
+</article>
+
             
                 
-<article class=" preview">
-    <a href="" class="article-link">
+<article class="has-image">
+    <a href="/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/">
+        
         
             <div class="article-image">
                 
-                    <img src="" data-src="" alt="" 
-                        
-                        
-                        loading="lazy"
-                    />
+                    <img src="/images/articles/413d071c-81d5-4931-a83d-370949a84599.png" loading="lazy" data-key="" data-hash="/images/articles/413d071c-81d5-4931-a83d-370949a84599.png"/>
                 
             </div>
         
 
         <div class="article-details">
-            <header class="article-header">
-
-    <div class="article-details">
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="javascript:void(0);"></a>
-        </h2>
-    
-        
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Jan 01, 0001</time>
-            </div>
-        
-
-        
-    </footer>
-    
-
-    
-
-    
-</div> 
-</header><footer class="article-footer">
-    
-
-    </footer>
-
+            <h2 class="article-title">精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</h2>
         </div>
     </a>
-</article> 
+</article>
+
             
                 
-<article class=" preview">
-    <a href="" class="article-link">
+<article class="has-image">
+    <a href="/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/">
+        
         
             <div class="article-image">
                 
-                    <img src="" data-src="" alt="" 
-                        
-                        
-                        loading="lazy"
-                    />
+                    <img src="/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg" loading="lazy" data-key="" data-hash="/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <header class="article-header">
-
-    <div class="article-details">
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="javascript:void(0);"></a>
-        </h2>
-    
-        
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Jan 01, 0001</time>
-            </div>
-        
-
-        
-    </footer>
-    
-
-    
-
-    
-</div> 
-</header><footer class="article-footer">
-    
-
-    </footer>
-
+            <h2 class="article-title">南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述</h2>
         </div>
     </a>
-</article> 
+</article>
+
             
                 
-<article class=" preview">
-    <a href="" class="article-link">
+<article class="has-image">
+    <a href="/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/">
+        
         
             <div class="article-image">
                 
-                    <img src="" data-src="" alt="" 
-                        
-                        
-                        loading="lazy"
-                    />
+                    <img src="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" loading="lazy" data-key="" data-hash="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <header class="article-header">
-
-    <div class="article-details">
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="javascript:void(0);"></a>
-        </h2>
-    
-        
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Jan 01, 0001</time>
-            </div>
-        
-
-        
-    </footer>
-    
-
-    
-
-    
-</div> 
-</header><footer class="article-footer">
-    
-
-    </footer>
-
+            <h2 class="article-title">智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</h2>
         </div>
     </a>
-</article> 
+</article>
+
             
         </div>
     </div>

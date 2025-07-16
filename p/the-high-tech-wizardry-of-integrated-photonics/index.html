@@ -14,6 +14,51 @@
 <meta name="twitter:title" content="The high-tech wizardry of integrated photonics">
 <meta name="twitter:description" content="7岁的Sabrina Corsetti受《哈利·波特》和迪士尼频道节目《魔法学校》启发，决定成为一名物理学家，目前在麻省理工学院攻读电气工程和计算机科学研究生学位。她的研究领域是集成光子学，致力于构建能够通过光路由而不是电路路由的计算机芯片，为通信和传感等应用提供紧凑且可扩展的解决方案。她的研究团队开发了基于芯片的3D打印机和微型“牵引光束”，并参与困离子量子计算项目。\n">
 <style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
     .original-source,
     .original-summary {
         margin-top: 2rem;
@@ -42,6 +87,50 @@
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
         <style>
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
             .article-modal {
                 display: none;
                 position: fixed;
@@ -135,7 +224,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-15">
+            <input type="date" id="date-select" value="2025-07-16">
         </div>
     </div>
 </div>

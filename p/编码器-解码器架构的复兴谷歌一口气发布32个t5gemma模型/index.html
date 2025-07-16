@@ -14,6 +14,51 @@
 <meta name="twitter:title" content="编码器-解码器架构的复兴？谷歌一口气发布32个T5Gemma模型">
 <meta name="twitter:description" content="谷歌发布了一系列用于健康 AI 开发的多模态模型MedGemma，能够根据医疗图像和文本描述辅助诊断并提供医疗建议。而重点是谷歌发布的编码器-解码器架构的Gemmaseries模型T5Gemma，通过适应技术将已完成预训练的仅解码器模型转换为编码器-解码器架构，表现出色，提供了多种大小的编码器与解码器配置。\n">
 <style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
     .original-source,
     .original-summary {
         margin-top: 2rem;
@@ -42,6 +87,50 @@
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
         <style>
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
             .article-modal {
                 display: none;
                 position: fixed;
@@ -135,7 +224,7 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-15">
+            <input type="date" id="date-select" value="2025-07-16">
         </div>
     </div>
 </div>
