@@ -73,7 +73,24 @@ def safe_filename(name):
 
 # 计算内容的MD5哈希值，用于去重
 def get_content_hash(content):
-    return hashlib.md5(content.encode('utf-8')).hexdigest()
+    # 移除图片引用行（如 ![标题](/images/articles/xxx.jpg)）
+    content_without_images = re.sub(r'!\[.*?\]\(.*?\)\s*\n*', '', content)
+    # 移除前置和尾随空白字符
+    content_without_images = content_without_images.strip()
+    # 规范化换行符
+    content_without_images = re.sub(r'\r\n', '\n', content_without_images)
+    # 移除多余空行
+    content_without_images = re.sub(r'\n{2,}', '\n\n', content_without_images)
+    
+    # 对于极短的内容，添加一个前缀以避免哈希碰撞
+    if len(content_without_images) < 10:
+        content_without_images = f"short_content:{content_without_images}"
+    
+    return hashlib.md5(content_without_images.encode('utf-8')).hexdigest()
+
+# 检查是否为图片引用行
+def is_image_line(line):
+    return bool(re.match(r'!\[.*?\]\(.*?\)', line.strip()))
 
 # 计算标题的哈希值，用于检测相同标题的文章
 def get_title_hash(title):
@@ -88,7 +105,7 @@ def get_previous_day_folder():
     return os.path.join(target_root, yesterday_safe)
 
 # 收集已存在的文章信息，包括内容哈希和标题哈希
-def collect_existing_articles_info(days=7):
+def collect_existing_articles_info(days=30):  # 增加默认天数到30天
     content_hash_set = set()  # 内容哈希集合
     title_hash_map = {}       # 标题哈希 -> 文件夹路径的映射
     
@@ -109,24 +126,46 @@ def collect_existing_articles_info(days=7):
                         with open(index_path, 'r', encoding='utf-8') as f:
                             content = f.read()
                             
-                            # 提取标题
-                            title_match = re.search(r"title\s*=\s*'([^']*)'", content)
+                            # 提取标题 - 支持单引号和双引号格式
+                            title_match = re.search(r"title\s*=\s*['\"]([^'\"]*)['\"]", content) or re.search(r"title:\s*['\"](.*?)['\"]", content)
                             if title_match:
                                 title = title_match.group(1)
                                 title_hash = get_title_hash(title)
                                 # 保存标题哈希和对应的文件夹路径
                                 title_hash_map[title_hash] = os.path.dirname(index_path)
+                                
+                                # 打印调试信息，记录找到的标题
+                                print(f"📝 已收集标题: {title}")
                             
-                            # 提取正文部分（去除front matter）
-                            content_match = re.search(r'^\+\+\+\n.*?\+\+\+\n(.*)', content, re.DOTALL)
+                            # 提取正文部分（去除front matter）并过滤图片引用
+                            # 支持两种格式的front matter：+++...+++ 和 ---...---
+                            content_match = re.search(r'(?:---|\+\+\+)\n.*?(?:---|\+\+\+)\n(.*)', content, re.DOTALL)
                             if content_match:
                                 content_body = content_match.group(1)
-                                content_hash = get_content_hash(content_body)
+                                # 移除所有图片引用行
+                                filtered_lines = []
+                                for line in content_body.split('\n'):
+                                    if not is_image_line(line):
+                                        filtered_lines.append(line)
+                                filtered_content = '\n'.join(filtered_lines).strip()
+                                
+                                content_hash = get_content_hash(filtered_content)
                                 content_hash_set.add(content_hash)
+                                
+                                # 打印调试信息
+                                print(f"  - 内容哈希: {content_hash[:8]}...")
                     except Exception as e:
                         print(f"读取文件失败 {index_path}: {e}")
     
     print(f"已收集 {len(content_hash_set)} 个现有内容哈希值和 {len(title_hash_map)} 个标题哈希值用于去重")
+    
+    # 输出部分标题哈希值用于调试
+    print("部分标题哈希样本:")
+    sample_count = min(5, len(title_hash_map))
+    sample_titles = list(title_hash_map.items())[:sample_count]
+    for title_hash, path in sample_titles:
+        print(f"  {title_hash[:8]}... -> {os.path.basename(path)}")
+    
     return content_hash_set, title_hash_map
 
 # 检查当天文件夹中是否存在重复文章，如果有则删除
@@ -148,8 +187,8 @@ def remove_duplicates_in_today_folder(today_folder):
                     with open(index_path, 'r', encoding='utf-8') as f:
                         content = f.read()
                         
-                        # 提取标题
-                        title_match = re.search(r"title\s*=\s*'([^']*)'", content)
+                        # 提取标题 - 支持单引号和双引号格式
+                        title_match = re.search(r"title\s*=\s*['\"]([^'\"]*)['\"]", content) or re.search(r"title:\s*['\"](.*?)['\"]", content)
                         if title_match:
                             title = title_match.group(1)
                             title_hash = get_title_hash(title)
@@ -161,11 +200,18 @@ def remove_duplicates_in_today_folder(today_folder):
                                 continue
                             title_hashes[title_hash] = item_path
                         
-                        # 提取正文部分
-                        content_match = re.search(r'^\+\+\+\n.*?\+\+\+\n(.*)', content, re.DOTALL)
+                        # 提取正文部分（去除front matter）
+                        content_match = re.search(r'(?:---|\+\+\+)\n.*?(?:---|\+\+\+)\n(.*)', content, re.DOTALL)
                         if content_match:
                             content_body = content_match.group(1)
-                            content_hash = get_content_hash(content_body)
+                            # 移除所有图片引用行
+                            filtered_lines = []
+                            for line in content_body.split('\n'):
+                                if not is_image_line(line):
+                                    filtered_lines.append(line)
+                            filtered_content = '\n'.join(filtered_lines).strip()
+                            
+                            content_hash = get_content_hash(filtered_content)
                             
                             # 检查内容是否重复
                             if content_hash in content_hashes:
@@ -201,6 +247,30 @@ def get_next_article_index(folder_path):
                     max_index = current_index
     return max_index + 1
 
+# 持久性哈希存储的路径
+HASH_STORE_PATH = os.path.join(hugo_project_path, "spiders", "ai_news", "article_hashes.json")
+
+# 加载持久性哈希存储
+def load_hash_store():
+    if os.path.exists(HASH_STORE_PATH):
+        try:
+            with open(HASH_STORE_PATH, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"⚠️ 加载哈希存储失败: {e}")
+            return {"title_hashes": {}, "content_hashes": []}
+    else:
+        return {"title_hashes": {}, "content_hashes": []}
+
+# 保存持久性哈希存储
+def save_hash_store(hash_store):
+    try:
+        with open(HASH_STORE_PATH, 'w', encoding='utf-8') as f:
+            json.dump(hash_store, f, ensure_ascii=False, indent=2)
+        print(f"✅ 哈希存储已更新: {len(hash_store['content_hashes'])} 内容哈希, {len(hash_store['title_hashes'])} 标题哈希")
+    except Exception as e:
+        print(f"❌ 保存哈希存储失败: {e}")
+
 def generate_daily_news_folders():
     today = datetime.now(TARGET_TIMEZONE).strftime('%Y-%m-%d')
     today_safe = today.replace('-', '_')
@@ -221,6 +291,16 @@ def generate_daily_news_folders():
 
     # 收集已存在的文章信息
     existing_content_hashes, existing_title_hash_map = collect_existing_articles_info()
+    
+    # 加载持久性哈希存储，合并到现有哈希中
+    hash_store = load_hash_store()
+    for content_hash in hash_store["content_hashes"]:
+        existing_content_hashes.add(content_hash)
+    for title_hash, path in hash_store["title_hashes"].items():
+        if title_hash not in existing_title_hash_map:  # 不覆盖已有路径
+            existing_title_hash_map[title_hash] = path
+    
+    print(f"合并持久性存储后: {len(existing_content_hashes)} 内容哈希, {len(existing_title_hash_map)} 标题哈希")
 
     summary_jsonl = find_latest_summary_jsonl()
     if not summary_jsonl or not os.path.exists(summary_jsonl):
@@ -251,14 +331,32 @@ def generate_daily_news_folders():
         source = article.get('source', '未知来源') # 获取来源
         author = article.get('author', '未知作者') # 获取作者
 
+        # 对于没有摘要的文章，生成一个默认摘要
+        if not summary:
+            summary = "暂无摘要"
+
         # 检查标题和内容是否重复
-        content_for_hash = summary + original_content
+        original_content = original_content if original_content else ""
+        # 摘要和原内容拼接作为内容哈希的基础
+        content_for_hash = f"**摘要**: {summary}\n\n{original_content}"
+        
+        # 打印完整的待哈希内容进行调试
+        content_preview = content_for_hash[:50] + "..." if len(content_for_hash) > 50 else content_for_hash
+        print(f"📄 待哈希内容预览: {content_preview}")
+        
+        # 计算哈希值
         content_hash = get_content_hash(content_for_hash)
-        # 检查标题是否重复
         title_hash = get_title_hash(title)
+        
+        # 打印调试信息
+        print(f"🔍 检查文章: {title}")
+        print(f"  - 标题哈希: {title_hash[:8]}...")
+        print(f"  - 内容哈希: {content_hash[:8]}...")
+        
         # 检查内容是否重复
         if content_hash in existing_content_hashes:
             print(f"⏭️ 跳过重复内容: {title}")
+            print(f"  内容哈希 {content_hash[:8]}... 已存在")
             skipped_articles += 1
             continue
         if content_hash in today_content_hashes:
@@ -311,6 +409,32 @@ link: '{url}'
         today_content_hashes.add(content_hash)
         today_title_hashes.add(title_hash)
         next_article_index += 1
+
+    # 更新持久性哈希存储
+    new_hash_store = {
+        "title_hashes": {},
+        "content_hashes": []
+    }
+    
+    # 保存当天生成的所有哈希
+    for title_hash in today_title_hashes:
+        if title_hash in existing_title_hash_map:
+            new_hash_store["title_hashes"][title_hash] = existing_title_hash_map[title_hash]
+    
+    # 添加新生成的内容哈希
+    new_hash_store["content_hashes"] = list(today_content_hashes)
+    
+    # 合并现有的持久性存储
+    for title_hash, path in hash_store["title_hashes"].items():
+        if title_hash not in new_hash_store["title_hashes"]:
+            new_hash_store["title_hashes"][title_hash] = path
+    
+    for content_hash in hash_store["content_hashes"]:
+        if content_hash not in new_hash_store["content_hashes"]:
+            new_hash_store["content_hashes"].append(content_hash)
+    
+    # 保存更新后的哈希存储
+    save_hash_store(new_hash_store)
 
     print("\n--- 处理结果 ---")
     print(f"总共文章数: {total_articles}")

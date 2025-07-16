@@ -1,4 +1,4 @@
-/* 文章卡片样式 */
+/* 基本文章卡片样式 */
 article {
     position: relative;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -14,41 +14,64 @@ article:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* 标签样式 - 放大版 */
+/* 文章标签样式 */
 .article-tags-list-item a {
-    font-size: 1.3rem !important; /* 适中字体 */
-    padding: 0.4rem 1rem !important; /* 适中内边距 */
-    font-weight: 500 !important; /* 字体粗细 */
-    display: inline-block;
-    background: var(--tertiary-background-color, #f0f0f0);
-    color: var(--secondary-text-color, #333);
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.2s, color 0.2s;
+    font-size: 0.9rem !important;
+    padding: 0.25rem 0.75rem !important;
+    font-weight: normal !important;
+    display: inline-block !important;
+    background: var(--tertiary-background-color, #f0f0f0) !important;
+    color: var(--secondary-text-color, #333) !important;
+    border-radius: 4px !important;
+    text-decoration: none !important;
+    transition: background-color 0.2s, color 0.2s !important;
 }
 
 .article-tags-list-item a:hover {
-    background: var(--theme-color, #0066cc);
-    color: #ffffff;
+    background: var(--theme-color, #0066cc) !important;
+    color: #ffffff !important;
 }
 
 /* 文章标签容器 */
 .article-tags {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 1rem;
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    margin-top: 1rem !important;
 }
 
 .article-tags-list {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    gap: 0.8rem;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    gap: 0.5rem !important;
 }
 
 .article-tags-list-item {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem !important;
+}
+
+/* 确保文章网格布局正常 */
+.article-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 30px !important;
+    margin-top: 30px !important;
+    padding: 0 20px !important;
+    counter-reset: article-counter !important;
+}
+
+/* 响应式调整 */
+@media (max-width: 1200px) {
+    .article-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .article-grid {
+        grid-template-columns: 1fr !important;
+    }
 } 
