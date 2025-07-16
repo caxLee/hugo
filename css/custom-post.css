@@ -75,3 +75,45 @@ article:hover {
         grid-template-columns: 1fr !important;
     }
 } 
+
+/* 文章内容图片样式 */
+.article-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+}
+
+/* 图片容器样式 */
+.article-image-container {
+    margin: 1rem 0 2rem;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.article-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 图片加载失败样式 */
+img.error {
+    background-color: #f5f5f5;
+    min-height: 200px;
+    border: 1px dashed #ccc;
+    position: relative;
+}
+
+/* 修复favicon错误导致的问题 */
+link[rel="icon"][href=""] {
+    display: none;
+}
+
+/* 修复外部链接错误 */
+img[src*="dh.summer5188.com"] {
+    display: none !important;
+} 
