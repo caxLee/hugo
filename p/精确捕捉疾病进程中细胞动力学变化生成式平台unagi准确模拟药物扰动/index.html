@@ -10,7 +10,7 @@
 <meta property='og:description' content="UNAGI是一种生成式平台，能准确模拟疾病进程中的细胞动力学变化和药物扰动效果。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。">
 <meta property='og:url' content='https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='具身智能' /><meta property='article:published_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='具身智能' /><meta property='article:published_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png' />
 <meta name="twitter:title" content="精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动">
 <meta name="twitter:description" content="UNAGI是一种生成式平台，能准确模拟疾病进程中的细胞动力学变化和药物扰动效果。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png' />
@@ -100,6 +100,7 @@
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        
         <style>
              
             .custom-horizontal-layout {
@@ -145,6 +146,7 @@
                 }
             }
             
+             
             .article-tags {
                 margin-top: 1rem;
             }
@@ -157,20 +159,7 @@
                 gap: 0.5rem;
             }
              
-            .article-tags .article-tags-list-item a {
-                display: inline-block;
-                background: var(--tertiary-background-color);
-                color: var(--secondary-text-color);
-                padding: 0.25rem 0.75rem;
-                border-radius: var(--card-border-radius);
-                font-size: 0.875rem;
-                text-decoration: none;
-                transition: background-color 0.2s, color 0.2s;
-            }
-            .article-tags .article-tags-list-item a:hover {
-                background: var(--theme-color);
-                color: var(--background-color);
-            }
+             
         </style>
     </head>
     <body class="
@@ -198,7 +187,104 @@
         }
     })();
 </script>
-<div class="top-header">
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+</style>
+
+<div class="top-header-fixed">
     <div class="top-header-container">
         <div class="ai-news-logo">
             <span class="ai-news-emoji">🍥</span>
@@ -212,32 +298,56 @@
         </div>
     </div>
 </div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('date-select');
-    const cards = document.querySelectorAll('.article-card');
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
     const today = new Date().toISOString().slice(0, 10);
-
-    function filterPosts(isInitialLoad = false) {
-      let val = select.value;
-
-      if (isInitialLoad) {
-        select.value = today;
-        val = today;
+    
+    
+    function filterArticles(initialLoad = false) {
+      
+      let selectedDate = dateSelector.value;
+      
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
       }
-
-      cards.forEach(card => {
-        if (!val) {
+      
+      
+      articleCards.forEach(function(card) {
+        
+        if (!selectedDate) {
           card.style.display = '';
         } else {
-          card.style.display = card.dataset.date === val ? '' : 'none';
+          
+          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
         }
       });
     }
-
-    select.addEventListener('change', () => filterPosts(false));
-    filterPosts(true);
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
   });
+})();
 </script> <div class="container main-container">
             <main class="main full-width">
     <article class="">
@@ -335,6 +445,9 @@
 	
 	
 ></p>
+<blockquote>
+<p>来源: <a class="link" href="https://www.jiqizhixin.com/articles/2025-07-15-6"  target="_blank" rel="noopener"
+    >未知来源</a> | 作者: 未知作者</p></blockquote>
 <p><strong>摘要</strong>: UNAGI是一种生成式平台，能准确模拟疾病进程中的细胞动力学变化和药物扰动效果。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。</p>
 </section>
     
@@ -401,25 +514,6 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg" loading="lazy" data-key="" data-hash="/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/">
         
         
@@ -438,38 +532,39 @@
 
             
                 
-<article class="has-image">
-    <a href="/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/">
+<article class="">
+    <a href="/p/a-new-platform-for-developing-advanced-metals-at-scale/">
         
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" loading="lazy" data-key="" data-hash="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg"/>
-                
-            </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</h2>
+            <h2 class="article-title">A new platform for developing advanced metals at scale</h2>
         </div>
     </a>
 </article>
 
             
                 
-<article class="has-image">
-    <a href="/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/">
+<article class="">
+    <a href="/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/">
         
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/413d071c-81d5-4931-a83d-370949a84599.png" loading="lazy" data-key="" data-hash="/images/articles/413d071c-81d5-4931-a83d-370949a84599.png"/>
-                
-            </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</h2>
+            <h2 class="article-title">模拟3D分子编辑，北大高毅勤团队开发整合物理信息和偏好对齐的MolEdit，登Nature子刊</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">告别Transformer！北大、北邮、华为开源纯卷积DiC：3x3卷积实现SOTA性能，比DiT快5倍！</h2>
         </div>
     </a>
 </article>

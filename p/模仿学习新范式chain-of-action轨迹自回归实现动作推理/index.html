@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Chain-of-Action提出轨迹自回归机器人操作策略，从关键帧逆向生成动作序列，强化全局-局部约束，提升泛化性。实验显示CoA在模拟和真实环境中显著超越传统方法，为具身智能领域带来新思路。">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Chain-of-Action提出轨迹自回归机器人操作策略，解决累计误差问题，显著提升空间泛化能力。实验结果显示在模拟和真实环境中明显优于传统方法。">
 <title>模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理</title>
 
 <link rel='canonical' href='https://caxlee.github.io/p/%E6%A8%A1%E4%BB%BF%E5%AD%A6%E4%B9%A0%E6%96%B0%E8%8C%83%E5%BC%8Fchain-of-action%E8%BD%A8%E8%BF%B9%E8%87%AA%E5%9B%9E%E5%BD%92%E5%AE%9E%E7%8E%B0%E5%8A%A8%E4%BD%9C%E6%8E%A8%E7%90%86/'>
 
 <link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理">
-<meta property='og:description' content="Chain-of-Action提出轨迹自回归机器人操作策略，从关键帧逆向生成动作序列，强化全局-局部约束，提升泛化性。实验显示CoA在模拟和真实环境中显著超越传统方法，为具身智能领域带来新思路。">
+<meta property='og:description' content="Chain-of-Action提出轨迹自回归机器人操作策略，解决累计误差问题，显著提升空间泛化能力。实验结果显示在模拟和真实环境中明显优于传统方法。">
 <meta property='og:url' content='https://caxlee.github.io/p/%E6%A8%A1%E4%BB%BF%E5%AD%A6%E4%B9%A0%E6%96%B0%E8%8C%83%E5%BC%8Fchain-of-action%E8%BD%A8%E8%BF%B9%E8%87%AA%E5%9B%9E%E5%BD%92%E5%AE%9E%E7%8E%B0%E5%8A%A8%E4%BD%9C%E6%8E%A8%E7%90%86/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='具身智能' /><meta property='article:published_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/aff0fd25-c252-4c38-b99d-679d1f1c6b09.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='具身智能' /><meta property='article:published_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/9eb3be2d-d2a3-4e7c-8375-9922e00e6d7a.jpg' />
 <meta name="twitter:title" content="模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理">
-<meta name="twitter:description" content="Chain-of-Action提出轨迹自回归机器人操作策略，从关键帧逆向生成动作序列，强化全局-局部约束，提升泛化性。实验显示CoA在模拟和真实环境中显著超越传统方法，为具身智能领域带来新思路。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://caxlee.github.io/images/articles/aff0fd25-c252-4c38-b99d-679d1f1c6b09.jpg' />
+<meta name="twitter:description" content="Chain-of-Action提出轨迹自回归机器人操作策略，解决累计误差问题，显著提升空间泛化能力。实验结果显示在模拟和真实环境中明显优于传统方法。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/images/articles/9eb3be2d-d2a3-4e7c-8375-9922e00e6d7a.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -100,6 +100,7 @@
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        
         <style>
              
             .custom-horizontal-layout {
@@ -145,6 +146,7 @@
                 }
             }
             
+             
             .article-tags {
                 margin-top: 1rem;
             }
@@ -157,20 +159,7 @@
                 gap: 0.5rem;
             }
              
-            .article-tags .article-tags-list-item a {
-                display: inline-block;
-                background: var(--tertiary-background-color);
-                color: var(--secondary-text-color);
-                padding: 0.25rem 0.75rem;
-                border-radius: var(--card-border-radius);
-                font-size: 0.875rem;
-                text-decoration: none;
-                transition: background-color 0.2s, color 0.2s;
-            }
-            .article-tags .article-tags-list-item a:hover {
-                background: var(--theme-color);
-                color: var(--background-color);
-            }
+             
         </style>
     </head>
     <body class="
@@ -198,7 +187,104 @@
         }
     })();
 </script>
-<div class="top-header">
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+</style>
+
+<div class="top-header-fixed">
     <div class="top-header-container">
         <div class="ai-news-logo">
             <span class="ai-news-emoji">🍥</span>
@@ -212,32 +298,56 @@
         </div>
     </div>
 </div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('date-select');
-    const cards = document.querySelectorAll('.article-card');
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
     const today = new Date().toISOString().slice(0, 10);
-
-    function filterPosts(isInitialLoad = false) {
-      let val = select.value;
-
-      if (isInitialLoad) {
-        select.value = today;
-        val = today;
+    
+    
+    function filterArticles(initialLoad = false) {
+      
+      let selectedDate = dateSelector.value;
+      
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
       }
-
-      cards.forEach(card => {
-        if (!val) {
+      
+      
+      articleCards.forEach(function(card) {
+        
+        if (!selectedDate) {
           card.style.display = '';
         } else {
-          card.style.display = card.dataset.date === val ? '' : 'none';
+          
+          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
         }
       });
     }
-
-    select.addEventListener('change', () => filterPosts(false));
-    filterPosts(true);
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
   });
+})();
 </script> <div class="container main-container">
             <main class="main full-width">
     <article class="">
@@ -245,7 +355,7 @@
         <div class="article-image">
             <a href="javascript:void(0);">
                 
-                    <img src="/images/articles/aff0fd25-c252-4c38-b99d-679d1f1c6b09.jpg" loading="lazy" alt="Featured image of post 模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理" />
+                    <img src="/images/articles/9eb3be2d-d2a3-4e7c-8375-9922e00e6d7a.jpg" loading="lazy" alt="Featured image of post 模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理" />
                 
             </a>
         </div>
@@ -313,7 +423,7 @@
 </header>
     
     <section class="article-content">
-    <p><img src="/images/articles/aff0fd25-c252-4c38-b99d-679d1f1c6b09.jpg"
+    <p><img src="/images/articles/9eb3be2d-d2a3-4e7c-8375-9922e00e6d7a.jpg"
 	
 	
 	
@@ -323,7 +433,7 @@
 	
 	
 ></p>
-<p><strong>摘要</strong>: Chain-of-Action提出轨迹自回归机器人操作策略，从关键帧逆向生成动作序列，强化全局-局部约束，提升泛化性。实验显示CoA在模拟和真实环境中显著超越传统方法，为具身智能领域带来新思路。</p>
+<p><strong>摘要</strong>: Chain-of-Action提出轨迹自回归机器人操作策略，解决累计误差问题，显著提升空间泛化能力。实验结果显示在模拟和真实环境中明显优于传统方法。</p>
 </section>
     
     <footer class="article-footer">

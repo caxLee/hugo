@@ -99,6 +99,7 @@
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        
         <style>
              
             .custom-horizontal-layout {
@@ -144,6 +145,7 @@
                 }
             }
             
+             
             .article-tags {
                 margin-top: 1rem;
             }
@@ -156,20 +158,7 @@
                 gap: 0.5rem;
             }
              
-            .article-tags .article-tags-list-item a {
-                display: inline-block;
-                background: var(--tertiary-background-color);
-                color: var(--secondary-text-color);
-                padding: 0.25rem 0.75rem;
-                border-radius: var(--card-border-radius);
-                font-size: 0.875rem;
-                text-decoration: none;
-                transition: background-color 0.2s, color 0.2s;
-            }
-            .article-tags .article-tags-list-item a:hover {
-                background: var(--theme-color);
-                color: var(--background-color);
-            }
+             
         </style>
     </head>
     <body class="
@@ -197,7 +186,104 @@
         }
     })();
 </script>
-<div class="top-header">
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+</style>
+
+<div class="top-header-fixed">
     <div class="top-header-container">
         <div class="ai-news-logo">
             <span class="ai-news-emoji">🍥</span>
@@ -211,32 +297,56 @@
         </div>
     </div>
 </div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('date-select');
-    const cards = document.querySelectorAll('.article-card');
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
     const today = new Date().toISOString().slice(0, 10);
-
-    function filterPosts(isInitialLoad = false) {
-      let val = select.value;
-
-      if (isInitialLoad) {
-        select.value = today;
-        val = today;
+    
+    
+    function filterArticles(initialLoad = false) {
+      
+      let selectedDate = dateSelector.value;
+      
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
       }
-
-      cards.forEach(card => {
-        if (!val) {
+      
+      
+      articleCards.forEach(function(card) {
+        
+        if (!selectedDate) {
           card.style.display = '';
         } else {
-          card.style.display = card.dataset.date === val ? '' : 'none';
+          
+          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
         }
       });
     }
-
-    select.addEventListener('change', () => filterPosts(false));
-    filterPosts(true);
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
   });
+})();
 </script> <div class="container main-container">
             <main class="main full-width">
     <article class="">
@@ -371,7 +481,7 @@
         
             <div class="article-image">
                 
-                    <img src="/images/articles/ef783dab-c904-4aec-a20d-c704f46b5c01.jpg" loading="lazy" data-key="" data-hash="/images/articles/ef783dab-c904-4aec-a20d-c704f46b5c01.jpg"/>
+                    <img src="/images/articles/048ce874-7c0f-4ce9-861c-6f4c6b6f8862.jpg" loading="lazy" data-key="" data-hash="/images/articles/048ce874-7c0f-4ce9-861c-6f4c6b6f8862.jpg"/>
                 
             </div>
         
@@ -385,18 +495,37 @@
             
                 
 <article class="has-image">
-    <a href="/p/icml-2025-m-%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/">
+    <a href="/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg" loading="lazy" data-key="" data-hash="/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg"/>
+                    <img src="/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" loading="lazy" data-key="" data-hash="/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制</h2>
+            <h2 class="article-title">New AI system uncovers hidden cell subtypes, boosts precision medicine</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E7%8E%BB%E8%89%B2%E5%AD%90%E9%87%87%E6%A0%B7%E5%9C%A8%E9%87%8F%E5%AD%90%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A2%86%E5%9F%9F%E9%A6%96%E6%AC%A1%E6%89%BE%E5%88%B0%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/articles/cf954a5c-65c7-41e8-a444-a4e9628ba7d6.png" loading="lazy" data-key="" data-hash="/images/articles/cf954a5c-65c7-41e8-a444-a4e9628ba7d6.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">玻色子采样在量子人工智能领域首次找到实际应用</h2>
         </div>
     </a>
 </article>
@@ -416,25 +545,6 @@
 
         <div class="article-details">
             <h2 class="article-title">ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%8199.9%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" loading="lazy" data-key="" data-hash="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</h2>
         </div>
     </a>
 </article>

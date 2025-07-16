@@ -99,6 +99,7 @@
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        
         <style>
              
             .custom-horizontal-layout {
@@ -144,6 +145,7 @@
                 }
             }
             
+             
             .article-tags {
                 margin-top: 1rem;
             }
@@ -156,20 +158,7 @@
                 gap: 0.5rem;
             }
              
-            .article-tags .article-tags-list-item a {
-                display: inline-block;
-                background: var(--tertiary-background-color);
-                color: var(--secondary-text-color);
-                padding: 0.25rem 0.75rem;
-                border-radius: var(--card-border-radius);
-                font-size: 0.875rem;
-                text-decoration: none;
-                transition: background-color 0.2s, color 0.2s;
-            }
-            .article-tags .article-tags-list-item a:hover {
-                background: var(--theme-color);
-                color: var(--background-color);
-            }
+             
         </style>
     </head>
     <body class="
@@ -197,7 +186,104 @@
         }
     })();
 </script>
-<div class="top-header">
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+</style>
+
+<div class="top-header-fixed">
     <div class="top-header-container">
         <div class="ai-news-logo">
             <span class="ai-news-emoji">🍥</span>
@@ -211,32 +297,56 @@
         </div>
     </div>
 </div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('date-select');
-    const cards = document.querySelectorAll('.article-card');
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
     const today = new Date().toISOString().slice(0, 10);
-
-    function filterPosts(isInitialLoad = false) {
-      let val = select.value;
-
-      if (isInitialLoad) {
-        select.value = today;
-        val = today;
+    
+    
+    function filterArticles(initialLoad = false) {
+      
+      let selectedDate = dateSelector.value;
+      
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
       }
-
-      cards.forEach(card => {
-        if (!val) {
+      
+      
+      articleCards.forEach(function(card) {
+        
+        if (!selectedDate) {
           card.style.display = '';
         } else {
-          card.style.display = card.dataset.date === val ? '' : 'none';
+          
+          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
         }
       });
     }
-
-    select.addEventListener('change', () => filterPosts(false));
-    filterPosts(true);
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
   });
+})();
 </script> <div class="container main-container">
             <main class="main full-width">
     <article class="">
@@ -393,25 +503,6 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png" loading="lazy" data-key="" data-hash="/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/">
         
         
@@ -431,18 +522,18 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/">
+    <a href="/p/deepmind%E8%AE%A9ai%E5%BD%93%E4%B8%8A%E5%B8%9D%E5%AF%BC%E6%BC%94%E4%B8%80%E5%9C%BA%E5%8F%AA%E6%9C%89ai%E6%BC%94%E5%91%98%E7%9A%84%E8%A5%BF%E9%83%A8%E4%B8%96%E7%95%8C/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg" loading="lazy" data-key="" data-hash="/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg"/>
+                    <img src="/images/articles/048ce874-7c0f-4ce9-861c-6f4c6b6f8862.jpg" loading="lazy" data-key="" data-hash="/images/articles/048ce874-7c0f-4ce9-861c-6f4c6b6f8862.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网</h2>
+            <h2 class="article-title">DeepMind让AI当「上帝」，导演一场只有AI演员的「西部世界」</h2>
         </div>
     </a>
 </article>
@@ -450,18 +541,37 @@
             
                 
 <article class="has-image">
-    <a href="/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/">
+    <a href="/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png" loading="lazy" data-key="" data-hash="/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png"/>
+                    <img src="/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG" loading="lazy" data-key="" data-hash="/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻</h2>
+            <h2 class="article-title">Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E6%89%93%E9%80%A0%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E4%BA%91%E5%B9%B3%E5%8F%B0%E4%B9%9D%E7%AB%A0%E4%BA%91%E6%9E%81%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E7%9A%84/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/articles/9943976d-eebf-43ad-a26f-809671a4a1b1.jpg" loading="lazy" data-key="" data-hash="/images/articles/9943976d-eebf-43ad-a26f-809671a4a1b1.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">打造全球首个强化学习云平台，九章云极是如何做到的？</h2>
         </div>
     </a>
 </article>

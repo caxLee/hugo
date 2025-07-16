@@ -10,7 +10,7 @@
 <meta property='og:description' content="POET通过谱不变原理重参数化LLM训练，保持权重谱结构，提升效率与稳定性。">
 <meta property='og:url' content='https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg' />
 <meta name="twitter:title" content="比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快">
 <meta name="twitter:description" content="POET通过谱不变原理重参数化LLM训练，保持权重谱结构，提升效率与稳定性。"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg' />
@@ -100,6 +100,7 @@
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        
         <style>
              
             .custom-horizontal-layout {
@@ -145,6 +146,7 @@
                 }
             }
             
+             
             .article-tags {
                 margin-top: 1rem;
             }
@@ -157,20 +159,7 @@
                 gap: 0.5rem;
             }
              
-            .article-tags .article-tags-list-item a {
-                display: inline-block;
-                background: var(--tertiary-background-color);
-                color: var(--secondary-text-color);
-                padding: 0.25rem 0.75rem;
-                border-radius: var(--card-border-radius);
-                font-size: 0.875rem;
-                text-decoration: none;
-                transition: background-color 0.2s, color 0.2s;
-            }
-            .article-tags .article-tags-list-item a:hover {
-                background: var(--theme-color);
-                color: var(--background-color);
-            }
+             
         </style>
     </head>
     <body class="
@@ -198,7 +187,104 @@
         }
     })();
 </script>
-<div class="top-header">
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+</style>
+
+<div class="top-header-fixed">
     <div class="top-header-container">
         <div class="ai-news-logo">
             <span class="ai-news-emoji">🍥</span>
@@ -212,32 +298,56 @@
         </div>
     </div>
 </div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('date-select');
-    const cards = document.querySelectorAll('.article-card');
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
     const today = new Date().toISOString().slice(0, 10);
-
-    function filterPosts(isInitialLoad = false) {
-      let val = select.value;
-
-      if (isInitialLoad) {
-        select.value = today;
-        val = today;
+    
+    
+    function filterArticles(initialLoad = false) {
+      
+      let selectedDate = dateSelector.value;
+      
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
       }
-
-      cards.forEach(card => {
-        if (!val) {
+      
+      
+      articleCards.forEach(function(card) {
+        
+        if (!selectedDate) {
           card.style.display = '';
         } else {
-          card.style.display = card.dataset.date === val ? '' : 'none';
+          
+          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
         }
       });
     }
-
-    select.addEventListener('change', () => filterPosts(false));
-    filterPosts(true);
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
   });
+})();
 </script> <div class="container main-container">
             <main class="main full-width">
     <article class="">
@@ -329,6 +439,9 @@
 	
 	
 ></p>
+<blockquote>
+<p>来源: <a class="link" href="https://www.jiqizhixin.com/articles/2025-07-15"  target="_blank" rel="noopener"
+    >未知来源</a> | 作者: 未知作者</p></blockquote>
 <p><strong>摘要</strong>: POET通过谱不变原理重参数化LLM训练，保持权重谱结构，提升效率与稳定性。</p>
 </section>
     
@@ -373,44 +486,6 @@
         <div class="flex article-list--tile">
             
                 
-<article class="has-image">
-    <a href="/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg" loading="lazy" data-key="" data-hash="/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg" loading="lazy" data-key="" data-hash="/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
 <article class="">
     <a href="/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/">
         
@@ -444,6 +519,32 @@
 
         <div class="article-details">
             <h2 class="article-title">Supporting mission-driven space innovation, for Earth and beyond</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/collaborating-with-the-force-of-nature/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Collaborating with the force of nature</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/implantable-device-could-save-diabetes-patients-from-dangerously/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Implantable device could save diabetes patients from dangerously low blood sugar</h2>
         </div>
     </a>
 </article>

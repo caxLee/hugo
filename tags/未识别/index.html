@@ -6,14 +6,59 @@
 
 <link rel='canonical' href='https://caxlee.github.io/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="Tag: 未识别 - Example Site">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Tag: 未识别 - Example Site">
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-15T20:57:04&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-16T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Tag: 未识别 - Example Site">
 <meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/index.xml">
 <style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
     .original-source,
     .original-summary {
         margin-top: 2rem;
@@ -37,42 +82,70 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        
         <style>
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
             }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
             }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
             }
-            body.modal-open {
-                overflow: hidden;
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
             }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
+             
             .article-tags {
                 margin-top: 1rem;
             }
@@ -84,20 +157,8 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
-            .article-tags .article-tags-list-item a {
-                display: inline-block;
-                background: var(--tertiary-background-color);
-                color: var(--secondary-text-color);
-                padding: 0.25rem 0.75rem;
-                border-radius: var(--card-border-radius);
-                font-size: 0.875rem;
-                text-decoration: none;
-                transition: background-color 0.2s, color 0.2s;
-            }
-            .article-tags .article-tags-list-item a:hover {
-                background: var(--theme-color);
-                color: var(--background-color);
-            }
+             
+             
         </style>
     </head>
     <body class=" simplified-layout">
@@ -123,7 +184,104 @@
         }
     })();
 </script>
-<div class="top-header">
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+</style>
+
+<div class="top-header-fixed">
     <div class="top-header-container">
         <div class="ai-news-logo">
             <span class="ai-news-emoji">🍥</span>
@@ -133,104 +291,85 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-15">
+            <input type="date" id="date-select" value="2025-07-16">
         </div>
     </div>
 </div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('date-select');
-    const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
-      cards.forEach(card => {
-        if (!val) {
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
+    const today = new Date().toISOString().slice(0, 10);
+    
+    
+    function filterArticles(initialLoad = false) {
+      
+      let selectedDate = dateSelector.value;
+      
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
+      }
+      
+      
+      articleCards.forEach(function(card) {
+        
+        if (!selectedDate) {
           card.style.display = '';
         } else {
-          card.style.display = card.dataset.date === val ? '' : 'none';
+          
+          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
   });
+})();
 </script> <div class="container main-container">
             <main class="main full-width">
+    <style>
+     
+    .article-list {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+    }
+    </style>
+    
     <header>
         <h1 class="section-title">未识别</h1>
-    </header><section class="article-grid">
+    </header><section class="article-list">
         
             
-<article class=" article-card" data-date="2025-07-15" data-url="/p/%E5%86%85%E9%83%A8%E7%88%86%E6%96%99alexandr-wang%E4%B8%8A%E4%BB%BB%E7%AC%AC%E4%B8%80%E6%8A%8A%E7%81%ABmeta%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%97%AD%E6%BA%90/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-4">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715">
     
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-4" target="_blank" rel="noopener noreferrer">内部爆料：Alexandr Wang上任第一把火，Meta大模型闭源</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                Meta可能转向闭源模型，Alexandr Wang领导的超级智能实验室讨论重大决策。公司内部就开源策略存在分歧，涉及强大AI模型「Behemoth」。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
-                            垂直大模型
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
-                            未识别
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-4" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG" loading="lazy" alt="Featured image of post Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92" />
+                
             </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-15" data-url="/p/iccv2025-%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F-%E5%88%A9%E7%94%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E6%8E%A2%E7%B4%A2%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-12-3">
+        </div>
     
 
     <div class="article-details">
@@ -238,13 +377,13 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-12-3" target="_blank" rel="noopener noreferrer">ICCV2025 | 多视图生成新范式-利用自回归模型探索多视图生成</a>
+                <a href="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715" target="_blank" rel="noopener noreferrer">Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92</a>
             </h2>
             
             
             
             <div class="article-summary">
-                MVAR是一种自回归生成多视图图像的方法，提高多视图一致性。解决了Diffusion模型的局限性，包括多模态条件控制和数据稀缺。采用多模态条件嵌入网络和ShufV数据增强策略优化生成质量。
+                MIT物理学荣誉教授Daniel Kleppner，92岁，因实验原子物理工作而备受推崇，对氢激光钟、Rydberg原子物理和Bose-Einstein凝聚做出重大贡献。他在MIT的37年职业生涯中领导了原子物理领域的发展，培养了一代又一代的物理学家。
             </div>
             
         </div>
@@ -261,12 +400,6 @@
 
 
                 <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
                     
                     <li class="article-tags-list-item">
                         <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
@@ -275,6 +408,12 @@
                     </li>
                     
                     <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
                         <a href="https://caxlee.github.io/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
                             未识别
                         </a>
@@ -284,16 +423,7 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-12-3" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
@@ -322,7 +452,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -335,11 +465,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 

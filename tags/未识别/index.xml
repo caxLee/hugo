@@ -7,21 +7,24 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 15 Jul 2025 20:57:04 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>ICCV2025 | 多视图生成新范式-利用自回归模型探索多视图生成</title>
-        <link>https://caxlee.github.io/p/iccv2025-%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F-%E5%88%A9%E7%94%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E6%8E%A2%E7%B4%A2%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90/</link>
-        <pubDate>Tue, 15 Jul 2025 20:57:04 +0800</pubDate>
+        <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92</title>
+        <link>https://caxlee.github.io/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/</link>
+        <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/iccv2025-%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F-%E5%88%A9%E7%94%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E6%8E%A2%E7%B4%A2%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90/</guid>
-        <description>&lt;p&gt;MVAR是一种自回归生成多视图图像的方法，提高多视图一致性。解决了Diffusion模型的局限性，包括多模态条件控制和数据稀缺。采用多模态条件嵌入网络和ShufV数据增强策略优化生成质量。&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>内部爆料：Alexandr Wang上任第一把火，Meta大模型闭源</title>
-        <link>https://caxlee.github.io/p/%E5%86%85%E9%83%A8%E7%88%86%E6%96%99alexandr-wang%E4%B8%8A%E4%BB%BB%E7%AC%AC%E4%B8%80%E6%8A%8A%E7%81%ABmeta%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%97%AD%E6%BA%90/</link>
-        <pubDate>Tue, 15 Jul 2025 20:57:04 +0800</pubDate>
-        
-        <guid>https://caxlee.github.io/p/%E5%86%85%E9%83%A8%E7%88%86%E6%96%99alexandr-wang%E4%B8%8A%E4%BB%BB%E7%AC%AC%E4%B8%80%E6%8A%8A%E7%81%ABmeta%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%97%AD%E6%BA%90/</guid>
-        <description>&lt;p&gt;Meta可能转向闭源模型，Alexandr Wang领导的超级智能实验室讨论重大决策。公司内部就开源策略存在分歧，涉及强大AI模型「Behemoth」。&lt;/p&gt;</description>
+        <guid>https://caxlee.github.io/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG" alt="Featured image of post Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: MIT物理学荣誉教授Daniel Kleppner，92岁，因实验原子物理工作而备受推崇，对氢激光钟、Rydberg原子物理和Bose-Einstein凝聚做出重大贡献。他在MIT的37年职业生涯中领导了原子物理领域的发展，培养了一代又一代的物理学家。&lt;/p&gt;
+</description>
         </item>
         
     </channel>
