@@ -3,6 +3,7 @@ import subprocess
 import sys
 from datetime import datetime
 import shutil
+import glob
 
 def run_command(command, cwd, silent=False):
     """在指定目录下运行命令并处理错误"""
@@ -34,6 +35,91 @@ def run_command(command, cwd, silent=False):
     except Exception as e:
         print(f"❌ 发生未知错误: {e}")
         return False, None
+
+def commit_content_to_main(hugo_source_path, token=None):
+    """将新生成的文章提交到main分支"""
+    print("\n--- 步骤4: 将新生成的文章提交到main分支 ---")
+    
+    # 获取今天的日期，用于查找新生成的文章目录
+    today = datetime.now().strftime('%Y_%m_%d')
+    content_dir = os.path.join(hugo_source_path, 'content', 'post')
+    
+    # 检查今天的文章目录是否存在
+    today_dir = os.path.join(content_dir, today)
+    if not os.path.isdir(today_dir):
+        print(f"❓ 未找到今天的文章目录: {today_dir}")
+        # 尝试查找最近的目录
+        all_dirs = glob.glob(os.path.join(content_dir, '20*_*_*'))
+        if all_dirs:
+            # 按修改时间排序，找出最近修改的目录
+            latest_dir = max(all_dirs, key=os.path.getmtime)
+            today_dir = latest_dir
+            today = os.path.basename(latest_dir)
+            print(f"✅ 找到最近的文章目录: {today_dir}")
+        else:
+            print("❌ 未找到任何文章目录，跳过提交")
+            return False
+    
+    # 配置Git
+    is_github_actions = os.environ.get('GITHUB_ACTIONS') == 'true'
+    if is_github_actions:
+        commit_email = os.getenv('GIT_COMMIT_EMAIL', 'github-actions[bot]@users.noreply.github.com')
+        commit_name = os.getenv('GIT_COMMIT_NAME', 'github-actions[bot]')
+        run_command(['git', 'config', 'user.email', commit_email], cwd=hugo_source_path)
+        run_command(['git', 'config', 'user.name', commit_name], cwd=hugo_source_path)
+    
+    # 添加新文章目录到暂存区
+    print(f"添加新文章目录到暂存区: {today_dir}")
+    run_command(['git', 'add', os.path.join('content', 'post', today)], cwd=hugo_source_path)
+    
+    # 检查是否有更改需要提交
+    success, status_output = run_command(['git', 'status', '--porcelain'], cwd=hugo_source_path, silent=True)
+    if not status_output:
+        print("✅ 没有检测到更改, 无需提交")
+        return False
+    
+    # 提交更改
+    commit_message = f"feat: 添加 {today} 的每日文章"
+    print(f"提交更改: {commit_message}")
+    success, _ = run_command(['git', 'commit', '-m', commit_message], cwd=hugo_source_path)
+    if not success:
+        print("❌ 提交失败")
+        return False
+    print("✅ 提交成功")
+    
+    # 仅在GitHub Actions中推送
+    if is_github_actions:
+        print("🚀 推送新文章到main分支...")
+        
+        if token:
+            # 获取当前远程仓库URL
+            success, remote_url = run_command(['git', 'remote', 'get-url', 'origin'], cwd=hugo_source_path, silent=True)
+            if success and remote_url:
+                # 解析仓库URL，添加token
+                if remote_url.startswith('https://'):
+                    # 从URL中提取owner/repo部分
+                    parts = remote_url.split('/')
+                    if len(parts) >= 5:
+                        owner_repo = f"{parts[-2]}/{parts[-1].replace('.git', '')}"
+                        auth_url = f"https://{token}@github.com/{owner_repo}.git"
+                        # 临时设置带认证的远程URL
+                        run_command(['git', 'remote', 'set-url', 'origin', auth_url], cwd=hugo_source_path, silent=True)
+        
+        success, _ = run_command(['git', 'push', 'origin', 'main'], cwd=hugo_source_path)
+        
+        # 如果设置了带认证的URL，恢复原始URL
+        if token and remote_url:
+            run_command(['git', 'remote', 'set-url', 'origin', remote_url], cwd=hugo_source_path, silent=True)
+            
+        if success:
+            print("🎉 成功推送新文章到main分支!")
+        else:
+            print("❌ 推送失败")
+            return False
+    else:
+        print("ℹ️ 在本地环境中跳过推送, 请手动执行 'git push'")
+    
+    return True
 
 def ensure_hugo_config(hugo_source_path):
     """确保Hugo配置文件存在"""
@@ -276,6 +362,12 @@ def main():
             sys.exit(1)
     else:
         print("ℹ️ 在本地环境中跳过推送, 请手动执行 'git push'")
+    
+    # --- 4. 将新生成的文章提交到main分支 ---
+    if is_github_actions:
+        # 获取token用于推送
+        token = os.getenv('GH_PAT')
+        commit_content_to_main(hugo_source_path, token)
 
 if __name__ == "__main__":
     main() 
