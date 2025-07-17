@@ -8,6 +8,25 @@
         <language>en</language>
         <copyright>Example Person</copyright>
         <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI</title>
+        <link>https://caxlee.github.io/hugo/p/acl-2025-oral-%E4%BD%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E6%90%AD%E5%AD%90%E4%B8%8A%E7%BA%BFevaluation-agent%E6%87%82%E4%BD%A0%E6%9B%B4%E6%87%82ai/</link>
+        <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/acl-2025-oral-%E4%BD%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E6%90%AD%E5%AD%90%E4%B8%8A%E7%BA%BFevaluation-agent%E6%87%82%E4%BD%A0%E6%9B%B4%E6%87%82ai/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/d284d80e-201e-4cb7-9e13-142074091e8a.jpg" alt="Featured image of post ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/d284d80e-201e-4cb7-9e13-142074091e8a.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Evaluation Agent是一个AI评估框架，可定制评估方案、高效评估、可解释结果。支持多轮交互评估，提升视觉生成模型评估效率和灵活性。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>New tool gives anyone the ability to train a robot</title>
         <link>https://caxlee.github.io/hugo/p/new-tool-gives-anyone-the-ability-to-train-a-robot/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
@@ -46,6 +65,25 @@
 </description>
         </item>
         <item>
+        <title>强化学习的两个「大坑」，终于被两篇ICLR论文给解决了</title>
+        <link>https://caxlee.github.io/hugo/p/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%A4%A7%E5%9D%91%E7%BB%88%E4%BA%8E%E8%A2%AB%E4%B8%A4%E7%AF%87iclr%E8%AE%BA%E6%96%87%E7%BB%99%E8%A7%A3%E5%86%B3%E4%BA%86/</link>
+        <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%A4%A7%E5%9D%91%E7%BB%88%E4%BA%8E%E8%A2%AB%E4%B8%A4%E7%AF%87iclr%E8%AE%BA%E6%96%87%E7%BB%99%E8%A7%A3%E5%86%B3%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/818c8397-3bcf-4055-b391-e127148da9c9.jpg" alt="Featured image of post 强化学习的两个「大坑」，终于被两篇ICLR论文给解决了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/818c8397-3bcf-4055-b391-e127148da9c9.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;强化学习的两个「大坑」，终于被两篇ICLR论文给解决了&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 两篇ICLR论文解决强化学习实时环境中的推理延迟和动作缺失问题。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>打造全球首个强化学习云平台，九章云极是如何做到的？</title>
         <link>https://caxlee.github.io/hugo/p/%E6%89%93%E9%80%A0%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E4%BA%91%E5%B9%B3%E5%8F%B0%E4%B9%9D%E7%AB%A0%E4%BA%91%E6%9E%81%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E7%9A%84/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
@@ -62,6 +100,25 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 九章云极发布全球首个强化学习云平台AgentiCTRL，支持万卡级异构算力调度，提升训练效率500%，成本降低60%。系统性重构强化学习训练流程，实现端到端闭环。九章云极构建智能体原生云生态，引领AI基础设施竞争。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>昨晚，云计算一哥打造了一套Agent落地的「金铲子」</title>
+        <link>https://caxlee.github.io/hugo/p/%E6%98%A8%E6%99%9A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%80%E5%93%A5%E6%89%93%E9%80%A0%E4%BA%86%E4%B8%80%E5%A5%97agent%E8%90%BD%E5%9C%B0%E7%9A%84%E9%87%91%E9%93%B2%E5%AD%90/</link>
+        <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E6%98%A8%E6%99%9A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%80%E5%93%A5%E6%89%93%E9%80%A0%E4%BA%86%E4%B8%80%E5%A5%97agent%E8%90%BD%E5%9C%B0%E7%9A%84%E9%87%91%E9%93%B2%E5%AD%90/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/096ab6f2-9e31-4d3b-b562-37ea36992052.jpg" alt="Featured image of post 昨晚，云计算一哥打造了一套Agent落地的「金铲子」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/096ab6f2-9e31-4d3b-b562-37ea36992052.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;昨晚，云计算一哥打造了一套Agent落地的「金铲子」&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 亚马逊云科技推出全新Agent解决方案，包括AgentCore架构和多模态模型支持。新技术加速AI转型，构建企业级Agent应用更高效。&lt;/p&gt;
 </description>
         </item>
         <item>
