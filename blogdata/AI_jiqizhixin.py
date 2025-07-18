@@ -6,6 +6,7 @@ import aiohttp
 import aiofiles
 import random
 import uuid  # 导入uuid模块
+from datetime import datetime
 from urllib.parse import urlparse
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
