@@ -123,8 +123,9 @@ async def main():
 
     async with async_playwright() as p, aiohttp.ClientSession() as session:
         # 在GitHub Actions中使用headless模式，本地开发可视化
-        browser = await p.chromium.launch(headless=is_github_actions, ignore_https_errors=True)
-        page = await browser.new_page()
+        browser = await p.chromium.launch(headless=is_github_actions)
+        context = await browser.new_context(ignore_https_errors=True)
+        page = await context.new_page()
         await page.goto("https://www.jiqizhixin.com/articles", timeout=60000)
 
         cards = await page.locator("div.article-card").all()
