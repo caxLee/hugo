@@ -72,6 +72,23 @@ def commit_content_to_main(hugo_source_path, token=None):
     print(f"添加新文章目录到暂存区: {today_dir}")
     run_command(['git', 'add', os.path.join('content', 'post', today)], cwd=hugo_source_path)
     
+    # 添加图片目录到暂存区
+    images_today_dir = os.path.join('static', 'images', 'articles', today)
+    if os.path.isdir(os.path.join(hugo_source_path, images_today_dir)):
+        print(f"添加今日图片目录到暂存区: {images_today_dir}")
+        run_command(['git', 'add', images_today_dir], cwd=hugo_source_path)
+    else:
+        print(f"⚠️ 未找到今日图片目录: {images_today_dir}")
+        # 查找最近添加的图片目录
+        all_image_dirs = glob.glob(os.path.join(hugo_source_path, 'static', 'images', 'articles', '20*_*_*'))
+        if all_image_dirs:
+            latest_image_dir = max(all_image_dirs, key=os.path.getmtime)
+            relative_image_path = os.path.relpath(latest_image_dir, hugo_source_path)
+            print(f"添加最近更新的图片目录到暂存区: {relative_image_path}")
+            run_command(['git', 'add', relative_image_path], cwd=hugo_source_path)
+        else:
+            print("⚠️ 未找到任何图片目录")
+    
     # 检查是否有更改需要提交
     success, status_output = run_command(['git', 'status', '--porcelain'], cwd=hugo_source_path, silent=True)
     if not status_output:
