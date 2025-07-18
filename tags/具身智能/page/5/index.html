@@ -6,14 +6,59 @@
 
 <link rel='canonical' href='https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/'>
 
-<link rel="stylesheet" href="/scss/style.min.d8f06f1a559043ebc9048922e8448e55e5aba6f88c1f542e48b455835d95e625.css"><meta property='og:title' content="Tag: 具身智能 - Example Site">
+<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Tag: 具身智能 - Example Site">
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-14T12:42:01&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-18T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Tag: 具身智能 - Example Site">
 <meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml">
 <style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
     .original-source,
     .original-summary {
         margin-top: 2rem;
@@ -37,42 +82,79 @@
     .original-summary {
         margin-top: 1rem;
     }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
 </style>
 
 
 <link rel="stylesheet" href="/css/custom-post.css"> 
+        
+        
+        
+        <script src="/js/error-handler.8dc719c1a043babbe09b0f36089636a3a4a68a346eac1f2e8d453f1c623caa19.js"></script>
+        
+        
+        
+        <script src="/js/image-handler.659826bdb2885010af835de7aa706f11ffb4c28026e87f9d9b3b9be00d7ab8a2.js"></script>
+        
+        
         <style>
-            .article-modal {
-                display: none;
-                position: fixed;
-                z-index: 1000;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0,0,0,0.4);
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
             }
-            .article-modal.is-active {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
             }
-            .modal-content-wrapper {
-                background-color: var(--card-background);
-                color: var(--card-text-color);
-                margin: auto;
-                padding: 20px;
-                border: 1px solid var(--border-color);
-                width: 80%;
-                max-width: 800px;
-                max-height: 80vh;
-                overflow-y: auto;
-                border-radius: var(--card-border-radius);
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
             }
-            body.modal-open {
-                overflow: hidden;
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
             }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
+             
             .article-tags {
                 margin-top: 1rem;
             }
@@ -84,20 +166,8 @@
                 flex-wrap: wrap;
                 gap: 0.5rem;
             }
-            .article-tags .article-tags-list-item a {
-                display: inline-block;
-                background: var(--tertiary-background-color);
-                color: var(--secondary-text-color);
-                padding: 0.25rem 0.75rem;
-                border-radius: var(--card-border-radius);
-                font-size: 0.875rem;
-                text-decoration: none;
-                transition: background-color 0.2s, color 0.2s;
-            }
-            .article-tags .article-tags-list-item a:hover {
-                background: var(--theme-color);
-                color: var(--background-color);
-            }
+             
+             
         </style>
     </head>
     <body class=" simplified-layout">
@@ -123,7 +193,104 @@
         }
     })();
 </script>
-<div class="top-header">
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+</style>
+
+<div class="top-header-fixed">
     <div class="top-header-container">
         <div class="ai-news-logo">
             <span class="ai-news-emoji">🍥</span>
@@ -133,35 +300,85 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-14">
+            <input type="date" id="date-select" value="2025-07-18">
         </div>
     </div>
 </div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('date-select');
-    const cards = document.querySelectorAll('.article-card');
-    function filterPosts() {
-      const val = select.value;
-      cards.forEach(card => {
-        if (!val) {
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
+    const today = new Date().toISOString().slice(0, 10);
+    
+    
+    function filterArticles(initialLoad = false) {
+      
+      let selectedDate = dateSelector.value;
+      
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
+      }
+      
+      
+      articleCards.forEach(function(card) {
+        
+        if (!selectedDate) {
           card.style.display = '';
         } else {
-          card.style.display = card.dataset.date === val ? '' : 'none';
+          
+          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
         }
       });
     }
-    select.addEventListener('change', filterPosts);
-    filterPosts();
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
   });
+})();
 </script> <div class="container main-container">
             <main class="main full-width">
+    <style>
+     
+    .article-list {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+    }
+    </style>
+    
     <header>
         <h1 class="section-title">具身智能</h1>
-    </header><section class="article-grid">
+    </header><section class="article-list">
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%87%AA%E9%A9%B1%E5%8A%A8%E6%9D%90%E6%96%99%E5%8F%91%E7%8E%B0%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%876%E5%80%8D%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96-calphad%E8%AE%A1%E7%AE%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-3">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://www.jiqizhixin.com/articles/2025-07-18-7">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-18-7" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/2025_07_18/001.jpg" loading="lazy" alt="Featured image of post 明天，围观学习ACL2025论文分享会，最后报名了" />
+                
+            </a>
+        </div>
     
 
     <div class="article-details">
@@ -169,15 +386,529 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-11-3" target="_blank" rel="noopener noreferrer">首次实现「自驱动」，材料发现效率提升6倍，贝叶斯优化&#43;CALPHAD计算的新方法</a>
+                <a href="https://www.jiqizhixin.com/articles/2025-07-18-7" target="_blank" rel="noopener noreferrer">明天，围观学习ACL2025论文分享会，最后报名了</a>
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    马里兰大学研究人员提出了自主材料搜索引擎（AMASE），通过实验和计算预测的自主驱动连续循环交互来探索材料，实现了快速绘制薄膜共晶相图。AMASE 运算令人兴奋的自然扩展包括整合其他类型的计算工作，以及在材料科学以外的研究领域中将线程式实验-理论循环耦合起来，展示了自主科学的实用性和影响力。
-                
+                ACL2025论文分享会将于7月27日-8月1日在维也纳举行，涵盖自然语言处理、大模型强化学习等前沿议题。Keynote包括ACL趋势展望和大模型复杂推理应用。
             </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://www.jiqizhixin.com/articles/2025-07-18-4">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-18-4" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/2025_07_18/004.png" loading="lazy" alt="Featured image of post 从IDC测评看AI上车：斑马智行全面领跑，破局座舱“伪智能”" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-18-4" target="_blank" rel="noopener noreferrer">从IDC测评看AI上车：斑马智行全面领跑，破局座舱“伪智能”</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                斑马智行在智能座舱领域全面领跑，通过大模型实现座舱体验升级，率先进入“真AI”时代。斑马元神AI大模型推动智能座舱实现全新AI体验，领先于行业发展阶段
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
+                            垂直大模型
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/2025_07_18/020.jpg" loading="lazy" alt="Featured image of post This “smart coach” helps LLMs switch between text and code" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717" target="_blank" rel="noopener noreferrer">This “smart coach” helps LLMs switch between text and code</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                CodeSteer是一款智能助手，帮助LLMs在文本和代码之间切换以解决符号任务，提高准确性超过30%。研究者设计了SymBench数据集，优化CodeSteer性能，使LLMs能够智能选择文本或代码解决问题。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://news.mit.edu/2025/helping-cities-evolve-vincent-rollet-0717">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/helping-cities-evolve-vincent-rollet-0717" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/2025_07_18/021.jpg" loading="lazy" alt="Featured image of post Helping cities evolve" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/helping-cities-evolve-vincent-rollet-0717" target="_blank" rel="noopener noreferrer">Helping cities evolve</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                Vincent Rollet, a PhD student at MIT, studies cities&#39; evolution and constraints. His research focuses on urban inefficiencies and policy impacts on …
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-13">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-16-13" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/32cff193-a85d-4fc2-809a-693991e4d432.jpg" loading="lazy" alt="Featured image of post 维也纳ACL 2025，相聚机器之心人才晚宴，免费约饭！" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-16-13" target="_blank" rel="noopener noreferrer">维也纳ACL 2025，相聚机器之心人才晚宴，免费约饭！</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                维也纳ACL 2025举办AI人才晚宴，包括青年学者Talk和企业岗位展示，旨在探讨前沿技术与人才发展。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-16" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/6b9ba320-44b0-4b64-b08e-e37808476617.jpg" loading="lazy" alt="Featured image of post 模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-16" target="_blank" rel="noopener noreferrer">模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                模仿学习新范式Chain-of-Action：轨迹自回归实现动作推理。研究提出基于轨迹自回归的机器人操作策略CoA，通过逆向生成动作序列解决累计误差问题，显著提升空间泛化能力。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-10">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-16-10" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/2a591937-da3c-4674-a71f-79b98f9941fd.png" loading="lazy" alt="Featured image of post 亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-16-10" target="_blank" rel="noopener noreferrer">亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                亚马逊云科技推出Kiro AI IDE，以结构化协作取代碎片式生成，助力开发者高效编码、设计、管理任务。Kiro具备全新范式和Hooks机制，实现需求转化、系统设计和自动执行，引领AI协作时代。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg" loading="lazy" alt="Featured image of post New tool gives anyone the ability to train a robot" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717" target="_blank" rel="noopener noreferrer">New tool gives anyone the ability to train a robot</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                新工具使任何人能够训练机器人，通过三种不同的训练方法，提供更灵活的培训选择。MIT工程师开发了多功能演示界面，可让机器人通过远程控制、物理操作或示范学习任务。该界面增加了培训灵活性，有助于扩大用户范围和机器人技能范围。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-3">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-16-3" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/5ed144b5-c552-461d-8e8c-917c7c4ac4f6.jpg" loading="lazy" alt="Featured image of post ICML 2025｜多模态理解与生成最新进展：港科联合SnapResearch发布ThinkDiff，为扩散模型装上大脑" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-16-3" target="_blank" rel="noopener noreferrer">ICML 2025｜多模态理解与生成最新进展：港科联合SnapResearch发布ThinkDiff，为扩散模型装上大脑</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                香港科技大学与Snap Research提出ThinkDiff，将多模态推理能力传递给扩散模型，实现高质量图像生成。
+            </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -200,8 +931,144 @@
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/amase/" class="article-tags-list-link">
-                            AMASE
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
+                            垂直大模型
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" loading="lazy" alt="Featured image of post New AI system uncovers hidden cell subtypes, boosts precision medicine" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711" target="_blank" rel="noopener noreferrer">New AI system uncovers hidden cell subtypes, boosts precision medicine</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                新AI系统揭示隐藏的细胞亚型，提升精准医学。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/413d071c-81d5-4931-a83d-370949a84599.png" loading="lazy" alt="Featured image of post 精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                UNAGI是一种生成式平台，能准确模拟疾病进程中的细胞动力学变化和药物扰动效果。通过深度学习方法，UNAGI构建虚拟细胞和疾病模型，揭示疾病机理并预测药物效果。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
                         </a>
                     </li>
                     
@@ -215,22 +1082,551 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-3" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-14">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png" loading="lazy" alt="Featured image of post 智能终端合辑 | WAIC 2025：AI赋能智能终端的产业革新" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">智能终端合辑 | WAIC 2025：AI赋能智能终端的产业革新</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                WAIC 2025聚焦AI赋能智能终端的产业革新，探讨具身智能、智能驾驶等领域的创新与挑战。展示大模型、具身智能机器人等前沿技术，推动智能终端操作系统革新。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg" loading="lazy" alt="Featured image of post 智能时代，同球共济！2025世界人工智能大会将于7月26日启幕" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">智能时代，同球共济！2025世界人工智能大会将于7月26日启幕</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                2025世界人工智能大会将于7月26日启幕，聚焦全球人工智能发展与治理，展示技术前沿和产业趋势。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" loading="lazy" alt="Featured image of post 智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                智源发布RoboBrain 2.0和RoboOS 2.0，刷新具身大脑基准，实现跨本体多机协作。RoboBrain 2.0突破空间理解、时间建模、长链推理瓶颈，RoboOS 2.0构建具身智能SaaS开源框架，推动群体智能发展。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" loading="lazy" alt="Featured image of post 央企牵头！这个AI开源社区要让大模型跑遍「中国芯」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">央企牵头！这个AI开源社区要让大模型跑遍「中国芯」</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                央企牵头的AI开源社区推出「模型推理适配协作计划」，旨在让大模型在国产芯片上顺利运行。社区提供工具中心和协作空间，促进模型与芯片的统一适配与性能优化。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg" loading="lazy" alt="Featured image of post 南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                具身智能关注机器人在物理世界中感知、推理与行动，物理模拟器与世界模型是关键推动力量。综述探讨它们如何协同促进机器人智能体的发展与演进。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg" loading="lazy" alt="Featured image of post 什么都不做就能得分？智能体基准测试出现大问题" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">什么都不做就能得分？智能体基准测试出现大问题</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                现有AI智能体基准测试存在严重问题，如智能体得分不准确、存在投机取巧现象。研究提出有效性判据和检查清单以确保基准测试可靠性。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" loading="lazy" alt="Featured image of post MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIRIX重塑AI多模态长期记忆，超Gemini 410%，节省99.9%内存，APP同步上线
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+    
+        <div class="article-image">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" loading="lazy" alt="Featured image of post AI下半场的「Game Changer」，直让老外惊呼「Amazing」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">AI下半场的「Game Changer」，直让老外惊呼「Amazing」</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                中国电信推出的智传网（AI Flow）技术，通过端-边-云协同、家族式同源模型和智能涌现，实现普适智能应用，解决AI下半场挑战。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-14">
     
 
     <div class="article-details">
@@ -242,11 +1638,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    近年来，大型科技公司主导大模型发展，但学术界在大模型训练数据构建与优化方面受限。张文涛和鄂维南院士团队提出了以数据为中心的 AI 系统 DataFlow，支持多模态数据治理，可提升大语言模型在通用及特定领域的性能。该系统提供多种数据处理流水线，算子和 Agent 自动化任务处理系统。
-                
+                近年来，大型科技公司主导大模型发展，但学术界在大模型训练数据构建与优化方面受限。张文涛和鄂维南院士团队提出了以数据为中心的 AI 系统 DataFlow，支持多模态数据治理，可提升大语言模型在通用及特定领域的性能。该系统提供多种数据处理流水线，算子和 Agent 自动化任务处理系统。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -284,22 +1680,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-08-14" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E7%94%A8%E9%9A%90%E8%97%8F%E6%8C%87%E4%BB%A4%E8%AF%B1%E5%AF%BCai%E7%BB%99%E8%AE%BA%E6%96%87%E6%89%93%E9%AB%98%E5%88%86%E8%B0%A2%E8%B5%9B%E5%AE%81%E5%90%88%E8%91%97%E8%AE%BA%E6%96%87%E8%A2%AB%E7%82%B9%E5%90%8D%E8%AE%A4%E9%94%99%E7%BB%9D%E4%B8%8D%E9%BC%93%E5%8A%B1/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-12">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-12">
     
 
     <div class="article-details">
@@ -311,11 +1698,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    近期，一些提示词在AI学术圈引发风波，涉及在论文中嵌入提示以影响AI评审。谢赛宁被指参与一篇论文存在类似行为，并紧急回应表示不鼓励此类做法。他认为事件揭示了学术体系对AI时代伦理问题的漠视，呼吁进行更深入的讨论。针对AI审稿的争议，谢赛宁强调这种行为属于不道德，呼吁建立合理约束机制以避免审稿环境恶化。
-                
+                近期，一些提示词在AI学术圈引发风波，涉及在论文中嵌入提示以影响AI评审。谢赛宁被指参与一篇论文存在类似行为，并紧急回应表示不鼓励此类做法。他认为事件揭示了学术体系对AI时代伦理问题的漠视，呼吁进行更深入的讨论。针对AI审稿的争议，谢赛宁强调这种行为属于不道德，呼吁建立合理约束机制以避免审稿环境恶化
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -353,85 +1740,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-08-12" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E6%A8%A1%E6%8B%9F%E5%A4%A7%E8%84%91%E5%8A%9F%E8%83%BD%E5%88%86%E5%8C%96%E5%8C%97%E5%A4%A7%E4%B8%8E%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8F%91%E5%B8%83fast-in-slow-vla%E8%AE%A9%E5%BF%AB%E8%A1%8C%E5%8A%A8%E5%92%8C%E6%85%A2%E6%8E%A8%E7%90%86%E7%BB%9F%E4%B8%80%E5%8D%8F%E4%BD%9C/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-12-2">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-12-2" target="_blank" rel="noopener noreferrer">模拟大脑功能分化！北大与港中文发布Fast-in-Slow VLA，让“快行动”和“慢推理”统一协作</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    北大与港中文发布Fast-in-Slow VLA，实现快行动和慢推理的统一协作
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-12-2" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-09-3">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-09-3">
     
 
     <div class="article-details">
@@ -443,11 +1758,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    北京大学团队提出了理论指导，用于弥合图像 GenAI 和分子 GenAI 之间的方法论差距，实现对 3D 分子生成基础模型的预训练。他们开发的多模态分子 GenAI——MolEdit 能够生成具有全面对称性的有效分子，平衡构型稳定性和构象多样性，支持复杂三维结构的生成。研究人员通过物理信息学习和数据驱动学习相结合，解决了分子 GenAI 的幻觉问题，使得 MolEdit 在药物设计等领域具有广泛应用前景。
-                
+                北京大学团队提出了理论指导，用于弥合图像 GenAI 和分子 GenAI 之间的方法论差距，实现对 3D 分子生成基础模型的预训练。他们开发的多模态分子 GenAI——MolEdit 能够生成具有全面对称性的有效分子，平衡构型稳定性和构象多样性，支持复杂三维结构的生成。研究人员通过物理信息学习和数据
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -485,22 +1800,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-09-3" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-09-2">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-09-2">
     
 
     <div class="article-details">
@@ -512,11 +1818,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    Pokee AI 创始人朱哲清介绍了公司的发展历程和产品特点。Pokee.ai 聚焦于开发一款交互式、个性化、高效的 AI Agent，以 RL 为核心构建 Agent，与传统的以 LLM 为核心的模型有所不同。公司最新完成了 1200 万美元种子轮融资，公开测试版也已上线。朱哲清表示创业是一种全新的体验，公司团队一直秉承着轻量级的理念，目前团队规模为 7 人，强调远程办公的高效性。
-                
+                Pokee AI 创始人朱哲清介绍了公司的发展历程和产品特点。Pokee.ai 聚焦于开发一款交互式、个性化、高效的 AI Agent，以 RL 为核心构建 Agent，与传统的以 LLM 为核心的模型有所不同。公司最新完成了 1200 万美元种子轮融资，公开测试版也已上线。朱哲清表示创业是一种全新
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -554,568 +1860,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-09-2" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-6">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-11-6" target="_blank" rel="noopener noreferrer">微软研究院BioEmu登上Science，用生成式AI重塑蛋白质功能研究</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    微软研究院AI for Science团队提出了一种名为BioEmu的生成式深度学习模型，能够高效模拟蛋白质的构象变化，为理解蛋白质功能机制和加速药物发现提供新路径。该模型结合了静态结构、分子动力学模拟数据和蛋白稳定性实验数据进行训练，具有模拟蛋白质关键结构变化、自由能预测准确等优点，已在GitHub和HuggingFace上开源。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
-                            能效优化
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-6" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-15">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-10-15" target="_blank" rel="noopener noreferrer">基于工作记忆的认知测试显示LLM的检索局限：100%混淆无效信息与正确答案</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    本文发现了一个影响所有大型语言模型的信息检索问题，即无法稳定地提取动态数据中的最新信息，对全局记忆和长推理任务造成损害。研究表明，所有主流语言模型在处理动态数据时会出现明显的错误，并呈现出一致的对数线性下降趋势。作者提出这一问题可能源于模型的基础架构或依赖的注意力机制。实验结果暗示，模型的抗干扰容量不足，需要在模型架构设计或训练方法上进行创新性调整。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-15" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-5">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-11-5" target="_blank" rel="noopener noreferrer">告别Transformer！北大、北邮、华为开源纯卷积DiC：3x3卷积实现SOTA性能，比DiT快5倍！</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    近期北大、北邮和华为联合研究提出了一种新的纯卷积扩散模型DiC，重新审视了深度学习中的基础模块3x3卷积，超越了Diffusion Transformer在性能和推理速度上，证明了简单的卷积网络在生成任务中的潜力。他们通过精心设计的U-Net Hourglass架构、条件注入和激活函数替换等方式，将平庸的卷积网络打造成性能卓越的模型。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-5" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E5%88%9A%E5%88%9A%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83grok-4%E5%85%A8%E6%A6%9C%E7%AC%AC%E4%B8%80%E5%B9%B4%E8%B4%B9%E9%A3%9A%E5%88%B02%E4%B8%87-/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-10">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-10-10" target="_blank" rel="noopener noreferrer">刚刚，马斯克发布Grok 4！全榜第一，年费飚到2万&#43;</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    Grok 4 是一款 xAI 大模型，具有超强的推理能力，能在各类考试中取得高分，包括 SAT 和 GRE。其性能在多个基准测试中表现出色，包括在 ARC-AGI 和 Vending-Bench 上取得最新 SOTA。此外，Grok 4 还在语音能力和多模态方面得到加强，支持多种语音和新增角色 Eve 和 Sal。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
-                            大模型
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-10" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-4">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-11-4" target="_blank" rel="noopener noreferrer">从「一团乱麻」到清晰分型，AI精准解析肿瘤细胞多样性，助力个性化联合疗法设计</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    肿瘤异质性是指肿瘤内细胞在基因、表型、功能等方面存在差异，导致肿瘤行为复杂化。加文医学研究所团队开发了新的人工智能工具 AAnet，可以更好地表征肿瘤内单个细胞的多样性，为个性化治疗提供可能。他们发现肿瘤内存在五种不同的癌细胞群，这些群体具有不同的基因表达谱，为更有针对性的治疗方法打开了大门。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
-                            能效优化
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-4" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/vla-%E6%8E%A8%E7%90%86%E6%96%B0%E8%8C%83%E5%BC%8F%E4%B8%80%E8%87%B4%E6%80%A7%E6%A8%A1%E5%9E%8B-ceed-vla-%E5%AE%9E%E7%8E%B0%E5%9B%9B%E5%80%8D%E5%8A%A0%E9%80%9F/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-13">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-13" target="_blank" rel="noopener noreferrer">VLA 推理新范式！一致性模型 CEED-VLA 实现四倍加速！</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    提出一致性蒸馏训练与提前退出解码策略，实现CEED-VLA模型四倍推理加速，保持高任务成功率。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
-                            垂直大模型
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-13" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/" data-original-link="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703" target="_blank" rel="noopener noreferrer">Study: Babies’ poor vision may help organize visual brain pathways</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    麻省理工学院的一项新研究提供了关于视觉系统中两条通路如何受发育因素影响的解释。研究发现，早期视觉模糊、色彩有限的输入可能导致大细胞系统和小细胞系统的发展。通过训练计算视觉模型，研究人员发现，模型在接受模拟人类婴儿视觉发展轨迹的低质量图像后，展现出类似于真实视觉系统中两个通路的特征。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/simulation-based-pipeline-tailors-training-data-for-dexterous-robots/" data-original-link="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711" target="_blank" rel="noopener noreferrer">Simulation-based pipeline tailors training data for dexterous robots</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    MIT&#39;s PhysicsGen tailors robot training data via simulation, enabling efficient task completion and collaboration among robots.
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-music-dies-at-87/" data-original-link="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707">
     
 
     <div class="article-details">
@@ -1127,11 +1878,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    MIT计算机音乐领域的先驱Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe在音乐、科学和创新领域做出了深远贡献，推动了音乐体验的提升，尤其是对年轻人的影响。他创办了MIT的实验音乐工作室，开发了先进的音乐技术，如算法作曲和数字合成，影响了音乐技术与工程的交叉领域，留下了深远的影响。
-                
+                MIT计算机音乐领域的先驱Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe在音乐、科学和创新领域做出了深远贡献，推动了音乐体验的提升，尤其是对年轻人的影响。他创办了MIT的实验音乐工作室，开发了先进的音乐技术，如算法作曲和数字合成，影响了音乐技术与工程的交叉领域，留
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1169,160 +1920,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/processing-our-technological-angst-through-humor/" data-original-link="https://news.mit.edu/2025/processing-technological-angst-through-humor-benjamin-mangrum-book-0709">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/processing-technological-angst-through-humor-benjamin-mangrum-book-0709" target="_blank" rel="noopener noreferrer">Processing our technological angst through humor</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    本文探讨了计算机技术在文化生活中的演变，以及人们如何通过幽默来应对对计算机的疑虑和恐惧。作者指出，幽默有助于使技术变得平凡，并将其融入生活中。现代文化中，尤其是浪漫喜剧，经常处理与技术及其对人类的影响有关的议题。此外，文章还讨论了计算机技术带来的伦理问题，以及人们如何通过幽默来批判科技行业的夸大宣传与实际表现之间的差距。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
-                            垂直大模型
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://news.mit.edu/2025/processing-technological-angst-through-humor-benjamin-mangrum-book-0709" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-21">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-10-21" target="_blank" rel="noopener noreferrer">Meta为他豪掷2亿美元，上交校友庞若鸣，晒出在苹果的最新论文</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    庞若鸣即将加入 Meta 新成立的超级智能团队，但在苹果负责的最后一项研究中，他介绍了基于多模态大规模模型训练的 AXLearn 系统，具备高度模块化和对异构硬件的支持。该系统通过严格封装实现模块化，成功集成了 RoPE 和 MoE 功能，保持恒定的代码复杂性，并在异构硬件上展现出优异的性能。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-21" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-11">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-11">
     
 
     <div class="article-details">
@@ -1334,11 +1938,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    蚂蚁集团知识引擎团队联合浙江大学、同济大学发布了KAG-Thinker模型，该模型是KAG框架的升级，通过结构化思考提升复杂推理任务的逻辑性和稳定性。KAG-Thinker在多轮检索和规划推理中表现优异，通过广度拆分与深度求解相结合，提高了问题求解的严谨性，并引入知识边界判定机制和内容抗噪模块优化推理过程。
-                
+                蚂蚁集团知识引擎团队联合浙江大学、同济大学发布了KAG-Thinker模型，该模型是KAG框架的升级，通过结构化思考提升复杂推理任务的逻辑性和稳定性。KAG-Thinker在多轮检索和规划推理中表现优异，通过广度拆分与深度求解相结合，提高了问题求解的严谨性，并引入知识边界判定机制和内容抗噪模块优化推
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1376,148 +1980,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-08-11" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/inspiring-student-growth/" data-original-link="https://news.mit.edu/2025/inspiring-student-growth-0630">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/inspiring-student-growth-0630" target="_blank" rel="noopener noreferrer">Inspiring student growth</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    Xiao Wang是麻省理工学院的化学系副教授，她致力于为学生创造培养成长的环境，并通过讨论研究兴趣和学术目标等方式支持他们的发展。Rodrigo Verdi是麻省理工斯隆管理学院的副院长，致力于指导学生，提供反馈和帮助，展现出对学生成功的关心和承诺。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://news.mit.edu/2025/inspiring-student-growth-0630" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/icml-2025-oral%E5%8C%97%E5%A4%A7%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BC%98%E5%9B%BE%E7%A0%B4%E8%A7%A3ai%E7%94%9F%E6%88%90%E5%9B%BE%E5%83%8F%E6%A3%80%E6%B5%8B%E6%B3%9B%E5%8C%96%E9%9A%BE%E9%A2%98%E6%AD%A3%E4%BA%A4%E5%AD%90%E7%A9%BA%E9%97%B4%E5%88%86%E8%A7%A3/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-12-9">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-12-9" target="_blank" rel="noopener noreferrer">ICML 2025 Oral！北大和腾讯优图破解AI生成图像检测泛化难题：正交子空间分解</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    北大和腾讯优图破解AI生成图像检测泛化难题，提出正交子空间分解方法，显著提升泛化能力
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-12-9" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-6">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-6">
     
 
     <div class="article-details">
@@ -1529,11 +1998,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    MedXpertQA是一个高难度、高临床相关性、全面的医学基准，旨在评估专家级医学知识和高级推理能力。该基准包括文本医学评估和多模态医学评估两个子集，涵盖了17个专业和11个身体系统的4460个问题。通过严格的筛选和增强，MedXpertQA有效区分前沿模型并提供真实诊断场景的临床相关性。
-                
+                MedXpertQA是一个高难度、高临床相关性、全面的医学基准，旨在评估专家级医学知识和高级推理能力。该基准包括文本医学评估和多模态医学评估两个子集，涵盖了17个专业和11个身体系统的4460个问题。通过严格的筛选和增强，MedXpertQA有效区分前沿模型并提供真实诊断场景的临床相关性。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1571,286 +2040,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-08-6" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/iccv2025-%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90%E6%96%B0%E8%8C%83%E5%BC%8F-%E5%88%A9%E7%94%A8%E8%87%AA%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E6%8E%A2%E7%B4%A2%E5%A4%9A%E8%A7%86%E5%9B%BE%E7%94%9F%E6%88%90/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-12-3">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-12-3" target="_blank" rel="noopener noreferrer">ICCV2025 | 多视图生成新范式-利用自回归模型探索多视图生成</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    MVAR是一种自回归生成多视图图像的方法，解决多视图一致性和多模态条件控制问题，采用特定网络架构和数据增强策略提升生成效果。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-12-3" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/iccv-2025%E6%BB%A1%E5%88%86%E8%AE%BA%E6%96%87%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E5%AE%9E%E7%8E%B0%E7%A9%BA%E9%97%B4%E7%90%86%E8%A7%A3%E4%B8%8E%E4%B8%BB%E5%8A%A8%E6%8E%A2%E7%B4%A2%E5%A4%A7%E7%BB%9F%E4%B8%80/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-14-3">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-14-3" target="_blank" rel="noopener noreferrer">ICCV 2025满分论文：一个模型实现空间理解与主动探索大统一</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    MTU3D模型实现具身导航中的探索与视觉落地协同训练，融合虚实数据构建高效空间感知
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-14-3" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/easycache%E6%97%A0%E9%9C%80%E8%AE%AD%E7%BB%83%E7%9A%84%E8%A7%86%E9%A2%91%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8A%A0%E9%80%9F%E6%9E%81%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%8F%90%E9%80%9F%E6%96%B9%E6%A1%88/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-12-6">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-12-6" target="_blank" rel="noopener noreferrer">EasyCache：无需训练的视频扩散模型推理加速——极简高效的视频生成提速方案</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    EasyCache是无需训练的视频扩散模型推理加速方案，通过动态检测稳定期和缓存复用减少冗余计算，实现高质量生成加速。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-12-6" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/designing-across-cultural-and-geographic-divides/" data-original-link="https://news.mit.edu/2025/designing-across-cultural-geographic-divides-0710">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/designing-across-cultural-geographic-divides-0710" target="_blank" rel="noopener noreferrer">Designing across cultural and geographic divides</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
-                            能效优化
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://news.mit.edu/2025/designing-across-cultural-geographic-divides-0710" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/at-mit-musicians-make-new-tools-for-new-tunes/" data-original-link="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708">
     
 
     <div class="article-details">
@@ -1862,11 +2058,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索音乐和技术之间的联系，共同探索创新之路。
-                
+                麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1904,22 +2100,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/a-new-platform-for-developing-advanced-metals-at-scale/" data-original-link="https://news.mit.edu/2025/new-platform-foundation-alloy-developing-advanced-metals-scale-0703">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://news.mit.edu/2025/new-platform-foundation-alloy-developing-advanced-metals-scale-0703">
     
 
     <div class="article-details">
@@ -1931,11 +2118,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    Foundation Alloy是由麻省理工学院团队创立的公司，他们利用一种新型生产工艺生产超高性能金属合金，不依赖于熔化原材料。他们的固态冶金技术使得下一代合金的开发和制造变得更简单，产品开发速度更快，强度是传统金属的两倍。公司旨在为航空航天、自行车、汽车等行业提供更可靠、性能更高的金属材料。
-                
+                Foundation Alloy是由麻省理工学院团队创立的公司，他们利用一种新型生产工艺生产超高性能金属合金，不依赖于熔化原材料。他们的固态冶金技术使得下一代合金的开发和制造变得更简单，产品开发速度更快，强度是传统金属的两倍。公司旨在为航空航天、自行车、汽车等行业提供更可靠、性能更高的金属材料。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -1973,85 +2160,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/new-platform-foundation-alloy-developing-advanced-metals-scale-0703" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-14" data-url="/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/" data-original-link="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710" target="_blank" rel="noopener noreferrer">A bionic knee integrated into tissue can restore natural movement</a>
-            </h2>
-            
-            
-            <div class="article-summary">
-                
-                    麻省理工学院的研究人员开发了一种新型仿生膝关节，可以帮助膝上截肢者比传统义肢更快地行走、爬楼梯和更容易避开障碍物。这种系统直接与用户的肌肉和骨组织集成，提供了更大的稳定性和更多对义肢运动的控制。研究还表明，参与小型临床研究的人员报告称，与传统膝上截肢者相比，他们感觉新的仿生肢体更像自己身体的一部分。
-                
-            </div>
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-            
-            
-            <a href="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card" data-date="2025-07-14" data-url="/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86-%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-13">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://www.jiqizhixin.com/articles/2025-07-08-13">
     
 
     <div class="article-details">
@@ -2063,11 +2178,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    北大团队推出了开源套件OpenS2V-Nexus，旨在解决Subject-to-Video（S2V）生成中的问题，包括主体一致性、自然度和文本对齐。他们构建了全球首个细粒度评测基准OpenS2V-Eval和规模庞大的数据集OpenS2V-5M，揭示了不同S2V模型在保持主体一致性和自然度方面的能力差距，为AI视频生成技术的发展提供了重要支持。
-                
+                北大团队推出了开源套件OpenS2V-Nexus，旨在解决Subject-to-Video（S2V）生成中的问题，包括主体一致性、自然度和文本对齐。他们构建了全球首个细粒度评测基准OpenS2V-Eval和规模庞大的数据集OpenS2V-5M，揭示了不同S2V模型在保持主体一致性和自然度方面的能力差
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2105,22 +2220,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-08-13" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-13" data-url="/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/" data-original-link="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703">
     
 
     <div class="article-details">
@@ -2132,11 +2238,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    麻省理工学院的一项新研究提供了关于视觉系统中两条通路如何受发育因素影响的解释。研究发现，早期视觉模糊、色彩有限的输入可能导致大细胞系统和小细胞系统的发展。通过训练计算视觉模型，研究人员发现，模型在接受模拟人类婴儿视觉发展轨迹的低质量图像后，展现出类似于真实视觉系统中两个通路的特征。
-                
+                麻省理工学院的一项新研究提供了关于视觉系统中两条通路如何受发育因素影响的解释。研究发现，早期视觉模糊、色彩有限的输入可能导致大细胞系统和小细胞系统的发展。通过训练计算视觉模型，研究人员发现，模型在接受模拟人类婴儿视觉发展轨迹的低质量图像后，展现出类似于真实视觉系统中两个通路的特征。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2174,22 +2280,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-13" data-url="/p/inspiring-student-growth/" data-original-link="https://news.mit.edu/2025/inspiring-student-growth-0630">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="https://news.mit.edu/2025/inspiring-student-growth-0630">
     
 
     <div class="article-details">
@@ -2201,11 +2298,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    Xiao Wang是麻省理工学院的化学系副教授，她致力于为学生创造培养成长的环境，并通过讨论研究兴趣和学术目标等方式支持他们的发展。Rodrigo Verdi是麻省理工斯隆管理学院的副院长，致力于指导学生，提供反馈和帮助，展现出对学生成功的关心和承诺。
-                
+                Xiao Wang是麻省理工学院的化学系副教授，她致力于为学生创造培养成长的环境，并通过讨论研究兴趣和学术目标等方式支持他们的发展。Rodrigo Verdi是麻省理工斯隆管理学院的副院长，致力于指导学生，提供反馈和帮助，展现出对学生成功的关心和承诺。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2237,22 +2334,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/inspiring-student-growth-0630" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/p/%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%87%AA%E9%A9%B1%E5%8A%A8%E6%9D%90%E6%96%99%E5%8F%91%E7%8E%B0%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%876%E5%80%8D%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96calphad%E8%AE%A1%E7%AE%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-3">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-3">
     
 
     <div class="article-details">
@@ -2264,11 +2352,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    马里兰大学研究人员提出了自主材料搜索引擎（AMASE），通过实验和计算预测的自主驱动连续循环交互来探索材料，实现了快速绘制薄膜共晶相图。AMASE 运算令人兴奋的自然扩展包括整合其他类型的计算工作，以及在材料科学以外的研究领域中将线程式实验-理论循环耦合起来，展示了自主科学的实用性和影响力。
-                
+                马里兰大学研究人员提出了自主材料搜索引擎（AMASE），通过实验和计算预测的自主驱动连续循环交互来探索材料，实现了快速绘制薄膜共晶相图。AMASE 运算令人兴奋的自然扩展包括整合其他类型的计算工作，以及在材料科学以外的研究领域中将线程式实验-理论循环耦合起来，展示了自主科学的实用性和影响力。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2306,22 +2394,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-3" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-6">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-6">
     
 
     <div class="article-details">
@@ -2333,11 +2412,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    微软研究院AI for Science团队提出了一种名为BioEmu的生成式深度学习模型，能够高效模拟蛋白质的构象变化，为理解蛋白质功能机制和加速药物发现提供新路径。该模型结合了静态结构、分子动力学模拟数据和蛋白稳定性实验数据进行训练，具有模拟蛋白质关键结构变化、自由能预测准确等优点，已在GitHu
-                
+                微软研究院AI for Science团队提出了一种名为BioEmu的生成式深度学习模型，能够高效模拟蛋白质的构象变化，为理解蛋白质功能机制和加速药物发现提供新路径。该模型结合了静态结构、分子动力学模拟数据和蛋白稳定性实验数据进行训练，具有模拟蛋白质关键结构变化、自由能预测准确等优点，已在GitHu
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2375,22 +2454,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-6" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-5">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-5">
     
 
     <div class="article-details">
@@ -2402,11 +2472,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    近期北大、北邮和华为联合研究提出了一种新的纯卷积扩散模型DiC，重新审视了深度学习中的基础模块3x3卷积，超越了Diffusion Transformer在性能和推理速度上，证明了简单的卷积网络在生成任务中的潜力。他们通过精心设计的U-Net Hourglass架构、条件注入和激活函数替换等方式，将
-                
+                近期北大、北邮和华为联合研究提出了一种新的纯卷积扩散模型DiC，重新审视了深度学习中的基础模块3x3卷积，超越了Diffusion Transformer在性能和推理速度上，证明了简单的卷积网络在生成任务中的潜力。他们通过精心设计的U-Net Hourglass架构、条件注入和激活函数替换等方式，将
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2444,22 +2514,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-5" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-4">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://www.jiqizhixin.com/articles/2025-07-11-4">
     
 
     <div class="article-details">
@@ -2471,11 +2532,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    肿瘤异质性是指肿瘤内细胞在基因、表型、功能等方面存在差异，导致肿瘤行为复杂化。加文医学研究所团队开发了新的人工智能工具 AAnet，可以更好地表征肿瘤内单个细胞的多样性，为个性化治疗提供可能。他们发现肿瘤内存在五种不同的癌细胞群，这些群体具有不同的基因表达谱，为更有针对性的治疗方法打开了大门。
-                
+                肿瘤异质性是指肿瘤内细胞在基因、表型、功能等方面存在差异，导致肿瘤行为复杂化。加文医学研究所团队开发了新的人工智能工具 AAnet，可以更好地表征肿瘤内单个细胞的多样性，为个性化治疗提供可能。他们发现肿瘤内存在五种不同的癌细胞群，这些群体具有不同的基因表达谱，为更有针对性的治疗方法打开了大门。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2513,22 +2574,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-11-4" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/p/designing-across-cultural-and-geographic-divides/" data-original-link="https://news.mit.edu/2025/designing-across-cultural-geographic-divides-0710">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://news.mit.edu/2025/designing-across-cultural-geographic-divides-0710">
     
 
     <div class="article-details">
@@ -2540,11 +2592,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观
-                
+                MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2582,22 +2634,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/designing-across-cultural-geographic-divides-0710" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-12" data-url="/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/" data-original-link="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710">
     
 
     <div class="article-details">
@@ -2609,11 +2652,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    麻省理工学院的研究人员开发了一种新型仿生膝关节，可以帮助膝上截肢者比传统义肢更快地行走、爬楼梯和更容易避开障碍物。这种系统直接与用户的肌肉和骨组织集成，提供了更大的稳定性和更多对义肢运动的控制。研究还表明，参与小型临床研究的人员报告称，与传统膝上截肢者相比，他们感觉新的仿生肢体更像自己身体的一部分。
-                
+                麻省理工学院的研究人员开发了一种新型仿生膝关节，可以帮助膝上截肢者比传统义肢更快地行走、爬楼梯和更容易避开障碍物。这种系统直接与用户的肌肉和骨组织集成，提供了更大的稳定性和更多对义肢运动的控制。研究还表明，参与小型临床研究的人员报告称，与传统膝上截肢者相比，他们感觉新的仿生肢体更像自己身体的一部分。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2645,22 +2688,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-15">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-15">
     
 
     <div class="article-details">
@@ -2672,11 +2706,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    本文发现了一个影响所有大型语言模型的信息检索问题，即无法稳定地提取动态数据中的最新信息，对全局记忆和长推理任务造成损害。研究表明，所有主流语言模型在处理动态数据时会出现明显的错误，并呈现出一致的对数线性下降趋势。作者提出这一问题可能源于模型的基础架构或依赖的注意力机制。实验结果暗示，模型的抗干扰容量
-                
+                本文发现了一个影响所有大型语言模型的信息检索问题，即无法稳定地提取动态数据中的最新信息，对全局记忆和长推理任务造成损害。研究表明，所有主流语言模型在处理动态数据时会出现明显的错误，并呈现出一致的对数线性下降趋势。作者提出这一问题可能源于模型的基础架构或依赖的注意力机制。实验结果暗示，模型的抗干扰容量
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2714,22 +2748,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-15" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/p/%E5%88%9A%E5%88%9A%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83grok-4%E5%85%A8%E6%A6%9C%E7%AC%AC%E4%B8%80%E5%B9%B4%E8%B4%B9%E9%A3%9A%E5%88%B02%E4%B8%87/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-10">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-10">
     
 
     <div class="article-details">
@@ -2741,11 +2766,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    Grok 4 是一款 xAI 大模型，具有超强的推理能力，能在各类考试中取得高分，包括 SAT 和 GRE。其性能在多个基准测试中表现出色，包括在 ARC-AGI 和 Vending-Bench 上取得最新 SOTA。此外，Grok 4 还在语音能力和多模态方面得到加强，支持多种语音和新增角色 Ev
-                
+                Grok 4 是一款 xAI 大模型，具有超强的推理能力，能在各类考试中取得高分，包括 SAT 和 GRE。其性能在多个基准测试中表现出色，包括在 ARC-AGI 和 Vending-Bench 上取得最新 SOTA。此外，Grok 4 还在语音能力和多模态方面得到加强，支持多种语音和新增角色 Ev
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2783,22 +2808,13 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-10" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/p/processing-our-technological-angst-through-humor/" data-original-link="https://news.mit.edu/2025/processing-technological-angst-through-humor-benjamin-mangrum-book-0709">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://news.mit.edu/2025/processing-technological-angst-through-humor-benjamin-mangrum-book-0709">
     
 
     <div class="article-details">
@@ -2810,11 +2826,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    本文探讨了计算机技术在文化生活中的演变，以及人们如何通过幽默来应对对计算机的疑虑和恐惧。作者指出，幽默有助于使技术变得平凡，并将其融入生活中。现代文化中，尤其是浪漫喜剧，经常处理与技术及其对人类的影响有关的议题。此外，文章还讨论了计算机技术带来的伦理问题，以及人们如何通过幽默来批判科技行业的夸大宣传
-                
+                本文探讨了计算机技术在文化生活中的演变，以及人们如何通过幽默来应对对计算机的疑虑和恐惧。作者指出，幽默有助于使技术变得平凡，并将其融入生活中。现代文化中，尤其是浪漫喜剧，经常处理与技术及其对人类的影响有关的议题。此外，文章还讨论了计算机技术带来的伦理问题，以及人们如何通过幽默来批判科技行业的夸大宣传
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2852,22 +2868,13 @@
             </div>
             
             
-            
-            
-            <a href="https://news.mit.edu/2025/processing-technological-angst-through-humor-benjamin-mangrum-book-0709" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
         
             
-<article class=" article-card" data-date="2025-07-10" data-url="/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-21">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-21">
     
 
     <div class="article-details">
@@ -2879,11 +2886,11 @@
             </h2>
             
             
+            
             <div class="article-summary">
-                
-                    庞若鸣即将加入 Meta 新成立的超级智能团队，但在苹果负责的最后一项研究中，他介绍了基于多模态大规模模型训练的 AXLearn 系统，具备高度模块化和对异构硬件的支持。该系统通过严格封装实现模块化，成功集成了 RoPE 和 MoE 功能，保持恒定的代码复杂性，并在异构硬件上展现出优异的性能。
-                
+                庞若鸣即将加入 Meta 新成立的超级智能团队，但在苹果负责的最后一项研究中，他介绍了基于多模态大规模模型训练的 AXLearn 系统，具备高度模块化和对异构硬件的支持。该系统通过严格封装实现模块化，成功集成了 RoPE 和 MoE 功能，保持恒定的代码复杂性，并在异构硬件上展现出优异的性能。
             </div>
+            
         </div>
 
         <footer class="article-footer">
@@ -2921,16 +2928,7 @@
             </div>
             
             
-            
-            
-            <a href="https://www.jiqizhixin.com/articles/2025-07-10-21" target="_blank" rel="noopener noreferrer" class="article-original-link">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                </svg>
-                阅读原文
-            </a>
-            
+
         </footer>
     </div>
 </article> 
@@ -2959,7 +2957,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.fa2bd7d426e2ce06da3bd225323566f13350257a85f8bfe63653d741e0b660e9.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -2972,11 +2970,5 @@
     }());
 </script>
 
-
-        <div id="article-modal" class="article-modal">
-            <div class="modal-content-wrapper">
-                <div id="modal-content"></div>
-            </div>
-        </div>
     </body>
 </html> 

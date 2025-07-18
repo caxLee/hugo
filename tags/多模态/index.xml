@@ -23,7 +23,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: AI三问：数学与AI交汇，探讨基础重构。全球专家聚焦数学边界，挑战智能时代认知边界。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: AI三问：数学、科学、模型的前沿探讨；大模型挑战基础理论，数学迎来高光时刻。WAIC论坛聚焦AI×数学双向驱动，探索通用智能路径。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -42,7 +42,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Oasis实现多模态指令数据合成，仅需图像输入，无需提示词，提供高质量数据。MM-INF开源代码库支持多模态数据合成方法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 多模态指令数据合成方法 Oasis，仅需图像输入，无需提示词，提供高质量数据；开源 MM-INF 代码库支持 Oasis 和其他多模态方法&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -61,7 +61,45 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Mistral AI推出Le Chat全面对标ChatGPT，新增研究模式、语音模式和项目管理功能。Voxtral语音识别模型超越开源模型，支持超长上下文理解和多语种功能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Mistral AI推出Le Chat全面对标ChatGPT，新增研究模式、语音模式和项目管理功能，以及优秀的图像编辑能力。同时发布全球最佳语音识别模型Voxtral，具备超长上下文理解和多语种支持等功能。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>This “smart coach” helps LLMs switch between text and code</title>
+        <link>https://caxlee.github.io/p/this-smart-coach-helps-llms-switch-between-text-and-code/</link>
+        <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/p/this-smart-coach-helps-llms-switch-between-text-and-code/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/020.jpg" alt="Featured image of post This “smart coach” helps LLMs switch between text and code" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/020.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;This “smart coach” helps LLMs switch between text and code&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: CodeSteer是一款智能助手，帮助LLMs在文本和代码之间切换以解决符号任务，提高准确性超过30%。研究者设计了SymBench数据集，优化CodeSteer性能，使LLMs能够智能选择文本或代码解决问题。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>明天，围观学习ACL2025论文分享会，最后报名了</title>
+        <link>https://caxlee.github.io/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/</link>
+        <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/001.jpg" alt="Featured image of post 明天，围观学习ACL2025论文分享会，最后报名了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;明天，围观学习ACL2025论文分享会，最后报名了&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: ACL2025论文分享会将于7月27日-8月1日在维也纳举行，涵盖自然语言处理、大模型强化学习等前沿议题。Keynote包括ACL趋势展望和大模型复杂推理应用。&lt;/p&gt;
 </description>
         </item>
         <item>
