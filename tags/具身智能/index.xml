@@ -2,18 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>具身智能 on Example Site</title>
-        <link>https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</link>
+        <link>https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</link>
         <description>Recent content in 具身智能 on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Helping cities evolve</title>
+        <link>https://caxlee.github.io/p/helping-cities-evolve/</link>
+        <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/p/helping-cities-evolve/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/013.jpg" alt="Featured image of post Helping cities evolve" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/013.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Helping cities evolve&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Vincent Rollet, an MIT PhD student, studies city evolution and constraints, aiming to influence urban policies. His research reveals inefficiencies in housing markets and the impact of policy changes on cities.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>ICML 2025｜多模态理解与生成最新进展：港科联合SnapResearch发布ThinkDiff，为扩散模型装上大脑</title>
-        <link>https://caxlee.github.io/hugo/p/icml-2025%E5%A4%9A%E6%A8%A1%E6%80%81%E7%90%86%E8%A7%A3%E4%B8%8E%E7%94%9F%E6%88%90%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%E6%B8%AF%E7%A7%91%E8%81%94%E5%90%88snapresearch%E5%8F%91%E5%B8%83thinkdiff%E4%B8%BA%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E8%A3%85%E4%B8%8A%E5%A4%A7%E8%84%91/</link>
+        <link>https://caxlee.github.io/p/icml-2025%E5%A4%9A%E6%A8%A1%E6%80%81%E7%90%86%E8%A7%A3%E4%B8%8E%E7%94%9F%E6%88%90%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%E6%B8%AF%E7%A7%91%E8%81%94%E5%90%88snapresearch%E5%8F%91%E5%B8%83thinkdiff%E4%B8%BA%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E8%A3%85%E4%B8%8A%E5%A4%A7%E8%84%91/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/icml-2025%E5%A4%9A%E6%A8%A1%E6%80%81%E7%90%86%E8%A7%A3%E4%B8%8E%E7%94%9F%E6%88%90%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%E6%B8%AF%E7%A7%91%E8%81%94%E5%90%88snapresearch%E5%8F%91%E5%B8%83thinkdiff%E4%B8%BA%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E8%A3%85%E4%B8%8A%E5%A4%A7%E8%84%91/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/5ed144b5-c552-461d-8e8c-917c7c4ac4f6.jpg" alt="Featured image of post ICML 2025｜多模态理解与生成最新进展：港科联合SnapResearch发布ThinkDiff，为扩散模型装上大脑" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/5ed144b5-c552-461d-8e8c-917c7c4ac4f6.jpg&#34;
+        <guid>https://caxlee.github.io/p/icml-2025%E5%A4%9A%E6%A8%A1%E6%80%81%E7%90%86%E8%A7%A3%E4%B8%8E%E7%94%9F%E6%88%90%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%E6%B8%AF%E7%A7%91%E8%81%94%E5%90%88snapresearch%E5%8F%91%E5%B8%83thinkdiff%E4%B8%BA%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E8%A3%85%E4%B8%8A%E5%A4%A7%E8%84%91/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/5ed144b5-c552-461d-8e8c-917c7c4ac4f6.jpg" alt="Featured image of post ICML 2025｜多模态理解与生成最新进展：港科联合SnapResearch发布ThinkDiff，为扩散模型装上大脑" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/5ed144b5-c552-461d-8e8c-917c7c4ac4f6.jpg&#34;
 	
 	
 	
@@ -28,11 +47,11 @@
         </item>
         <item>
         <title>New tool gives anyone the ability to train a robot</title>
-        <link>https://caxlee.github.io/hugo/p/new-tool-gives-anyone-the-ability-to-train-a-robot/</link>
+        <link>https://caxlee.github.io/p/new-tool-gives-anyone-the-ability-to-train-a-robot/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/new-tool-gives-anyone-the-ability-to-train-a-robot/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg" alt="Featured image of post New tool gives anyone the ability to train a robot" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg&#34;
+        <guid>https://caxlee.github.io/p/new-tool-gives-anyone-the-ability-to-train-a-robot/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg" alt="Featured image of post New tool gives anyone the ability to train a robot" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg&#34;
 	
 	
 	
@@ -47,11 +66,11 @@
         </item>
         <item>
         <title>亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程</title>
-        <link>https://caxlee.github.io/hugo/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E5%85%A5%E5%B1%80vibe-coding%E6%8E%A8%E5%87%BAkiro%E9%87%8D%E5%A1%91%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/</link>
+        <link>https://caxlee.github.io/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E5%85%A5%E5%B1%80vibe-coding%E6%8E%A8%E5%87%BAkiro%E9%87%8D%E5%A1%91%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E5%85%A5%E5%B1%80vibe-coding%E6%8E%A8%E5%87%BAkiro%E9%87%8D%E5%A1%91%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2a591937-da3c-4674-a71f-79b98f9941fd.png" alt="Featured image of post 亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2a591937-da3c-4674-a71f-79b98f9941fd.png&#34;
+        <guid>https://caxlee.github.io/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E5%85%A5%E5%B1%80vibe-coding%E6%8E%A8%E5%87%BAkiro%E9%87%8D%E5%A1%91%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2a591937-da3c-4674-a71f-79b98f9941fd.png" alt="Featured image of post 亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2a591937-da3c-4674-a71f-79b98f9941fd.png&#34;
 	
 	
 	
@@ -66,11 +85,11 @@
         </item>
         <item>
         <title>模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理</title>
-        <link>https://caxlee.github.io/hugo/p/%E6%A8%A1%E4%BB%BF%E5%AD%A6%E4%B9%A0%E6%96%B0%E8%8C%83%E5%BC%8Fchain-of-action%E8%BD%A8%E8%BF%B9%E8%87%AA%E5%9B%9E%E5%BD%92%E5%AE%9E%E7%8E%B0%E5%8A%A8%E4%BD%9C%E6%8E%A8%E7%90%86/</link>
+        <link>https://caxlee.github.io/p/%E6%A8%A1%E4%BB%BF%E5%AD%A6%E4%B9%A0%E6%96%B0%E8%8C%83%E5%BC%8Fchain-of-action%E8%BD%A8%E8%BF%B9%E8%87%AA%E5%9B%9E%E5%BD%92%E5%AE%9E%E7%8E%B0%E5%8A%A8%E4%BD%9C%E6%8E%A8%E7%90%86/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E6%A8%A1%E4%BB%BF%E5%AD%A6%E4%B9%A0%E6%96%B0%E8%8C%83%E5%BC%8Fchain-of-action%E8%BD%A8%E8%BF%B9%E8%87%AA%E5%9B%9E%E5%BD%92%E5%AE%9E%E7%8E%B0%E5%8A%A8%E4%BD%9C%E6%8E%A8%E7%90%86/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/6b9ba320-44b0-4b64-b08e-e37808476617.jpg" alt="Featured image of post 模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/6b9ba320-44b0-4b64-b08e-e37808476617.jpg&#34;
+        <guid>https://caxlee.github.io/p/%E6%A8%A1%E4%BB%BF%E5%AD%A6%E4%B9%A0%E6%96%B0%E8%8C%83%E5%BC%8Fchain-of-action%E8%BD%A8%E8%BF%B9%E8%87%AA%E5%9B%9E%E5%BD%92%E5%AE%9E%E7%8E%B0%E5%8A%A8%E4%BD%9C%E6%8E%A8%E7%90%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/6b9ba320-44b0-4b64-b08e-e37808476617.jpg" alt="Featured image of post 模仿学习新范式，Chain-of-Action：轨迹自回归实现动作推理" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/6b9ba320-44b0-4b64-b08e-e37808476617.jpg&#34;
 	
 	
 	
@@ -85,11 +104,11 @@
         </item>
         <item>
         <title>维也纳ACL 2025，相聚机器之心人才晚宴，免费约饭！</title>
-        <link>https://caxlee.github.io/hugo/p/%E7%BB%B4%E4%B9%9F%E7%BA%B3acl-2025%E7%9B%B8%E8%81%9A%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E4%BA%BA%E6%89%8D%E6%99%9A%E5%AE%B4%E5%85%8D%E8%B4%B9%E7%BA%A6%E9%A5%AD/</link>
+        <link>https://caxlee.github.io/p/%E7%BB%B4%E4%B9%9F%E7%BA%B3acl-2025%E7%9B%B8%E8%81%9A%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E4%BA%BA%E6%89%8D%E6%99%9A%E5%AE%B4%E5%85%8D%E8%B4%B9%E7%BA%A6%E9%A5%AD/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E7%BB%B4%E4%B9%9F%E7%BA%B3acl-2025%E7%9B%B8%E8%81%9A%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E4%BA%BA%E6%89%8D%E6%99%9A%E5%AE%B4%E5%85%8D%E8%B4%B9%E7%BA%A6%E9%A5%AD/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/32cff193-a85d-4fc2-809a-693991e4d432.jpg" alt="Featured image of post 维也纳ACL 2025，相聚机器之心人才晚宴，免费约饭！" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/32cff193-a85d-4fc2-809a-693991e4d432.jpg&#34;
+        <guid>https://caxlee.github.io/p/%E7%BB%B4%E4%B9%9F%E7%BA%B3acl-2025%E7%9B%B8%E8%81%9A%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E4%BA%BA%E6%89%8D%E6%99%9A%E5%AE%B4%E5%85%8D%E8%B4%B9%E7%BA%A6%E9%A5%AD/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/32cff193-a85d-4fc2-809a-693991e4d432.jpg" alt="Featured image of post 维也纳ACL 2025，相聚机器之心人才晚宴，免费约饭！" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/32cff193-a85d-4fc2-809a-693991e4d432.jpg&#34;
 	
 	
 	
@@ -104,11 +123,11 @@
         </item>
         <item>
         <title>New AI system uncovers hidden cell subtypes, boosts precision medicine</title>
-        <link>https://caxlee.github.io/hugo/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine/</link>
+        <link>https://caxlee.github.io/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" alt="Featured image of post New AI system uncovers hidden cell subtypes, boosts precision medicine" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg&#34;
+        <guid>https://caxlee.github.io/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" alt="Featured image of post New AI system uncovers hidden cell subtypes, boosts precision medicine" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg&#34;
 	
 	
 	
@@ -123,11 +142,11 @@
         </item>
         <item>
         <title>AI下半场的「Game Changer」，直让老外惊呼「Amazing」</title>
-        <link>https://caxlee.github.io/hugo/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</link>
+        <link>https://caxlee.github.io/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" alt="Featured image of post AI下半场的「Game Changer」，直让老外惊呼「Amazing」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg&#34;
+        <guid>https://caxlee.github.io/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" alt="Featured image of post AI下半场的「Game Changer」，直让老外惊呼「Amazing」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg&#34;
 	
 	
 	
@@ -145,11 +164,11 @@
         </item>
         <item>
         <title>MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</title>
-        <link>https://caxlee.github.io/hugo/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%8199.9%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/</link>
+        <link>https://caxlee.github.io/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%8199.9%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%8199.9%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" alt="Featured image of post MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg&#34;
+        <guid>https://caxlee.github.io/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%8199.9%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" alt="Featured image of post MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg&#34;
 	
 	
 	
@@ -167,11 +186,11 @@
         </item>
         <item>
         <title>什么都不做就能得分？智能体基准测试出现大问题</title>
-        <link>https://caxlee.github.io/hugo/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</link>
+        <link>https://caxlee.github.io/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg" alt="Featured image of post 什么都不做就能得分？智能体基准测试出现大问题" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg&#34;
+        <guid>https://caxlee.github.io/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg" alt="Featured image of post 什么都不做就能得分？智能体基准测试出现大问题" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg&#34;
 	
 	
 	
@@ -189,11 +208,11 @@
         </item>
         <item>
         <title>南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述</title>
-        <link>https://caxlee.github.io/hugo/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</link>
+        <link>https://caxlee.github.io/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg" alt="Featured image of post 南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg&#34;
+        <guid>https://caxlee.github.io/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg" alt="Featured image of post 南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg&#34;
 	
 	
 	
@@ -211,11 +230,11 @@
         </item>
         <item>
         <title>央企牵头！这个AI开源社区要让大模型跑遍「中国芯」</title>
-        <link>https://caxlee.github.io/hugo/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/</link>
+        <link>https://caxlee.github.io/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" alt="Featured image of post 央企牵头！这个AI开源社区要让大模型跑遍「中国芯」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg&#34;
+        <guid>https://caxlee.github.io/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" alt="Featured image of post 央企牵头！这个AI开源社区要让大模型跑遍「中国芯」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg&#34;
 	
 	
 	
@@ -233,11 +252,11 @@
         </item>
         <item>
         <title>智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</title>
-        <link>https://caxlee.github.io/hugo/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</link>
+        <link>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" alt="Featured image of post 智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg&#34;
+        <guid>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" alt="Featured image of post 智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg&#34;
 	
 	
 	
@@ -255,11 +274,11 @@
         </item>
         <item>
         <title>智能时代，同球共济！2025世界人工智能大会将于7月26日启幕</title>
-        <link>https://caxlee.github.io/hugo/p/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%90%8C%E7%90%83%E5%85%B1%E6%B5%8E2025%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E7%E6%9C%8826%E6%97%A5%E5%90%AF%E5%B9%95/</link>
+        <link>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%90%8C%E7%90%83%E5%85%B1%E6%B5%8E2025%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E7%E6%9C%8826%E6%97%A5%E5%90%AF%E5%B9%95/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%90%8C%E7%90%83%E5%85%B1%E6%B5%8E2025%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E7%E6%9C%8826%E6%97%A5%E5%90%AF%E5%B9%95/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg" alt="Featured image of post 智能时代，同球共济！2025世界人工智能大会将于7月26日启幕" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg&#34;
+        <guid>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%90%8C%E7%90%83%E5%85%B1%E6%B5%8E2025%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%B0%86%E4%BA%8E7%E6%9C%8826%E6%97%A5%E5%90%AF%E5%B9%95/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg" alt="Featured image of post 智能时代，同球共济！2025世界人工智能大会将于7月26日启幕" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg&#34;
 	
 	
 	
@@ -277,11 +296,11 @@
         </item>
         <item>
         <title>智能终端合辑 | WAIC 2025：AI赋能智能终端的产业革新</title>
-        <link>https://caxlee.github.io/hugo/p/%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%90%88%E8%BE%91-waic-2025ai%E8%B5%8B%E8%83%BD%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BA%A7%E4%B8%9A%E9%9D%A9%E6%96%B0/</link>
+        <link>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%90%88%E8%BE%91-waic-2025ai%E8%B5%8B%E8%83%BD%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BA%A7%E4%B8%9A%E9%9D%A9%E6%96%B0/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%90%88%E8%BE%91-waic-2025ai%E8%B5%8B%E8%83%BD%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BA%A7%E4%B8%9A%E9%9D%A9%E6%96%B0/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png" alt="Featured image of post 智能终端合辑 | WAIC 2025：AI赋能智能终端的产业革新" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png&#34;
+        <guid>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%90%88%E8%BE%91-waic-2025ai%E8%B5%8B%E8%83%BD%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BA%A7%E4%B8%9A%E9%9D%A9%E6%96%B0/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png" alt="Featured image of post 智能终端合辑 | WAIC 2025：AI赋能智能终端的产业革新" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png&#34;
 	
 	
 	
@@ -299,11 +318,11 @@
         </item>
         <item>
         <title>精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</title>
-        <link>https://caxlee.github.io/hugo/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</link>
+        <link>https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png" alt="Featured image of post 精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/413d071c-81d5-4931-a83d-370949a84599.png&#34;
+        <guid>https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png" alt="Featured image of post 精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png&#34;
 	
 	
 	
@@ -321,178 +340,178 @@
         </item>
         <item>
         <title>500万视频数据集&#43;全新评测框架！北大开源主体一致性视频生成领域新基建OpenS2V-Nexus，生成视频 「像」 又 「自然」</title>
-        <link>https://caxlee.github.io/hugo/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/</link>
+        <link>https://caxlee.github.io/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/</guid>
+        <guid>https://caxlee.github.io/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/</guid>
         <description>&lt;p&gt;北大团队推出了开源套件OpenS2V-Nexus，旨在解决Subject-to-Video（S2V）生成中的问题，包括主体一致性、自然度和文本对齐。他们构建了全球首个细粒度评测基准OpenS2V-Eval和规模庞大的数据集OpenS2V-5M，揭示了不同S2V模型在保持主体一致性和自然度方面的能力差距，为AI视频生成技术的发展提供了重要支持。&lt;/p&gt;</description>
         </item>
         <item>
         <title>A new platform for developing advanced metals at scale</title>
-        <link>https://caxlee.github.io/hugo/p/a-new-platform-for-developing-advanced-metals-at-scale/</link>
+        <link>https://caxlee.github.io/p/a-new-platform-for-developing-advanced-metals-at-scale/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/a-new-platform-for-developing-advanced-metals-at-scale/</guid>
+        <guid>https://caxlee.github.io/p/a-new-platform-for-developing-advanced-metals-at-scale/</guid>
         <description>&lt;p&gt;Foundation Alloy是由麻省理工学院团队创立的公司，他们利用一种新型生产工艺生产超高性能金属合金，不依赖于熔化原材料。他们的固态冶金技术使得下一代合金的开发和制造变得更简单，产品开发速度更快，强度是传统金属的两倍。公司旨在为航空航天、自行车、汽车等行业提供更可靠、性能更高的金属材料。&lt;/p&gt;</description>
         </item>
         <item>
         <title>At MIT, musicians make new tools for new tunes</title>
-        <link>https://caxlee.github.io/hugo/p/at-mit-musicians-make-new-tools-for-new-tunes/</link>
+        <link>https://caxlee.github.io/p/at-mit-musicians-make-new-tools-for-new-tunes/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/at-mit-musicians-make-new-tools-for-new-tunes/</guid>
+        <guid>https://caxlee.github.io/p/at-mit-musicians-make-new-tools-for-new-tunes/</guid>
         <description>&lt;p&gt;麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索音乐和技术之间的联系，共同探索创新之路。&lt;/p&gt;</description>
         </item>
         <item>
         <title>ICML 2025 | 清华、上海AI Lab提出专家级医学基准MedXpertQA，看o3、R1哪家强</title>
-        <link>https://caxlee.github.io/hugo/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/</link>
+        <link>https://caxlee.github.io/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/</guid>
+        <guid>https://caxlee.github.io/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/</guid>
         <description>&lt;p&gt;MedXpertQA是一个高难度、高临床相关性、全面的医学基准，旨在评估专家级医学知识和高级推理能力。该基准包括文本医学评估和多模态医学评估两个子集，涵盖了17个专业和11个身体系统的4460个问题。通过严格的筛选和增强，MedXpertQA有效区分前沿模型并提供真实诊断场景的临床相关性。&lt;/p&gt;</description>
         </item>
         <item>
         <title>KAG-Thinker：「结构化」思考新范式，支持逻辑严谨的大模型复杂推理</title>
-        <link>https://caxlee.github.io/hugo/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/</link>
+        <link>https://caxlee.github.io/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/</guid>
+        <guid>https://caxlee.github.io/p/kag-thinker%E7%BB%93%E6%9E%84%E5%8C%96%E6%80%9D%E8%80%83%E6%96%B0%E8%8C%83%E5%BC%8F%E6%94%AF%E6%8C%81%E9%80%BB%E8%BE%91%E4%B8%A5%E8%B0%A8%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%8D%E6%9D%82%E6%8E%A8%E7%90%86/</guid>
         <description>&lt;p&gt;蚂蚁集团知识引擎团队联合浙江大学、同济大学发布了KAG-Thinker模型，该模型是KAG框架的升级，通过结构化思考提升复杂推理任务的逻辑性和稳定性。KAG-Thinker在多轮检索和规划推理中表现优异，通过广度拆分与深度求解相结合，提高了问题求解的严谨性，并引入知识边界判定机制和内容抗噪模块优化推理过程。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87</title>
-        <link>https://caxlee.github.io/hugo/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-mu/</link>
+        <link>https://caxlee.github.io/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-mu/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-mu/</guid>
+        <guid>https://caxlee.github.io/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-mu/</guid>
         <description>&lt;p&gt;MIT计算机音乐领域的先驱Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe在音乐、科学和创新领域做出了深远贡献，推动了音乐体验的提升，尤其是对年轻人的影响。他创办了MIT的实验音乐工作室，开发了先进的音乐技术，如算法作曲和数字合成，影响了音乐技术与工程的交叉领域，留下了深远的影响。&lt;/p&gt;</description>
         </item>
         <item>
         <title>斯坦福毕业，用RL做Agent，华人创业团队种子轮融资1200万美元</title>
-        <link>https://caxlee.github.io/hugo/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/</link>
+        <link>https://caxlee.github.io/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/</guid>
+        <guid>https://caxlee.github.io/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/</guid>
         <description>&lt;p&gt;Pokee AI 创始人朱哲清介绍了公司的发展历程和产品特点。Pokee.ai 聚焦于开发一款交互式、个性化、高效的 AI Agent，以 RL 为核心构建 Agent，与传统的以 LLM 为核心的模型有所不同。公司最新完成了 1200 万美元种子轮融资，公开测试版也已上线。朱哲清表示创业是一种全新的体验，公司团队一直秉承着轻量级的理念，目前团队规模为 7 人，强调远程办公的高效性。&lt;/p&gt;</description>
         </item>
         <item>
         <title>模拟3D分子编辑，北大高毅勤团队开发整合物理信息和偏好对齐的MolEdit，登Nature子刊</title>
-        <link>https://caxlee.github.io/hugo/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
+        <link>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
+        <guid>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
         <description>&lt;p&gt;北京大学团队提出了理论指导，用于弥合图像 GenAI 和分子 GenAI 之间的方法论差距，实现对 3D 分子生成基础模型的预训练。他们开发的多模态分子 GenAI——MolEdit 能够生成具有全面对称性的有效分子，平衡构型稳定性和构象多样性，支持复杂三维结构的生成。研究人员通过物理信息学习和数据驱动学习相结合，解决了分子 GenAI 的幻觉问题，使得 MolEdit 在药物设计等领域具有广泛应用前景。&lt;/p&gt;</description>
         </item>
         <item>
         <title>用隐藏指令诱导AI给论文打高分，谢赛宁合著论文被点名：认错，绝不鼓励</title>
-        <link>https://caxlee.github.io/hugo/p/%E7%94%A8%E9%9A%90%E8%97%8F%E6%8C%87%E4%BB%A4%E8%AF%B1%E5%AF%BCai%E7%BB%99%E8%AE%BA%E6%96%87%E6%89%93%E9%AB%98%E5%88%86%E8%B0%A2%E8%B5%9B%E5%AE%81%E5%90%88%E8%91%97%E8%AE%BA%E6%96%87%E8%A2%AB%E7%82%B9%E5%90%8D%E8%AE%A4%E9%94%99%E7%BB%9D%E4%B8%8D%E9%BC%93%E5%8A%B1/</link>
+        <link>https://caxlee.github.io/p/%E7%94%A8%E9%9A%90%E8%97%8F%E6%8C%87%E4%BB%A4%E8%AF%B1%E5%AF%BCai%E7%BB%99%E8%AE%BA%E6%96%87%E6%89%93%E9%AB%98%E5%88%86%E8%B0%A2%E8%B5%9B%E5%AE%81%E5%90%88%E8%91%97%E8%AE%BA%E6%96%87%E8%A2%AB%E7%82%B9%E5%90%8D%E8%AE%A4%E9%94%99%E7%BB%9D%E4%B8%8D%E9%BC%93%E5%8A%B1/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E7%94%A8%E9%9A%90%E8%97%8F%E6%8C%87%E4%BB%A4%E8%AF%B1%E5%AF%BCai%E7%BB%99%E8%AE%BA%E6%96%87%E6%89%93%E9%AB%98%E5%88%86%E8%B0%A2%E8%B5%9B%E5%AE%81%E5%90%88%E8%91%97%E8%AE%BA%E6%96%87%E8%A2%AB%E7%82%B9%E5%90%8D%E8%AE%A4%E9%94%99%E7%BB%9D%E4%B8%8D%E9%BC%93%E5%8A%B1/</guid>
+        <guid>https://caxlee.github.io/p/%E7%94%A8%E9%9A%90%E8%97%8F%E6%8C%87%E4%BB%A4%E8%AF%B1%E5%AF%BCai%E7%BB%99%E8%AE%BA%E6%96%87%E6%89%93%E9%AB%98%E5%88%86%E8%B0%A2%E8%B5%9B%E5%AE%81%E5%90%88%E8%91%97%E8%AE%BA%E6%96%87%E8%A2%AB%E7%82%B9%E5%90%8D%E8%AE%A4%E9%94%99%E7%BB%9D%E4%B8%8D%E9%BC%93%E5%8A%B1/</guid>
         <description>&lt;p&gt;近期，一些提示词在AI学术圈引发风波，涉及在论文中嵌入提示以影响AI评审。谢赛宁被指参与一篇论文存在类似行为，并紧急回应表示不鼓励此类做法。他认为事件揭示了学术体系对AI时代伦理问题的漠视，呼吁进行更深入的讨论。针对AI审稿的争议，谢赛宁强调这种行为属于不道德，呼吁建立合理约束机制以避免审稿环境恶化。&lt;/p&gt;</description>
         </item>
         <item>
         <title>还在为AI数据发愁？张文涛和鄂维南院士团队推出Data-centric AI系统</title>
-        <link>https://caxlee.github.io/hugo/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/</link>
+        <link>https://caxlee.github.io/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/</guid>
+        <guid>https://caxlee.github.io/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/</guid>
         <description>&lt;p&gt;近年来，大型科技公司主导大模型发展，但学术界在大模型训练数据构建与优化方面受限。张文涛和鄂维南院士团队提出了以数据为中心的 AI 系统 DataFlow，支持多模态数据治理，可提升大语言模型在通用及特定领域的性能。该系统提供多种数据处理流水线，算子和 Agent 自动化任务处理系统。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Inspiring student growth</title>
-        <link>https://caxlee.github.io/hugo/p/inspiring-student-growth/</link>
+        <link>https://caxlee.github.io/p/inspiring-student-growth/</link>
         <pubDate>Sun, 13 Jul 2025 13:55:19 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/inspiring-student-growth/</guid>
+        <guid>https://caxlee.github.io/p/inspiring-student-growth/</guid>
         <description>&lt;p&gt;Xiao Wang是麻省理工学院的化学系副教授，她致力于为学生创造培养成长的环境，并通过讨论研究兴趣和学术目标等方式支持他们的发展。Rodrigo Verdi是麻省理工斯隆管理学院的副院长，致力于指导学生，提供反馈和帮助，展现出对学生成功的关心和承诺。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Study: Babies’ poor vision may help organize visual brain pathways</title>
-        <link>https://caxlee.github.io/hugo/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/</link>
+        <link>https://caxlee.github.io/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/</link>
         <pubDate>Sun, 13 Jul 2025 13:55:19 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/</guid>
+        <guid>https://caxlee.github.io/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/</guid>
         <description>&lt;p&gt;麻省理工学院的一项新研究提供了关于视觉系统中两条通路如何受发育因素影响的解释。研究发现，早期视觉模糊、色彩有限的输入可能导致大细胞系统和小细胞系统的发展。通过训练计算视觉模型，研究人员发现，模型在接受模拟人类婴儿视觉发展轨迹的低质量图像后，展现出类似于真实视觉系统中两个通路的特征。&lt;/p&gt;</description>
         </item>
         <item>
         <title>A bionic knee integrated into tissue can restore natural movement</title>
-        <link>https://caxlee.github.io/hugo/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/</link>
+        <link>https://caxlee.github.io/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/</guid>
+        <guid>https://caxlee.github.io/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/</guid>
         <description>&lt;p&gt;麻省理工学院的研究人员开发了一种新型仿生膝关节，可以帮助膝上截肢者比传统义肢更快地行走、爬楼梯和更容易避开障碍物。这种系统直接与用户的肌肉和骨组织集成，提供了更大的稳定性和更多对义肢运动的控制。研究还表明，参与小型临床研究的人员报告称，与传统膝上截肢者相比，他们感觉新的仿生肢体更像自己身体的一部分。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Designing across cultural and geographic divides</title>
-        <link>https://caxlee.github.io/hugo/p/designing-across-cultural-and-geographic-divides/</link>
+        <link>https://caxlee.github.io/p/designing-across-cultural-and-geographic-divides/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/designing-across-cultural-and-geographic-divides/</guid>
+        <guid>https://caxlee.github.io/p/designing-across-cultural-and-geographic-divides/</guid>
         <description>&lt;p&gt;MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。&lt;/p&gt;</description>
         </item>
         <item>
         <title>从「一团乱麻」到清晰分型，AI精准解析肿瘤细胞多样性，助力个性化联合疗法设计</title>
-        <link>https://caxlee.github.io/hugo/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
+        <link>https://caxlee.github.io/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</guid>
+        <guid>https://caxlee.github.io/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</guid>
         <description>&lt;p&gt;肿瘤异质性是指肿瘤内细胞在基因、表型、功能等方面存在差异，导致肿瘤行为复杂化。加文医学研究所团队开发了新的人工智能工具 AAnet，可以更好地表征肿瘤内单个细胞的多样性，为个性化治疗提供可能。他们发现肿瘤内存在五种不同的癌细胞群，这些群体具有不同的基因表达谱，为更有针对性的治疗方法打开了大门。&lt;/p&gt;</description>
         </item>
         <item>
         <title>告别Transformer！北大、北邮、华为开源纯卷积DiC：3x3卷积实现SOTA性能，比DiT快5倍！</title>
-        <link>https://caxlee.github.io/hugo/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</link>
+        <link>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</guid>
+        <guid>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</guid>
         <description>&lt;p&gt;近期北大、北邮和华为联合研究提出了一种新的纯卷积扩散模型DiC，重新审视了深度学习中的基础模块3x3卷积，超越了Diffusion Transformer在性能和推理速度上，证明了简单的卷积网络在生成任务中的潜力。他们通过精心设计的U-Net Hourglass架构、条件注入和激活函数替换等方式，将平庸的卷积网络打造成性能卓越的模型。&lt;/p&gt;</description>
         </item>
         <item>
         <title>微软研究院BioEmu登上Science，用生成式AI重塑蛋白质功能研究</title>
-        <link>https://caxlee.github.io/hugo/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</link>
+        <link>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</guid>
+        <guid>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</guid>
         <description>&lt;p&gt;微软研究院AI for Science团队提出了一种名为BioEmu的生成式深度学习模型，能够高效模拟蛋白质的构象变化，为理解蛋白质功能机制和加速药物发现提供新路径。该模型结合了静态结构、分子动力学模拟数据和蛋白稳定性实验数据进行训练，具有模拟蛋白质关键结构变化、自由能预测准确等优点，已在GitHub和HuggingFace上开源。&lt;/p&gt;</description>
         </item>
         <item>
         <title>首次实现「自驱动」，材料发现效率提升6倍，贝叶斯优化&#43;CALPHAD计算的新方法</title>
-        <link>https://caxlee.github.io/hugo/p/%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%87%AA%E9%A9%B1%E5%8A%A8%E6%9D%90%E6%96%99%E5%8F%91%E7%8E%B0%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%876%E5%80%8D%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96calphad%E8%AE%A1%E7%AE%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/</link>
+        <link>https://caxlee.github.io/p/%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%87%AA%E9%A9%B1%E5%8A%A8%E6%9D%90%E6%96%99%E5%8F%91%E7%8E%B0%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%876%E5%80%8D%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96calphad%E8%AE%A1%E7%AE%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%87%AA%E9%A9%B1%E5%8A%A8%E6%9D%90%E6%96%99%E5%8F%91%E7%8E%B0%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%876%E5%80%8D%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96calphad%E8%AE%A1%E7%AE%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/</guid>
+        <guid>https://caxlee.github.io/p/%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%87%AA%E9%A9%B1%E5%8A%A8%E6%9D%90%E6%96%99%E5%8F%91%E7%8E%B0%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%876%E5%80%8D%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96calphad%E8%AE%A1%E7%AE%97%E7%9A%84%E6%96%B0%E6%96%B9%E6%B3%95/</guid>
         <description>&lt;p&gt;马里兰大学研究人员提出了自主材料搜索引擎（AMASE），通过实验和计算预测的自主驱动连续循环交互来探索材料，实现了快速绘制薄膜共晶相图。AMASE 运算令人兴奋的自然扩展包括整合其他类型的计算工作，以及在材料科学以外的研究领域中将线程式实验-理论循环耦合起来，展示了自主科学的实用性和影响力。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Meta为他豪掷2亿美元，上交校友庞若鸣，晒出在苹果的最新论文</title>
-        <link>https://caxlee.github.io/hugo/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</link>
+        <link>https://caxlee.github.io/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</guid>
+        <guid>https://caxlee.github.io/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</guid>
         <description>&lt;p&gt;庞若鸣即将加入 Meta 新成立的超级智能团队，但在苹果负责的最后一项研究中，他介绍了基于多模态大规模模型训练的 AXLearn 系统，具备高度模块化和对异构硬件的支持。该系统通过严格封装实现模块化，成功集成了 RoPE 和 MoE 功能，保持恒定的代码复杂性，并在异构硬件上展现出优异的性能。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Processing our technological angst through humor</title>
-        <link>https://caxlee.github.io/hugo/p/processing-our-technological-angst-through-humor/</link>
+        <link>https://caxlee.github.io/p/processing-our-technological-angst-through-humor/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/processing-our-technological-angst-through-humor/</guid>
+        <guid>https://caxlee.github.io/p/processing-our-technological-angst-through-humor/</guid>
         <description>&lt;p&gt;本文探讨了计算机技术在文化生活中的演变，以及人们如何通过幽默来应对对计算机的疑虑和恐惧。作者指出，幽默有助于使技术变得平凡，并将其融入生活中。现代文化中，尤其是浪漫喜剧，经常处理与技术及其对人类的影响有关的议题。此外，文章还讨论了计算机技术带来的伦理问题，以及人们如何通过幽默来批判科技行业的夸大宣传与实际表现之间的差距。&lt;/p&gt;</description>
         </item>
         <item>
         <title>刚刚，马斯克发布Grok 4！全榜第一，年费飚到2万&#43;</title>
-        <link>https://caxlee.github.io/hugo/p/%E5%88%9A%E5%88%9A%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83grok-4%E5%85%A8%E6%A6%9C%E7%AC%AC%E4%B8%80%E5%B9%B4%E8%B4%B9%E9%A3%9A%E5%88%B02%E4%B8%87/</link>
+        <link>https://caxlee.github.io/p/%E5%88%9A%E5%88%9A%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83grok-4%E5%85%A8%E6%A6%9C%E7%AC%AC%E4%B8%80%E5%B9%B4%E8%B4%B9%E9%A3%9A%E5%88%B02%E4%B8%87/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E5%88%9A%E5%88%9A%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83grok-4%E5%85%A8%E6%A6%9C%E7%AC%AC%E4%B8%80%E5%B9%B4%E8%B4%B9%E9%A3%9A%E5%88%B02%E4%B8%87/</guid>
+        <guid>https://caxlee.github.io/p/%E5%88%9A%E5%88%9A%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83grok-4%E5%85%A8%E6%A6%9C%E7%AC%AC%E4%B8%80%E5%B9%B4%E8%B4%B9%E9%A3%9A%E5%88%B02%E4%B8%87/</guid>
         <description>&lt;p&gt;Grok 4 是一款 xAI 大模型，具有超强的推理能力，能在各类考试中取得高分，包括 SAT 和 GRE。其性能在多个基准测试中表现出色，包括在 ARC-AGI 和 Vending-Bench 上取得最新 SOTA。此外，Grok 4 还在语音能力和多模态方面得到加强，支持多种语音和新增角色 Eve 和 Sal。&lt;/p&gt;</description>
         </item>
         <item>
         <title>基于工作记忆的认知测试显示LLM的检索局限：100%混淆无效信息与正确答案</title>
-        <link>https://caxlee.github.io/hugo/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</link>
+        <link>https://caxlee.github.io/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</guid>
+        <guid>https://caxlee.github.io/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</guid>
         <description>&lt;p&gt;本文发现了一个影响所有大型语言模型的信息检索问题，即无法稳定地提取动态数据中的最新信息，对全局记忆和长推理任务造成损害。研究表明，所有主流语言模型在处理动态数据时会出现明显的错误，并呈现出一致的对数线性下降趋势。作者提出这一问题可能源于模型的基础架构或依赖的注意力机制。实验结果暗示，模型的抗干扰容量不足，需要在模型架构设计或训练方法上进行创新性调整。&lt;/p&gt;</description>
         </item>
         
