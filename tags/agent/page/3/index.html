@@ -4,15 +4,15 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Example description">
 <title>Tag: Agent - Pager 3 - Example Site</title>
 
-<link rel='canonical' href='https://caxlee.github.io/tags/agent/'>
+<link rel='canonical' href='https://caxlee.github.io/hugo/tags/agent/'>
 
-<link rel="stylesheet" href="/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Tag: Agent - Example Site">
+<link rel="stylesheet" href="/hugo/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Tag: Agent - Example Site">
 <meta property='og:description' content="Example description">
-<meta property='og:url' content='https://caxlee.github.io/tags/agent/'>
+<meta property='og:url' content='https://caxlee.github.io/hugo/tags/agent/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-16T00:00:00&#43;00:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-18T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Tag: Agent - Example Site">
-<meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/tags/agent/index.xml">
+<meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/hugo/tags/agent/index.xml">
 <style>
      
     .custom-horizontal-layout {
@@ -98,7 +98,17 @@
 </style>
 
 
-<link rel="stylesheet" href="/css/custom-post.css"> 
+<link rel="stylesheet" href="/hugo/css/custom-post.css"> 
+        
+        
+        
+        <script src="/hugo/js/error-handler.8dc719c1a043babbe09b0f36089636a3a4a68a346eac1f2e8d453f1c623caa19.js"></script>
+        
+        
+        
+        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        
+        
         <style>
              
             .custom-horizontal-layout {
@@ -144,6 +154,7 @@
                 }
             }
             
+             
             .article-tags {
                 margin-top: 1rem;
             }
@@ -156,20 +167,7 @@
                 gap: 0.5rem;
             }
              
-            .article-tags .article-tags-list-item a {
-                display: inline-block;
-                background: var(--tertiary-background-color);
-                color: var(--secondary-text-color);
-                padding: 0.25rem 0.75rem;
-                border-radius: var(--card-border-radius);
-                font-size: 0.875rem;
-                text-decoration: none;
-                transition: background-color 0.2s, color 0.2s;
-            }
-            .article-tags .article-tags-list-item a:hover {
-                background: var(--theme-color);
-                color: var(--background-color);
-            }
+             
         </style>
     </head>
     <body class=" simplified-layout">
@@ -195,7 +193,104 @@
         }
     })();
 </script>
-<div class="top-header">
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+</style>
+
+<div class="top-header-fixed">
     <div class="top-header-container">
         <div class="ai-news-logo">
             <span class="ai-news-emoji">🍥</span>
@@ -205,36 +300,60 @@
         <div class="date-selector">
             <label for="date-select">Select Date</label>
             
-            <input type="date" id="date-select" value="2025-07-16">
+            <input type="date" id="date-select" value="2025-07-18">
         </div>
     </div>
 </div>
+
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('date-select');
-    const cards = document.querySelectorAll('.article-card');
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
     const today = new Date().toISOString().slice(0, 10);
-
-    function filterPosts(isInitialLoad = false) {
-      let val = select.value;
-
-      if (isInitialLoad) {
-        select.value = today;
-        val = today;
+    
+    
+    function filterArticles(initialLoad = false) {
+      
+      let selectedDate = dateSelector.value;
+      
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
       }
-
-      cards.forEach(card => {
-        if (!val) {
+      
+      
+      articleCards.forEach(function(card) {
+        
+        if (!selectedDate) {
           card.style.display = '';
         } else {
-          card.style.display = card.dataset.date === val ? '' : 'none';
+          
+          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
         }
       });
     }
-
-    select.addEventListener('change', () => filterPosts(false));
-    filterPosts(true);
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
   });
+})();
 </script> <div class="container main-container">
             <main class="main full-width">
     <style>
@@ -251,12 +370,12 @@
     </header><section class="article-list">
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-17">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://www.jiqizhixin.com/articles/2025-07-18-10">
     
         <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-17" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-18-10" target="_blank" rel="noopener noreferrer">
                 
-                    <img src="/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg" loading="lazy" alt="Featured image of post 马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网" />
+                    <img src="/hugo/images/articles/2025_07_18/038.jpg" loading="lazy" alt="Featured image of post 演讲生成黑科技，PresentAgent从文本到演讲视频" />
                 
             </a>
         </div>
@@ -267,13 +386,13 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-17" target="_blank" rel="noopener noreferrer">马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网</a>
+                <a href="https://www.jiqizhixin.com/articles/2025-07-18-10" target="_blank" rel="noopener noreferrer">演讲生成黑科技，PresentAgent从文本到演讲视频</a>
             </h2>
             
             
             
             <div class="article-summary">
-                马斯克推出Grok新功能“智能伴侣”，用户热议。Ani和Rudy是新伴侣角色，引发争议。编辑体验Ani交互，发现功能尚不完善。AI伴侣领域探索情感交互，豆包等国产大模型备受关注。Grok还涉足游戏领域，推出AI生成游戏功能。
+                PresentAgent是多模态智能体，可将长文档转化为带解说的演示视频，突破静态幻灯片生成限制。引入PresentEval评估框架，实现内容忠实度、视觉清晰度和观众理解度全面评估。
             </div>
             
         </div>
@@ -292,329 +411,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                             多模态
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-17">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-17" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg" loading="lazy" alt="Featured image of post 马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-17" target="_blank" rel="noopener noreferrer">马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                马斯克推出Grok新功能“智能伴侣”，用户热议。Ani和Rudy是新伴侣角色，引发争议。编辑体验Ani交互，发现功能尚不完善。AI伴侣领域探索情感交互，豆包等国产大模型备受关注。Grok还涉足游戏领域，推出AI生成游戏功能。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-2">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-16-2" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/ff6b9496-9af4-4eaa-9ff8-3e6c35f5a7f6.jpg" loading="lazy" alt="Featured image of post 突发｜思维链开山作者Jason Wei被曝加入Meta，机器之心独家证实：Slack没了" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-16-2" target="_blank" rel="noopener noreferrer">突发｜思维链开山作者Jason Wei被曝加入Meta，机器之心独家证实：Slack没了</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                OpenAI知名科学家Jason Wei和Hyung Won Chung离职加入Meta，Slack账号停用。Wei是AI大模型领域重要作者，Chung在LLM研究与应用方面专注。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-2">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-2" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg" loading="lazy" alt="Featured image of post 突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-2" target="_blank" rel="noopener noreferrer">突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                Cognition宣布收购Windsurf剩余团队和资产，获得超过1亿美元资金。收购后Windsurf将继续独立运营，Cognition整合其产品和团队。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-2">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-2" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg" loading="lazy" alt="Featured image of post 突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-2" target="_blank" rel="noopener noreferrer">突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                Cognition宣布收购Windsurf剩余团队和资产，获得超过1亿美元资金。收购后Windsurf将继续独立运营，Cognition整合其产品和团队。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-12">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-12" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg" loading="lazy" alt="Featured image of post 智能时代，同球共济！2025世界人工智能大会将于7月26日启幕" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-12" target="_blank" rel="noopener noreferrer">智能时代，同球共济！2025世界人工智能大会将于7月26日启幕</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                2025世界人工智能大会将于7月26日启幕，聚焦全球人工智能发展与治理，展示技术前沿和产业趋势。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                             具身智能
                         </a>
                     </li>
@@ -629,12 +438,12 @@
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-12">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://www.jiqizhixin.com/articles/2025-07-18-3">
     
         <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-12" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-18-3" target="_blank" rel="noopener noreferrer">
                 
-                    <img src="/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg" loading="lazy" alt="Featured image of post 智能时代，同球共济！2025世界人工智能大会将于7月26日启幕" />
+                    <img src="/hugo/images/articles/2025_07_18/005.jpg" loading="lazy" alt="Featured image of post 刚刚，OpenAI通用智能体ChatGPT Agent正式登场" />
                 
             </a>
         </div>
@@ -645,13 +454,13 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-12" target="_blank" rel="noopener noreferrer">智能时代，同球共济！2025世界人工智能大会将于7月26日启幕</a>
+                <a href="https://www.jiqizhixin.com/articles/2025-07-18-3" target="_blank" rel="noopener noreferrer">刚刚，OpenAI通用智能体ChatGPT Agent正式登场</a>
             </h2>
             
             
             
             <div class="article-summary">
-                2025世界人工智能大会将于7月26日启幕，聚焦全球人工智能发展与治理，展示技术前沿和产业趋势。
+                OpenAI推出通用智能体ChatGPT Agent，实现自主选择工具、完成复杂任务，提升AI能力。用户可通过Agent模式订阅使用，具备高效处理任务、连接多种工具的能力。
             </div>
             
         </div>
@@ -670,20 +479,8 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
                         </a>
                     </li>
                     
@@ -697,12 +494,142 @@
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-6">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/2025_07_18/014.jpg" loading="lazy" alt="Featured image of post This “smart coach” helps LLMs switch between text and code" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717" target="_blank" rel="noopener noreferrer">This “smart coach” helps LLMs switch between text and code</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                CodeSteer是一款智能助手，帮助LLMs在文本和代码之间切换以提高符号任务准确性。研究者发现，CodeSteer使LLMs在解决数学问题等任务时准确性提升超过30%。这一进展有望改善LLMs在复杂任务中的问题解决能力。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17-10">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-17-10" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/096ab6f2-9e31-4d3b-b562-37ea36992052.jpg" loading="lazy" alt="Featured image of post 昨晚，云计算一哥打造了一套Agent落地的「金铲子」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-17-10" target="_blank" rel="noopener noreferrer">昨晚，云计算一哥打造了一套Agent落地的「金铲子」</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                亚马逊云科技推出全新Agent解决方案，包括AgentCore架构和多模态模型支持。新技术加速AI转型，构建企业级Agent应用更高效。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-6">
     
         <div class="article-image">
             <a href="https://www.jiqizhixin.com/articles/2025-07-16-6" target="_blank" rel="noopener noreferrer">
                 
-                    <img src="/images/articles/a30f8f3c-a8d7-4d7e-a557-4526cdec3e94.jpg" loading="lazy" alt="Featured image of post 打造全球首个强化学习云平台，九章云极是如何做到的？" />
+                    <img src="/images/articles/b26c0688-dbb3-4cdb-b4f8-af1b3c03fcb8.jpg" loading="lazy" alt="Featured image of post 打造全球首个强化学习云平台，九章云极是如何做到的？" />
                 
             </a>
         </div>
@@ -719,7 +646,7 @@
             
             
             <div class="article-summary">
-                九章云极发布全球首个强化学习云平台AgentiCTRL，支持万卡级异构算力调度，提升训练效率500%，成本降低60%。系统性重构强化学习训练流程，实现端到端闭环，引领智能体原生云发展。
+                九章云极发布全球首个强化学习云平台AgentiCTRL，支持万卡级异构算力调度，提升训练效率500%，成本降低60%。系统性重构强化学习训练流程，实现端到端闭环。九章云极构建智能体原生云生态，引领AI基础设施竞争。
             </div>
             
         </div>
@@ -738,19 +665,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
                             基模
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
                             Infra
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -765,12 +692,12 @@
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-13">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17-7">
     
         <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-13" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-17-7" target="_blank" rel="noopener noreferrer">
                 
-                    <img src="/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png" loading="lazy" alt="Featured image of post 大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻" />
+                    <img src="/images/articles/818c8397-3bcf-4055-b391-e127148da9c9.jpg" loading="lazy" alt="Featured image of post 强化学习的两个「大坑」，终于被两篇ICLR论文给解决了" />
                 
             </a>
         </div>
@@ -781,13 +708,13 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-13" target="_blank" rel="noopener noreferrer">大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻</a>
+                <a href="https://www.jiqizhixin.com/articles/2025-07-17-7" target="_blank" rel="noopener noreferrer">强化学习的两个「大坑」，终于被两篇ICLR论文给解决了</a>
             </h2>
             
             
             
             <div class="article-summary">
-                WAIC 2025聚焦大模型技术路线与产业应用，探讨主权模型与开源生态竞争。论坛涵盖基础模型、垂类模型和AI Agent，推动技术创新与产业融合。
+                两篇ICLR论文解决强化学习实时环境中的推理延迟和动作缺失问题。
             </div>
             
         </div>
@@ -806,19 +733,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
                             基模
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -833,216 +760,12 @@
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-13">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-13" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png" loading="lazy" alt="Featured image of post 大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-13" target="_blank" rel="noopener noreferrer">大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                WAIC 2025聚焦大模型技术路线与产业应用，探讨主权模型与开源生态竞争。论坛涵盖基础模型、垂类模型和AI Agent，推动技术创新与产业融合。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-9">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-9" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg" loading="lazy" alt="Featured image of post 什么都不做就能得分？智能体基准测试出现大问题" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-9" target="_blank" rel="noopener noreferrer">什么都不做就能得分？智能体基准测试出现大问题</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                现有AI智能体基准测试存在严重问题，如智能体得分不准确、存在投机取巧现象。研究提出有效性判据和检查清单以确保基准测试可靠性。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-9">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-15-9" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg" loading="lazy" alt="Featured image of post 什么都不做就能得分？智能体基准测试出现大问题" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-15-9" target="_blank" rel="noopener noreferrer">什么都不做就能得分？智能体基准测试出现大问题</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                现有AI智能体基准测试存在严重问题，如智能体得分不准确、存在投机取巧现象。研究提出有效性判据和检查清单以确保基准测试可靠性。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-10">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-10">
     
         <div class="article-image">
             <a href="https://www.jiqizhixin.com/articles/2025-07-16-10" target="_blank" rel="noopener noreferrer">
                 
-                    <img src="/images/articles/e18de94b-c177-44fc-bccb-1d7e4fcaf42a.png" loading="lazy" alt="Featured image of post 亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程" />
+                    <img src="/images/articles/2a591937-da3c-4674-a71f-79b98f9941fd.png" loading="lazy" alt="Featured image of post 亚马逊云科技入局Vibe Coding，推出Kiro重塑开发流程" />
                 
             </a>
         </div>
@@ -1059,7 +782,7 @@
             
             
             <div class="article-summary">
-                亚马逊云科技推出Kiro AI IDE，以结构化协作取代碎片式生成，助力开发者高效编码、设计和管理任务。Kiro具备Hooks机制，像资深工程师一样协助开发者，引领AI协作时代。
+                亚马逊云科技推出Kiro AI IDE，以结构化协作取代碎片式生成，助力开发者高效编码、设计、管理任务。Kiro具备全新范式和Hooks机制，实现需求转化、系统设计和自动执行，引领AI协作时代。
             </div>
             
         </div>
@@ -1078,20 +801,286 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/ai4s/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
                             AI4S
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                             具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg" loading="lazy" alt="Featured image of post New tool gives anyone the ability to train a robot" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717" target="_blank" rel="noopener noreferrer">New tool gives anyone the ability to train a robot</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                新工具使任何人能够训练机器人，通过三种不同的训练方法，提供更灵活的培训选择。MIT工程师开发了多功能演示界面，可让机器人通过远程控制、物理操作或示范学习任务。该界面增加了培训灵活性，有助于扩大用户范围和机器人技能范围。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17-8">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-17-8" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/d284d80e-201e-4cb7-9e13-142074091e8a.jpg" loading="lazy" alt="Featured image of post ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-17-8" target="_blank" rel="noopener noreferrer">ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                Evaluation Agent是一个AI评估框架，可定制评估方案、高效评估、可解释结果。支持多轮交互评估，提升视觉生成模型评估效率和灵活性。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/d17bb4e5-0c8f-4803-82ac-73ef86a1438d.png" loading="lazy" alt="Featured image of post Simulation-based pipeline tailors training data for dexterous robots" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711" target="_blank" rel="noopener noreferrer">Simulation-based pipeline tailors training data for dexterous robots</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT&#39;s PhysicsGen tailors robot training data for efficient movements using VR demonstrations and trajectory optimization, enhancing robotic tasks like …
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG" loading="lazy" alt="Featured image of post Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715" target="_blank" rel="noopener noreferrer">Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT物理学荣誉教授Daniel Kleppner，92岁，因实验原子物理工作而备受推崇，对氢激光钟、Rydberg原子物理和Bose-Einstein凝聚做出重大贡献。他在MIT的37年职业生涯中领导了原子物理领域的发展，培养了一代又一代的物理学家。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
+                            未识别
                         </a>
                     </li>
                     
@@ -1146,19 +1135,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
                             基模
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                             多模态
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -1214,7 +1203,7 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -1270,19 +1259,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/infra/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
                             Infra
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                             具身智能
                         </a>
                     </li>
@@ -1338,19 +1327,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
                             基模
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                             多模态
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -1406,19 +1395,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
                             基模
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                             具身智能
                         </a>
                     </li>
@@ -1466,19 +1455,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                             多模态
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                             具身智能
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -1526,19 +1515,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                             多模态
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                             具身智能
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -1586,19 +1575,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                             多模态
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                             具身智能
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -1646,19 +1635,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                             多模态
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
                             基模
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
@@ -1706,19 +1695,19 @@
                 <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
                             多模态
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/agent/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
                             Agent
                         </a>
                     </li>
                     
                     <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
+                        <a href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
                             能效优化
                         </a>
                     </li>
@@ -1756,7 +1745,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
+            </script><script type="text/javascript" src="/hugo/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script><script type="text/javascript" src="/hugo/js/modal.9e0204241c22b7c13562569f282f46dad4bce16c3377c622e4e475fd86e4472b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
