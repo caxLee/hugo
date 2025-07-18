@@ -124,10 +124,11 @@ async def scrape_mit_news_articles(save_path):
     async with async_playwright() as p, aiohttp.ClientSession() as session:
         # 初始化浏览器
         print(f"🌐 使用{'无头' if HEADLESS else '可视化'}浏览器模式")
-        browser = await p.chromium.launch(headless=HEADLESS, ignore_https_errors=True)
+        browser = await p.chromium.launch(headless=HEADLESS)
         context = await browser.new_context(
             viewport={"width": 1280, "height": 800},
-            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            ignore_https_errors=True
         )
 
         # 设置更多请求头，模拟真实浏览器
