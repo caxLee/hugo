@@ -37,28 +37,12 @@ def run_command(command, cwd, silent=False):
         return False, None
 
 def commit_content_to_main(hugo_source_path, token=None):
-    """将新生成的文章提交到main分支"""
-    print("\n--- 步骤4: 将新生成的文章提交到main分支 ---")
+    """将新生成的文章和图片提交到main分支"""
+    print("\n--- 步骤4: 将新生成的文章和图片提交到main分支 ---")
     
     # 获取今天的日期，用于查找新生成的文章目录
     today = datetime.now().strftime('%Y_%m_%d')
     content_dir = os.path.join(hugo_source_path, 'content', 'post')
-    
-    # 检查今天的文章目录是否存在
-    today_dir = os.path.join(content_dir, today)
-    if not os.path.isdir(today_dir):
-        print(f"❓ 未找到今天的文章目录: {today_dir}")
-        # 尝试查找最近的目录
-        all_dirs = glob.glob(os.path.join(content_dir, '20*_*_*'))
-        if all_dirs:
-            # 按修改时间排序，找出最近修改的目录
-            latest_dir = max(all_dirs, key=os.path.getmtime)
-            today_dir = latest_dir
-            today = os.path.basename(latest_dir)
-            print(f"✅ 找到最近的文章目录: {today_dir}")
-        else:
-            print("❌ 未找到任何文章目录，跳过提交")
-            return False
     
     # 配置Git
     is_github_actions = os.environ.get('GITHUB_ACTIONS') == 'true'
@@ -68,27 +52,19 @@ def commit_content_to_main(hugo_source_path, token=None):
         run_command(['git', 'config', 'user.email', commit_email], cwd=hugo_source_path)
         run_command(['git', 'config', 'user.name', commit_name], cwd=hugo_source_path)
     
-    # 添加新文章目录到暂存区
-    print(f"添加新文章目录到暂存区: {today_dir}")
-    run_command(['git', 'add', os.path.join('content', 'post', today)], cwd=hugo_source_path)
+    # --- 简化并修复的添加逻辑 ---
+    # 1. 添加所有新生成的或修改过的文章
+    print("添加 content/post 目录下的所有更改...")
+    run_command(['git', 'add', os.path.join('content', 'post') + os.sep], cwd=hugo_source_path)
     
-    # 添加图片目录到暂存区
-    images_today_dir = os.path.join('static', 'images', 'articles', today)
-    if os.path.isdir(os.path.join(hugo_source_path, images_today_dir)):
-        print(f"添加今日图片目录到暂存区: {images_today_dir}")
-        run_command(['git', 'add', images_today_dir], cwd=hugo_source_path)
+    # 2. 添加所有新生成或修改过的图片
+    images_dir = os.path.join('static', 'images', 'articles')
+    if os.path.isdir(os.path.join(hugo_source_path, images_dir)):
+        print(f"添加 {images_dir} 目录下的所有更改...")
+        run_command(['git', 'add', images_dir + os.sep], cwd=hugo_source_path)
     else:
-        print(f"⚠️ 未找到今日图片目录: {images_today_dir}")
-        # 查找最近添加的图片目录
-        all_image_dirs = glob.glob(os.path.join(hugo_source_path, 'static', 'images', 'articles', '20*_*_*'))
-        if all_image_dirs:
-            latest_image_dir = max(all_image_dirs, key=os.path.getmtime)
-            relative_image_path = os.path.relpath(latest_image_dir, hugo_source_path)
-            print(f"添加最近更新的图片目录到暂存区: {relative_image_path}")
-            run_command(['git', 'add', relative_image_path], cwd=hugo_source_path)
-        else:
-            print("⚠️ 未找到任何图片目录")
-    
+        print(f"⚠️ 图片目录不存在: {images_dir}")
+
     # 检查是否有更改需要提交
     success, status_output = run_command(['git', 'status', '--porcelain'], cwd=hugo_source_path, silent=True)
     if not status_output:
@@ -96,40 +72,38 @@ def commit_content_to_main(hugo_source_path, token=None):
         return False
     
     # 提交更改
-    commit_message = f"feat: 添加 {today} 的每日文章"
+    commit_message = f"feat: 添加 {today} 的每日文章和图片"
     print(f"提交更改: {commit_message}")
     success, _ = run_command(['git', 'commit', '-m', commit_message], cwd=hugo_source_path)
     if not success:
-        print("❌ 提交失败")
-        return False
+        print("❌ 提交失败, 可能没有需要提交的更改")
+        # 即使提交失败（比如因为没有新文件），也应该继续尝试构建和部署
+        return True
+    
     print("✅ 提交成功")
     
     # 仅在GitHub Actions中推送
     if is_github_actions:
-        print("🚀 推送新文章到main分支...")
+        print("🚀 推送新内容到main分支...")
         
         if token:
             # 获取当前远程仓库URL
             success, remote_url = run_command(['git', 'remote', 'get-url', 'origin'], cwd=hugo_source_path, silent=True)
             if success and remote_url:
-                # 解析仓库URL，添加token
                 if remote_url.startswith('https://'):
-                    # 从URL中提取owner/repo部分
                     parts = remote_url.split('/')
                     if len(parts) >= 5:
                         owner_repo = f"{parts[-2]}/{parts[-1].replace('.git', '')}"
                         auth_url = f"https://{token}@github.com/{owner_repo}.git"
-                        # 临时设置带认证的远程URL
                         run_command(['git', 'remote', 'set-url', 'origin', auth_url], cwd=hugo_source_path, silent=True)
         
         success, _ = run_command(['git', 'push', 'origin', 'main'], cwd=hugo_source_path)
         
-        # 如果设置了带认证的URL，恢复原始URL
         if token and remote_url:
             run_command(['git', 'remote', 'set-url', 'origin', remote_url], cwd=hugo_source_path, silent=True)
             
         if success:
-            print("🎉 成功推送新文章到main分支!")
+            print("🎉 成功推送新内容到main分支!")
         else:
             print("❌ 推送失败")
             return False
