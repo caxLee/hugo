@@ -1,4 +1,4 @@
-baseurl: https://caxlee.github.io/hugo
+baseurl: https://caxlee.github.io/hugo/
 languageCode: en-us
 theme: hugo-theme-stack
 title: Example Site
