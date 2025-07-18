@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://caxlee.github.io/ar/categories/</loc>
+    <loc>https://caxlee.github.io/hugo/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://caxlee.github.io/categories/"
+                href="https://caxlee.github.io/hugo/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://caxlee.github.io/zh-cn/categories/"
+                href="https://caxlee.github.io/hugo/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://caxlee.github.io/ar/categories/"
+                href="https://caxlee.github.io/hugo/ar/categories/"
                 />
   </url><url>
-    <loc>https://caxlee.github.io/ar/tags/</loc>
+    <loc>https://caxlee.github.io/hugo/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://caxlee.github.io/tags/"
+                href="https://caxlee.github.io/hugo/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://caxlee.github.io/zh-cn/tags/"
+                href="https://caxlee.github.io/hugo/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://caxlee.github.io/ar/tags/"
+                href="https://caxlee.github.io/hugo/ar/tags/"
                 />
   </url><url>
-    <loc>https://caxlee.github.io/ar/</loc>
+    <loc>https://caxlee.github.io/hugo/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://caxlee.github.io/"
+                href="https://caxlee.github.io/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://caxlee.github.io/zh-cn/"
+                href="https://caxlee.github.io/hugo/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://caxlee.github.io/ar/"
+                href="https://caxlee.github.io/hugo/ar/"
                 />
   </url>
 </urlset>

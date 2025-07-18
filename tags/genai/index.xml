@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>GenAI on Example Site</title>
-        <link>https://caxlee.github.io/tags/genai/</link>
+        <link>https://caxlee.github.io/hugo/tags/genai/</link>
         <description>Recent content in GenAI on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sat, 12 Jul 2025 23:34:59 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/genai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Jul 2025 23:34:59 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/genai/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>是的，LeCun要向28岁的Alexandr Wang汇报！这是Meta新AI团队的一些独家内部消息</title>
-        <link>https://caxlee.github.io/p/%E6%98%AF%E7%9A%84lecun%E8%A6%81%E5%90%9128%E5%B2%81%E7%9A%84alexandr-wang%E6%B1%87%E6%8A%A5%E8%BF%99%E6%98%AFmeta%E6%96%B0ai%E5%9B%A2%E9%98%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8B%AC%E5%AE%B6%E5%86%85%E9%83%A8%E6%B6%88%E6%81%AF/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%98%AF%E7%9A%84lecun%E8%A6%81%E5%90%9128%E5%B2%81%E7%9A%84alexandr-wang%E6%B1%87%E6%8A%A5%E8%BF%99%E6%98%AFmeta%E6%96%B0ai%E5%9B%A2%E9%98%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8B%AC%E5%AE%B6%E5%86%85%E9%83%A8%E6%B6%88%E6%81%AF/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%98%AF%E7%9A%84lecun%E8%A6%81%E5%90%9128%E5%B2%81%E7%9A%84alexandr-wang%E6%B1%87%E6%8A%A5%E8%BF%99%E6%98%AFmeta%E6%96%B0ai%E5%9B%A2%E9%98%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8B%AC%E5%AE%B6%E5%86%85%E9%83%A8%E6%B6%88%E6%81%AF/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E6%98%AF%E7%9A%84lecun%E8%A6%81%E5%90%9128%E5%B2%81%E7%9A%84alexandr-wang%E6%B1%87%E6%8A%A5%E8%BF%99%E6%98%AFmeta%E6%96%B0ai%E5%9B%A2%E9%98%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8B%AC%E5%AE%B6%E5%86%85%E9%83%A8%E6%B6%88%E6%81%AF/</guid>
         <description>&lt;p&gt;Meta近期强势挖人行动震撼科技圈，挖走了苹果AI团队负责人庞若鸣等大牛，成立了全新的AI研究部门MSL。Meta内部人员澄清了FAIR与GenAI、MSL之间的区别，指出它们是互相独立的。同时，Meta面临着团队构建、研究方向以及公司文化等多方面的挑战和调整。&lt;/p&gt;</description>
         </item>
         

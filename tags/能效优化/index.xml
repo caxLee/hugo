@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>能效优化 on Example Site</title>
-        <link>https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/</link>
+        <link>https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/</link>
         <description>Recent content in 能效优化 on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快</title>
-        <link>https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg" alt="Featured image of post 比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg" alt="Featured image of post 比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg&#34;
 	
 	
 	
@@ -31,114 +31,114 @@
         </item>
         <item>
         <title>500万视频数据集&#43;全新评测框架！北大开源主体一致性视频生成领域新基建OpenS2V-Nexus，生成视频 「像」 又 「自然」</title>
-        <link>https://caxlee.github.io/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/</link>
+        <link>https://caxlee.github.io/hugo/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/</guid>
+        <guid>https://caxlee.github.io/hugo/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/</guid>
         <description>&lt;p&gt;北大团队推出了开源套件OpenS2V-Nexus，旨在解决Subject-to-Video（S2V）生成中的问题，包括主体一致性、自然度和文本对齐。他们构建了全球首个细粒度评测基准OpenS2V-Eval和规模庞大的数据集OpenS2V-5M，揭示了不同S2V模型在保持主体一致性和自然度方面的能力差距，为AI视频生成技术的发展提供了重要支持。&lt;/p&gt;</description>
         </item>
         <item>
         <title>AI药物发现再进化：分子之心、斯坦福开发SurfFlow系统，破解治疗性肽设计表面互补难题</title>
-        <link>https://caxlee.github.io/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</link>
+        <link>https://caxlee.github.io/hugo/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</guid>
+        <guid>https://caxlee.github.io/hugo/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</guid>
         <description>&lt;p&gt;近年来，科学家在设计靶向难成药位点的治疗性肽方面取得进展，但忽略了蛋白质相互作用中分子表面的重要影响。为弥补这一差距，研究团队提出了一种基于表面的全设计肽生成算法SurfFlow，采用多模态条件流匹配架构来提高肽结合的准确性。该算法在全面的基准测试中表现优异，展现了整合多种蛋白质模态的潜力。&lt;/p&gt;</description>
         </item>
         <item>
         <title>登《Cell》，中科院高彩霞等开发AiCE：一种AI蛋白质工程通用策略</title>
-        <link>https://caxlee.github.io/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</link>
+        <link>https://caxlee.github.io/hugo/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</guid>
         <description>&lt;p&gt;中国科学院团队开发的AiCE框架通过整合结构和进化约束到反向折叠模型中，实现了快速高效的蛋白质工程，无需专门训练。该框架在蛋白质工程任务中取得了显著成功，能够预测高适应性突变并优化蛋白质结构，展现出良好的应用前景。&lt;/p&gt;</description>
         </item>
         <item>
         <title>美国能源部关注的核物理逆问题求解：SAGIPS实现效率 80 倍提升</title>
-        <link>https://caxlee.github.io/p/%E7%BE%8E%E5%9B%BD%E8%83%BD%E6%BA%90%E9%83%A8%E5%85%B3%E6%B3%A8%E7%9A%84%E6%A0%B8%E7%89%A9%E7%90%86%E9%80%86%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3sagips%E5%AE%9E%E7%8E%B0%E6%95%88%E7%8E%87-80-%E5%80%8D%E6%8F%90%E5%8D%87/</link>
+        <link>https://caxlee.github.io/hugo/p/%E7%BE%8E%E5%9B%BD%E8%83%BD%E6%BA%90%E9%83%A8%E5%85%B3%E6%B3%A8%E7%9A%84%E6%A0%B8%E7%89%A9%E7%90%86%E9%80%86%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3sagips%E5%AE%9E%E7%8E%B0%E6%95%88%E7%8E%87-80-%E5%80%8D%E6%8F%90%E5%8D%87/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E7%BE%8E%E5%9B%BD%E8%83%BD%E6%BA%90%E9%83%A8%E5%85%B3%E6%B3%A8%E7%9A%84%E6%A0%B8%E7%89%A9%E7%90%86%E9%80%86%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3sagips%E5%AE%9E%E7%8E%B0%E6%95%88%E7%8E%87-80-%E5%80%8D%E6%8F%90%E5%8D%87/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E7%BE%8E%E5%9B%BD%E8%83%BD%E6%BA%90%E9%83%A8%E5%85%B3%E6%B3%A8%E7%9A%84%E6%A0%B8%E7%89%A9%E7%90%86%E9%80%86%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3sagips%E5%AE%9E%E7%8E%B0%E6%95%88%E7%8E%87-80-%E5%80%8D%E6%8F%90%E5%8D%87/</guid>
         <description>&lt;p&gt;美国杰斐逊国家加速器设施开发了一种人工智能技术 SAGIPS，可以在大规模超级计算机上解决核物理中的逆过程难题。SAGIPS系统使用生成对抗网络（GAN）解决逆问题，并在Polaris超级计算机集群上使用400个GPU处理相应问题。通过分布训练和优化通信机制，SAGIPS取得了验证实验的成功结果。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Designing across cultural and geographic divides</title>
-        <link>https://caxlee.github.io/p/designing-across-cultural-and-geographic-divides/</link>
+        <link>https://caxlee.github.io/hugo/p/designing-across-cultural-and-geographic-divides/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/designing-across-cultural-and-geographic-divides/</guid>
+        <guid>https://caxlee.github.io/hugo/p/designing-across-cultural-and-geographic-divides/</guid>
         <description>&lt;p&gt;MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Supporting mission-driven space innovation, for Earth and beyond</title>
-        <link>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</link>
+        <link>https://caxlee.github.io/hugo/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</guid>
+        <guid>https://caxlee.github.io/hugo/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</guid>
         <description>&lt;p&gt;Aurelia Institute成立于MIT的校友和前研究科学家组成，致力于使太空技术和建筑对全人类都有益处。该机构通过微重力飞行等活动，培养下一代太空爱好者，同时致力于为低地球轨道的大规模基础设施项目提供技术支持。他们的工作包括自组装太空建筑技术TESSERAE以及设计人类规模的建筑和栖息地，旨在将太空技术和理念带回地球。&lt;/p&gt;</description>
         </item>
         <item>
         <title>从「一团乱麻」到清晰分型，AI精准解析肿瘤细胞多样性，助力个性化联合疗法设计</title>
-        <link>https://caxlee.github.io/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
+        <link>https://caxlee.github.io/hugo/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</guid>
         <description>&lt;p&gt;肿瘤异质性是指肿瘤内细胞在基因、表型、功能等方面存在差异，导致肿瘤行为复杂化。加文医学研究所团队开发了新的人工智能工具 AAnet，可以更好地表征肿瘤内单个细胞的多样性，为个性化治疗提供可能。他们发现肿瘤内存在五种不同的癌细胞群，这些群体具有不同的基因表达谱，为更有针对性的治疗方法打开了大门。&lt;/p&gt;</description>
         </item>
         <item>
         <title>微软研究院BioEmu登上Science，用生成式AI重塑蛋白质功能研究</title>
-        <link>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/</guid>
         <description>&lt;p&gt;微软研究院AI for Science团队提出了一种名为BioEmu的生成式深度学习模型，能够高效模拟蛋白质的构象变化，为理解蛋白质功能机制和加速药物发现提供新路径。该模型结合了静态结构、分子动力学模拟数据和蛋白稳定性实验数据进行训练，具有模拟蛋白质关键结构变化、自由能预测准确等优点，已在GitHub和HuggingFace上开源。&lt;/p&gt;</description>
         </item>
         <item>
         <title>AI shapes autonomous underwater “gliders”</title>
-        <link>https://caxlee.github.io/p/ai-shapes-autonomous-underwater-gliders/</link>
+        <link>https://caxlee.github.io/hugo/p/ai-shapes-autonomous-underwater-gliders/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/ai-shapes-autonomous-underwater-gliders/</guid>
+        <guid>https://caxlee.github.io/hugo/p/ai-shapes-autonomous-underwater-gliders/</guid>
         <description>&lt;p&gt;海洋科学家长久以来一直对鱼类和海豹等动物如何在不同形状的情况下如此高效地游泳感到惊奇。研究人员提出利用人工智能来探索未知的滑翔机设计，通过机器学习在物理模拟器中测试不同的3D设计，并将它们塑造成更具水动力学形状。这种方法可以通过3D打印制造模型，比手工制作的模型节省大量能源。研究团队展示了这一潜力，制造了两种大约与潜水板大小相当的滑翔机，这些设计有望帮助海洋学家测量水温和盐度，更详细地了解洋流情况，监测气候变化的影响。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Changing the conversation in health care</title>
-        <link>https://caxlee.github.io/p/changing-the-conversation-in-health-care/</link>
+        <link>https://caxlee.github.io/hugo/p/changing-the-conversation-in-health-care/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/changing-the-conversation-in-health-care/</guid>
+        <guid>https://caxlee.github.io/hugo/p/changing-the-conversation-in-health-care/</guid>
         <description>&lt;p&gt;人工智能正在改变人类在跨语言和跨文化交流中的写作、阅读、言谈、思维、共情和行为方式。麻省理工学院的语言/人工智能孵化器项目旨在通过跨学科合作深入研究生成AI对跨语言和跨文化交流的影响，特别关注医疗保健领域。项目旨在构建跨越社会经济、文化和语言层面的桥梁，以改善患者和从业者之间的沟通。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Collaborating with the force of nature</title>
-        <link>https://caxlee.github.io/p/collaborating-with-the-force-of-nature/</link>
+        <link>https://caxlee.github.io/hugo/p/collaborating-with-the-force-of-nature/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/collaborating-with-the-force-of-nature/</guid>
+        <guid>https://caxlee.github.io/hugo/p/collaborating-with-the-force-of-nature/</guid>
         <description>&lt;p&gt;麻省理工学院的教授们在冰岛部署了一系列轻便的钢结构，用于与火山熔岩互动并成功转移其流向，以保护人类居住区和重要基础设施。他们的研究得到了教授阿马尔·G·博斯研究基金的支持。通过设计不同形状和材料的结构，他们希望与火山熔岩合作，而非对抗它。这项研究的目标是为全球其他活火山地区开发关键基础设施。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Implantable device could save diabetes patients from dangerously low blood sugar</title>
-        <link>https://caxlee.github.io/p/implantable-device-could-save-diabetes-patients-from-dangerously/</link>
+        <link>https://caxlee.github.io/hugo/p/implantable-device-could-save-diabetes-patients-from-dangerously/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/implantable-device-could-save-diabetes-patients-from-dangerously/</guid>
+        <guid>https://caxlee.github.io/hugo/p/implantable-device-could-save-diabetes-patients-from-dangerously/</guid>
         <description>&lt;p&gt;麻省理工学院工程师设计了一种可植入的胰高血糖素释放装置，可在血糖水平过低时释放药物，帮助糖尿病患者应对低血糖危机。这种装置还可用于释放肾上腺素，应对心脏病发作和严重过敏反应。研究人员计划未来三年内开始临床试验。&lt;/p&gt;</description>
         </item>
         <item>
         <title>亚马逊云科技推出基于NVIDIA Blackwell的最新、超强GPU实例</title>
-        <link>https://caxlee.github.io/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E6%8E%A8%E5%87%BA%E5%9F%BA%E4%BA%8Envidia-blackwell%E7%9A%84%E6%9C%80%E6%96%B0%E8%B6%85%E5%BC%BAgpu%E5%AE%9E%E4%BE%8B/</link>
+        <link>https://caxlee.github.io/hugo/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E6%8E%A8%E5%87%BA%E5%9F%BA%E4%BA%8Envidia-blackwell%E7%9A%84%E6%9C%80%E6%96%B0%E8%B6%85%E5%BC%BAgpu%E5%AE%9E%E4%BE%8B/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E6%8E%A8%E5%87%BA%E5%9F%BA%E4%BA%8Envidia-blackwell%E7%9A%84%E6%9C%80%E6%96%B0%E8%B6%85%E5%BC%BAgpu%E5%AE%9E%E4%BE%8B/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E6%8E%A8%E5%87%BA%E5%9F%BA%E4%BA%8Envidia-blackwell%E7%9A%84%E6%9C%80%E6%96%B0%E8%B6%85%E5%BC%BAgpu%E5%AE%9E%E4%BE%8B/</guid>
         <description>&lt;p&gt;亚马逊云科技推出了由 NVIDIA Grace Blackwell Superchips 加速的 Amazon EC2 P6e-GB200 UltraServer，专为训练和部署最大规模、最复杂的 AI 模型而设计。P6e-GB200 UltraServer 提供高达 360 petaflops 的高密度算力和 13.4TB 的高带宽显存，支持大规模 AI 工作负载。客户可根据具体需求选择适合的实例，以满足不同的训练与推理任务。&lt;/p&gt;</description>
         </item>
         <item>
         <title>从「塑料人」到「有血有肉」：角色动画的物理革命，PhysRig实现更真实、更自然的动画角色变形效果</title>
-        <link>https://caxlee.github.io/p/%E4%BB%8E%E5%A1%91%E6%96%99%E4%BA%BA%E5%88%B0%E6%9C%89%E8%A1%80%E6%9C%89%E8%82%89%E8%A7%92%E8%89%B2%E5%8A%A8%E7%94%BB%E7%9A%84%E7%89%A9%E7%90%86%E9%9D%A9%E5%91%BDphysrig%E5%AE%9E%E7%8E%B0%E6%9B%B4%E7%9C%9F%E5%AE%9E%E6%9B%B4%E8%87%AA%E7%84%B6%E7%9A%84%E5%8A%A8%E7%94%BB%E8%A7%92%E8%89%B2%E5%8F%98%E5%BD%A2%E6%95%88%E6%9E%9C/</link>
+        <link>https://caxlee.github.io/hugo/p/%E4%BB%8E%E5%A1%91%E6%96%99%E4%BA%BA%E5%88%B0%E6%9C%89%E8%A1%80%E6%9C%89%E8%82%89%E8%A7%92%E8%89%B2%E5%8A%A8%E7%94%BB%E7%9A%84%E7%89%A9%E7%90%86%E9%9D%A9%E5%91%BDphysrig%E5%AE%9E%E7%8E%B0%E6%9B%B4%E7%9C%9F%E5%AE%9E%E6%9B%B4%E8%87%AA%E7%84%B6%E7%9A%84%E5%8A%A8%E7%94%BB%E8%A7%92%E8%89%B2%E5%8F%98%E5%BD%A2%E6%95%88%E6%9E%9C/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E4%BB%8E%E5%A1%91%E6%96%99%E4%BA%BA%E5%88%B0%E6%9C%89%E8%A1%80%E6%9C%89%E8%82%89%E8%A7%92%E8%89%B2%E5%8A%A8%E7%94%BB%E7%9A%84%E7%89%A9%E7%90%86%E9%9D%A9%E5%91%BDphysrig%E5%AE%9E%E7%8E%B0%E6%9B%B4%E7%9C%9F%E5%AE%9E%E6%9B%B4%E8%87%AA%E7%84%B6%E7%9A%84%E5%8A%A8%E7%94%BB%E8%A7%92%E8%89%B2%E5%8F%98%E5%BD%A2%E6%95%88%E6%9E%9C/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E4%BB%8E%E5%A1%91%E6%96%99%E4%BA%BA%E5%88%B0%E6%9C%89%E8%A1%80%E6%9C%89%E8%82%89%E8%A7%92%E8%89%B2%E5%8A%A8%E7%94%BB%E7%9A%84%E7%89%A9%E7%90%86%E9%9D%A9%E5%91%BDphysrig%E5%AE%9E%E7%8E%B0%E6%9B%B4%E7%9C%9F%E5%AE%9E%E6%9B%B4%E8%87%AA%E7%84%B6%E7%9A%84%E5%8A%A8%E7%94%BB%E8%A7%92%E8%89%B2%E5%8F%98%E5%BD%A2%E6%95%88%E6%9E%9C/</guid>
         <description>&lt;p&gt;新提出的PhysRig框架将刚性骨架和弹性软体建模引入绑定流程，利用可微分物理模拟方法实现更真实、更自然的动画角色变形效果。PhysRig通过可微物理模拟器、材料原型和驱动点系统实现了这一目标，并提出了迭代式的反向绑定优化流程。研究者构建了包含多种角色的数据集，结果显示PhysRig在动态效果上显著优于传统方法，同时还能实现动作迁移，展示了其在角色动画领域的潜力。&lt;/p&gt;</description>
         </item>
         

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>基模 on Example Site</title>
-        <link>https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/</link>
+        <link>https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/</link>
         <description>Recent content in 基模 on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>AI三问①数学之问丨当数学与AI正面对撞，AI×数学=∞可能！</title>
-        <link>https://caxlee.github.io/p/ai%E4%B8%89%E9%97%AE%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE%E4%B8%A8%E5%BD%93%E6%95%B0%E5%AD%A6%E4%B8%8Eai%E6%AD%A3%E9%9D%A2%E5%AF%B9%E6%92%9Eai%E6%95%B0%E5%AD%A6%E5%8F%AF%E8%83%BD/</link>
+        <link>https://caxlee.github.io/hugo/p/ai%E4%B8%89%E9%97%AE%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE%E4%B8%A8%E5%BD%93%E6%95%B0%E5%AD%A6%E4%B8%8Eai%E6%AD%A3%E9%9D%A2%E5%AF%B9%E6%92%9Eai%E6%95%B0%E5%AD%A6%E5%8F%AF%E8%83%BD/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/ai%E4%B8%89%E9%97%AE%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE%E4%B8%A8%E5%BD%93%E6%95%B0%E5%AD%A6%E4%B8%8Eai%E6%AD%A3%E9%9D%A2%E5%AF%B9%E6%92%9Eai%E6%95%B0%E5%AD%A6%E5%8F%AF%E8%83%BD/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/003.png" alt="Featured image of post AI三问①数学之问丨当数学与AI正面对撞，AI×数学=∞可能！" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/003.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/ai%E4%B8%89%E9%97%AE%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE%E4%B8%A8%E5%BD%93%E6%95%B0%E5%AD%A6%E4%B8%8Eai%E6%AD%A3%E9%9D%A2%E5%AF%B9%E6%92%9Eai%E6%95%B0%E5%AD%A6%E5%8F%AF%E8%83%BD/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_18/003.png" alt="Featured image of post AI三问①数学之问丨当数学与AI正面对撞，AI×数学=∞可能！" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_18/003.png&#34;
 	
 	
 	
@@ -28,11 +28,11 @@
         </item>
         <item>
         <title>ICCV 2025｜训练太复杂？对图片语义、布局要求太高？图像morphing终于一步到位</title>
-        <link>https://caxlee.github.io/p/iccv-2025%E8%AE%AD%E7%BB%83%E5%A4%AA%E5%A4%8D%E6%9D%82%E5%AF%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E4%B9%89%E5%B8%83%E5%B1%80%E8%A6%81%E6%B1%82%E5%A4%AA%E9%AB%98%E5%9B%BE%E5%83%8Fmorphing%E7%BB%88%E4%BA%8E%E4%B8%80%E6%AD%A5%E5%88%B0%E4%BD%8D/</link>
+        <link>https://caxlee.github.io/hugo/p/iccv-2025%E8%AE%AD%E7%BB%83%E5%A4%AA%E5%A4%8D%E6%9D%82%E5%AF%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E4%B9%89%E5%B8%83%E5%B1%80%E8%A6%81%E6%B1%82%E5%A4%AA%E9%AB%98%E5%9B%BE%E5%83%8Fmorphing%E7%BB%88%E4%BA%8E%E4%B8%80%E6%AD%A5%E5%88%B0%E4%BD%8D/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/iccv-2025%E8%AE%AD%E7%BB%83%E5%A4%AA%E5%A4%8D%E6%9D%82%E5%AF%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E4%B9%89%E5%B8%83%E5%B1%80%E8%A6%81%E6%B1%82%E5%A4%AA%E9%AB%98%E5%9B%BE%E5%83%8Fmorphing%E7%BB%88%E4%BA%8E%E4%B8%80%E6%AD%A5%E5%88%B0%E4%BD%8D/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/007.jpg" alt="Featured image of post ICCV 2025｜训练太复杂？对图片语义、布局要求太高？图像morphing终于一步到位" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/007.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/iccv-2025%E8%AE%AD%E7%BB%83%E5%A4%AA%E5%A4%8D%E6%9D%82%E5%AF%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E4%B9%89%E5%B8%83%E5%B1%80%E8%A6%81%E6%B1%82%E5%A4%AA%E9%AB%98%E5%9B%BE%E5%83%8Fmorphing%E7%BB%88%E4%BA%8E%E4%B8%80%E6%AD%A5%E5%88%B0%E4%BD%8D/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_18/007.jpg" alt="Featured image of post ICCV 2025｜训练太复杂？对图片语义、布局要求太高？图像morphing终于一步到位" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_18/007.jpg&#34;
 	
 	
 	
@@ -47,11 +47,11 @@
         </item>
         <item>
         <title>ICCV2025 | One image is all you need，多模态指令数据合成，你只管给图，剩下的交给Oasis</title>
-        <link>https://caxlee.github.io/p/iccv2025-one-image-is-all-you-need%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8C%87%E4%BB%A4%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E4%BD%A0%E5%8F%AA%E7%AE%A1%E7%BB%99%E5%9B%BE%E5%89%A9%E4%B8%8B%E7%9A%84%E4%BA%A4%E7%BB%99oasis/</link>
+        <link>https://caxlee.github.io/hugo/p/iccv2025-one-image-is-all-you-need%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8C%87%E4%BB%A4%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E4%BD%A0%E5%8F%AA%E7%AE%A1%E7%BB%99%E5%9B%BE%E5%89%A9%E4%B8%8B%E7%9A%84%E4%BA%A4%E7%BB%99oasis/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/iccv2025-one-image-is-all-you-need%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8C%87%E4%BB%A4%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E4%BD%A0%E5%8F%AA%E7%AE%A1%E7%BB%99%E5%9B%BE%E5%89%A9%E4%B8%8B%E7%9A%84%E4%BA%A4%E7%BB%99oasis/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/002.jpg" alt="Featured image of post ICCV2025 | One image is all you need，多模态指令数据合成，你只管给图，剩下的交给Oasis" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/002.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/iccv2025-one-image-is-all-you-need%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8C%87%E4%BB%A4%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E4%BD%A0%E5%8F%AA%E7%AE%A1%E7%BB%99%E5%9B%BE%E5%89%A9%E4%B8%8B%E7%9A%84%E4%BA%A4%E7%BB%99oasis/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_18/002.jpg" alt="Featured image of post ICCV2025 | One image is all you need，多模态指令数据合成，你只管给图，剩下的交给Oasis" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_18/002.jpg&#34;
 	
 	
 	
@@ -66,11 +66,11 @@
         </item>
         <item>
         <title>Le Chat全方面对标ChatGPT，欧洲AI新贵穷追不舍</title>
-        <link>https://caxlee.github.io/p/le-chat%E5%85%A8%E6%96%B9%E9%9D%A2%E5%AF%B9%E6%A0%87chatgpt%E6%AC%A7%E6%B4%B2ai%E6%96%B0%E8%B4%B5%E7%A9%B7%E8%BF%BD%E4%B8%8D%E8%88%8D/</link>
+        <link>https://caxlee.github.io/hugo/p/le-chat%E5%85%A8%E6%96%B9%E9%9D%A2%E5%AF%B9%E6%A0%87chatgpt%E6%AC%A7%E6%B4%B2ai%E6%96%B0%E8%B4%B5%E7%A9%B7%E8%BF%BD%E4%B8%8D%E8%88%8D/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/le-chat%E5%85%A8%E6%96%B9%E9%9D%A2%E5%AF%B9%E6%A0%87chatgpt%E6%AC%A7%E6%B4%B2ai%E6%96%B0%E8%B4%B5%E7%A9%B7%E8%BF%BD%E4%B8%8D%E8%88%8D/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/006.jpg" alt="Featured image of post Le Chat全方面对标ChatGPT，欧洲AI新贵穷追不舍" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/006.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/le-chat%E5%85%A8%E6%96%B9%E9%9D%A2%E5%AF%B9%E6%A0%87chatgpt%E6%AC%A7%E6%B4%B2ai%E6%96%B0%E8%B4%B5%E7%A9%B7%E8%BF%BD%E4%B8%8D%E8%88%8D/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_18/006.jpg" alt="Featured image of post Le Chat全方面对标ChatGPT，欧洲AI新贵穷追不舍" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_18/006.jpg&#34;
 	
 	
 	
@@ -85,11 +85,11 @@
         </item>
         <item>
         <title>Model predicts long-term effects of nuclear waste on underground disposal systems</title>
-        <link>https://caxlee.github.io/p/model-predicts-long-term-effects-of-nuclear-waste-on-underground-disposal-systems/</link>
+        <link>https://caxlee.github.io/hugo/p/model-predicts-long-term-effects-of-nuclear-waste-on-underground-disposal-systems/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/model-predicts-long-term-effects-of-nuclear-waste-on-underground-disposal-systems/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/013.jpg" alt="Featured image of post Model predicts long-term effects of nuclear waste on underground disposal systems" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/013.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/model-predicts-long-term-effects-of-nuclear-waste-on-underground-disposal-systems/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_18/013.jpg" alt="Featured image of post Model predicts long-term effects of nuclear waste on underground disposal systems" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_18/013.jpg&#34;
 	
 	
 	
@@ -104,11 +104,11 @@
         </item>
         <item>
         <title>快速、精准且可解释的通用药物发现工作流LeadDisFlow：中国团队推动候选药物进入临床Ⅱ期</title>
-        <link>https://caxlee.github.io/p/%E5%BF%AB%E9%80%9F%E7%B2%BE%E5%87%86%E4%B8%94%E5%8F%AF%E8%A7%A3%E9%87%8A%E7%9A%84%E9%80%9A%E7%94%A8%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%B7%A5%E4%BD%9C%E6%B5%81leaddisflow%E4%B8%AD%E5%9B%BD%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%8A%A8%E5%80%99%E9%80%89%E8%8D%AF%E7%89%A9%E8%BF%9B%E5%85%A5%E4%B8%B4%E5%BA%8A%E6%9C%9F/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%BF%AB%E9%80%9F%E7%B2%BE%E5%87%86%E4%B8%94%E5%8F%AF%E8%A7%A3%E9%87%8A%E7%9A%84%E9%80%9A%E7%94%A8%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%B7%A5%E4%BD%9C%E6%B5%81leaddisflow%E4%B8%AD%E5%9B%BD%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%8A%A8%E5%80%99%E9%80%89%E8%8D%AF%E7%89%A9%E8%BF%9B%E5%85%A5%E4%B8%B4%E5%BA%8A%E6%9C%9F/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%BF%AB%E9%80%9F%E7%B2%BE%E5%87%86%E4%B8%94%E5%8F%AF%E8%A7%A3%E9%87%8A%E7%9A%84%E9%80%9A%E7%94%A8%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%B7%A5%E4%BD%9C%E6%B5%81leaddisflow%E4%B8%AD%E5%9B%BD%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%8A%A8%E5%80%99%E9%80%89%E8%8D%AF%E7%89%A9%E8%BF%9B%E5%85%A5%E4%B8%B4%E5%BA%8A%E6%9C%9F/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/016.png" alt="Featured image of post 快速、精准且可解释的通用药物发现工作流LeadDisFlow：中国团队推动候选药物进入临床Ⅱ期" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/016.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E5%BF%AB%E9%80%9F%E7%B2%BE%E5%87%86%E4%B8%94%E5%8F%AF%E8%A7%A3%E9%87%8A%E7%9A%84%E9%80%9A%E7%94%A8%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%B7%A5%E4%BD%9C%E6%B5%81leaddisflow%E4%B8%AD%E5%9B%BD%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%8A%A8%E5%80%99%E9%80%89%E8%8D%AF%E7%89%A9%E8%BF%9B%E5%85%A5%E4%B8%B4%E5%BA%8A%E6%9C%9F/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_18/016.png" alt="Featured image of post 快速、精准且可解释的通用药物发现工作流LeadDisFlow：中国团队推动候选药物进入临床Ⅱ期" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_18/016.png&#34;
 	
 	
 	
@@ -118,16 +118,16 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: LeadDisFlow是快速、精准、可解释的药物发现工作流，成功推动候选药物进入临床Ⅱ期。研究团队利用分子图像技术构建了端到端AI平台，发现高活性EP4拮抗剂，展现出优越的可解释性和实践验证。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: LeadDisFlow是快速、精准、可解释的通用药物发现工作流，成功推动候选药物进入临床Ⅱ期。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>明天，围观学习ACL2025论文分享会，最后报名了</title>
-        <link>https://caxlee.github.io/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/001.jpg" alt="Featured image of post 明天，围观学习ACL2025论文分享会，最后报名了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/001.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_18/001.jpg" alt="Featured image of post 明天，围观学习ACL2025论文分享会，最后报名了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_18/001.jpg&#34;
 	
 	
 	
@@ -142,11 +142,11 @@
         </item>
         <item>
         <title>「有望成为Transformer杀手」，谷歌DeepMind新架构MoR实现两倍推理速度</title>
-        <link>https://caxlee.github.io/p/%E6%9C%89%E6%9C%9B%E6%88%90%E4%B8%BAtransformer%E6%9D%80%E6%89%8B%E8%B0%B7%E6%AD%8Cdeepmind%E6%96%B0%E6%9E%B6%E6%9E%84mor%E5%AE%9E%E7%8E%B0%E4%B8%A4%E5%80%8D%E6%8E%A8%E7%90%86%E9%80%9F%E5%BA%A6/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%9C%89%E6%9C%9B%E6%88%90%E4%B8%BAtransformer%E6%9D%80%E6%89%8B%E8%B0%B7%E6%AD%8Cdeepmind%E6%96%B0%E6%9E%B6%E6%9E%84mor%E5%AE%9E%E7%8E%B0%E4%B8%A4%E5%80%8D%E6%8E%A8%E7%90%86%E9%80%9F%E5%BA%A6/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%9C%89%E6%9C%9B%E6%88%90%E4%B8%BAtransformer%E6%9D%80%E6%89%8B%E8%B0%B7%E6%AD%8Cdeepmind%E6%96%B0%E6%9E%B6%E6%9E%84mor%E5%AE%9E%E7%8E%B0%E4%B8%A4%E5%80%8D%E6%8E%A8%E7%90%86%E9%80%9F%E5%BA%A6/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/dd92f5c6-d96d-43a4-b9a9-602fff0a5f47.jpg" alt="Featured image of post 「有望成为Transformer杀手」，谷歌DeepMind新架构MoR实现两倍推理速度" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/dd92f5c6-d96d-43a4-b9a9-602fff0a5f47.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%9C%89%E6%9C%9B%E6%88%90%E4%B8%BAtransformer%E6%9D%80%E6%89%8B%E8%B0%B7%E6%AD%8Cdeepmind%E6%96%B0%E6%9E%B6%E6%9E%84mor%E5%AE%9E%E7%8E%B0%E4%B8%A4%E5%80%8D%E6%8E%A8%E7%90%86%E9%80%9F%E5%BA%A6/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/dd92f5c6-d96d-43a4-b9a9-602fff0a5f47.jpg" alt="Featured image of post 「有望成为Transformer杀手」，谷歌DeepMind新架构MoR实现两倍推理速度" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/dd92f5c6-d96d-43a4-b9a9-602fff0a5f47.jpg&#34;
 	
 	
 	
@@ -161,11 +161,11 @@
         </item>
         <item>
         <title>ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI</title>
-        <link>https://caxlee.github.io/p/acl-2025-oral-%E4%BD%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E6%90%AD%E5%AD%90%E4%B8%8A%E7%BA%BFevaluation-agent%E6%87%82%E4%BD%A0%E6%9B%B4%E6%87%82ai/</link>
+        <link>https://caxlee.github.io/hugo/p/acl-2025-oral-%E4%BD%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E6%90%AD%E5%AD%90%E4%B8%8A%E7%BA%BFevaluation-agent%E6%87%82%E4%BD%A0%E6%9B%B4%E6%87%82ai/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/acl-2025-oral-%E4%BD%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E6%90%AD%E5%AD%90%E4%B8%8A%E7%BA%BFevaluation-agent%E6%87%82%E4%BD%A0%E6%9B%B4%E6%87%82ai/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/d284d80e-201e-4cb7-9e13-142074091e8a.jpg" alt="Featured image of post ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/d284d80e-201e-4cb7-9e13-142074091e8a.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/acl-2025-oral-%E4%BD%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E6%90%AD%E5%AD%90%E4%B8%8A%E7%BA%BFevaluation-agent%E6%87%82%E4%BD%A0%E6%9B%B4%E6%87%82ai/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/d284d80e-201e-4cb7-9e13-142074091e8a.jpg" alt="Featured image of post ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/d284d80e-201e-4cb7-9e13-142074091e8a.jpg&#34;
 	
 	
 	
@@ -180,11 +180,11 @@
         </item>
         <item>
         <title>AI驱动的自主酶工程平台，底物偏好提升90倍，伊利诺伊大学新研究登Nature子刊</title>
-        <link>https://caxlee.github.io/p/ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E8%87%AA%E4%B8%BB%E9%85%B6%E5%B7%A5%E7%A8%8B%E5%B9%B3%E5%8F%B0%E5%BA%95%E7%89%A9%E5%81%8F%E5%A5%BD%E6%8F%90%E5%8D%8790%E5%80%8D%E4%BC%8A%E5%88%A9%E8%AF%BA%E4%BC%8A%E5%A4%A7%E5%AD%A6%E6%96%B0%E7%A0%94%E7%A9%B6%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
+        <link>https://caxlee.github.io/hugo/p/ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E8%87%AA%E4%B8%BB%E9%85%B6%E5%B7%A5%E7%A8%8B%E5%B9%B3%E5%8F%B0%E5%BA%95%E7%89%A9%E5%81%8F%E5%A5%BD%E6%8F%90%E5%8D%8790%E5%80%8D%E4%BC%8A%E5%88%A9%E8%AF%BA%E4%BC%8A%E5%A4%A7%E5%AD%A6%E6%96%B0%E7%A0%94%E7%A9%B6%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E8%87%AA%E4%B8%BB%E9%85%B6%E5%B7%A5%E7%A8%8B%E5%B9%B3%E5%8F%B0%E5%BA%95%E7%89%A9%E5%81%8F%E5%A5%BD%E6%8F%90%E5%8D%8790%E5%80%8D%E4%BC%8A%E5%88%A9%E8%AF%BA%E4%BC%8A%E5%A4%A7%E5%AD%A6%E6%96%B0%E7%A0%94%E7%A9%B6%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/1ab46cbc-567c-490a-a6ec-c7080fe6ebbd.png" alt="Featured image of post AI驱动的自主酶工程平台，底物偏好提升90倍，伊利诺伊大学新研究登Nature子刊" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/1ab46cbc-567c-490a-a6ec-c7080fe6ebbd.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E8%87%AA%E4%B8%BB%E9%85%B6%E5%B7%A5%E7%A8%8B%E5%B9%B3%E5%8F%B0%E5%BA%95%E7%89%A9%E5%81%8F%E5%A5%BD%E6%8F%90%E5%8D%8790%E5%80%8D%E4%BC%8A%E5%88%A9%E8%AF%BA%E4%BC%8A%E5%A4%A7%E5%AD%A6%E6%96%B0%E7%A0%94%E7%A9%B6%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/1ab46cbc-567c-490a-a6ec-c7080fe6ebbd.png" alt="Featured image of post AI驱动的自主酶工程平台，底物偏好提升90倍，伊利诺伊大学新研究登Nature子刊" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/1ab46cbc-567c-490a-a6ec-c7080fe6ebbd.png&#34;
 	
 	
 	
@@ -199,11 +199,11 @@
         </item>
         <item>
         <title>AlphaFold3不能的，它可以！上交、范德堡团队开发LassoPred：预测套索肽三维结构的工具</title>
-        <link>https://caxlee.github.io/p/alphafold3%E4%B8%8D%E8%83%BD%E7%9A%84%E5%AE%83%E5%8F%AF%E4%BB%A5%E4%B8%8A%E4%BA%A4%E8%8C%83%E5%BE%B7%E5%A0%A1%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91lassopred%E9%A2%84%E6%B5%8B%E5%A5%97%E7%B4%A2%E8%82%BD%E4%B8%89%E7%BB%B4%E7%BB%93%E6%9E%84%E7%9A%84%E5%B7%A5%E5%85%B7/</link>
+        <link>https://caxlee.github.io/hugo/p/alphafold3%E4%B8%8D%E8%83%BD%E7%9A%84%E5%AE%83%E5%8F%AF%E4%BB%A5%E4%B8%8A%E4%BA%A4%E8%8C%83%E5%BE%B7%E5%A0%A1%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91lassopred%E9%A2%84%E6%B5%8B%E5%A5%97%E7%B4%A2%E8%82%BD%E4%B8%89%E7%BB%B4%E7%BB%93%E6%9E%84%E7%9A%84%E5%B7%A5%E5%85%B7/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/alphafold3%E4%B8%8D%E8%83%BD%E7%9A%84%E5%AE%83%E5%8F%AF%E4%BB%A5%E4%B8%8A%E4%BA%A4%E8%8C%83%E5%BE%B7%E5%A0%A1%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91lassopred%E9%A2%84%E6%B5%8B%E5%A5%97%E7%B4%A2%E8%82%BD%E4%B8%89%E7%BB%B4%E7%BB%93%E6%9E%84%E7%9A%84%E5%B7%A5%E5%85%B7/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/9f0fd3f1-de6a-4e87-812a-e55437c5ce47.png" alt="Featured image of post AlphaFold3不能的，它可以！上交、范德堡团队开发LassoPred：预测套索肽三维结构的工具" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/9f0fd3f1-de6a-4e87-812a-e55437c5ce47.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/alphafold3%E4%B8%8D%E8%83%BD%E7%9A%84%E5%AE%83%E5%8F%AF%E4%BB%A5%E4%B8%8A%E4%BA%A4%E8%8C%83%E5%BE%B7%E5%A0%A1%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91lassopred%E9%A2%84%E6%B5%8B%E5%A5%97%E7%B4%A2%E8%82%BD%E4%B8%89%E7%BB%B4%E7%BB%93%E6%9E%84%E7%9A%84%E5%B7%A5%E5%85%B7/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/9f0fd3f1-de6a-4e87-812a-e55437c5ce47.png" alt="Featured image of post AlphaFold3不能的，它可以！上交、范德堡团队开发LassoPred：预测套索肽三维结构的工具" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/9f0fd3f1-de6a-4e87-812a-e55437c5ce47.png&#34;
 	
 	
 	
@@ -218,11 +218,11 @@
         </item>
         <item>
         <title>DeepAllo：首次使用蛋白质语言模型和多任务学习进行变构位点预测</title>
-        <link>https://caxlee.github.io/p/deepallo%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%92%8C%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9E%84%E4%BD%8D%E7%82%B9%E9%A2%84%E6%B5%8B/</link>
+        <link>https://caxlee.github.io/hugo/p/deepallo%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%92%8C%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9E%84%E4%BD%8D%E7%82%B9%E9%A2%84%E6%B5%8B/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/deepallo%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%92%8C%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9E%84%E4%BD%8D%E7%82%B9%E9%A2%84%E6%B5%8B/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/0a0b45ab-375d-4042-8e3a-f6ceef1e8c22.png" alt="Featured image of post DeepAllo：首次使用蛋白质语言模型和多任务学习进行变构位点预测" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/0a0b45ab-375d-4042-8e3a-f6ceef1e8c22.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/deepallo%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%92%8C%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9E%84%E4%BD%8D%E7%82%B9%E9%A2%84%E6%B5%8B/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/0a0b45ab-375d-4042-8e3a-f6ceef1e8c22.png" alt="Featured image of post DeepAllo：首次使用蛋白质语言模型和多任务学习进行变构位点预测" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/0a0b45ab-375d-4042-8e3a-f6ceef1e8c22.png&#34;
 	
 	
 	
@@ -237,11 +237,11 @@
         </item>
         <item>
         <title>DeepMind让AI当「上帝」，导演一场只有AI演员的「西部世界」</title>
-        <link>https://caxlee.github.io/p/deepmind%E8%AE%A9ai%E5%BD%93%E4%B8%8A%E5%B8%9D%E5%AF%BC%E6%BC%94%E4%B8%80%E5%9C%BA%E5%8F%AA%E6%9C%89ai%E6%BC%94%E5%91%98%E7%9A%84%E8%A5%BF%E9%83%A8%E4%B8%96%E7%95%8C/</link>
+        <link>https://caxlee.github.io/hugo/p/deepmind%E8%AE%A9ai%E5%BD%93%E4%B8%8A%E5%B8%9D%E5%AF%BC%E6%BC%94%E4%B8%80%E5%9C%BA%E5%8F%AA%E6%9C%89ai%E6%BC%94%E5%91%98%E7%9A%84%E8%A5%BF%E9%83%A8%E4%B8%96%E7%95%8C/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/deepmind%E8%AE%A9ai%E5%BD%93%E4%B8%8A%E5%B8%9D%E5%AF%BC%E6%BC%94%E4%B8%80%E5%9C%BA%E5%8F%AA%E6%9C%89ai%E6%BC%94%E5%91%98%E7%9A%84%E8%A5%BF%E9%83%A8%E4%B8%96%E7%95%8C/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/7c4e6ea7-851a-432d-9a6f-891438fc9c8f.jpg" alt="Featured image of post DeepMind让AI当「上帝」，导演一场只有AI演员的「西部世界」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/7c4e6ea7-851a-432d-9a6f-891438fc9c8f.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/deepmind%E8%AE%A9ai%E5%BD%93%E4%B8%8A%E5%B8%9D%E5%AF%BC%E6%BC%94%E4%B8%80%E5%9C%BA%E5%8F%AA%E6%9C%89ai%E6%BC%94%E5%91%98%E7%9A%84%E8%A5%BF%E9%83%A8%E4%B8%96%E7%95%8C/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/7c4e6ea7-851a-432d-9a6f-891438fc9c8f.jpg" alt="Featured image of post DeepMind让AI当「上帝」，导演一场只有AI演员的「西部世界」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/7c4e6ea7-851a-432d-9a6f-891438fc9c8f.jpg&#34;
 	
 	
 	
@@ -256,11 +256,11 @@
         </item>
         <item>
         <title>Scientists discover compounds that help cells fight a wide range of viruses</title>
-        <link>https://caxlee.github.io/p/scientists-discover-compounds-that-help-cells-fight-a-wide-range-of-viruses/</link>
+        <link>https://caxlee.github.io/hugo/p/scientists-discover-compounds-that-help-cells-fight-a-wide-range-of-viruses/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/scientists-discover-compounds-that-help-cells-fight-a-wide-range-of-viruses/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/519d2d6a-ccf3-4577-8ae6-6967bbf613a7.jpg" alt="Featured image of post Scientists discover compounds that help cells fight a wide range of viruses" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/519d2d6a-ccf3-4577-8ae6-6967bbf613a7.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/scientists-discover-compounds-that-help-cells-fight-a-wide-range-of-viruses/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/519d2d6a-ccf3-4577-8ae6-6967bbf613a7.jpg" alt="Featured image of post Scientists discover compounds that help cells fight a wide range of viruses" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/519d2d6a-ccf3-4577-8ae6-6967bbf613a7.jpg&#34;
 	
 	
 	
@@ -275,11 +275,11 @@
         </item>
         <item>
         <title>两周反转：Anthropic「闪电」夺回被Cursor挖走的核心编程大将</title>
-        <link>https://caxlee.github.io/p/%E4%B8%A4%E5%91%A8%E5%8F%8D%E8%BD%ACanthropic%E9%97%AA%E7%94%B5%E5%A4%BA%E5%9B%9E%E8%A2%ABcursor%E6%8C%96%E8%B5%B0%E7%9A%84%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%B0%86/</link>
+        <link>https://caxlee.github.io/hugo/p/%E4%B8%A4%E5%91%A8%E5%8F%8D%E8%BD%ACanthropic%E9%97%AA%E7%94%B5%E5%A4%BA%E5%9B%9E%E8%A2%ABcursor%E6%8C%96%E8%B5%B0%E7%9A%84%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%B0%86/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E4%B8%A4%E5%91%A8%E5%8F%8D%E8%BD%ACanthropic%E9%97%AA%E7%94%B5%E5%A4%BA%E5%9B%9E%E8%A2%ABcursor%E6%8C%96%E8%B5%B0%E7%9A%84%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%B0%86/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/4b35bc40-91a8-478d-9c09-d51218216b33.jpg" alt="Featured image of post 两周反转：Anthropic「闪电」夺回被Cursor挖走的核心编程大将" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/4b35bc40-91a8-478d-9c09-d51218216b33.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E4%B8%A4%E5%91%A8%E5%8F%8D%E8%BD%ACanthropic%E9%97%AA%E7%94%B5%E5%A4%BA%E5%9B%9E%E8%A2%ABcursor%E6%8C%96%E8%B5%B0%E7%9A%84%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B%E5%A4%A7%E5%B0%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/4b35bc40-91a8-478d-9c09-d51218216b33.jpg" alt="Featured image of post 两周反转：Anthropic「闪电」夺回被Cursor挖走的核心编程大将" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/4b35bc40-91a8-478d-9c09-d51218216b33.jpg&#34;
 	
 	
 	
@@ -294,11 +294,11 @@
         </item>
         <item>
         <title>强化学习的两个「大坑」，终于被两篇ICLR论文给解决了</title>
-        <link>https://caxlee.github.io/p/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%A4%A7%E5%9D%91%E7%BB%88%E4%BA%8E%E8%A2%AB%E4%B8%A4%E7%AF%87iclr%E8%AE%BA%E6%96%87%E7%BB%99%E8%A7%A3%E5%86%B3%E4%BA%86/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%A4%A7%E5%9D%91%E7%BB%88%E4%BA%8E%E8%A2%AB%E4%B8%A4%E7%AF%87iclr%E8%AE%BA%E6%96%87%E7%BB%99%E8%A7%A3%E5%86%B3%E4%BA%86/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%A4%A7%E5%9D%91%E7%BB%88%E4%BA%8E%E8%A2%AB%E4%B8%A4%E7%AF%87iclr%E8%AE%BA%E6%96%87%E7%BB%99%E8%A7%A3%E5%86%B3%E4%BA%86/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/818c8397-3bcf-4055-b391-e127148da9c9.jpg" alt="Featured image of post 强化学习的两个「大坑」，终于被两篇ICLR论文给解决了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/818c8397-3bcf-4055-b391-e127148da9c9.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%A4%A7%E5%9D%91%E7%BB%88%E4%BA%8E%E8%A2%AB%E4%B8%A4%E7%AF%87iclr%E8%AE%BA%E6%96%87%E7%BB%99%E8%A7%A3%E5%86%B3%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/818c8397-3bcf-4055-b391-e127148da9c9.jpg" alt="Featured image of post 强化学习的两个「大坑」，终于被两篇ICLR论文给解决了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/818c8397-3bcf-4055-b391-e127148da9c9.jpg&#34;
 	
 	
 	
@@ -313,11 +313,11 @@
         </item>
         <item>
         <title>性能提高87%，数据需求减70%，天大等开发化学毒性预测模型，登Nature子刊</title>
-        <link>https://caxlee.github.io/p/%E6%80%A7%E8%83%BD%E6%8F%90%E9%AB%9887%E6%95%B0%E6%8D%AE%E9%9C%80%E6%B1%82%E5%87%8F70%E5%A4%A9%E5%A4%A7%E7%AD%89%E5%BC%80%E5%8F%91%E5%8C%96%E5%AD%A6%E6%AF%92%E6%80%A7%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%80%A7%E8%83%BD%E6%8F%90%E9%AB%9887%E6%95%B0%E6%8D%AE%E9%9C%80%E6%B1%82%E5%87%8F70%E5%A4%A9%E5%A4%A7%E7%AD%89%E5%BC%80%E5%8F%91%E5%8C%96%E5%AD%A6%E6%AF%92%E6%80%A7%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%80%A7%E8%83%BD%E6%8F%90%E9%AB%9887%E6%95%B0%E6%8D%AE%E9%9C%80%E6%B1%82%E5%87%8F70%E5%A4%A9%E5%A4%A7%E7%AD%89%E5%BC%80%E5%8F%91%E5%8C%96%E5%AD%A6%E6%AF%92%E6%80%A7%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/c809a28a-0264-48d9-b321-82950d5b81e7.png" alt="Featured image of post 性能提高87%，数据需求减70%，天大等开发化学毒性预测模型，登Nature子刊" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/c809a28a-0264-48d9-b321-82950d5b81e7.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%80%A7%E8%83%BD%E6%8F%90%E9%AB%9887%E6%95%B0%E6%8D%AE%E9%9C%80%E6%B1%82%E5%87%8F70%E5%A4%A9%E5%A4%A7%E7%AD%89%E5%BC%80%E5%8F%91%E5%8C%96%E5%AD%A6%E6%AF%92%E6%80%A7%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/c809a28a-0264-48d9-b321-82950d5b81e7.png" alt="Featured image of post 性能提高87%，数据需求减70%，天大等开发化学毒性预测模型，登Nature子刊" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/c809a28a-0264-48d9-b321-82950d5b81e7.png&#34;
 	
 	
 	
@@ -332,11 +332,11 @@
         </item>
         <item>
         <title>打造全球首个强化学习云平台，九章云极是如何做到的？</title>
-        <link>https://caxlee.github.io/p/%E6%89%93%E9%80%A0%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E4%BA%91%E5%B9%B3%E5%8F%B0%E4%B9%9D%E7%AB%A0%E4%BA%91%E6%9E%81%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E7%9A%84/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%89%93%E9%80%A0%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E4%BA%91%E5%B9%B3%E5%8F%B0%E4%B9%9D%E7%AB%A0%E4%BA%91%E6%9E%81%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E7%9A%84/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%89%93%E9%80%A0%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E4%BA%91%E5%B9%B3%E5%8F%B0%E4%B9%9D%E7%AB%A0%E4%BA%91%E6%9E%81%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E7%9A%84/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/b26c0688-dbb3-4cdb-b4f8-af1b3c03fcb8.jpg" alt="Featured image of post 打造全球首个强化学习云平台，九章云极是如何做到的？" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/b26c0688-dbb3-4cdb-b4f8-af1b3c03fcb8.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%89%93%E9%80%A0%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E4%BA%91%E5%B9%B3%E5%8F%B0%E4%B9%9D%E7%AB%A0%E4%BA%91%E6%9E%81%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E7%9A%84/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/b26c0688-dbb3-4cdb-b4f8-af1b3c03fcb8.jpg" alt="Featured image of post 打造全球首个强化学习云平台，九章云极是如何做到的？" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/b26c0688-dbb3-4cdb-b4f8-af1b3c03fcb8.jpg&#34;
 	
 	
 	
@@ -351,11 +351,11 @@
         </item>
         <item>
         <title>昨晚，云计算一哥打造了一套Agent落地的「金铲子」</title>
-        <link>https://caxlee.github.io/p/%E6%98%A8%E6%99%9A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%80%E5%93%A5%E6%89%93%E9%80%A0%E4%BA%86%E4%B8%80%E5%A5%97agent%E8%90%BD%E5%9C%B0%E7%9A%84%E9%87%91%E9%93%B2%E5%AD%90/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%98%A8%E6%99%9A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%80%E5%93%A5%E6%89%93%E9%80%A0%E4%BA%86%E4%B8%80%E5%A5%97agent%E8%90%BD%E5%9C%B0%E7%9A%84%E9%87%91%E9%93%B2%E5%AD%90/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%98%A8%E6%99%9A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%80%E5%93%A5%E6%89%93%E9%80%A0%E4%BA%86%E4%B8%80%E5%A5%97agent%E8%90%BD%E5%9C%B0%E7%9A%84%E9%87%91%E9%93%B2%E5%AD%90/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/096ab6f2-9e31-4d3b-b562-37ea36992052.jpg" alt="Featured image of post 昨晚，云计算一哥打造了一套Agent落地的「金铲子」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/096ab6f2-9e31-4d3b-b562-37ea36992052.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%98%A8%E6%99%9A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%80%E5%93%A5%E6%89%93%E9%80%A0%E4%BA%86%E4%B8%80%E5%A5%97agent%E8%90%BD%E5%9C%B0%E7%9A%84%E9%87%91%E9%93%B2%E5%AD%90/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/096ab6f2-9e31-4d3b-b562-37ea36992052.jpg" alt="Featured image of post 昨晚，云计算一哥打造了一套Agent落地的「金铲子」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/096ab6f2-9e31-4d3b-b562-37ea36992052.jpg&#34;
 	
 	
 	
@@ -370,11 +370,11 @@
         </item>
         <item>
         <title>普林斯顿团队领衔发布最强开源数学定理证明模型：32B性能大幅超越前代SOTA DeepSeek 671B</title>
-        <link>https://caxlee.github.io/p/%E6%99%AE%E6%9E%97%E6%96%AF%E9%A1%BF%E5%9B%A2%E9%98%9F%E9%A2%86%E8%A1%94%E5%8F%91%E5%B8%83%E6%9C%80%E5%BC%BA%E5%BC%80%E6%BA%90%E6%95%B0%E5%AD%A6%E5%AE%9A%E7%90%86%E8%AF%81%E6%98%8E%E6%A8%A1%E5%9E%8B32b%E6%80%A7%E8%83%BD%E5%A4%A7%E5%B9%85%E8%B6%85%E8%B6%8A%E5%89%8D%E4%BB%A3sota-deepseek-671b/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%99%AE%E6%9E%97%E6%96%AF%E9%A1%BF%E5%9B%A2%E9%98%9F%E9%A2%86%E8%A1%94%E5%8F%91%E5%B8%83%E6%9C%80%E5%BC%BA%E5%BC%80%E6%BA%90%E6%95%B0%E5%AD%A6%E5%AE%9A%E7%90%86%E8%AF%81%E6%98%8E%E6%A8%A1%E5%9E%8B32b%E6%80%A7%E8%83%BD%E5%A4%A7%E5%B9%85%E8%B6%85%E8%B6%8A%E5%89%8D%E4%BB%A3sota-deepseek-671b/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%99%AE%E6%9E%97%E6%96%AF%E9%A1%BF%E5%9B%A2%E9%98%9F%E9%A2%86%E8%A1%94%E5%8F%91%E5%B8%83%E6%9C%80%E5%BC%BA%E5%BC%80%E6%BA%90%E6%95%B0%E5%AD%A6%E5%AE%9A%E7%90%86%E8%AF%81%E6%98%8E%E6%A8%A1%E5%9E%8B32b%E6%80%A7%E8%83%BD%E5%A4%A7%E5%B9%85%E8%B6%85%E8%B6%8A%E5%89%8D%E4%BB%A3sota-deepseek-671b/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/24c1fe92-0e1f-47b3-9ea7-4efb95d6c985.jpg" alt="Featured image of post 普林斯顿团队领衔发布最强开源数学定理证明模型：32B性能大幅超越前代SOTA DeepSeek 671B" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/24c1fe92-0e1f-47b3-9ea7-4efb95d6c985.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%99%AE%E6%9E%97%E6%96%AF%E9%A1%BF%E5%9B%A2%E9%98%9F%E9%A2%86%E8%A1%94%E5%8F%91%E5%B8%83%E6%9C%80%E5%BC%BA%E5%BC%80%E6%BA%90%E6%95%B0%E5%AD%A6%E5%AE%9A%E7%90%86%E8%AF%81%E6%98%8E%E6%A8%A1%E5%9E%8B32b%E6%80%A7%E8%83%BD%E5%A4%A7%E5%B9%85%E8%B6%85%E8%B6%8A%E5%89%8D%E4%BB%A3sota-deepseek-671b/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/24c1fe92-0e1f-47b3-9ea7-4efb95d6c985.jpg" alt="Featured image of post 普林斯顿团队领衔发布最强开源数学定理证明模型：32B性能大幅超越前代SOTA DeepSeek 671B" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/24c1fe92-0e1f-47b3-9ea7-4efb95d6c985.jpg&#34;
 	
 	
 	
@@ -389,11 +389,11 @@
         </item>
         <item>
         <title>玻色子采样在量子人工智能领域首次找到实际应用</title>
-        <link>https://caxlee.github.io/p/%E7%8E%BB%E8%89%B2%E5%AD%90%E9%87%87%E6%A0%B7%E5%9C%A8%E9%87%8F%E5%AD%90%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A2%86%E5%9F%9F%E9%A6%96%E6%AC%A1%E6%89%BE%E5%88%B0%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/</link>
+        <link>https://caxlee.github.io/hugo/p/%E7%8E%BB%E8%89%B2%E5%AD%90%E9%87%87%E6%A0%B7%E5%9C%A8%E9%87%8F%E5%AD%90%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A2%86%E5%9F%9F%E9%A6%96%E6%AC%A1%E6%89%BE%E5%88%B0%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E7%8E%BB%E8%89%B2%E5%AD%90%E9%87%87%E6%A0%B7%E5%9C%A8%E9%87%8F%E5%AD%90%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A2%86%E5%9F%9F%E9%A6%96%E6%AC%A1%E6%89%BE%E5%88%B0%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/012712cc-78ea-45d8-ae5b-6de1346aeac7.png" alt="Featured image of post 玻色子采样在量子人工智能领域首次找到实际应用" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/012712cc-78ea-45d8-ae5b-6de1346aeac7.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E7%8E%BB%E8%89%B2%E5%AD%90%E9%87%87%E6%A0%B7%E5%9C%A8%E9%87%8F%E5%AD%90%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A2%86%E5%9F%9F%E9%A6%96%E6%AC%A1%E6%89%BE%E5%88%B0%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/012712cc-78ea-45d8-ae5b-6de1346aeac7.png" alt="Featured image of post 玻色子采样在量子人工智能领域首次找到实际应用" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/012712cc-78ea-45d8-ae5b-6de1346aeac7.png&#34;
 	
 	
 	
@@ -408,11 +408,11 @@
         </item>
         <item>
         <title>种子轮就估值120亿美元，她能打造另一个OpenAI吗？</title>
-        <link>https://caxlee.github.io/p/%E7%A7%8D%E5%AD%90%E8%BD%AE%E5%B0%B1%E4%BC%B0%E5%80%BC120%E4%BA%BF%E7%BE%8E%E5%85%83%E5%A5%B9%E8%83%BD%E6%89%93%E9%80%A0%E5%8F%A6%E4%B8%80%E4%B8%AAopenai%E5%90%97/</link>
+        <link>https://caxlee.github.io/hugo/p/%E7%A7%8D%E5%AD%90%E8%BD%AE%E5%B0%B1%E4%BC%B0%E5%80%BC120%E4%BA%BF%E7%BE%8E%E5%85%83%E5%A5%B9%E8%83%BD%E6%89%93%E9%80%A0%E5%8F%A6%E4%B8%80%E4%B8%AAopenai%E5%90%97/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E7%A7%8D%E5%AD%90%E8%BD%AE%E5%B0%B1%E4%BC%B0%E5%80%BC120%E4%BA%BF%E7%BE%8E%E5%85%83%E5%A5%B9%E8%83%BD%E6%89%93%E9%80%A0%E5%8F%A6%E4%B8%80%E4%B8%AAopenai%E5%90%97/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/e99eaa50-69a2-4e20-8838-a5f85c694d41.jpg" alt="Featured image of post 种子轮就估值120亿美元，她能打造另一个OpenAI吗？" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/e99eaa50-69a2-4e20-8838-a5f85c694d41.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E7%A7%8D%E5%AD%90%E8%BD%AE%E5%B0%B1%E4%BC%B0%E5%80%BC120%E4%BA%BF%E7%BE%8E%E5%85%83%E5%A5%B9%E8%83%BD%E6%89%93%E9%80%A0%E5%8F%A6%E4%B8%80%E4%B8%AAopenai%E5%90%97/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/e99eaa50-69a2-4e20-8838-a5f85c694d41.jpg" alt="Featured image of post 种子轮就估值120亿美元，她能打造另一个OpenAI吗？" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/e99eaa50-69a2-4e20-8838-a5f85c694d41.jpg&#34;
 	
 	
 	
@@ -427,11 +427,11 @@
         </item>
         <item>
         <title>突发｜思维链开山作者Jason Wei被曝加入Meta，机器之心独家证实：Slack没了</title>
-        <link>https://caxlee.github.io/p/%E7%AA%81%E5%8F%91%E6%80%9D%E7%BB%B4%E9%93%BE%E5%BC%80%E5%B1%B1%E4%BD%9C%E8%80%85jason-wei%E8%A2%AB%E6%9B%9D%E5%8A%A0%E5%85%A5meta%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E7%8B%AC%E5%AE%B6%E8%AF%81%E5%AE%9Eslack%E6%B2%A1%E4%BA%86/</link>
+        <link>https://caxlee.github.io/hugo/p/%E7%AA%81%E5%8F%91%E6%80%9D%E7%BB%B4%E9%93%BE%E5%BC%80%E5%B1%B1%E4%BD%9C%E8%80%85jason-wei%E8%A2%AB%E6%9B%9D%E5%8A%A0%E5%85%A5meta%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E7%8B%AC%E5%AE%B6%E8%AF%81%E5%AE%9Eslack%E6%B2%A1%E4%BA%86/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E7%AA%81%E5%8F%91%E6%80%9D%E7%BB%B4%E9%93%BE%E5%BC%80%E5%B1%B1%E4%BD%9C%E8%80%85jason-wei%E8%A2%AB%E6%9B%9D%E5%8A%A0%E5%85%A5meta%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E7%8B%AC%E5%AE%B6%E8%AF%81%E5%AE%9Eslack%E6%B2%A1%E4%BA%86/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/83a0c755-5e02-42a2-9650-468c48e24bc9.jpg" alt="Featured image of post 突发｜思维链开山作者Jason Wei被曝加入Meta，机器之心独家证实：Slack没了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/83a0c755-5e02-42a2-9650-468c48e24bc9.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E7%AA%81%E5%8F%91%E6%80%9D%E7%BB%B4%E9%93%BE%E5%BC%80%E5%B1%B1%E4%BD%9C%E8%80%85jason-wei%E8%A2%AB%E6%9B%9D%E5%8A%A0%E5%85%A5meta%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83%E7%8B%AC%E5%AE%B6%E8%AF%81%E5%AE%9Eslack%E6%B2%A1%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/83a0c755-5e02-42a2-9650-468c48e24bc9.jpg" alt="Featured image of post 突发｜思维链开山作者Jason Wei被曝加入Meta，机器之心独家证实：Slack没了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/83a0c755-5e02-42a2-9650-468c48e24bc9.jpg&#34;
 	
 	
 	
@@ -446,11 +446,11 @@
         </item>
         <item>
         <title>舍弃自回归，离散扩散语言模型如何演化？NUS综述解构技术图谱与应用前沿</title>
-        <link>https://caxlee.github.io/p/%E8%88%8D%E5%BC%83%E8%87%AA%E5%9B%9E%E5%BD%92%E7%A6%BB%E6%95%A3%E6%89%A9%E6%95%A3%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%A6%82%E4%BD%95%E6%BC%94%E5%8C%96nus%E7%BB%BC%E8%BF%B0%E8%A7%A3%E6%9E%84%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1%E4%B8%8E%E5%BA%94%E7%94%A8%E5%89%8D%E6%B2%BF/</link>
+        <link>https://caxlee.github.io/hugo/p/%E8%88%8D%E5%BC%83%E8%87%AA%E5%9B%9E%E5%BD%92%E7%A6%BB%E6%95%A3%E6%89%A9%E6%95%A3%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%A6%82%E4%BD%95%E6%BC%94%E5%8C%96nus%E7%BB%BC%E8%BF%B0%E8%A7%A3%E6%9E%84%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1%E4%B8%8E%E5%BA%94%E7%94%A8%E5%89%8D%E6%B2%BF/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E8%88%8D%E5%BC%83%E8%87%AA%E5%9B%9E%E5%BD%92%E7%A6%BB%E6%95%A3%E6%89%A9%E6%95%A3%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%A6%82%E4%BD%95%E6%BC%94%E5%8C%96nus%E7%BB%BC%E8%BF%B0%E8%A7%A3%E6%9E%84%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1%E4%B8%8E%E5%BA%94%E7%94%A8%E5%89%8D%E6%B2%BF/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/67d06652-1c28-4be4-a318-594dd846f953.jpg" alt="Featured image of post 舍弃自回归，离散扩散语言模型如何演化？NUS综述解构技术图谱与应用前沿" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/67d06652-1c28-4be4-a318-594dd846f953.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E8%88%8D%E5%BC%83%E8%87%AA%E5%9B%9E%E5%BD%92%E7%A6%BB%E6%95%A3%E6%89%A9%E6%95%A3%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%A6%82%E4%BD%95%E6%BC%94%E5%8C%96nus%E7%BB%BC%E8%BF%B0%E8%A7%A3%E6%9E%84%E6%8A%80%E6%9C%AF%E5%9B%BE%E8%B0%B1%E4%B8%8E%E5%BA%94%E7%94%A8%E5%89%8D%E6%B2%BF/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/67d06652-1c28-4be4-a318-594dd846f953.jpg" alt="Featured image of post 舍弃自回归，离散扩散语言模型如何演化？NUS综述解构技术图谱与应用前沿" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/67d06652-1c28-4be4-a318-594dd846f953.jpg&#34;
 	
 	
 	
@@ -465,11 +465,11 @@
         </item>
         <item>
         <title>重塑记忆架构：LLM正在安装「操作系统」</title>
-        <link>https://caxlee.github.io/p/%E9%87%8D%E5%A1%91%E8%AE%B0%E5%BF%86%E6%9E%B6%E6%9E%84llm%E6%AD%A3%E5%9C%A8%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+        <link>https://caxlee.github.io/hugo/p/%E9%87%8D%E5%A1%91%E8%AE%B0%E5%BF%86%E6%9E%B6%E6%9E%84llm%E6%AD%A3%E5%9C%A8%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E9%87%8D%E5%A1%91%E8%AE%B0%E5%BF%86%E6%9E%B6%E6%9E%84llm%E6%AD%A3%E5%9C%A8%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/dd150461-5105-4816-b9b8-6798cb208f53.jpg" alt="Featured image of post 重塑记忆架构：LLM正在安装「操作系统」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/dd150461-5105-4816-b9b8-6798cb208f53.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E9%87%8D%E5%A1%91%E8%AE%B0%E5%BF%86%E6%9E%B6%E6%9E%84llm%E6%AD%A3%E5%9C%A8%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/dd150461-5105-4816-b9b8-6798cb208f53.jpg" alt="Featured image of post 重塑记忆架构：LLM正在安装「操作系统」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/dd150461-5105-4816-b9b8-6798cb208f53.jpg&#34;
 	
 	
 	
@@ -484,11 +484,11 @@
         </item>
         <item>
         <title>阿里科学家获国际基础科学大会“前沿科学奖”</title>
-        <link>https://caxlee.github.io/p/%E9%98%BF%E9%87%8C%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8E%B7%E5%9B%BD%E9%99%85%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6%E5%A4%A7%E4%BC%9A%E5%89%8D%E6%B2%BF%E7%A7%91%E5%AD%A6%E5%A5%96/</link>
+        <link>https://caxlee.github.io/hugo/p/%E9%98%BF%E9%87%8C%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8E%B7%E5%9B%BD%E9%99%85%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6%E5%A4%A7%E4%BC%9A%E5%89%8D%E6%B2%BF%E7%A7%91%E5%AD%A6%E5%A5%96/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E9%98%BF%E9%87%8C%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8E%B7%E5%9B%BD%E9%99%85%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6%E5%A4%A7%E4%BC%9A%E5%89%8D%E6%B2%BF%E7%A7%91%E5%AD%A6%E5%A5%96/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/ea00d2c2-b459-4cc2-aa53-641092bd8290.png" alt="Featured image of post 阿里科学家获国际基础科学大会“前沿科学奖”" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/ea00d2c2-b459-4cc2-aa53-641092bd8290.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E9%98%BF%E9%87%8C%E7%A7%91%E5%AD%A6%E5%AE%B6%E8%8E%B7%E5%9B%BD%E9%99%85%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6%E5%A4%A7%E4%BC%9A%E5%89%8D%E6%B2%BF%E7%A7%91%E5%AD%A6%E5%A5%96/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/ea00d2c2-b459-4cc2-aa53-641092bd8290.png" alt="Featured image of post 阿里科学家获国际基础科学大会“前沿科学奖”" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/ea00d2c2-b459-4cc2-aa53-641092bd8290.png&#34;
 	
 	
 	
@@ -503,11 +503,11 @@
         </item>
         <item>
         <title>面对无解问题大模型竟会崩溃？港中文&amp;华为联合提出首个大模型推理可靠性评估基准</title>
-        <link>https://caxlee.github.io/p/%E9%9D%A2%E5%AF%B9%E6%97%A0%E8%A7%A3%E9%97%AE%E9%A2%98%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%AB%9F%E4%BC%9A%E5%B4%A9%E6%BA%83%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8D%8E%E4%B8%BA%E8%81%94%E5%90%88%E6%8F%90%E5%87%BA%E9%A6%96%E4%B8%AA%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8F%AF%E9%9D%A0%E6%80%A7%E8%AF%84%E4%BC%B0%E5%9F%BA%E5%87%86/</link>
+        <link>https://caxlee.github.io/hugo/p/%E9%9D%A2%E5%AF%B9%E6%97%A0%E8%A7%A3%E9%97%AE%E9%A2%98%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%AB%9F%E4%BC%9A%E5%B4%A9%E6%BA%83%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8D%8E%E4%B8%BA%E8%81%94%E5%90%88%E6%8F%90%E5%87%BA%E9%A6%96%E4%B8%AA%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8F%AF%E9%9D%A0%E6%80%A7%E8%AF%84%E4%BC%B0%E5%9F%BA%E5%87%86/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E9%9D%A2%E5%AF%B9%E6%97%A0%E8%A7%A3%E9%97%AE%E9%A2%98%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%AB%9F%E4%BC%9A%E5%B4%A9%E6%BA%83%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8D%8E%E4%B8%BA%E8%81%94%E5%90%88%E6%8F%90%E5%87%BA%E9%A6%96%E4%B8%AA%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8F%AF%E9%9D%A0%E6%80%A7%E8%AF%84%E4%BC%B0%E5%9F%BA%E5%87%86/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/b0454511-21c2-4ff8-ac31-c5e6975d7717.jpg" alt="Featured image of post 面对无解问题大模型竟会崩溃？港中文&amp;华为联合提出首个大模型推理可靠性评估基准" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/b0454511-21c2-4ff8-ac31-c5e6975d7717.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E9%9D%A2%E5%AF%B9%E6%97%A0%E8%A7%A3%E9%97%AE%E9%A2%98%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%AB%9F%E4%BC%9A%E5%B4%A9%E6%BA%83%E6%B8%AF%E4%B8%AD%E6%96%87%E5%8D%8E%E4%B8%BA%E8%81%94%E5%90%88%E6%8F%90%E5%87%BA%E9%A6%96%E4%B8%AA%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E5%8F%AF%E9%9D%A0%E6%80%A7%E8%AF%84%E4%BC%B0%E5%9F%BA%E5%87%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/b0454511-21c2-4ff8-ac31-c5e6975d7717.jpg" alt="Featured image of post 面对无解问题大模型竟会崩溃？港中文&amp;华为联合提出首个大模型推理可靠性评估基准" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/b0454511-21c2-4ff8-ac31-c5e6975d7717.jpg&#34;
 	
 	
 	
@@ -522,11 +522,11 @@
         </item>
         <item>
         <title>马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的</title>
-        <link>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E7%9A%84ai%E7%94%B7%E5%8F%8B%E8%BF%98%E5%9C%A8%E5%8F%96%E5%90%8D%E5%BC%80%E6%BA%90%E7%89%88ai%E5%A5%B3%E5%8F%8B%E5%B7%B2%E7%BB%8F%E7%81%AB%E4%BA%86%E8%BF%98%E6%98%AF3d%E7%9A%84/</link>
+        <link>https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E7%9A%84ai%E7%94%B7%E5%8F%8B%E8%BF%98%E5%9C%A8%E5%8F%96%E5%90%8D%E5%BC%80%E6%BA%90%E7%89%88ai%E5%A5%B3%E5%8F%8B%E5%B7%B2%E7%BB%8F%E7%81%AB%E4%BA%86%E8%BF%98%E6%98%AF3d%E7%9A%84/</link>
         <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E7%9A%84ai%E7%94%B7%E5%8F%8B%E8%BF%98%E5%9C%A8%E5%8F%96%E5%90%8D%E5%BC%80%E6%BA%90%E7%89%88ai%E5%A5%B3%E5%8F%8B%E5%B7%B2%E7%BB%8F%E7%81%AB%E4%BA%86%E8%BF%98%E6%98%AF3d%E7%9A%84/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg" alt="Featured image of post 马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E7%9A%84ai%E7%94%B7%E5%8F%8B%E8%BF%98%E5%9C%A8%E5%8F%96%E5%90%8D%E5%BC%80%E6%BA%90%E7%89%88ai%E5%A5%B3%E5%8F%8B%E5%B7%B2%E7%BB%8F%E7%81%AB%E4%BA%86%E8%BF%98%E6%98%AF3d%E7%9A%84/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg" alt="Featured image of post 马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg&#34;
 	
 	
 	
@@ -541,11 +541,11 @@
         </item>
         <item>
         <title>Connect or reject: Extensive rewiring builds binocular vision in the brain</title>
-        <link>https://caxlee.github.io/p/connect-or-reject-extensive-rewiring-builds-binocular-vision-in-the-brain/</link>
+        <link>https://caxlee.github.io/hugo/p/connect-or-reject-extensive-rewiring-builds-binocular-vision-in-the-brain/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/connect-or-reject-extensive-rewiring-builds-binocular-vision-in-the-brain/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/dc00213c-2045-41cd-8563-43ff2cb9f541.jpeg" alt="Featured image of post Connect or reject: Extensive rewiring builds binocular vision in the brain" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/dc00213c-2045-41cd-8563-43ff2cb9f541.jpeg&#34;
+        <guid>https://caxlee.github.io/hugo/p/connect-or-reject-extensive-rewiring-builds-binocular-vision-in-the-brain/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/dc00213c-2045-41cd-8563-43ff2cb9f541.jpeg" alt="Featured image of post Connect or reject: Extensive rewiring builds binocular vision in the brain" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/dc00213c-2045-41cd-8563-43ff2cb9f541.jpeg&#34;
 	
 	
 	
@@ -560,11 +560,11 @@
         </item>
         <item>
         <title>Five MIT faculty elected to the National Academy of Sciences for 2025</title>
-        <link>https://caxlee.github.io/p/five-mit-faculty-elected-to-the-national-academy-of-sciences-for-2025/</link>
+        <link>https://caxlee.github.io/hugo/p/five-mit-faculty-elected-to-the-national-academy-of-sciences-for-2025/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/five-mit-faculty-elected-to-the-national-academy-of-sciences-for-2025/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/31645b61-86d5-4fa9-8dc4-9cc306b797fc.png" alt="Featured image of post Five MIT faculty elected to the National Academy of Sciences for 2025" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/31645b61-86d5-4fa9-8dc4-9cc306b797fc.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/five-mit-faculty-elected-to-the-national-academy-of-sciences-for-2025/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/31645b61-86d5-4fa9-8dc4-9cc306b797fc.png" alt="Featured image of post Five MIT faculty elected to the National Academy of Sciences for 2025" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/31645b61-86d5-4fa9-8dc4-9cc306b797fc.png&#34;
 	
 	
 	
@@ -579,11 +579,11 @@
         </item>
         <item>
         <title>How an MIT professor introduced hundreds of thousands of students to neuroscience</title>
-        <link>https://caxlee.github.io/p/how-an-mit-professor-introduced-hundreds-of-thousands-of-students-to-neuroscience/</link>
+        <link>https://caxlee.github.io/hugo/p/how-an-mit-professor-introduced-hundreds-of-thousands-of-students-to-neuroscience/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/how-an-mit-professor-introduced-hundreds-of-thousands-of-students-to-neuroscience/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/84cf1004-4106-40c4-8ae6-2f92e9690330.jpg" alt="Featured image of post How an MIT professor introduced hundreds of thousands of students to neuroscience" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/84cf1004-4106-40c4-8ae6-2f92e9690330.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/how-an-mit-professor-introduced-hundreds-of-thousands-of-students-to-neuroscience/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/84cf1004-4106-40c4-8ae6-2f92e9690330.jpg" alt="Featured image of post How an MIT professor introduced hundreds of thousands of students to neuroscience" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/84cf1004-4106-40c4-8ae6-2f92e9690330.jpg&#34;
 	
 	
 	
@@ -598,11 +598,11 @@
         </item>
         <item>
         <title>How to more efficiently study complex treatment interactions</title>
-        <link>https://caxlee.github.io/p/how-to-more-efficiently-study-complex-treatment-interactions/</link>
+        <link>https://caxlee.github.io/hugo/p/how-to-more-efficiently-study-complex-treatment-interactions/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/how-to-more-efficiently-study-complex-treatment-interactions/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg" alt="Featured image of post How to more efficiently study complex treatment interactions" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/how-to-more-efficiently-study-complex-treatment-interactions/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg" alt="Featured image of post How to more efficiently study complex treatment interactions" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg&#34;
 	
 	
 	
@@ -617,11 +617,11 @@
         </item>
         <item>
         <title>Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92</title>
-        <link>https://caxlee.github.io/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/</link>
+        <link>https://caxlee.github.io/hugo/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG" alt="Featured image of post Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG&#34;
+        <guid>https://caxlee.github.io/hugo/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG" alt="Featured image of post Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG&#34;
 	
 	
 	
@@ -636,11 +636,11 @@
         </item>
         <item>
         <title>Study shows a link between obesity and what’s on local restaurant menus</title>
-        <link>https://caxlee.github.io/p/study-shows-a-link-between-obesity-and-whats-on-local-restaurant-menus/</link>
+        <link>https://caxlee.github.io/hugo/p/study-shows-a-link-between-obesity-and-whats-on-local-restaurant-menus/</link>
         <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/study-shows-a-link-between-obesity-and-whats-on-local-restaurant-menus/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/cb7714e4-cb7d-4c7b-b3f5-05cc62fc8488.jpg" alt="Featured image of post Study shows a link between obesity and what’s on local restaurant menus" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/cb7714e4-cb7d-4c7b-b3f5-05cc62fc8488.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/study-shows-a-link-between-obesity-and-whats-on-local-restaurant-menus/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/cb7714e4-cb7d-4c7b-b3f5-05cc62fc8488.jpg" alt="Featured image of post Study shows a link between obesity and what’s on local restaurant menus" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/cb7714e4-cb7d-4c7b-b3f5-05cc62fc8488.jpg&#34;
 	
 	
 	
@@ -655,11 +655,11 @@
         </item>
         <item>
         <title>AI下半场的「Game Changer」，直让老外惊呼「Amazing」</title>
-        <link>https://caxlee.github.io/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</link>
+        <link>https://caxlee.github.io/hugo/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" alt="Featured image of post AI下半场的「Game Changer」，直让老外惊呼「Amazing」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" alt="Featured image of post AI下半场的「Game Changer」，直让老外惊呼「Amazing」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg&#34;
 	
 	
 	
@@ -677,11 +677,11 @@
         </item>
         <item>
         <title>ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制</title>
-        <link>https://caxlee.github.io/p/icml-2025-m-%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/</link>
+        <link>https://caxlee.github.io/hugo/p/icml-2025-m-%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/icml-2025-m-%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg" alt="Featured image of post ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/icml-2025-m-%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg" alt="Featured image of post ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg&#34;
 	
 	
 	
@@ -699,11 +699,11 @@
         </item>
         <item>
         <title>ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名</title>
-        <link>https://caxlee.github.io/p/icml-2025%E6%9D%B0%E5%87%BA%E8%AE%BA%E6%96%87%E5%87%BA%E7%82%898%E7%AF%87%E8%8E%B7%E5%A5%96%E5%8D%97%E5%A4%A7%E7%A0%94%E7%A9%B6%E8%80%85%E6%A6%9C%E4%B8%8A%E6%9C%89%E5%90%8D/</link>
+        <link>https://caxlee.github.io/hugo/p/icml-2025%E6%9D%B0%E5%87%BA%E8%AE%BA%E6%96%87%E5%87%BA%E7%82%898%E7%AF%87%E8%8E%B7%E5%A5%96%E5%8D%97%E5%A4%A7%E7%A0%94%E7%A9%B6%E8%80%85%E6%A6%9C%E4%B8%8A%E6%9C%89%E5%90%8D/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/icml-2025%E6%9D%B0%E5%87%BA%E8%AE%BA%E6%96%87%E5%87%BA%E7%82%898%E7%AF%87%E8%8E%B7%E5%A5%96%E5%8D%97%E5%A4%A7%E7%A0%94%E7%A9%B6%E8%80%85%E6%A6%9C%E4%B8%8A%E6%9C%89%E5%90%8D/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg" alt="Featured image of post ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/icml-2025%E6%9D%B0%E5%87%BA%E8%AE%BA%E6%96%87%E5%87%BA%E7%82%898%E7%AF%87%E8%8E%B7%E5%A5%96%E5%8D%97%E5%A4%A7%E7%A0%94%E7%A9%B6%E8%80%85%E6%A6%9C%E4%B8%8A%E6%9C%89%E5%90%8D/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg" alt="Featured image of post ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg&#34;
 	
 	
 	
@@ -721,11 +721,11 @@
         </item>
         <item>
         <title>上海交大/上海AI Lab翟广涛：当评测不再重要，AGI就实现了</title>
-        <link>https://caxlee.github.io/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7/%E4%B8%8A%E6%B5%B7ai-lab%E7%BF%9F%E5%B9%BF%E6%B6%9B%E5%BD%93%E8%AF%84%E6%B5%8B%E4%B8%8D%E5%86%8D%E9%87%8D%E8%A6%81agi%E5%B0%B1%E5%AE%9E%E7%8E%B0%E4%BA%86/</link>
+        <link>https://caxlee.github.io/hugo/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7/%E4%B8%8A%E6%B5%B7ai-lab%E7%BF%9F%E5%B9%BF%E6%B6%9B%E5%BD%93%E8%AF%84%E6%B5%8B%E4%B8%8D%E5%86%8D%E9%87%8D%E8%A6%81agi%E5%B0%B1%E5%AE%9E%E7%8E%B0%E4%BA%86/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7/%E4%B8%8A%E6%B5%B7ai-lab%E7%BF%9F%E5%B9%BF%E6%B6%9B%E5%BD%93%E8%AF%84%E6%B5%8B%E4%B8%8D%E5%86%8D%E9%87%8D%E8%A6%81agi%E5%B0%B1%E5%AE%9E%E7%8E%B0%E4%BA%86/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/0f76cb19-1a31-4daa-831e-76ea0f33d2f9.jpg" alt="Featured image of post 上海交大/上海AI Lab翟广涛：当评测不再重要，AGI就实现了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/0f76cb19-1a31-4daa-831e-76ea0f33d2f9.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E5%A4%A7/%E4%B8%8A%E6%B5%B7ai-lab%E7%BF%9F%E5%B9%BF%E6%B6%9B%E5%BD%93%E8%AF%84%E6%B5%8B%E4%B8%8D%E5%86%8D%E9%87%8D%E8%A6%81agi%E5%B0%B1%E5%AE%9E%E7%8E%B0%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/0f76cb19-1a31-4daa-831e-76ea0f33d2f9.jpg" alt="Featured image of post 上海交大/上海AI Lab翟广涛：当评测不再重要，AGI就实现了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/0f76cb19-1a31-4daa-831e-76ea0f33d2f9.jpg&#34;
 	
 	
 	
@@ -743,11 +743,11 @@
         </item>
         <item>
         <title>什么都不做就能得分？智能体基准测试出现大问题</title>
-        <link>https://caxlee.github.io/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</link>
+        <link>https://caxlee.github.io/hugo/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg" alt="Featured image of post 什么都不做就能得分？智能体基准测试出现大问题" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E4%BB%80%E4%B9%88%E9%83%BD%E4%B8%8D%E5%81%9A%E5%B0%B1%E8%83%BD%E5%BE%97%E5%88%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95%E5%87%BA%E7%8E%B0%E5%A4%A7%E9%97%AE%E9%A2%98/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg" alt="Featured image of post 什么都不做就能得分？智能体基准测试出现大问题" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/1270fc0d-23d1-4b18-ab75-a2c2f0e729bb.jpg&#34;
 	
 	
 	
@@ -765,11 +765,11 @@
         </item>
         <item>
         <title>元科学可以改进科学——但它也必须对社会有用</title>
-        <link>https://caxlee.github.io/p/%E5%85%83%E7%A7%91%E5%AD%A6%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%A7%91%E5%AD%A6%E4%BD%86%E5%AE%83%E4%B9%9F%E5%BF%85%E9%A1%BB%E5%AF%B9%E7%A4%BE%E4%BC%9A%E6%9C%89%E7%94%A8/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%85%83%E7%A7%91%E5%AD%A6%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%A7%91%E5%AD%A6%E4%BD%86%E5%AE%83%E4%B9%9F%E5%BF%85%E9%A1%BB%E5%AF%B9%E7%A4%BE%E4%BC%9A%E6%9C%89%E7%94%A8/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%85%83%E7%A7%91%E5%AD%A6%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%A7%91%E5%AD%A6%E4%BD%86%E5%AE%83%E4%B9%9F%E5%BF%85%E9%A1%BB%E5%AF%B9%E7%A4%BE%E4%BC%9A%E6%9C%89%E7%94%A8/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/1bf58b88-6586-4d52-844b-8b92a105319f.png" alt="Featured image of post 元科学可以改进科学——但它也必须对社会有用" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/1bf58b88-6586-4d52-844b-8b92a105319f.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E5%85%83%E7%A7%91%E5%AD%A6%E5%8F%AF%E4%BB%A5%E6%94%B9%E8%BF%9B%E7%A7%91%E5%AD%A6%E4%BD%86%E5%AE%83%E4%B9%9F%E5%BF%85%E9%A1%BB%E5%AF%B9%E7%A4%BE%E4%BC%9A%E6%9C%89%E7%94%A8/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/1bf58b88-6586-4d52-844b-8b92a105319f.png" alt="Featured image of post 元科学可以改进科学——但它也必须对社会有用" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/1bf58b88-6586-4d52-844b-8b92a105319f.png&#34;
 	
 	
 	
@@ -787,11 +787,11 @@
         </item>
         <item>
         <title>南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述</title>
-        <link>https://caxlee.github.io/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg" alt="Featured image of post 南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E5%8D%97%E5%A4%A7%E7%AD%898%E5%AE%B6%E5%8D%95%E4%BD%8D38%E9%A1%B5400-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8E%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E7%BB%BC%E8%BF%B0/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg" alt="Featured image of post 南大等8家单位，38页、400&#43;参考文献，物理模拟器与世界模型驱动的机器人具身智能综述" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/a062ad11-3ed0-4289-9a3a-09b727dc1fe4.jpg&#34;
 	
 	
 	
@@ -809,11 +809,11 @@
         </item>
         <item>
         <title>大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻</title>
-        <link>https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png" alt="Featured image of post 大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png" alt="Featured image of post 大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png&#34;
 	
 	
 	
@@ -831,11 +831,11 @@
         </item>
         <item>
         <title>央企牵头！这个AI开源社区要让大模型跑遍「中国芯」</title>
-        <link>https://caxlee.github.io/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" alt="Featured image of post 央企牵头！这个AI开源社区要让大模型跑遍「中国芯」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" alt="Featured image of post 央企牵头！这个AI开源社区要让大模型跑遍「中国芯」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg&#34;
 	
 	
 	
@@ -853,11 +853,11 @@
         </item>
         <item>
         <title>智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式</title>
-        <link>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" alt="Featured image of post 智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%99%BA%E6%BA%90robobrain-2.0-roboos-2.0%E5%8F%8C%E5%8F%91%E9%97%AE%E9%BC%8E%E8%AF%84%E6%B5%8B%E5%9F%BA%E5%87%86%E6%9C%80%E5%BC%BA%E5%85%B7%E8%BA%AB%E5%A4%A7%E8%84%91%E5%88%B7%E6%96%B0%E8%B7%A8%E6%9C%AC%E4%BD%93%E5%A4%9A%E6%9C%BA%E5%8D%8F%E4%BD%9C%E6%8A%80%E6%9C%AF%E8%8C%83%E5%BC%8F/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg" alt="Featured image of post 智源RoboBrain 2.0&#43;RoboOS 2.0双发：问鼎评测基准最强具身大脑，刷新跨本体多机协作技术范式" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/c115f626-de19-44e6-aeb8-b8e39fa4d074.jpg&#34;
 	
 	
 	
@@ -875,11 +875,11 @@
         </item>
         <item>
         <title>智能终端合辑 | WAIC 2025：AI赋能智能终端的产业革新</title>
-        <link>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%90%88%E8%BE%91-waic-2025ai%E8%B5%8B%E8%83%BD%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BA%A7%E4%B8%9A%E9%9D%A9%E6%96%B0/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%90%88%E8%BE%91-waic-2025ai%E8%B5%8B%E8%83%BD%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BA%A7%E4%B8%9A%E9%9D%A9%E6%96%B0/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%90%88%E8%BE%91-waic-2025ai%E8%B5%8B%E8%83%BD%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BA%A7%E4%B8%9A%E9%9D%A9%E6%96%B0/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png" alt="Featured image of post 智能终端合辑 | WAIC 2025：AI赋能智能终端的产业革新" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E5%90%88%E8%BE%91-waic-2025ai%E8%B5%8B%E8%83%BD%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF%E7%9A%84%E4%BA%A7%E4%B8%9A%E9%9D%A9%E6%96%B0/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png" alt="Featured image of post 智能终端合辑 | WAIC 2025：AI赋能智能终端的产业革新" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/7032a6a9-f11d-4e89-b347-80bce2888dd5.png&#34;
 	
 	
 	
@@ -897,11 +897,11 @@
         </item>
         <item>
         <title>比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快</title>
-        <link>https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg" alt="Featured image of post 比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E6%AF%94adam%E6%9B%B4%E6%9C%89%E6%95%88poet%E4%BB%8E%E8%B0%B1%E4%B8%8D%E5%8F%98%E5%8E%9F%E7%90%86%E5%87%BA%E5%8F%91%E8%AE%A9llm%E8%AE%AD%E7%BB%83%E5%8F%88%E7%A8%B3%E5%8F%88%E5%BF%AB/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg" alt="Featured image of post 比Adam更有效，POET从谱不变原理出发，让LLM训练又稳又快" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/3fb70811-8e3d-4593-af14-b16bf8d577de.jpg&#34;
 	
 	
 	
@@ -919,11 +919,11 @@
         </item>
         <item>
         <title>科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？</title>
-        <link>https://caxlee.github.io/p/%E7%A7%91%E5%AD%A6%E6%99%BA%E8%83%BD%E5%90%88%E8%BE%91ai%E4%BC%9A%E6%88%90%E4%B8%BA%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%9A%84%E5%90%8C%E9%81%93%E8%80%85%E8%BF%98%E6%98%AF%E5%8F%AA%E6%98%AF%E7%BB%9F%E8%AE%A1%E4%B8%8A%E6%9B%B4%E8%81%AA%E6%98%8E%E7%9A%84%E8%9E%BA%E4%B8%9D%E5%88%80/</link>
+        <link>https://caxlee.github.io/hugo/p/%E7%A7%91%E5%AD%A6%E6%99%BA%E8%83%BD%E5%90%88%E8%BE%91ai%E4%BC%9A%E6%88%90%E4%B8%BA%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%9A%84%E5%90%8C%E9%81%93%E8%80%85%E8%BF%98%E6%98%AF%E5%8F%AA%E6%98%AF%E7%BB%9F%E8%AE%A1%E4%B8%8A%E6%9B%B4%E8%81%AA%E6%98%8E%E7%9A%84%E8%9E%BA%E4%B8%9D%E5%88%80/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E7%A7%91%E5%AD%A6%E6%99%BA%E8%83%BD%E5%90%88%E8%BE%91ai%E4%BC%9A%E6%88%90%E4%B8%BA%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%9A%84%E5%90%8C%E9%81%93%E8%80%85%E8%BF%98%E6%98%AF%E5%8F%AA%E6%98%AF%E7%BB%9F%E8%AE%A1%E4%B8%8A%E6%9B%B4%E8%81%AA%E6%98%8E%E7%9A%84%E8%9E%BA%E4%B8%9D%E5%88%80/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/14bc487f-f566-4003-b18d-9b35796dc8ae.png" alt="Featured image of post 科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/14bc487f-f566-4003-b18d-9b35796dc8ae.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E7%A7%91%E5%AD%A6%E6%99%BA%E8%83%BD%E5%90%88%E8%BE%91ai%E4%BC%9A%E6%88%90%E4%B8%BA%E7%A7%91%E5%AD%A6%E5%8F%91%E7%8E%B0%E7%9A%84%E5%90%8C%E9%81%93%E8%80%85%E8%BF%98%E6%98%AF%E5%8F%AA%E6%98%AF%E7%BB%9F%E8%AE%A1%E4%B8%8A%E6%9B%B4%E8%81%AA%E6%98%8E%E7%9A%84%E8%9E%BA%E4%B8%9D%E5%88%80/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/14bc487f-f566-4003-b18d-9b35796dc8ae.png" alt="Featured image of post 科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/14bc487f-f566-4003-b18d-9b35796dc8ae.png&#34;
 	
 	
 	
@@ -941,11 +941,11 @@
         </item>
         <item>
         <title>精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动</title>
-        <link>https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</link>
+        <link>https://caxlee.github.io/hugo/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png" alt="Featured image of post 精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E7%B2%BE%E7%A1%AE%E6%8D%95%E6%8D%89%E7%96%BE%E7%97%85%E8%BF%9B%E7%A8%8B%E4%B8%AD%E7%BB%86%E8%83%9E%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%8F%98%E5%8C%96%E7%94%9F%E6%88%90%E5%BC%8F%E5%B9%B3%E5%8F%B0unagi%E5%87%86%E7%A1%AE%E6%A8%A1%E6%8B%9F%E8%8D%AF%E7%89%A9%E6%89%B0%E5%8A%A8/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/413d071c-81d5-4931-a83d-370949a84599.png" alt="Featured image of post 精确捕捉疾病进程中细胞动力学变化，生成式平台UNAGI准确模拟药物扰动" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/413d071c-81d5-4931-a83d-370949a84599.png&#34;
 	
 	
 	
@@ -963,11 +963,11 @@
         </item>
         <item>
         <title>马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网</title>
-        <link>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/</link>
+        <link>https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/</link>
         <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg" alt="Featured image of post 马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg&#34;
+        <guid>https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg" alt="Featured image of post 马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg&#34;
 	
 	
 	
@@ -985,146 +985,146 @@
         </item>
         <item>
         <title>A new platform for developing advanced metals at scale</title>
-        <link>https://caxlee.github.io/p/a-new-platform-for-developing-advanced-metals-at-scale/</link>
+        <link>https://caxlee.github.io/hugo/p/a-new-platform-for-developing-advanced-metals-at-scale/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/a-new-platform-for-developing-advanced-metals-at-scale/</guid>
+        <guid>https://caxlee.github.io/hugo/p/a-new-platform-for-developing-advanced-metals-at-scale/</guid>
         <description>&lt;p&gt;Foundation Alloy是由麻省理工学院团队创立的公司，他们利用一种新型生产工艺生产超高性能金属合金，不依赖于熔化原材料。他们的固态冶金技术使得下一代合金的开发和制造变得更简单，产品开发速度更快，强度是传统金属的两倍。公司旨在为航空航天、自行车、汽车等行业提供更可靠、性能更高的金属材料。&lt;/p&gt;</description>
         </item>
         <item>
         <title>AI药物发现再进化：分子之心、斯坦福开发SurfFlow系统，破解治疗性肽设计表面互补难题</title>
-        <link>https://caxlee.github.io/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</link>
+        <link>https://caxlee.github.io/hugo/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</guid>
+        <guid>https://caxlee.github.io/hugo/p/ai%E8%8D%AF%E7%89%A9%E5%8F%91%E7%8E%B0%E5%86%8D%E8%BF%9B%E5%8C%96%E5%88%86%E5%AD%90%E4%B9%8B%E5%BF%83%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%BC%80%E5%8F%91surfflow%E7%B3%BB%E7%BB%9F%E7%A0%B4%E8%A7%A3%E6%B2%BB%E7%96%97%E6%80%A7%E8%82%BD%E8%AE%BE%E8%AE%A1%E8%A1%A8%E9%9D%A2%E4%BA%92%E8%A1%A5%E9%9A%BE%E9%A2%98/</guid>
         <description>&lt;p&gt;近年来，科学家在设计靶向难成药位点的治疗性肽方面取得进展，但忽略了蛋白质相互作用中分子表面的重要影响。为弥补这一差距，研究团队提出了一种基于表面的全设计肽生成算法SurfFlow，采用多模态条件流匹配架构来提高肽结合的准确性。该算法在全面的基准测试中表现优异，展现了整合多种蛋白质模态的潜力。&lt;/p&gt;</description>
         </item>
         <item>
         <title>RL 圈的夏夜之约！12 人唠嗑局：当强化学习撞上大模型 Agent</title>
-        <link>https://caxlee.github.io/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/</link>
+        <link>https://caxlee.github.io/hugo/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/</guid>
+        <guid>https://caxlee.github.io/hugo/p/rl-%E5%9C%88%E7%9A%84%E5%A4%8F%E5%A4%9C%E4%B9%8B%E7%BA%A612-%E4%BA%BA%E5%94%A0%E5%97%91%E5%B1%80%E5%BD%93%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%92%9E%E4%B8%8A%E5%A4%A7%E6%A8%A1%E5%9E%8B-agent/</guid>
         <description>&lt;p&gt;本文介绍了由机器之心主办、东浩兰生支持的「强化学习新范式探索之夜」活动，主题是从基础模型到 Agent 的进阶之路，邀请学术界和产业界的专家分享关于强化学习和大模型智能体的讨论。活动将围绕强化学习与大模型智能体的组合、训练推理策略选择以及智能体评估等议题展开，旨在打造一个小而精的交流平台。&lt;/p&gt;</description>
         </item>
         <item>
         <title>模拟3D分子编辑，北大高毅勤团队开发整合物理信息和偏好对齐的MolEdit，登Nature子刊</title>
-        <link>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E6%A8%A1%E6%8B%9F3d%E5%88%86%E5%AD%90%E7%BC%96%E8%BE%91%E5%8C%97%E5%A4%A7%E9%AB%98%E6%AF%85%E5%8B%A4%E5%9B%A2%E9%98%9F%E5%BC%80%E5%8F%91%E6%95%B4%E5%90%88%E7%89%A9%E7%90%86%E4%BF%A1%E6%81%AF%E5%92%8C%E5%81%8F%E5%A5%BD%E5%AF%B9%E9%BD%90%E7%9A%84moledit%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
         <description>&lt;p&gt;北京大学团队提出了理论指导，用于弥合图像 GenAI 和分子 GenAI 之间的方法论差距，实现对 3D 分子生成基础模型的预训练。他们开发的多模态分子 GenAI——MolEdit 能够生成具有全面对称性的有效分子，平衡构型稳定性和构象多样性，支持复杂三维结构的生成。研究人员通过物理信息学习和数据驱动学习相结合，解决了分子 GenAI 的幻觉问题，使得 MolEdit 在药物设计等领域具有广泛应用前景。&lt;/p&gt;</description>
         </item>
         <item>
         <title>登《Cell》，中科院高彩霞等开发AiCE：一种AI蛋白质工程通用策略</title>
-        <link>https://caxlee.github.io/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</link>
+        <link>https://caxlee.github.io/hugo/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</link>
         <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E7%99%BBcell%E4%B8%AD%E7%A7%91%E9%99%A2%E9%AB%98%E5%BD%A9%E9%9C%9E%E7%AD%89%E5%BC%80%E5%8F%91aice%E4%B8%80%E7%A7%8Dai%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%B7%A5%E7%A8%8B%E9%80%9A%E7%94%A8%E7%AD%96%E7%95%A5/</guid>
         <description>&lt;p&gt;中国科学院团队开发的AiCE框架通过整合结构和进化约束到反向折叠模型中，实现了快速高效的蛋白质工程，无需专门训练。该框架在蛋白质工程任务中取得了显著成功，能够预测高适应性突变并优化蛋白质结构，展现出良好的应用前景。&lt;/p&gt;</description>
         </item>
         <item>
         <title>QS ranks MIT the world’s No. 1 university for 2025-26</title>
-        <link>https://caxlee.github.io/p/qs-ranks-mit-the-worlds-no-1-university-for-2025-26/</link>
+        <link>https://caxlee.github.io/hugo/p/qs-ranks-mit-the-worlds-no-1-university-for-2025-26/</link>
         <pubDate>Sun, 13 Jul 2025 13:55:19 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/qs-ranks-mit-the-worlds-no-1-university-for-2025-26/</guid>
+        <guid>https://caxlee.github.io/hugo/p/qs-ranks-mit-the-worlds-no-1-university-for-2025-26/</guid>
         <description>&lt;p&gt;麻省理工学院再次荣获QS世界大学排名榜首，连续14年蝉联该荣誉。该排名基于学术声誉、雇主声誉、每位教职员工的引用次数、师生比例、国际教职员比例以及国际学生比例等因素。此外，MIT在11个学科领域中名列榜首，包括化学工程、计算机科学与信息系统、数据科学与人工智能等。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Supporting mission-driven space innovation, for Earth and beyond</title>
-        <link>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</link>
+        <link>https://caxlee.github.io/hugo/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</guid>
+        <guid>https://caxlee.github.io/hugo/p/supporting-mission-driven-space-innovation-for-earth-and-beyond/</guid>
         <description>&lt;p&gt;Aurelia Institute成立于MIT的校友和前研究科学家组成，致力于使太空技术和建筑对全人类都有益处。该机构通过微重力飞行等活动，培养下一代太空爱好者，同时致力于为低地球轨道的大规模基础设施项目提供技术支持。他们的工作包括自组装太空建筑技术TESSERAE以及设计人类规模的建筑和栖息地，旨在将太空技术和理念带回地球。&lt;/p&gt;</description>
         </item>
         <item>
         <title>告别Transformer！北大、北邮、华为开源纯卷积DiC：3x3卷积实现SOTA性能，比DiT快5倍！</title>
-        <link>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E5%91%8A%E5%88%ABtransformer%E5%8C%97%E5%A4%A7%E5%8C%97%E9%82%AE%E5%8D%8E%E4%B8%BA%E5%BC%80%E6%BA%90%E7%BA%AF%E5%8D%B7%E7%A7%AFdic3x3%E5%8D%B7%E7%A7%AF%E5%AE%9E%E7%8E%B0sota%E6%80%A7%E8%83%BD%E6%AF%94dit%E5%BF%AB5%E5%80%8D/</guid>
         <description>&lt;p&gt;近期北大、北邮和华为联合研究提出了一种新的纯卷积扩散模型DiC，重新审视了深度学习中的基础模块3x3卷积，超越了Diffusion Transformer在性能和推理速度上，证明了简单的卷积网络在生成任务中的潜力。他们通过精心设计的U-Net Hourglass架构、条件注入和激活函数替换等方式，将平庸的卷积网络打造成性能卓越的模型。&lt;/p&gt;</description>
         </item>
         <item>
         <title>拍我AI（PixVerse）上线多关键帧生成功能 ，AI视频创作从“片段”迈向“故事性表达” </title>
-        <link>https://caxlee.github.io/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/</guid>
         <description>&lt;p&gt;拍我AI新增了多关键帧生成功能，用户可上传最多7张图片，在首尾帧模式下生成最长30秒的连贯视频，增强了创作者对AI视频叙事的掌控力。这一功能使AI视频创作更具完整叙事连贯性，能够实现角色动作、场景转换的自然衔接，智能切换不同景别与视角，显著提升叙事表现力，为高叙事需求场景提升创作效率。&lt;/p&gt;</description>
         </item>
         <item>
         <title>马斯克吹牛了吗？Grok 4第一波实测出炉：既能完虐o3，也菜到数不清6根手指</title>
-        <link>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</link>
+        <link>https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</link>
         <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</guid>
         <description>&lt;p&gt;马斯克亮相 Grok 4 发布会，宣称所有学科都达到博士后水平，吸引全球网友兴趣。比较 Grok 4 和 o3 在多个测试中表现，Grok 4 获得更多胜利。Grok 4 在教育领域应用潜力巨大，能够让抽象概念可视化，制作经典游戏和模拟。然而在实测中也出现翻车现象，引发一些讨论。&lt;/p&gt;</description>
         </item>
         <item>
         <title>8小时处理300万细胞数据，复旦&amp;上交研发双分支架构模型，登Nature子刊</title>
-        <link>https://caxlee.github.io/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
+        <link>https://caxlee.github.io/hugo/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
+        <guid>https://caxlee.github.io/hugo/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/</guid>
         <description>&lt;p&gt;复旦大学与上海交通大学团队提出了 River 框架，利用双分支预测架构和事后归因策略，能够识别基因空间位置变化的关键信号。River 在识别差异空间表达模式基因方面表现优异，比传统方法更具优势。研究展示了 River 在不同数据集上的性能优势，以及在实际生物场景中的强大表现。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Collaborating with the force of nature</title>
-        <link>https://caxlee.github.io/p/collaborating-with-the-force-of-nature/</link>
+        <link>https://caxlee.github.io/hugo/p/collaborating-with-the-force-of-nature/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/collaborating-with-the-force-of-nature/</guid>
+        <guid>https://caxlee.github.io/hugo/p/collaborating-with-the-force-of-nature/</guid>
         <description>&lt;p&gt;麻省理工学院的教授们在冰岛部署了一系列轻便的钢结构，用于与火山熔岩互动并成功转移其流向，以保护人类居住区和重要基础设施。他们的研究得到了教授阿马尔·G·博斯研究基金的支持。通过设计不同形状和材料的结构，他们希望与火山熔岩合作，而非对抗它。这项研究的目标是为全球其他活火山地区开发关键基础设施。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Implantable device could save diabetes patients from dangerously low blood sugar</title>
-        <link>https://caxlee.github.io/p/implantable-device-could-save-diabetes-patients-from-dangerously/</link>
+        <link>https://caxlee.github.io/hugo/p/implantable-device-could-save-diabetes-patients-from-dangerously/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/implantable-device-could-save-diabetes-patients-from-dangerously/</guid>
+        <guid>https://caxlee.github.io/hugo/p/implantable-device-could-save-diabetes-patients-from-dangerously/</guid>
         <description>&lt;p&gt;麻省理工学院工程师设计了一种可植入的胰高血糖素释放装置，可在血糖水平过低时释放药物，帮助糖尿病患者应对低血糖危机。这种装置还可用于释放肾上腺素，应对心脏病发作和严重过敏反应。研究人员计划未来三年内开始临床试验。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Meta为他豪掷2亿美元，上交校友庞若鸣，晒出在苹果的最新论文</title>
-        <link>https://caxlee.github.io/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</link>
+        <link>https://caxlee.github.io/hugo/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</guid>
+        <guid>https://caxlee.github.io/hugo/p/meta%E4%B8%BA%E4%BB%96%E8%B1%AA%E6%8E%B72%E4%BA%BF%E7%BE%8E%E5%85%83%E4%B8%8A%E4%BA%A4%E6%A0%A1%E5%8F%8B%E5%BA%9E%E8%8B%A5%E9%B8%A3%E6%99%92%E5%87%BA%E5%9C%A8%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87/</guid>
         <description>&lt;p&gt;庞若鸣即将加入 Meta 新成立的超级智能团队，但在苹果负责的最后一项研究中，他介绍了基于多模态大规模模型训练的 AXLearn 系统，具备高度模块化和对异构硬件的支持。该系统通过严格封装实现模块化，成功集成了 RoPE 和 MoE 功能，保持恒定的代码复杂性，并在异构硬件上展现出优异的性能。&lt;/p&gt;</description>
         </item>
         <item>
         <title>人类增强子突变敏感性图谱首次绘制：AI 与体内实验揭示发育调控密码</title>
-        <link>https://caxlee.github.io/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/</link>
+        <link>https://caxlee.github.io/hugo/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/</guid>
         <description>&lt;p&gt;ENCODE计划揭示人类基因组中大部分序列为非编码区，长期调控功能成谜。研究团队通过转基因小鼠模型和机器学习系统性绘制了人类发育增强子的突变敏感性图谱，揭示了增强子在动物发育中的重要作用。研究结果有助于解释人类非编码变异和进化变化，为设计合成增强子以满足生物技术和治疗需求提供基础。&lt;/p&gt;</description>
         </item>
         <item>
         <title>基于工作记忆的认知测试显示LLM的检索局限：100%混淆无效信息与正确答案</title>
-        <link>https://caxlee.github.io/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</link>
+        <link>https://caxlee.github.io/hugo/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E5%9F%BA%E4%BA%8E%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BF%86%E7%9A%84%E8%AE%A4%E7%9F%A5%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BAllm%E7%9A%84%E6%A3%80%E7%B4%A2%E5%B1%80%E9%99%90100%E6%B7%B7%E6%B7%86%E6%97%A0%E6%95%88%E4%BF%A1%E6%81%AF%E4%B8%8E%E6%AD%A3%E7%A1%AE%E7%AD%94%E6%A1%88/</guid>
         <description>&lt;p&gt;本文发现了一个影响所有大型语言模型的信息检索问题，即无法稳定地提取动态数据中的最新信息，对全局记忆和长推理任务造成损害。研究表明，所有主流语言模型在处理动态数据时会出现明显的错误，并呈现出一致的对数线性下降趋势。作者提出这一问题可能源于模型的基础架构或依赖的注意力机制。实验结果暗示，模型的抗干扰容量不足，需要在模型架构设计或训练方法上进行创新性调整。&lt;/p&gt;</description>
         </item>
         <item>
         <title>我们用飞书开了个选题会，一下进入现代化办公，编辑部直呼：真香</title>
-        <link>https://caxlee.github.io/p/%E6%88%91%E4%BB%AC%E7%94%A8%E9%A3%9E%E4%B9%A6%E5%BC%80%E4%BA%86%E4%B8%AA%E9%80%89%E9%A2%98%E4%BC%9A%E4%B8%80%E4%B8%8B%E8%BF%9B%E5%85%A5%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%8A%9E%E5%85%AC%E7%BC%96%E8%BE%91%E9%83%A8%E7%9B%B4%E5%91%BC%E7%9C%9F%E9%A6%99/</link>
+        <link>https://caxlee.github.io/hugo/p/%E6%88%91%E4%BB%AC%E7%94%A8%E9%A3%9E%E4%B9%A6%E5%BC%80%E4%BA%86%E4%B8%AA%E9%80%89%E9%A2%98%E4%BC%9A%E4%B8%80%E4%B8%8B%E8%BF%9B%E5%85%A5%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%8A%9E%E5%85%AC%E7%BC%96%E8%BE%91%E9%83%A8%E7%9B%B4%E5%91%BC%E7%9C%9F%E9%A6%99/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E6%88%91%E4%BB%AC%E7%94%A8%E9%A3%9E%E4%B9%A6%E5%BC%80%E4%BA%86%E4%B8%AA%E9%80%89%E9%A2%98%E4%BC%9A%E4%B8%80%E4%B8%8B%E8%BF%9B%E5%85%A5%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%8A%9E%E5%85%AC%E7%BC%96%E8%BE%91%E9%83%A8%E7%9B%B4%E5%91%BC%E7%9C%9F%E9%A6%99/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E6%88%91%E4%BB%AC%E7%94%A8%E9%A3%9E%E4%B9%A6%E5%BC%80%E4%BA%86%E4%B8%AA%E9%80%89%E9%A2%98%E4%BC%9A%E4%B8%80%E4%B8%8B%E8%BF%9B%E5%85%A5%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%8A%9E%E5%85%AC%E7%BC%96%E8%BE%91%E9%83%A8%E7%9B%B4%E5%91%BC%E7%9C%9F%E9%A6%99/</guid>
         <description>&lt;p&gt;飞书在2025飞书未来无限大会上发布了多项新产品和升级，包括知识问答、AI会议、飞书Aily、飞书妙搭等。其中，飞书知识问答达到了M3标准，能够快速检索和整合信息；飞书会议则达到了M4标准，支持声纹识别和实时总结。另外，多维表格也迎来重大升级，包括性能提升和AI工具全家桶的发布。&lt;/p&gt;</description>
         </item>
         <item>
         <title>联合国点赞爱诗科技，PixVerse入选AI for Good优秀案例</title>
-        <link>https://caxlee.github.io/p/%E8%81%94%E5%90%88%E5%9B%BD%E7%82%B9%E8%B5%9E%E7%88%B1%E8%AF%97%E7%A7%91%E6%8A%80pixverse%E5%85%A5%E9%80%89ai-for-good%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B/</link>
+        <link>https://caxlee.github.io/hugo/p/%E8%81%94%E5%90%88%E5%9B%BD%E7%82%B9%E8%B5%9E%E7%88%B1%E8%AF%97%E7%A7%91%E6%8A%80pixverse%E5%85%A5%E9%80%89ai-for-good%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/p/%E8%81%94%E5%90%88%E5%9B%BD%E7%82%B9%E8%B5%9E%E7%88%B1%E8%AF%97%E7%A7%91%E6%8A%80pixverse%E5%85%A5%E9%80%89ai-for-good%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B/</guid>
+        <guid>https://caxlee.github.io/hugo/p/%E8%81%94%E5%90%88%E5%9B%BD%E7%82%B9%E8%B5%9E%E7%88%B1%E8%AF%97%E7%A7%91%E6%8A%80pixverse%E5%85%A5%E9%80%89ai-for-good%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B/</guid>
         <description>&lt;p&gt;爱诗科技旗下生成式AI视频平台PixVerse在联合国举办的人工智能向善全球峰会上分享了其创意和数字包容成果，旨在推动“AI视频向善”的理念。通过创新的一键生成技术，PixVerse赋予全球数亿用户视频创作能力，重构创作经济生态，实现了视频创作的普惠。PixVerse的包容性潜力得到了实际印证，各国用户通过平台创作出惊艳作品，彰显了AI视频技术的巨大潜力和影响力。&lt;/p&gt;</description>
         </item>
         
