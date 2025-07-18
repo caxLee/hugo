@@ -198,7 +198,7 @@ def main():
     ensure_hugo_config(hugo_source_path)
     
     # 构建到临时目录
-    build_command = ['hugo', '--destination', temp_build_path, '--baseURL', 'https://caxlee.github.io/']
+    build_command = ['hugo', '--destination', temp_build_path, '--baseURL', 'https://caxlee.github.io/hugo/']
     success, _ = run_command(build_command, cwd=hugo_source_path)
     if not success:
         print("❌ Hugo构建失败, 终止操作")
