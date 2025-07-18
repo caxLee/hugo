@@ -369,7 +369,7 @@ async def scrape_mit_news_articles(save_path):
                                     print(f"⬇️ 开始下载图片 (尝试 {attempt + 1}/{max_retries})...")
                                     saved_physical_path = await download_image(session, image_url, image_save_path)
                                     if saved_physical_path:
-                                        local_image_path = f"/images/articles/{current_date}/{next_index:03d}{file_ext}"
+                                        local_image_path = f"images/articles/{current_date}/{next_index:03d}{file_ext}"
                                         print(f"✅ 图片下载成功，本地路径: {local_image_path}")
                                         break
                                     else:

@@ -201,11 +201,11 @@ async def main():
                         # 下载并保存图片
                         saved_physical_path = await download_image(session, image_url, image_save_path)
                         if saved_physical_path:
-                            # 构建Hugo在markdown中使用的相对路径
-                            local_image_path = f"/images/articles/{current_date}/{next_index:03d}{file_ext}"
+                            # 构建Hugo在markdown中使用的相对路径，移除开头的斜杠
+                            local_image_path = f"images/articles/{current_date}/{next_index:03d}{file_ext}"
 
                     except Exception as e:
-                        print(f"💥 处理或下载图片时出错: {e}")
+                        print(f"�� 处理或下载图片时出错: {e}")
 
                 # 核心改进：解析HTML内容并提取纯文本
                 html_content = data.get("content")

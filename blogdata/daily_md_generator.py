@@ -385,19 +385,30 @@ def generate_daily_news_folders():
         escaped_title = title.replace("'", "''")
         escaped_summary = summary.replace("'", "''")
 
+        # 处理图片路径，确保与baseURL兼容
+        formatted_image_path = ""
+        if image_path:
+            # 移除开头的斜杠，避免与baseURL冲突
+            if image_path.startswith('/'):
+                formatted_image_path = image_path[1:]
+            else:
+                formatted_image_path = image_path
+
         md_content = f"""---
 title: '{escaped_title}'
 date: {today}
 tags: {json.dumps(tags, ensure_ascii=False)}
 summary: '{escaped_summary}'
-image: '{image_path if image_path else ""}'
+image: '{formatted_image_path}'
 link: '{url}'
 ---
 """
         
         # 正文内容
         if image_path:
-            md_content += f"![{escaped_title}]({image_path})\n\n"
+            # 同样处理Markdown中的图片引用路径
+            md_image_path = formatted_image_path
+            md_content += f"![{escaped_title}]({md_image_path})\n\n"
         
         md_content += f"**摘要**: {escaped_summary}\n"
 
