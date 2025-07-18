@@ -224,7 +224,7 @@ def main():
     ensure_hugo_config(hugo_source_path)
     
     # 构建到临时目录
-    build_command = ['hugo', '--destination', temp_build_path]
+    build_command = ['hugo', '--destination', temp_build_path, '--baseURL', 'https://caxlee.github.io/']
     success, _ = run_command(build_command, cwd=hugo_source_path)
     if not success:
         print("❌ Hugo构建失败, 终止操作")
@@ -327,7 +327,32 @@ def main():
                 # 对于文件，直接复制或覆盖
                 shutil.copy2(src_path, dst_path)
         
-        shutil.rmtree(temp_build_path) # 清理临时构建目录
+        # 清理临时构建目录
+        shutil.rmtree(temp_build_path) 
+        
+        # 添加额外的调试信息，检查images目录是否正确复制
+        images_dir = os.path.join(public_path, 'images')
+        if os.path.exists(images_dir):
+            print(f"📂 检查图片目录: {images_dir} (存在)")
+            articles_dir = os.path.join(images_dir, 'articles')
+            if os.path.exists(articles_dir):
+                print(f"📂 检查文章图片目录: {articles_dir} (存在)")
+                # 列出最近的图片文件夹
+                article_dirs = [d for d in os.listdir(articles_dir) if os.path.isdir(os.path.join(articles_dir, d))]
+                if article_dirs:
+                    print(f"📊 找到 {len(article_dirs)} 个图片子目录: {', '.join(article_dirs[:5])}...")
+                    # 检查最新的目录
+                    latest_dir = max(article_dirs)
+                    latest_dir_path = os.path.join(articles_dir, latest_dir)
+                    print(f"📁 最新的图片目录: {latest_dir_path}")
+                    img_files = os.listdir(latest_dir_path)
+                    print(f"🖼️ 图片文件数: {len(img_files)}, 示例: {', '.join(img_files[:3])}...")
+                else:
+                    print("⚠️ 没有找到图片子目录")
+            else:
+                print(f"❌ 文章图片目录不存在: {articles_dir}")
+        else:
+            print(f"❌ 图片目录不存在: {images_dir}")
         
     else: # 本地环境逻辑
         if not os.path.isdir(os.path.join(public_path, '.git')):
