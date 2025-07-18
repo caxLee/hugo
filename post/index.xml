@@ -8,12 +8,31 @@
         <language>en</language>
         <copyright>Example Person</copyright>
         <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI三问①数学之问丨当数学与AI正面对撞，AI×数学=∞可能！</title>
+        <link>https://caxlee.github.io/p/ai%E4%B8%89%E9%97%AE%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE%E4%B8%A8%E5%BD%93%E6%95%B0%E5%AD%A6%E4%B8%8Eai%E6%AD%A3%E9%9D%A2%E5%AF%B9%E6%92%9Eai%E6%95%B0%E5%AD%A6%E5%8F%AF%E8%83%BD/</link>
+        <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/p/ai%E4%B8%89%E9%97%AE%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE%E4%B8%A8%E5%BD%93%E6%95%B0%E5%AD%A6%E4%B8%8Eai%E6%AD%A3%E9%9D%A2%E5%AF%B9%E6%92%9Eai%E6%95%B0%E5%AD%A6%E5%8F%AF%E8%83%BD/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/003.png" alt="Featured image of post AI三问①数学之问丨当数学与AI正面对撞，AI×数学=∞可能！" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/003.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;AI三问①数学之问丨当数学与AI正面对撞，AI×数学=∞可能！&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: AI三问：数学与AI交汇，探讨基础重构。全球专家聚焦数学边界，挑战智能时代认知边界。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Helping cities evolve</title>
         <link>https://caxlee.github.io/p/helping-cities-evolve/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/p/helping-cities-evolve/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/016.jpg" alt="Featured image of post Helping cities evolve" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/016.jpg&#34;
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/020.jpg" alt="Featured image of post Helping cities evolve" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/020.jpg&#34;
 	
 	
 	
@@ -23,7 +42,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Vincent Rollet, an MIT PhD student, studies city evolution and constraints, aiming to influence urban policies. His research reveals inefficiencies in housing markets and the impact of policy changes on cities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Vincent Rollet, a PhD student at MIT, studies city evolution and constraints. His research reveals inefficiencies in housing markets and the impact of policy changes on urban development.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -32,7 +51,7 @@
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/p/iccv-2025%E8%AE%AD%E7%BB%83%E5%A4%AA%E5%A4%8D%E6%9D%82%E5%AF%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E4%B9%89%E5%B8%83%E5%B1%80%E8%A6%81%E6%B1%82%E5%A4%AA%E9%AB%98%E5%9B%BE%E5%83%8Fmorphing%E7%BB%88%E4%BA%8E%E4%B8%80%E6%AD%A5%E5%88%B0%E4%BD%8D/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/003.jpg" alt="Featured image of post ICCV 2025｜训练太复杂？对图片语义、布局要求太高？图像morphing终于一步到位" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/003.jpg&#34;
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/007.jpg" alt="Featured image of post ICCV 2025｜训练太复杂？对图片语义、布局要求太高？图像morphing终于一步到位" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/007.jpg&#34;
 	
 	
 	
@@ -42,7 +61,26 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 图像 morphing 领域新方法 FreeMorph 实现无需训练、一步到位效果，解决训练成本高、适应性差难题&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 图像 morphing 领域的新方法 FreeMorph 实现了无需训练、一步到位的高质量图像过渡，解决了训练成本高、适应性差的问题。通过改进 diffusion 模型的 attention 机制，实现了定向性和一致性的图像变形。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ICCV2025 | One image is all you need，多模态指令数据合成，你只管给图，剩下的交给Oasis</title>
+        <link>https://caxlee.github.io/p/iccv2025-one-image-is-all-you-need%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8C%87%E4%BB%A4%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E4%BD%A0%E5%8F%AA%E7%AE%A1%E7%BB%99%E5%9B%BE%E5%89%A9%E4%B8%8B%E7%9A%84%E4%BA%A4%E7%BB%99oasis/</link>
+        <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/p/iccv2025-one-image-is-all-you-need%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8C%87%E4%BB%A4%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E4%BD%A0%E5%8F%AA%E7%AE%A1%E7%BB%99%E5%9B%BE%E5%89%A9%E4%B8%8B%E7%9A%84%E4%BA%A4%E7%BB%99oasis/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/002.jpg" alt="Featured image of post ICCV2025 | One image is all you need，多模态指令数据合成，你只管给图，剩下的交给Oasis" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ICCV2025 | One image is all you need，多模态指令数据合成，你只管给图，剩下的交给Oasis&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Oasis实现多模态指令数据合成，仅需图像输入，无需提示词，提供高质量数据。MM-INF开源代码库支持多模态数据合成方法。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -51,7 +89,7 @@
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/p/le-chat%E5%85%A8%E6%96%B9%E9%9D%A2%E5%AF%B9%E6%A0%87chatgpt%E6%AC%A7%E6%B4%B2ai%E6%96%B0%E8%B4%B5%E7%A9%B7%E8%BF%BD%E4%B8%8D%E8%88%8D/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/002.jpg" alt="Featured image of post Le Chat全方面对标ChatGPT，欧洲AI新贵穷追不舍" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/002.jpg&#34;
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/006.jpg" alt="Featured image of post Le Chat全方面对标ChatGPT，欧洲AI新贵穷追不舍" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/006.jpg&#34;
 	
 	
 	
@@ -61,7 +99,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Le Chat全面对标ChatGPT，欧洲AI新贵Mistral AI发布多项功能升级，包括深度研究、语音模式和图像编辑，展示强大竞争力。Voxtral语音识别模型发布，具备超长上下文理解和原生多语种支持等先进功能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Mistral AI推出Le Chat全面对标ChatGPT，新增研究模式、语音模式和项目管理功能。Voxtral语音识别模型超越开源模型，支持超长上下文理解和多语种功能。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -70,7 +108,7 @@
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/p/mits-mason-estrada-to-sign-with-the-los-angeles-dodgers/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/014.jpg" alt="Featured image of post MIT’s Mason Estrada to sign with the Los Angeles Dodgers" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/014.jpg&#34;
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/018.jpg" alt="Featured image of post MIT’s Mason Estrada to sign with the Los Angeles Dodgers" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/018.jpg&#34;
 	
 	
 	
@@ -80,7 +118,26 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: MIT学生Mason Estrada将与洛杉矶道奇队签约，成为历史上被选中的最高选秀球员。他将参加道奇队的训练营，展示他在棒球和工程思维方面的潜力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: MIT学生Mason Estrada将与洛杉矶道奇队签约，成为历史上被选中的最高的MIT球员。他将在洛杉矶道奇队的训练营报到，展开职业棒球生涯。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>从IDC测评看AI上车：斑马智行全面领跑，破局座舱“伪智能”</title>
+        <link>https://caxlee.github.io/p/%E4%BB%8Eidc%E6%B5%8B%E8%AF%84%E7%9C%8Bai%E4%B8%8A%E8%BD%A6%E6%96%91%E9%A9%AC%E6%99%BA%E8%A1%8C%E5%85%A8%E9%9D%A2%E9%A2%86%E8%B7%91%E7%A0%B4%E5%B1%80%E5%BA%A7%E8%88%B1%E4%BC%AA%E6%99%BA%E8%83%BD/</link>
+        <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E4%BB%8Eidc%E6%B5%8B%E8%AF%84%E7%9C%8Bai%E4%B8%8A%E8%BD%A6%E6%96%91%E9%A9%AC%E6%99%BA%E8%A1%8C%E5%85%A8%E9%9D%A2%E9%A2%86%E8%B7%91%E7%A0%B4%E5%B1%80%E5%BA%A7%E8%88%B1%E4%BC%AA%E6%99%BA%E8%83%BD/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/004.png" alt="Featured image of post 从IDC测评看AI上车：斑马智行全面领跑，破局座舱“伪智能”" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/004.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;从IDC测评看AI上车：斑马智行全面领跑，破局座舱“伪智能”&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 斑马智行领跑智能座舱大模型，率先实现L3级座舱能力，推动智能座舱进入“真AI”时代。斑马元神AI大模型突破垂类应用，实现全新AI体验，构筑技术护城河。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -89,7 +146,7 @@
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/p/%E5%88%9A%E5%88%9Aopenai%E9%80%9A%E7%94%A8%E6%99%BA%E8%83%BD%E4%BD%93chatgpt-agent%E6%AD%A3%E5%BC%8F%E7%99%BB%E5%9C%BA/</guid>
-        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/001.jpg" alt="Featured image of post 刚刚，OpenAI通用智能体ChatGPT Agent正式登场" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/001.jpg&#34;
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/005.jpg" alt="Featured image of post 刚刚，OpenAI通用智能体ChatGPT Agent正式登场" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/005.jpg&#34;
 	
 	
 	
@@ -99,7 +156,26 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: OpenAI推出通用智能体ChatGPT Agent，实现自主选择工具、执行任务的能力。用户可通过Agent模式让ChatGPT完成复杂任务，如查询财务报告、制定旅行计划。Agent整合Operator和deep research优势，表现优异于基准测试。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: OpenAI推出通用智能体ChatGPT Agent，实现自主选择工具、完成复杂任务，提升AI能力。用户可在工具下拉菜单中选择「Agent模式」使用。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>明天，围观学习ACL2025论文分享会，最后报名了</title>
+        <link>https://caxlee.github.io/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/</link>
+        <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/images/articles/2025_07_18/001.jpg" alt="Featured image of post 明天，围观学习ACL2025论文分享会，最后报名了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/images/articles/2025_07_18/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;明天，围观学习ACL2025论文分享会，最后报名了&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: ACL 2025论文分享会介绍车万翔和刘鹏飞的Keynote，以及圆桌讨论嘉宾。活动时间7月19日，地点北京。&lt;/p&gt;
 </description>
         </item>
         <item>
