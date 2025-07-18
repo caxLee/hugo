@@ -122,7 +122,7 @@ async def main():
 
     async with async_playwright() as p, aiohttp.ClientSession() as session:
         # 在GitHub Actions中使用headless模式，本地开发可视化
-        browser = await p.chromium.launch(headless=is_github_actions)
+        browser = await p.chromium.launch(headless=is_github_actions, ignore_https_errors=True)
         page = await browser.new_page()
         await page.goto("https://www.jiqizhixin.com/articles", timeout=60000)
 
@@ -181,16 +181,26 @@ async def main():
                         if not file_ext: # 如果没有扩展名，默认为.jpg
                             file_ext = '.jpg'
                         
-                        # 生成一个唯一的UUID作为文件名
-                        image_name = f"{uuid.uuid4()}{file_ext}"
-
-                        # 构建完整的物理保存路径
-                        image_save_path = os.path.join(image_save_dir, image_name)
+                        # 使用日期和序号命名图片，而不是UUID
+                        current_date = datetime.now().strftime("%Y_%m_%d")
+                        
+                        # 创建日期目录
+                        date_dir = os.path.join(image_save_dir, current_date)
+                        os.makedirs(date_dir, exist_ok=True)
+                        
+                        # 获取当前日期目录下的文件数，用于生成序号
+                        existing_files = os.listdir(date_dir)
+                        next_index = len(existing_files) + 1
+                        
+                        # 格式化序号为三位数字（例如：001, 002, ...）
+                        image_name = f"{current_date}_{next_index:03d}{file_ext}"
+                        image_save_path = os.path.join(date_dir, f"{next_index:03d}{file_ext}")
+                        
                         # 下载并保存图片
                         saved_physical_path = await download_image(session, image_url, image_save_path)
                         if saved_physical_path:
                             # 构建Hugo在markdown中使用的相对路径
-                            local_image_path = f"/images/articles/{image_name}"
+                            local_image_path = f"/images/articles/{current_date}/{next_index:03d}{file_ext}"
 
                     except Exception as e:
                         print(f"💥 处理或下载图片时出错: {e}")

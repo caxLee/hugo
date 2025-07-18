@@ -122,8 +122,11 @@ async def scrape_mit_news_articles(save_path):
     print(f"📋 已加载 {len(existing_urls)} 个现有URL用于去重")
 
     async with async_playwright() as p, aiohttp.ClientSession() as session:
-        browser = await p.chromium.launch(headless=HEADLESS)
+        # 初始化浏览器
+        print(f"🌐 使用{'无头' if HEADLESS else '可视化'}浏览器模式")
+        browser = await p.chromium.launch(headless=HEADLESS, ignore_https_errors=True)
         context = await browser.new_context(
+            viewport={"width": 1280, "height": 800},
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         )
 
@@ -342,8 +345,21 @@ async def scrape_mit_news_articles(save_path):
                     if image_url:
                         try:
                             file_ext = os.path.splitext(urlparse(image_url).path)[1] or '.jpg'
-                            image_name = f"{uuid.uuid4()}{file_ext}"
-                            image_save_path = os.path.join(image_save_dir, image_name)
+                            
+                            # 使用日期和序号命名图片，而不是UUID
+                            current_date = datetime.now().strftime("%Y_%m_%d")
+                            
+                            # 创建日期目录
+                            date_dir = os.path.join(image_save_dir, current_date)
+                            os.makedirs(date_dir, exist_ok=True)
+                            
+                            # 获取当前日期目录下的文件数，用于生成序号
+                            existing_files = os.listdir(date_dir)
+                            next_index = len(existing_files) + 1
+                            
+                            # 格式化序号为三位数字（例如：001, 002, ...）
+                            image_name = f"{current_date}_{next_index:03d}{file_ext}"
+                            image_save_path = os.path.join(date_dir, f"{next_index:03d}{file_ext}")
                             
                             # Add retries for image download
                             max_retries = 3
@@ -352,7 +368,7 @@ async def scrape_mit_news_articles(save_path):
                                     print(f"⬇️ 开始下载图片 (尝试 {attempt + 1}/{max_retries})...")
                                     saved_physical_path = await download_image(session, image_url, image_save_path)
                                     if saved_physical_path:
-                                        local_image_path = f"/images/articles/{image_name}"
+                                        local_image_path = f"/images/articles/{current_date}/{next_index:03d}{file_ext}"
                                         print(f"✅ 图片下载成功，本地路径: {local_image_path}")
                                         break
                                     else:
