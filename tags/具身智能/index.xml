@@ -7,7 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 20 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>超越O4-mini，多模态大模型终于学会回头「看」：中科院自动化所提出GThinker模型</title>
+        <link>https://caxlee.github.io/hugo/p/%E8%B6%85%E8%B6%8Ao4-mini%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%BB%88%E4%BA%8E%E5%AD%A6%E4%BC%9A%E5%9B%9E%E5%A4%B4%E7%9C%8B%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%8F%90%E5%87%BAgthinker%E6%A8%A1%E5%9E%8B/</link>
+        <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E8%B6%85%E8%B6%8Ao4-mini%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%BB%88%E4%BA%8E%E5%AD%A6%E4%BC%9A%E5%9B%9E%E5%A4%B4%E7%9C%8B%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%8F%90%E5%87%BAgthinker%E6%A8%A1%E5%9E%8B/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_19/041.jpg" alt="Featured image of post 超越O4-mini，多模态大模型终于学会回头「看」：中科院自动化所提出GThinker模型" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_19/041.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;超越O4-mini，多模态大模型终于学会回头「看」：中科院自动化所提出GThinker模型&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 中科院自动化所提出GThinker模型，通过「线索引导式反思」模式实现通用多模态推理，超越O4-mini在M³CoT基准上表现。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Helping cities evolve</title>
         <link>https://caxlee.github.io/hugo/p/helping-cities-evolve/</link>
         <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
