@@ -296,7 +296,7 @@ async def main():
         # 保存更新后的图片清单
         save_image_manifest(image_manifest)
         print("✅ 图片清单已更新并保存。")
-        
+
         await browser.close()
 
 # 运行爬虫

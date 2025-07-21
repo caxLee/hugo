@@ -93,6 +93,11 @@
         width: 100% !important;
     }
 }
+
+/* 新增：用于通过JS控制文章显隐的class，使用高优先级确保生效 */
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -115,7 +120,6 @@
 (function() {
   // 在DOM加载完成后执行
   document.addEventListener('DOMContentLoaded', function() {
-    // 获取日期选择器和文章卡片
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -129,24 +133,17 @@
     
     // 过滤文章的函数
     function filterArticles(initialLoad = false) {
-      // 获取选择的日期值
       let selectedDate = dateSelector.value;
       
-      // 如果是初始加载，设置为今天
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      // 遍历所有文章卡片
       articleCards.forEach(function(card) {
-        // 如果没有选择日期，显示所有文章
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          // 否则只显示匹配日期的文章
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        // 使用 classList.toggle 来控制显隐，而不是直接修改style
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
