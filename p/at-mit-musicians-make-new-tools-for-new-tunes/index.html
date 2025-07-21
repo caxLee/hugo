@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索音乐和技术之间的联系，共同探索创新之路。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="MIT音乐科技项目培养学生创造新乐器和音乐软件，探索音乐与技术交汇之处。课程涵盖数字合成器、人机交互等，强调创意和技术结合。学生设计音乐系统，拓展工程问题与人文关怀。">
 <title>At MIT, musicians make new tools for new tunes</title>
 
 <link rel='canonical' href='https://caxlee.github.io/hugo/p/at-mit-musicians-make-new-tools-for-new-tunes/'>
 
 <link rel="stylesheet" href="/hugo/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="At MIT, musicians make new tools for new tunes">
-<meta property='og:description' content="麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索音乐和技术之间的联系，共同探索创新之路。\n">
+<meta property='og:description' content="MIT音乐科技项目培养学生创造新乐器和音乐软件，探索音乐与技术交汇之处。课程涵盖数字合成器、人机交互等，强调创意和技术结合。学生设计音乐系统，拓展工程问题与人文关怀。">
 <meta property='og:url' content='https://caxlee.github.io/hugo/p/at-mit-musicians-make-new-tools-for-new-tunes/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='具身智能' /><meta property='article:tag' content='Infra' /><meta property='article:published_time' content='2025-07-14T21:13:58&#43;08:00'/><meta property='article:modified_time' content='2025-07-14T21:13:58&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='Infra' /><meta property='article:tag' content='具身智能' /><meta property='article:published_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg' />
 <meta name="twitter:title" content="At MIT, musicians make new tools for new tunes">
-<meta name="twitter:description" content="麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索音乐和技术之间的联系，共同探索创新之路。\n">
+<meta name="twitter:description" content="MIT音乐科技项目培养学生创造新乐器和音乐软件，探索音乐与技术交汇之处。课程涵盖数字合成器、人机交互等，强调创意和技术结合。学生设计音乐系统，拓展工程问题与人文关怀。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -106,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -290,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -312,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -326,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -360,6 +358,14 @@
             <main class="main full-width">
     <article class="">
     <header class="article-header">
+        <div class="article-image">
+            <a href="javascript:void(0);">
+                
+                    <img src="/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg" loading="lazy" alt="Featured image of post At MIT, musicians make new tools for new tunes" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -388,7 +394,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 14, 2025</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -409,14 +415,8 @@
         <ul class="article-tags-list">
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                    多模态
-                </a>
-            </li>
-            
-            <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                    具身智能
+                <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                    基模
                 </a>
             </li>
             
@@ -426,24 +426,43 @@
                 </a>
             </li>
             
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                    具身智能
+                </a>
+            </li>
+            
         </ul>
     </footer>
     
 
     
 </div> 
-</header><section class="article-content">
-    <p>麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索音乐和技术之间的联系，共同探索创新之路。</p></section>
+</header><div class="article-image-container">
+        <img src="images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg" alt="At MIT, musicians make new tools for new tunes" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+    </div><section class="article-content">
+    <p><img src="/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="At MIT, musicians make new tools for new tunes"
+	
+	
+></p>
+<p><strong>摘要</strong>: MIT音乐科技项目培养学生创造新乐器和音乐软件，探索音乐与技术交汇之处。课程涵盖数字合成器、人机交互等，强调创意和技术结合。学生设计音乐系统，拓展工程问题与人文关怀。</p>
+</section>
     
     <footer class="article-footer">
     
     <section class="article-tags">
         
-            <a href="/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/">多模态</a>
-        
-            <a href="/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/">具身智能</a>
+            <a href="/hugo/tags/%E5%9F%BA%E6%A8%A1/">基模</a>
         
             <a href="/hugo/tags/infra/">Infra</a>
+        
+            <a href="/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/">具身智能</a>
         
     </section>
 
@@ -460,19 +479,7 @@
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            Last updated on Jul 14, 2025 21:13 &#43;0800
-        </span>
-    </section></footer>
+    </footer>
 
     
     
@@ -491,18 +498,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine/">
+    <a href="/hugo/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" loading="lazy" data-key="" data-hash="/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg"/>
+                    <img src="/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">New AI system uncovers hidden cell subtypes, boosts precision medicine</h2>
+            <h2 class="article-title">AI下半场的「Game Changer」，直让老外惊呼「Amazing」</h2>
         </div>
     </a>
 </article>
@@ -510,44 +517,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%8199.9%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/">
+    <a href="/hugo/p/changing-the-conversation-in-health-care/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" loading="lazy" data-key="" data-hash="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg"/>
+                    <img src="/hugo/images/articles/2af950b9-5913-472d-9370-ff634729e065.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2af950b9-5913-472d-9370-ff634729e065.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/hugo/p/professor-emeritus-barry-vercoe-a-pioneering-force-in-computer-mu/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/hugo/p/study-babies-poor-vision-may-help-organize-visual-brain-pathways/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Study: Babies’ poor vision may help organize visual brain pathways</h2>
+            <h2 class="article-title">Changing the conversation in health care</h2>
         </div>
     </a>
 </article>
@@ -555,18 +536,56 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/acm-mm-2025-eventvad7b%E5%8F%82%E6%95%B0%E5%85%8D%E8%AE%AD%E7%BB%83%E8%A7%86%E9%A2%91%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B%E6%96%B0sota/">
+    <a href="/hugo/p/new-postdoctoral-fellowship-program-to-accelerate-innovation-in-health-care/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_07_20/013.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_20/013.jpg"/>
+                    <img src="/hugo/images/articles/158ed3b7-f97c-4e2b-8d6a-64e0a0410955.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/158ed3b7-f97c-4e2b-8d6a-64e0a0410955.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ACM MM 2025 | EventVAD：7B参数免训练，视频异常检测新SOTA</h2>
+            <h2 class="article-title">New postdoctoral fellowship program to accelerate innovation in health care</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">央企牵头！这个AI开源社区要让大模型跑遍「中国芯」</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/collaborating-with-the-force-of-nature/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/5c3d22bb-3247-4464-8177-44ccbd538f79.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/5c3d22bb-3247-4464-8177-44ccbd538f79.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Collaborating with the force of nature</h2>
         </div>
     </a>
 </article>

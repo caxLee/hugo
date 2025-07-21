@@ -10,7 +10,7 @@
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/hugo/404.html'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-20T00:00:00&#43;00:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-21T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="404 Page not found">
 <meta name="twitter:description" content="Example description">
 <style>
@@ -106,7 +106,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -288,6 +288,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -310,7 +315,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -324,24 +328,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     

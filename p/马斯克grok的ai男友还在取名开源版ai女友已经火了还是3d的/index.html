@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="马斯克Grok的AI男友命名征集中，开源版AI女友Bella具多模态感知和生成式自我能力">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="马斯克Grok推出智能伴侣功能，征集男性伴侣命名；开源项目「Bella」构建AI数字伴侣，迭代AI原生开发路径">
 <title>马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的</title>
 
 <link rel='canonical' href='https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E7%9A%84ai%E7%94%B7%E5%8F%8B%E8%BF%98%E5%9C%A8%E5%8F%96%E5%90%8D%E5%BC%80%E6%BA%90%E7%89%88ai%E5%A5%B3%E5%8F%8B%E5%B7%B2%E7%BB%8F%E7%81%AB%E4%BA%86%E8%BF%98%E6%98%AF3d%E7%9A%84/'>
 
 <link rel="stylesheet" href="/hugo/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的">
-<meta property='og:description' content="马斯克Grok的AI男友命名征集中，开源版AI女友Bella具多模态感知和生成式自我能力">
+<meta property='og:description' content="马斯克Grok推出智能伴侣功能，征集男性伴侣命名；开源项目「Bella」构建AI数字伴侣，迭代AI原生开发路径">
 <meta property='og:url' content='https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E7%9A%84ai%E7%94%B7%E5%8F%8B%E8%BF%98%E5%9C%A8%E5%8F%96%E5%90%8D%E5%BC%80%E6%BA%90%E7%89%88ai%E5%A5%B3%E5%8F%8B%E5%B7%B2%E7%BB%8F%E7%81%AB%E4%BA%86%E8%BF%98%E6%98%AF3d%E7%9A%84/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='多模态' /><meta property='article:published_time' content='2025-07-17T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-17T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='Agent' /><meta property='article:published_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/2025_07_18/009.jpg' />
 <meta name="twitter:title" content="马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的">
-<meta name="twitter:description" content="马斯克Grok的AI男友命名征集中，开源版AI女友Bella具多模态感知和生成式自我能力"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://caxlee.github.io/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg' />
+<meta name="twitter:description" content="马斯克Grok推出智能伴侣功能，征集男性伴侣命名；开源项目「Bella」构建AI数字伴侣，迭代AI原生开发路径"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/2025_07_18/009.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -107,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -291,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -313,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -327,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -364,7 +361,7 @@
         <div class="article-image">
             <a href="javascript:void(0);">
                 
-                    <img src="/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg" loading="lazy" alt="Featured image of post 马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的" />
+                    <img src="/hugo/images/articles/2025_07_18/009.jpg" loading="lazy" alt="Featured image of post 马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的" />
                 
             </a>
         </div>
@@ -397,7 +394,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 17, 2025</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -429,6 +426,12 @@
                 </a>
             </li>
             
+            <li class="article-tags-list-item">
+                <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                    Agent
+                </a>
+            </li>
+            
         </ul>
     </footer>
     
@@ -436,9 +439,9 @@
     
 </div> 
 </header><div class="article-image-container">
-        <img src="/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg" alt="马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+        <img src="images/articles/2025_07_18/009.jpg" alt="马斯克Grok的AI男友还在取名，开源版AI女友已经火了，还是3D的" class="article-image" onerror="this.onerror=null; this.style.display='none';">
     </div><section class="article-content">
-    <p><img src="/images/articles/39819e73-0ba8-4ac6-934d-15d21785db2b.jpg"
+    <p><img src="/hugo/images/articles/2025_07_18/009.jpg"
 	
 	
 	
@@ -448,7 +451,7 @@
 	
 	
 ></p>
-<p><strong>摘要</strong>: 马斯克Grok的AI男友命名征集中，开源版AI女友Bella具多模态感知和生成式自我能力</p>
+<p><strong>摘要</strong>: 马斯克Grok推出智能伴侣功能，征集男性伴侣命名；开源项目「Bella」构建AI数字伴侣，迭代AI原生开发路径</p>
 </section>
     
     <footer class="article-footer">
@@ -458,6 +461,8 @@
             <a href="/hugo/tags/%E5%9F%BA%E6%A8%A1/">基模</a>
         
             <a href="/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/">多模态</a>
+        
+            <a href="/hugo/tags/agent/">Agent</a>
         
     </section>
 
@@ -493,18 +498,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/ai%E4%B8%89%E9%97%AE%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE%E4%B8%A8%E5%BD%93%E6%95%B0%E5%AD%A6%E4%B8%8Eai%E6%AD%A3%E9%9D%A2%E5%AF%B9%E6%92%9Eai%E6%95%B0%E5%AD%A6%E5%8F%AF%E8%83%BD/">
+    <a href="/hugo/p/acl-2025-oral-%E4%BD%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E6%90%AD%E5%AD%90%E4%B8%8A%E7%BA%BFevaluation-agent%E6%87%82%E4%BD%A0%E6%9B%B4%E6%87%82ai/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_07_18/003.png" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/003.png"/>
+                    <img src="/hugo/images/articles/2025_07_18/010.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/010.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">AI三问①数学之问丨当数学与AI正面对撞，AI×数学=∞可能！</h2>
+            <h2 class="article-title">ACL 2025 Oral | 你的模型评测搭子上线：Evaluation Agent懂你更懂AI</h2>
         </div>
     </a>
 </article>
@@ -512,18 +517,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/iccv2025-one-image-is-all-you-need%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8C%87%E4%BB%A4%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E4%BD%A0%E5%8F%AA%E7%AE%A1%E7%BB%99%E5%9B%BE%E5%89%A9%E4%B8%8B%E7%9A%84%E4%BA%A4%E7%BB%99oasis/">
+    <a href="/hugo/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%90%88%E8%BE%91-%E4%B8%BB%E6%9D%83%E9%AB%98%E5%A2%99%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E6%B4%AA%E6%B5%81%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E7%94%9F%E6%AD%BB%E7%AB%9E%E9%80%9Fwaic-2025%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AE%BA%E5%9D%9B%E4%BA%AE%E7%82%B9%E5%89%8D%E7%9E%BB/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_07_18/002.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/002.jpg"/>
+                    <img src="/hugo/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png" loading="lazy" data-key="" data-hash="/hugo/images/articles/d702a1c1-3a90-405d-9a50-d2cc4574f7c1.png"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ICCV2025 | One image is all you need，多模态指令数据合成，你只管给图，剩下的交给Oasis</h2>
+            <h2 class="article-title">大模型合辑 | 主权高墙还是开源洪流，技术路线生死竞速，WAIC 2025大模型论坛亮点前瞻</h2>
         </div>
     </a>
 </article>
@@ -531,18 +536,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/le-chat%E5%85%A8%E6%96%B9%E9%9D%A2%E5%AF%B9%E6%A0%87chatgpt%E6%AC%A7%E6%B4%B2ai%E6%96%B0%E8%B4%B5%E7%A9%B7%E8%BF%BD%E4%B8%8D%E8%88%8D/">
+    <a href="/hugo/p/%E6%98%A8%E6%99%9A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%80%E5%93%A5%E6%89%93%E9%80%A0%E4%BA%86%E4%B8%80%E5%A5%97agent%E8%90%BD%E5%9C%B0%E7%9A%84%E9%87%91%E9%93%B2%E5%AD%90/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_07_18/006.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/006.jpg"/>
+                    <img src="/hugo/images/articles/2025_07_18/008.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/008.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Le Chat全方面对标ChatGPT，欧洲AI新贵穷追不舍</h2>
+            <h2 class="article-title">昨晚，云计算一哥打造了一套Agent落地的「金铲子」</h2>
         </div>
     </a>
 </article>
@@ -550,18 +555,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/%E5%BA%9E%E8%8B%A5%E9%B8%A3%E4%BA%A4%E7%8F%AD%E9%99%88%E6%99%BA%E5%B3%B0%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%832025%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9E%8B%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A/">
+    <a href="/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8Bgrok%E8%BF%99%E4%B8%AA%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E5%A7%90%E5%A7%90%E6%94%BB%E9%99%B7%E4%BA%86%E6%95%B4%E4%B8%AA%E4%BA%92%E8%81%94%E7%BD%91/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_07_18/037.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/037.jpg"/>
+                    <img src="/hugo/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/95ee8dba-b517-4ba8-b5e5-12b6bc8f31c2.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">庞若鸣交班陈智峰，苹果发布2025基础模型技术报告</h2>
+            <h2 class="article-title">马斯克Grok这个二次元「小姐姐」，攻陷了整个互联网</h2>
         </div>
     </a>
 </article>
@@ -569,18 +574,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/">
+    <a href="/hugo/p/deepallo%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%92%8C%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0%E8%BF%9B%E8%A1%8C%E5%8F%98%E6%9E%84%E4%BD%8D%E7%82%B9%E9%A2%84%E6%B5%8B/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_07_18/001.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/001.jpg"/>
+                    <img src="/hugo/images/articles/2025_07_18/012.png" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/012.png"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">明天，围观学习ACL2025论文分享会，最后报名了</h2>
+            <h2 class="article-title">DeepAllo：首次使用蛋白质语言模型和多任务学习进行变构位点预测</h2>
         </div>
     </a>
 </article>

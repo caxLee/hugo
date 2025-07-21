@@ -10,10 +10,10 @@
 <meta property='og:description' content="Cognition宣布收购Windsurf剩余团队和资产，获得超过1亿美元资金。收购后Windsurf将继续独立运营，Cognition整合其产品和团队。">
 <meta property='og:url' content='https://caxlee.github.io/hugo/p/%E7%AA%81%E5%8F%91%E5%8A%A8%E8%8D%A172%E5%B0%8F%E6%97%B6%E5%90%8E%E5%8D%8E%E4%BA%BA%E5%9B%A2%E9%98%9Fcognition%E6%94%B6%E8%B4%ADwindsurf%E5%89%A9%E4%BD%99%E5%9B%A2%E9%98%9F/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Agent' /><meta property='article:published_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Agent' /><meta property='article:published_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg' />
 <meta name="twitter:title" content="突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队">
 <meta name="twitter:description" content="Cognition宣布收购Windsurf剩余团队和资产，获得超过1亿美元资金。收购后Windsurf将继续独立运营，Cognition整合其产品和团队。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://caxlee.github.io/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg' />
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -107,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -291,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -313,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -327,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -364,7 +361,7 @@
         <div class="article-image">
             <a href="javascript:void(0);">
                 
-                    <img src="/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg" loading="lazy" alt="Featured image of post 突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队" />
+                    <img src="/hugo/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg" loading="lazy" alt="Featured image of post 突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队" />
                 
             </a>
         </div>
@@ -397,7 +394,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 15, 2025</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -430,9 +427,9 @@
     
 </div> 
 </header><div class="article-image-container">
-        <img src="/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg" alt="突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+        <img src="images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg" alt="突发｜动荡72小时后，华人团队Cognition收购Windsurf剩余团队" class="article-image" onerror="this.onerror=null; this.style.display='none';">
     </div><section class="article-content">
-    <p><img src="/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg"
+    <p><img src="/hugo/images/articles/85f3a1ed-d31c-4022-9710-f967b0dd8345.jpg"
 	
 	
 	
@@ -442,9 +439,6 @@
 	
 	
 ></p>
-<blockquote>
-<p>来源: <a class="link" href="https://www.jiqizhixin.com/articles/2025-07-15-2"  target="_blank" rel="noopener"
-    >未知来源</a> | 作者: 未知作者</p></blockquote>
 <p><strong>摘要</strong>: Cognition宣布收购Windsurf剩余团队和资产，获得超过1亿美元资金。收购后Windsurf将继续独立运营，Cognition整合其产品和团队。</p>
 </section>
     

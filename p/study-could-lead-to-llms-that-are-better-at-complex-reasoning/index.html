@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="麻省理工学院的研究人员发现，通过测试时训练（test-time training）可以显著提高大型语言模型（LLMs）在复杂任务上的性能，这种方法包括在部署过程中临时更新模型的内部工作方式。他们的研究表明，这种策略可以使模型的准确性提高六倍，有望改善模型的灵活性，使其适应需要规划或抽象思维的复杂任务，从而在医疗诊断到供应链管理等许多需要逻辑推理的应用中提供更准确的结果。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="研究发现测试时训练可显著提高大型语言模型在复杂推理任务上的性能，尤其适用于需要逻辑和推理的挑战性问题。研究者开发了一种框架，利用新任务示例最大化性能提升，可使模型更灵活适应需要规划或抽象的复杂任务。">
 <title>Study could lead to LLMs that are better at complex reasoning</title>
 
 <link rel='canonical' href='https://caxlee.github.io/hugo/p/study-could-lead-to-llms-that-are-better-at-complex-reasoning/'>
 
 <link rel="stylesheet" href="/hugo/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Study could lead to LLMs that are better at complex reasoning">
-<meta property='og:description' content="麻省理工学院的研究人员发现，通过测试时训练（test-time training）可以显著提高大型语言模型（LLMs）在复杂任务上的性能，这种方法包括在部署过程中临时更新模型的内部工作方式。他们的研究表明，这种策略可以使模型的准确性提高六倍，有望改善模型的灵活性，使其适应需要规划或抽象思维的复杂任务，从而在医疗诊断到供应链管理等许多需要逻辑推理的应用中提供更准确的结果。\n">
+<meta property='og:description' content="研究发现测试时训练可显著提高大型语言模型在复杂推理任务上的性能，尤其适用于需要逻辑和推理的挑战性问题。研究者开发了一种框架，利用新任务示例最大化性能提升，可使模型更灵活适应需要规划或抽象的复杂任务。">
 <meta property='og:url' content='https://caxlee.github.io/hugo/p/study-could-lead-to-llms-that-are-better-at-complex-reasoning/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='测试时训练' /><meta property='article:tag' content='大型语言模型' /><meta property='article:tag' content='灵活性' /><meta property='article:published_time' content='2025-07-14T21:13:58&#43;08:00'/><meta property='article:modified_time' content='2025-07-14T21:13:58&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='垂直大模型' /><meta property='article:tag' content='具身智能' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/69f5a6df-c335-4198-b405-3b55fa15c90a.jpg' />
 <meta name="twitter:title" content="Study could lead to LLMs that are better at complex reasoning">
-<meta name="twitter:description" content="麻省理工学院的研究人员发现，通过测试时训练（test-time training）可以显著提高大型语言模型（LLMs）在复杂任务上的性能，这种方法包括在部署过程中临时更新模型的内部工作方式。他们的研究表明，这种策略可以使模型的准确性提高六倍，有望改善模型的灵活性，使其适应需要规划或抽象思维的复杂任务，从而在医疗诊断到供应链管理等许多需要逻辑推理的应用中提供更准确的结果。\n">
+<meta name="twitter:description" content="研究发现测试时训练可显著提高大型语言模型在复杂推理任务上的性能，尤其适用于需要逻辑和推理的挑战性问题。研究者开发了一种框架，利用新任务示例最大化性能提升，可使模型更灵活适应需要规划或抽象的复杂任务。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/69f5a6df-c335-4198-b405-3b55fa15c90a.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -106,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -290,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -312,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -326,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -360,6 +358,14 @@
             <main class="main full-width">
     <article class="">
     <header class="article-header">
+        <div class="article-image">
+            <a href="javascript:void(0);">
+                
+                    <img src="/hugo/images/articles/69f5a6df-c335-4198-b405-3b55fa15c90a.jpg" loading="lazy" alt="Featured image of post Study could lead to LLMs that are better at complex reasoning" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -388,7 +394,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 14, 2025</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -409,20 +415,20 @@
         <ul class="article-tags-list">
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E6%B5%8B%E8%AF%95%E6%97%B6%E8%AE%AD%E7%BB%83/" class="article-tags-list-link">
-                    测试时训练
+                <a href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
+                    垂直大模型
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E5%A4%A7%E5%9E%8B%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
-                    大型语言模型
+                <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                    具身智能
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E7%81%B5%E6%B4%BB%E6%80%A7/" class="article-tags-list-link">
-                    灵活性
+                <a href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
+                    能效优化
                 </a>
             </li>
             
@@ -432,18 +438,31 @@
 
     
 </div> 
-</header><section class="article-content">
-    <p>麻省理工学院的研究人员发现，通过测试时训练（test-time training）可以显著提高大型语言模型（LLMs）在复杂任务上的性能，这种方法包括在部署过程中临时更新模型的内部工作方式。他们的研究表明，这种策略可以使模型的准确性提高六倍，有望改善模型的灵活性，使其适应需要规划或抽象思维的复杂任务，从而在医疗诊断到供应链管理等许多需要逻辑推理的应用中提供更准确的结果。</p></section>
+</header><div class="article-image-container">
+        <img src="images/articles/69f5a6df-c335-4198-b405-3b55fa15c90a.jpg" alt="Study could lead to LLMs that are better at complex reasoning" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+    </div><section class="article-content">
+    <p><img src="/hugo/images/articles/69f5a6df-c335-4198-b405-3b55fa15c90a.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Study could lead to LLMs that are better at complex reasoning"
+	
+	
+></p>
+<p><strong>摘要</strong>: 研究发现测试时训练可显著提高大型语言模型在复杂推理任务上的性能，尤其适用于需要逻辑和推理的挑战性问题。研究者开发了一种框架，利用新任务示例最大化性能提升，可使模型更灵活适应需要规划或抽象的复杂任务。</p>
+</section>
     
     <footer class="article-footer">
     
     <section class="article-tags">
         
-            <a href="/hugo/tags/%E6%B5%8B%E8%AF%95%E6%97%B6%E8%AE%AD%E7%BB%83/">测试时训练</a>
+            <a href="/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/">垂直大模型</a>
         
-            <a href="/hugo/tags/%E5%A4%A7%E5%9E%8B%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/">大型语言模型</a>
+            <a href="/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/">具身智能</a>
         
-            <a href="/hugo/tags/%E7%81%B5%E6%B4%BB%E6%80%A7/">灵活性</a>
+            <a href="/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/">能效优化</a>
         
     </section>
 
@@ -460,19 +479,7 @@
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            Last updated on Jul 14, 2025 21:13 &#43;0800
-        </span>
-    </section></footer>
+    </footer>
 
     
     
@@ -483,6 +490,72 @@
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/a-bionic-knee-integrated-into-tissue-can-restore-natural-movement/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/1a9c766f-8967-436a-99dd-689e7e10a6d1.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/1a9c766f-8967-436a-99dd-689e7e10a6d1.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A bionic knee integrated into tissue can restore natural movement</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/%E8%B6%85%E8%B6%8Ao4-mini%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%BB%88%E4%BA%8E%E5%AD%A6%E4%BC%9A%E5%9B%9E%E5%A4%B4%E7%9C%8B%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%8F%90%E5%87%BAgthinker%E6%A8%A1%E5%9E%8B/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2025_07_19/041.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_19/041.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">超越O4-mini，多模态大模型终于学会回头「看」：中科院自动化所提出GThinker模型</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/%E4%BB%8Eidc%E6%B5%8B%E8%AF%84%E7%9C%8Bai%E4%B8%8A%E8%BD%A6%E6%96%91%E9%A9%AC%E6%99%BA%E8%A1%8C%E5%85%A8%E9%9D%A2%E9%A2%86%E8%B7%91%E7%A0%B4%E5%B1%80%E5%BA%A7%E8%88%B1%E4%BC%AA%E6%99%BA%E8%83%BD/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2025_07_18/004.png" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/004.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">从IDC测评看AI上车：斑马智行全面领跑，破局座舱“伪智能”</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
      
     

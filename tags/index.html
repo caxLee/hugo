@@ -10,7 +10,7 @@
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/hugo/tags/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-20T00:00:00&#43;00:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-21T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Tags">
 <meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/hugo/tags/index.xml">
 <style>
@@ -106,7 +106,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -288,6 +288,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -310,7 +315,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -324,24 +328,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -370,199 +367,7 @@
     </header><section class="article-list">
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-20" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">多模态</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-20" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">基模</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-20" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">垂直大模型</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-20" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">具身智能</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-20" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Infra</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-20" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">AI4S</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-20" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Agent</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">未识别</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -586,7 +391,7 @@
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -594,7 +399,7 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">长度泛化</a>
+                <a href="" target="_blank" rel="noopener noreferrer">未识别</a>
             </h2>
             
             
@@ -610,7 +415,7 @@
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -618,7 +423,7 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">训练干预</a>
+                <a href="" target="_blank" rel="noopener noreferrer">多模态</a>
             </h2>
             
             
@@ -634,7 +439,7 @@
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -642,7 +447,7 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">稀土元素</a>
+                <a href="" target="_blank" rel="noopener noreferrer">基模</a>
             </h2>
             
             
@@ -658,7 +463,7 @@
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -666,7 +471,7 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">社会科学统计</a>
+                <a href="" target="_blank" rel="noopener noreferrer">垂直大模型</a>
             </h2>
             
             
@@ -682,7 +487,7 @@
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -690,7 +495,7 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">灵活性</a>
+                <a href="" target="_blank" rel="noopener noreferrer">具身智能</a>
             </h2>
             
             
@@ -706,7 +511,7 @@
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -714,7 +519,7 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">测试时训练</a>
+                <a href="" target="_blank" rel="noopener noreferrer">Infra</a>
             </h2>
             
             
@@ -730,7 +535,7 @@
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -738,7 +543,7 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">有效记忆</a>
+                <a href="" target="_blank" rel="noopener noreferrer">AI4S</a>
             </h2>
             
             
@@ -754,7 +559,7 @@
 </article> 
         
             
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="">
     
 
     <div class="article-details">
@@ -762,991 +567,7 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">数据</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">政治</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">思维锚</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">定向进化</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">大型语言模型</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">叶绿素</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">句子层面分析</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">光合作用</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">UV应激</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Rubisco</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">LLM</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">麻省理工学院</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">集成光子学</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">科学传播</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">科学</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">社会科学</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">物理学家</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">斯蒂芬·霍金</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">技术</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">寄养护理</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">创新走廊</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">创业加速器</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">儿童福利</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Trust Center</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">MIT</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Mi Abogado</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">L. Rafael Reif</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">Delta V</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">评估困境</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">机器学习</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">教授职位</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">大模型</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">OIBench</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">IDSS</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">GenAI</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">AMASE</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">过程奖励模型</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">编码器-解码器</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">物理模拟</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">双层优化框架</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">T5Gemma</a>
-            </h2>
-            
-            
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">ACL</a>
+                <a href="" target="_blank" rel="noopener noreferrer">Agent</a>
             </h2>
             
             

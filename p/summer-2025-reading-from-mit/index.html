@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="MIT faculty and staff have published a variety of books in the past year, covering topics ranging from science and technology to culture, humanities, and social sciences. Some notable titles include a book on the history of infectious diseases, a guide to health care analytics, and a blueprint for harnessing AI for societal good. Other works explore themes like retirement, innovation, and the ethical promise of minority presence, showcasing the diverse intellectual contributions from the MIT community.\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="MIT Summer 2025 reading features diverse topics from science to arts, including books on health analytics, AI for societal good, and Victorian games. Explore insights on aging, innovation, and societal challenges.">
 <title>Summer 2025 reading from MIT</title>
 
 <link rel='canonical' href='https://caxlee.github.io/hugo/p/summer-2025-reading-from-mit/'>
 
 <link rel="stylesheet" href="/hugo/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Summer 2025 reading from MIT">
-<meta property='og:description' content="MIT faculty and staff have published a variety of books in the past year, covering topics ranging from science and technology to culture, humanities, and social sciences. Some notable titles include a book on the history of infectious diseases, a guide to health care analytics, and a blueprint for harnessing AI for societal good. Other works explore themes like retirement, innovation, and the ethical promise of minority presence, showcasing the diverse intellectual contributions from the MIT community.\n">
+<meta property='og:description' content="MIT Summer 2025 reading features diverse topics from science to arts, including books on health analytics, AI for societal good, and Victorian games. Explore insights on aging, innovation, and societal challenges.">
 <meta property='og:url' content='https://caxlee.github.io/hugo/p/summer-2025-reading-from-mit/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='科学' /><meta property='article:tag' content='技术' /><meta property='article:tag' content='社会科学' /><meta property='article:published_time' content='2025-07-13T13:55:19&#43;08:00'/><meta property='article:modified_time' content='2025-07-13T13:55:19&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='Infra' /><meta property='article:tag' content='未识别' /><meta property='article:published_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/f3766345-a762-4d66-9dcc-2ed5e7d50702.jpg' />
 <meta name="twitter:title" content="Summer 2025 reading from MIT">
-<meta name="twitter:description" content="MIT faculty and staff have published a variety of books in the past year, covering topics ranging from science and technology to culture, humanities, and social sciences. Some notable titles include a book on the history of infectious diseases, a guide to health care analytics, and a blueprint for harnessing AI for societal good. Other works explore themes like retirement, innovation, and the ethical promise of minority presence, showcasing the diverse intellectual contributions from the MIT community.\n">
+<meta name="twitter:description" content="MIT Summer 2025 reading features diverse topics from science to arts, including books on health analytics, AI for societal good, and Victorian games. Explore insights on aging, innovation, and societal challenges."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/f3766345-a762-4d66-9dcc-2ed5e7d50702.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -106,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -290,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -312,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -326,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -360,6 +358,14 @@
             <main class="main full-width">
     <article class="">
     <header class="article-header">
+        <div class="article-image">
+            <a href="javascript:void(0);">
+                
+                    <img src="/hugo/images/articles/f3766345-a762-4d66-9dcc-2ed5e7d50702.jpg" loading="lazy" alt="Featured image of post Summer 2025 reading from MIT" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -388,7 +394,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 13, 2025</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -409,20 +415,20 @@
         <ul class="article-tags-list">
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E7%A7%91%E5%AD%A6/" class="article-tags-list-link">
-                    科学
+                <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                    基模
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E6%8A%80%E6%9C%AF/" class="article-tags-list-link">
-                    技术
+                <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                    Infra
                 </a>
             </li>
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/" class="article-tags-list-link">
-                    社会科学
+                <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
+                    未识别
                 </a>
             </li>
             
@@ -432,18 +438,31 @@
 
     
 </div> 
-</header><section class="article-content">
-    <p>MIT faculty and staff have published a variety of books in the past year, covering topics ranging from science and technology to culture, humanities, and social sciences. Some notable titles include a book on the history of infectious diseases, a guide to health care analytics, and a blueprint for harnessing AI for societal good. Other works explore themes like retirement, innovation, and the ethical promise of minority presence, showcasing the diverse intellectual contributions from the MIT community.</p></section>
+</header><div class="article-image-container">
+        <img src="images/articles/f3766345-a762-4d66-9dcc-2ed5e7d50702.jpg" alt="Summer 2025 reading from MIT" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+    </div><section class="article-content">
+    <p><img src="/hugo/images/articles/f3766345-a762-4d66-9dcc-2ed5e7d50702.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Summer 2025 reading from MIT"
+	
+	
+></p>
+<p><strong>摘要</strong>: MIT Summer 2025 reading features diverse topics from science to arts, including books on health analytics, AI for societal good, and Victorian games. Explore insights on aging, innovation, and societal challenges.</p>
+</section>
     
     <footer class="article-footer">
     
     <section class="article-tags">
         
-            <a href="/hugo/tags/%E7%A7%91%E5%AD%A6/">科学</a>
+            <a href="/hugo/tags/%E5%9F%BA%E6%A8%A1/">基模</a>
         
-            <a href="/hugo/tags/%E6%8A%80%E6%9C%AF/">技术</a>
+            <a href="/hugo/tags/infra/">Infra</a>
         
-            <a href="/hugo/tags/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6/">社会科学</a>
+            <a href="/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/">未识别</a>
         
     </section>
 
@@ -460,19 +479,7 @@
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            Last updated on Jul 13, 2025 13:55 &#43;0800
-        </span>
-    </section></footer>
+    </footer>
 
     
     
@@ -483,6 +490,110 @@
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AI下半场的「Game Changer」，直让老外惊呼「Amazing」</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/at-mit-musicians-make-new-tools-for-new-tunes/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">At MIT, musicians make new tools for new tunes</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/changing-the-conversation-in-health-care/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2af950b9-5913-472d-9370-ff634729e065.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2af950b9-5913-472d-9370-ff634729e065.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Changing the conversation in health care</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/collaborating-with-the-force-of-nature/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/5c3d22bb-3247-4464-8177-44ccbd538f79.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/5c3d22bb-3247-4464-8177-44ccbd538f79.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Collaborating with the force of nature</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/icml-2025-m-%E6%A1%86%E6%9E%B6%E6%9D%A5%E4%BA%86%E5%A2%9E%E5%8A%A0llm%E9%9A%90%E7%A9%BA%E9%97%B4%E8%AE%B0%E5%BF%86%E4%B8%8D%E5%86%8D%E5%8F%97%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3%E9%99%90%E5%88%B6/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
      
     

@@ -10,7 +10,7 @@
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-20T00:00:00&#43;00:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-21T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Tag: 未识别 - Example Site">
 <meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/index.xml">
 <style>
@@ -106,7 +106,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -288,6 +288,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -310,7 +315,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -324,24 +328,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -370,12 +367,12 @@
     </header><section class="article-list">
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://news.mit.edu/2025/mits-mason-estrada-signs-with-los-angeles-dodgers-0717">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-21-3">
     
         <div class="article-image">
-            <a href="https://news.mit.edu/2025/mits-mason-estrada-signs-with-los-angeles-dodgers-0717" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-21-3" target="_blank" rel="noopener noreferrer">
                 
-                    <img src="/hugo/images/articles/2025_07_18/022.jpg" loading="lazy" alt="Featured image of post MIT’s Mason Estrada to sign with the Los Angeles Dodgers" />
+                    <img src="/hugo/home/runner/work/hugo/hugo/hugo_source/static/images/articles/727154d124e6855a745c853ef9ebe4d0.png" loading="lazy" alt="Featured image of post 赛奖综述｜Hi! WAIC带你领略全球 AI 竞技场：WAIC 赛奖矩阵的人才孵化全景" />
                 
             </a>
         </div>
@@ -386,13 +383,81 @@
 
         <div class="article-content-wrapper">
             <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/mits-mason-estrada-signs-with-los-angeles-dodgers-0717" target="_blank" rel="noopener noreferrer">MIT’s Mason Estrada to sign with the Los Angeles Dodgers</a>
+                <a href="https://www.jiqizhixin.com/articles/2025-07-21-3" target="_blank" rel="noopener noreferrer">赛奖综述｜Hi! WAIC带你领略全球 AI 竞技场：WAIC 赛奖矩阵的人才孵化全景</a>
             </h2>
             
             
             
             <div class="article-summary">
-                MIT学生Mason Estrada将与洛杉矶道奇队签约，成为历史上在MLB选秀中被选中的最高的MIT球员。他将参加道奇队的训练营，展示他在棒球和工程思维方面的潜力。
+                WAIC 2025赛奖矩阵涵盖SAIL奖、青年优秀论文奖、BPAA大赛和青少年创新大赛，展示全球AI竞技与人才培育。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
+                            未识别
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/what-americans-actually-think-about-taxes-andrea-campbell-book-0721">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/what-americans-actually-think-about-taxes-andrea-campbell-book-0721" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/282899be444bdcf8b90db1ea228993486434e869bb24f4115dd06c1eed1e7571.jpg" loading="lazy" alt="Featured image of post What Americans actually think about taxes" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/what-americans-actually-think-about-taxes-andrea-campbell-book-0721" target="_blank" rel="noopener noreferrer">What Americans actually think about taxes</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT political scientist Andrea Campbell&#39;s book &#39;Taxation and Resentment&#39; reveals public contradictions on tax attitudes in the U.S., where support for …
             </div>
             
         </div>
@@ -426,12 +491,80 @@
 </article> 
         
             
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715">
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/summer-reading-from-mit-0626">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/summer-reading-from-mit-0626" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/f3766345-a762-4d66-9dcc-2ed5e7d50702.jpg" loading="lazy" alt="Featured image of post Summer 2025 reading from MIT" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/summer-reading-from-mit-0626" target="_blank" rel="noopener noreferrer">Summer 2025 reading from MIT</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT Summer 2025 reading features diverse topics from science to arts, including books on health analytics, AI for societal good, and Victorian games. …
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
+                            未识别
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715">
     
         <div class="article-image">
             <a href="https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715" target="_blank" rel="noopener noreferrer">
                 
-                    <img src="/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG" loading="lazy" alt="Featured image of post Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92" />
+                    <img src="/hugo/images/articles/541e3ee4-fb54-45a8-8a0e-95b63c67ad50.JPG" loading="lazy" alt="Featured image of post Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92" />
                 
             </a>
         </div>
@@ -477,6 +610,130 @@
                             Agent
                         </a>
                     </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
+                            未识别
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/1a9c766f-8967-436a-99dd-689e7e10a6d1.jpg" loading="lazy" alt="Featured image of post A bionic knee integrated into tissue can restore natural movement" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/bionic-knee-integrated-into-tissue-can-restore-natural-movement-0710" target="_blank" rel="noopener noreferrer">A bionic knee integrated into tissue can restore natural movement</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT研究人员开发了一种新的仿生膝关节，直接与用户的肌肉和骨组织相结合，提供更大稳定性和控制性，使截肢者能更自然地行走、攀爬楼梯和避开障碍物。该系统通过肌肉间的动态沟通提供感觉反馈，帮助用户决定肢体移动方式，实现更好的机械控制和负载承载。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
+                            垂直大模型
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
+                            未识别
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-18" data-original-link="https://news.mit.edu/2025/mits-mason-estrada-signs-with-los-angeles-dodgers-0717">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/mits-mason-estrada-signs-with-los-angeles-dodgers-0717" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/2025_07_18/022.jpg" loading="lazy" alt="Featured image of post MIT’s Mason Estrada to sign with the Los Angeles Dodgers" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/mits-mason-estrada-signs-with-los-angeles-dodgers-0717" target="_blank" rel="noopener noreferrer">MIT’s Mason Estrada to sign with the Los Angeles Dodgers</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT学生Mason Estrada将与洛杉矶道奇队签约，成为历史上在MLB选秀中被选中的最高的MIT球员。他将参加道奇队的训练营，展示他在棒球和工程思维方面的潜力。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
                     
                     <li class="article-tags-list-item">
                         <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">

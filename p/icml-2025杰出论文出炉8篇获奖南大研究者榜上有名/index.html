@@ -10,10 +10,10 @@
 <meta property='og:description' content="ICML 2025揭晓8篇获奖论文，包括6篇杰出论文奖和2篇杰出立场论文奖。南大研究者入选名单。">
 <meta property='og:url' content='https://caxlee.github.io/hugo/p/icml-2025%E6%9D%B0%E5%87%BA%E8%AE%BA%E6%96%87%E5%87%BA%E7%82%898%E7%AF%87%E8%8E%B7%E5%A5%96%E5%8D%97%E5%A4%A7%E7%A0%94%E7%A9%B6%E8%80%85%E6%A6%9C%E4%B8%8A%E6%9C%89%E5%90%8D/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:published_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-15T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:published_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg' />
 <meta name="twitter:title" content="ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名">
 <meta name="twitter:description" content="ICML 2025揭晓8篇获奖论文，包括6篇杰出论文奖和2篇杰出立场论文奖。南大研究者入选名单。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://caxlee.github.io/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg' />
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -107,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -291,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -313,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -327,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -364,7 +361,7 @@
         <div class="article-image">
             <a href="javascript:void(0);">
                 
-                    <img src="/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg" loading="lazy" alt="Featured image of post ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名" />
+                    <img src="/hugo/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg" loading="lazy" alt="Featured image of post ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名" />
                 
             </a>
         </div>
@@ -397,7 +394,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 15, 2025</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -430,9 +427,9 @@
     
 </div> 
 </header><div class="article-image-container">
-        <img src="/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg" alt="ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+        <img src="images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg" alt="ICML 2025杰出论文出炉：8篇获奖，南大研究者榜上有名" class="article-image" onerror="this.onerror=null; this.style.display='none';">
     </div><section class="article-content">
-    <p><img src="/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg"
+    <p><img src="/hugo/images/articles/53c84009-7977-4c3d-af02-23a0a71a5ec9.jpg"
 	
 	
 	
@@ -442,9 +439,6 @@
 	
 	
 ></p>
-<blockquote>
-<p>来源: <a class="link" href="https://www.jiqizhixin.com/articles/2025-07-15-10"  target="_blank" rel="noopener"
-    >未知来源</a> | 作者: 未知作者</p></blockquote>
 <p><strong>摘要</strong>: ICML 2025揭晓8篇获奖论文，包括6篇杰出论文奖和2篇杰出立场论文奖。南大研究者入选名单。</p>
 </section>
     

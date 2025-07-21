@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>编码器-解码器 on Example Site</title>
-        <link>https://caxlee.github.io/hugo/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/</link>
+        <link>https://caxlee.github.io/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/</link>
         <description>Recent content in 编码器-解码器 on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 10 Jul 2025 22:06:08 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 10 Jul 2025 22:06:08 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>编码器-解码器架构的复兴？谷歌一口气发布32个T5Gemma模型</title>
-        <link>https://caxlee.github.io/hugo/p/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8%E6%9E%B6%E6%9E%84%E7%9A%84%E5%A4%8D%E5%85%B4%E8%B0%B7%E6%AD%8C%E4%B8%80%E5%8F%A3%E6%B0%94%E5%8F%91%E5%B8%8332%E4%B8%AAt5gemma%E6%A8%A1%E5%9E%8B/</link>
+        <link>https://caxlee.github.io/p/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8%E6%9E%B6%E6%9E%84%E7%9A%84%E5%A4%8D%E5%85%B4%E8%B0%B7%E6%AD%8C%E4%B8%80%E5%8F%A3%E6%B0%94%E5%8F%91%E5%B8%8332%E4%B8%AAt5gemma%E6%A8%A1%E5%9E%8B/</link>
         <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
         
-        <guid>https://caxlee.github.io/hugo/p/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8%E6%9E%B6%E6%9E%84%E7%9A%84%E5%A4%8D%E5%85%B4%E8%B0%B7%E6%AD%8C%E4%B8%80%E5%8F%A3%E6%B0%94%E5%8F%91%E5%B8%8332%E4%B8%AAt5gemma%E6%A8%A1%E5%9E%8B/</guid>
+        <guid>https://caxlee.github.io/p/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8%E6%9E%B6%E6%9E%84%E7%9A%84%E5%A4%8D%E5%85%B4%E8%B0%B7%E6%AD%8C%E4%B8%80%E5%8F%A3%E6%B0%94%E5%8F%91%E5%B8%8332%E4%B8%AAt5gemma%E6%A8%A1%E5%9E%8B/</guid>
         <description>&lt;p&gt;谷歌发布了一系列用于健康 AI 开发的多模态模型MedGemma，能够根据医疗图像和文本描述辅助诊断并提供医疗建议。而重点是谷歌发布的编码器-解码器架构的Gemmaseries模型T5Gemma，通过适应技术将已完成预训练的仅解码器模型转换为编码器-解码器架构，表现出色，提供了多种大小的编码器与解码器配置。&lt;/p&gt;</description>
         </item>
         

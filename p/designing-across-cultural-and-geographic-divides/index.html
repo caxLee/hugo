@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Terrascope Subject 2.00C/1.016/EC.746 challenges students to collaborate across cultures and time zones, designing solutions for real-world problems. Students from MIT, Diné College, and UPRP work together on projects like food security and museum engagement, overcoming communication barriers and cultural differences.">
 <title>Designing across cultural and geographic divides</title>
 
 <link rel='canonical' href='https://caxlee.github.io/hugo/p/designing-across-cultural-and-geographic-divides/'>
 
 <link rel="stylesheet" href="/hugo/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Designing across cultural and geographic divides">
-<meta property='og:description' content="MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。\n">
+<meta property='og:description' content="Terrascope Subject 2.00C/1.016/EC.746 challenges students to collaborate across cultures and time zones, designing solutions for real-world problems. Students from MIT, Diné College, and UPRP work together on projects like food security and museum engagement, overcoming communication barriers and cultural differences.">
 <meta property='og:url' content='https://caxlee.github.io/hugo/p/designing-across-cultural-and-geographic-divides/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='具身智能' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-12T23:34:59&#43;08:00'/><meta property='article:modified_time' content='2025-07-12T23:34:59&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='具身智能' /><meta property='article:published_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/7e96763a-ccca-4110-87e0-96360d53b287.jpg' />
 <meta name="twitter:title" content="Designing across cultural and geographic divides">
-<meta name="twitter:description" content="MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。\n">
+<meta name="twitter:description" content="Terrascope Subject 2.00C/1.016/EC.746 challenges students to collaborate across cultures and time zones, designing solutions for real-world problems. Students from MIT, Diné College, and UPRP work together on projects like food security and museum engagement, overcoming communication barriers and cultural differences."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/7e96763a-ccca-4110-87e0-96360d53b287.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -106,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -290,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -312,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -326,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -360,6 +358,14 @@
             <main class="main full-width">
     <article class="">
     <header class="article-header">
+        <div class="article-image">
+            <a href="javascript:void(0);">
+                
+                    <img src="/hugo/images/articles/7e96763a-ccca-4110-87e0-96360d53b287.jpg" loading="lazy" alt="Featured image of post Designing across cultural and geographic divides" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -388,7 +394,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 12, 2025</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -409,20 +415,8 @@
         <ul class="article-tags-list">
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                    多模态
-                </a>
-            </li>
-            
-            <li class="article-tags-list-item">
                 <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
                     具身智能
-                </a>
-            </li>
-            
-            <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
-                    能效优化
                 </a>
             </li>
             
@@ -432,18 +426,27 @@
 
     
 </div> 
-</header><section class="article-content">
-    <p>MIT的Terrascope课程Subject 2.00C/1.016/EC.746为学生提供了跨时区合作、跨文化体验以及通过Zoom进行实践工作等不寻常的挑战。自三年前与Diné College合作开始以来，课程主题涵盖了纳瓦霍民族的食品安全和可持续农业、波多黎各可靠电力以及今年内华达州矿业和景观改变艺术品的参观者参与度。学生们通过团队合作解决真实世界问题，设计原型，并在三个校区同时举行的展示活动上展示成果。</p></section>
+</header><div class="article-image-container">
+        <img src="images/articles/7e96763a-ccca-4110-87e0-96360d53b287.jpg" alt="Designing across cultural and geographic divides" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+    </div><section class="article-content">
+    <p><img src="/hugo/images/articles/7e96763a-ccca-4110-87e0-96360d53b287.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Designing across cultural and geographic divides"
+	
+	
+></p>
+<p><strong>摘要</strong>: Terrascope Subject 2.00C/1.016/EC.746 challenges students to collaborate across cultures and time zones, designing solutions for real-world problems. Students from MIT, Diné College, and UPRP work together on projects like food security and museum engagement, overcoming communication barriers and cultural differences.</p>
+</section>
     
     <footer class="article-footer">
     
     <section class="article-tags">
         
-            <a href="/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/">多模态</a>
-        
             <a href="/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/">具身智能</a>
-        
-            <a href="/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/">能效优化</a>
         
     </section>
 
@@ -460,19 +463,7 @@
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            Last updated on Jul 12, 2025 23:34 &#43;0800
-        </span>
-    </section></footer>
+    </footer>
 
     
     
@@ -483,92 +474,6 @@
     
 
     
-
-<aside class="related-content--wrapper">
-    <h2 class="section-title">Related content</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="">
-    <a href="/hugo/p/500%E4%B8%87%E8%A7%86%E9%A2%91%E6%95%B0%E6%8D%AE%E9%9B%86%E5%85%A8%E6%96%B0%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6%E5%8C%97%E5%A4%A7%E5%BC%80%E6%BA%90%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E9%A2%86%E5%9F%9F%E6%96%B0%E5%9F%BA%E5%BB%BAopens2v-nexus%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91-%E5%83%8F-%E5%8F%88-%E8%87%AA%E7%84%B6/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">500万视频数据集&#43;全新评测框架！北大开源主体一致性视频生成领域新基建OpenS2V-Nexus，生成视频 「像」 又 「自然」</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/hugo/p/%E4%BB%8E%E4%B8%80%E5%9B%A2%E4%B9%B1%E9%BA%BB%E5%88%B0%E6%B8%85%E6%99%B0%E5%88%86%E5%9E%8Bai%E7%B2%BE%E5%87%86%E8%A7%A3%E6%9E%90%E8%82%BF%E7%98%A4%E7%BB%86%E8%83%9E%E5%A4%9A%E6%A0%B7%E6%80%A7%E5%8A%A9%E5%8A%9B%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%94%E5%90%88%E7%96%97%E6%B3%95%E8%AE%BE%E8%AE%A1/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">从「一团乱麻」到清晰分型，AI精准解析肿瘤细胞多样性，助力个性化联合疗法设计</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/hugo/p/%E5%BE%AE%E8%BD%AF%E7%A0%94%E7%A9%B6%E9%99%A2bioemu%E7%99%BB%E4%B8%8Ascience%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8Fai%E9%87%8D%E5%A1%91%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%8A%9F%E8%83%BD%E7%A0%94%E7%A9%B6/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">微软研究院BioEmu登上Science，用生成式AI重塑蛋白质功能研究</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/hugo/p/%E8%B6%85%E8%B6%8Ao4-mini%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%BB%88%E4%BA%8E%E5%AD%A6%E4%BC%9A%E5%9B%9E%E5%A4%B4%E7%9C%8B%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%8F%90%E5%87%BAgthinker%E6%A8%A1%E5%9E%8B/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_07_19/041.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_19/041.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">超越O4-mini，多模态大模型终于学会回头「看」：中科院自动化所提出GThinker模型</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/hugo/p/%E6%98%8E%E5%A4%A9%E5%9B%B4%E8%A7%82%E5%AD%A6%E4%B9%A0acl2025%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB%E4%BC%9A%E6%9C%80%E5%90%8E%E6%8A%A5%E5%90%8D%E4%BA%86/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_07_18/001.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_18/001.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">明天，围观学习ACL2025论文分享会，最后报名了</h2>
-        </div>
-    </a>
-</article>
-
-            
-        </div>
-    </div>
-</aside>
 
      
     

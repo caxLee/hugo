@@ -107,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -291,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -313,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -327,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -493,50 +490,12 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/new-tool-gives-anyone-the-ability-to-train-a-robot/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg" loading="lazy" data-key="" data-hash="/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">New tool gives anyone the ability to train a robot</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/hugo/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" loading="lazy" data-key="" data-hash="/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">New AI system uncovers hidden cell subtypes, boosts precision medicine</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/hugo/p/ai%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84game-changer%E7%9B%B4%E8%AE%A9%E8%80%81%E5%A4%96%E6%83%8A%E5%91%BCamazing/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" loading="lazy" data-key="" data-hash="/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg"/>
+                    <img src="/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg"/>
                 
             </div>
         
@@ -550,12 +509,50 @@
             
                 
 <article class="has-image">
+    <a href="/hugo/p/at-mit-musicians-make-new-tools-for-new-tunes/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">At MIT, musicians make new tools for new tunes</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/changing-the-conversation-in-health-care/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2af950b9-5913-472d-9370-ff634729e065.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2af950b9-5913-472d-9370-ff634729e065.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Changing the conversation in health care</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/hugo/p/mirix%E9%87%8D%E5%A1%91ai%E5%A4%9A%E6%A8%A1%E6%80%81%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E8%B6%85gemini-410%E8%8A%82%E7%9C%8199.9%E5%86%85%E5%AD%98app%E5%90%8C%E6%AD%A5%E4%B8%8A%E7%BA%BF/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" loading="lazy" data-key="" data-hash="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg"/>
+                    <img src="/hugo/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg"/>
                 
             </div>
         
@@ -569,18 +566,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/%E5%A4%AE%E4%BC%81%E7%89%B5%E5%A4%B4%E8%BF%99%E4%B8%AAai%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E8%A6%81%E8%AE%A9%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B7%91%E9%81%8D%E4%B8%AD%E5%9B%BD%E8%8A%AF/">
+    <a href="/hugo/p/new-ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" loading="lazy" data-key="" data-hash="/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg"/>
+                    <img src="/hugo/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">央企牵头！这个AI开源社区要让大模型跑遍「中国芯」</h2>
+            <h2 class="article-title">New AI system uncovers hidden cell subtypes, boosts precision medicine</h2>
         </div>
     </a>
 </article>

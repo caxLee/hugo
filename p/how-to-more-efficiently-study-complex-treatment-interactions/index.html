@@ -10,10 +10,10 @@
 <meta property='og:description' content="MIT researchers developed a new framework for studying treatment interactions efficiently, minimizing errors in experiments. The approach allows unbiased selection of treatment combinations, potentially aiding in disease mechanism understanding and drug development.">
 <meta property='og:url' content='https://caxlee.github.io/hugo/p/how-to-more-efficiently-study-complex-treatment-interactions/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:published_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:published_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg' />
 <meta name="twitter:title" content="How to more efficiently study complex treatment interactions">
 <meta name="twitter:description" content="MIT researchers developed a new framework for studying treatment interactions efficiently, minimizing errors in experiments. The approach allows unbiased selection of treatment combinations, potentially aiding in disease mechanism understanding and drug development."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://caxlee.github.io/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg' />
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -107,7 +107,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -291,6 +291,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -313,7 +318,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -327,24 +331,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -364,7 +361,7 @@
         <div class="article-image">
             <a href="javascript:void(0);">
                 
-                    <img src="/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg" loading="lazy" alt="Featured image of post How to more efficiently study complex treatment interactions" />
+                    <img src="/hugo/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg" loading="lazy" alt="Featured image of post How to more efficiently study complex treatment interactions" />
                 
             </a>
         </div>
@@ -397,7 +394,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 16, 2025</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -430,9 +427,9 @@
     
 </div> 
 </header><div class="article-image-container">
-        <img src="/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg" alt="How to more efficiently study complex treatment interactions" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+        <img src="images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg" alt="How to more efficiently study complex treatment interactions" class="article-image" onerror="this.onerror=null; this.style.display='none';">
     </div><section class="article-content">
-    <p><img src="/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg"
+    <p><img src="/hugo/images/articles/cca247ca-21e9-4a6c-a4f4-b4aff4190c26.jpg"
 	
 	
 	

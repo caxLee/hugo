@@ -10,7 +10,7 @@
 <meta property='og:description' content="Example description">
 <meta property='og:url' content='https://caxlee.github.io/hugo/tags/infra/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-20T00:00:00&#43;00:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-21T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Tag: Infra - Example Site">
 <meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="https://caxlee.github.io/hugo/tags/infra/index.xml">
 <style>
@@ -106,7 +106,7 @@
         
         
         
-        <script src="/hugo/js/image-handler.3dafaef97e426165e31dedf52c9d282124d1448aaae8d7f85adde9ce6833abcb.js"></script>
+        <script src="/hugo/js/image-handler.deab8dd7555f0eb52cc4334badbb83014065bc8755f212291e0a06ac82260bff.js"></script>
         
         
         <style>
@@ -288,6 +288,11 @@
         width: 100% !important;
     }
 }
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
 </style>
 
 <div class="top-header-fixed">
@@ -310,7 +315,6 @@
 (function() {
   
   document.addEventListener('DOMContentLoaded', function() {
-    
     const dateSelector = document.getElementById('date-select');
     const articleCards = document.querySelectorAll('.article-card');
     
@@ -324,24 +328,17 @@
     
     
     function filterArticles(initialLoad = false) {
-      
       let selectedDate = dateSelector.value;
-      
       
       if (initialLoad) {
         dateSelector.value = today;
         selectedDate = today;
       }
       
-      
       articleCards.forEach(function(card) {
         
-        if (!selectedDate) {
-          card.style.display = '';
-        } else {
-          
-          card.style.display = (card.dataset.date === selectedDate) ? '' : 'none';
-        }
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
       });
     }
     
@@ -368,6 +365,1546 @@
     <header>
         <h1 class="section-title">Infra</h1>
     </header><section class="article-list">
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-21-2">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-21-2" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/home/runner/work/hugo/hugo/hugo_source/static/images/articles/e56401b8e3fbbe603406fb774e6bf2b4.png" loading="lazy" alt="Featured image of post 论坛综述 | WAIC 2025 论坛攻略：探秘理论深水・直击实战热场・逐航规则新域" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-21-2" target="_blank" rel="noopener noreferrer">论坛综述 | WAIC 2025 论坛攻略：探秘理论深水・直击实战热场・逐航规则新域</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                WAIC 2025论坛涵盖理论、实战和规则三大主题，探讨人工智能的科学、产业应用和全球治理。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-14">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-14" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/14bc487f-f566-4003-b18d-9b35796dc8ae.png" loading="lazy" alt="Featured image of post 科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-14" target="_blank" rel="noopener noreferrer">科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                科学研究面临AI合作转折，挑战深奥科学问题。资源不均衡限制科研发展。WAIC 2025探讨AI在科学智能领域的作用与挑战。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-12">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-12" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg" loading="lazy" alt="Featured image of post 智能时代，同球共济！2025世界人工智能大会将于7月26日启幕" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-12" target="_blank" rel="noopener noreferrer">智能时代，同球共济！2025世界人工智能大会将于7月26日启幕</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                2025世界人工智能大会将于7月26日启幕，聚焦全球人工智能发展与治理，展示技术前沿和产业趋势。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-21-5">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-21-5" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/home/runner/work/hugo/hugo/hugo_source/static/images/articles/7b84643a300daca7638b1b304c9800c5.png" loading="lazy" alt="Featured image of post 新南威尔士研发，AI助力绿色氨生产：新催化剂将生产效率提高7倍" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-21-5" target="_blank" rel="noopener noreferrer">新南威尔士研发，AI助力绿色氨生产：新催化剂将生产效率提高7倍</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                新南威尔士大学研发新催化剂，提高绿色氨生产效率7倍。采用机器学习优化氨含量，实现高效电解生产氨。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
+                            能效优化
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17-7">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-17-7" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/2025_07_18/011.jpg" loading="lazy" alt="Featured image of post 强化学习的两个「大坑」，终于被两篇ICLR论文给解决了" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-17-7" target="_blank" rel="noopener noreferrer">强化学习的两个「大坑」，终于被两篇ICLR论文给解决了</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                两篇ICLR论文解决强化学习实时环境中的推理延迟和动作缺失问题。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-11">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-11" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" loading="lazy" alt="Featured image of post 央企牵头！这个AI开源社区要让大模型跑遍「中国芯」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-11" target="_blank" rel="noopener noreferrer">央企牵头！这个AI开源社区要让大模型跑遍「中国芯」</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                央企牵头的AI开源社区推出「模型推理适配协作计划」，旨在让大模型在国产芯片上顺利运行。社区提供工具中心和协作空间，促进模型与芯片的统一适配与性能优化。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-7">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-7" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/1bf58b88-6586-4d52-844b-8b92a105319f.png" loading="lazy" alt="Featured image of post 元科学可以改进科学——但它也必须对社会有用" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-7" target="_blank" rel="noopener noreferrer">元科学可以改进科学——但它也必须对社会有用</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                元科学联盟推动科学改进，应对社会挑战。AI和大型语言模型助力科研发展。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/walk-through-screening-system-enhances-airport-security-0710">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/walk-through-screening-system-enhances-airport-security-0710" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/2beb2e97-20fe-4613-b083-74a9fb0b74c4.jpg" loading="lazy" alt="Featured image of post Walk-through screening system enhances security at airports nationwide" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/walk-through-screening-system-enhances-airport-security-0710" target="_blank" rel="noopener noreferrer">Walk-through screening system enhances security at airports nationwide</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                新型HEXWAVE安检系统取代传统金属探测器，实现行人无感检测，提高安检效率。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/supporting-mission-driven-space-innovation-aurelia-institute-0710">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/supporting-mission-driven-space-innovation-aurelia-institute-0710" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/c6f8cd03-b2bc-451a-a695-db7d07cc28c5.jpg" loading="lazy" alt="Featured image of post Supporting mission-driven space innovation, for Earth and beyond" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/supporting-mission-driven-space-innovation-aurelia-institute-0710" target="_blank" rel="noopener noreferrer">Supporting mission-driven space innovation, for Earth and beyond</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                Aurelia Institute, co-founded by Ariel Ekblaw, focuses on democratizing space access through research, education, and infrastructure projects. Their …
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/summer-reading-from-mit-0626">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/summer-reading-from-mit-0626" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/f3766345-a762-4d66-9dcc-2ed5e7d50702.jpg" loading="lazy" alt="Featured image of post Summer 2025 reading from MIT" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/summer-reading-from-mit-0626" target="_blank" rel="noopener noreferrer">Summer 2025 reading from MIT</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT Summer 2025 reading features diverse topics from science to arts, including books on health analytics, AI for societal good, and Victorian games. …
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
+                            未识别
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/d17bb4e5-0c8f-4803-82ac-73ef86a1438d.png" loading="lazy" alt="Featured image of post Simulation-based pipeline tailors training data for dexterous robots" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711" target="_blank" rel="noopener noreferrer">Simulation-based pipeline tailors training data for dexterous robots</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT&#39;s PhysicsGen tailors robot training data for efficient movements using VR demonstrations and trajectory optimization, enhancing robotic tasks like …
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
+                            Agent
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/b26ec575-448d-4742-a2e9-9d624dff533f.png" loading="lazy" alt="Featured image of post Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707" target="_blank" rel="noopener noreferrer">Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT教授Barry Vercoe，计算机音乐先驱，逝世，享年87岁。他创立了MIT媒体实验室，推动了音乐技术和实验作曲的发展。Vercoe的遗产将永远影响我们的聆听、学习和交流方式。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/61195f62d0690900bf457b92d3ffa9bd182a4e9a501f7e6bbd6efe518644cc87.jpg" loading="lazy" alt="Featured image of post New tool gives anyone the ability to train a robot" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717" target="_blank" rel="noopener noreferrer">New tool gives anyone the ability to train a robot</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                新工具使任何人能够训练机器人，通过三种不同的训练方法，提供更灵活的培训选择。MIT工程师开发了多功能演示界面，可让机器人通过远程控制、物理操作或示范学习任务。该界面增加了培训灵活性，有助于扩大用户范围和机器人技能范围。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/158ed3b7-f97c-4e2b-8d6a-64e0a0410955.jpg" loading="lazy" alt="Featured image of post New postdoctoral fellowship program to accelerate innovation in health care" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707" target="_blank" rel="noopener noreferrer">New postdoctoral fellowship program to accelerate innovation in health care</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT HEALS launches Biswas Postdoctoral Fellowship Program to advance health and life sciences research with a focus on innovation in health care. The …
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" loading="lazy" alt="Featured image of post New AI system uncovers hidden cell subtypes, boosts precision medicine" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711" target="_blank" rel="noopener noreferrer">New AI system uncovers hidden cell subtypes, boosts precision medicine</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                新AI系统揭示隐藏的细胞亚型，提升精准医学。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-16">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-16" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" loading="lazy" alt="Featured image of post MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-16" target="_blank" rel="noopener noreferrer">MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIRIX重塑AI多模态长期记忆，超Gemini 410%，节省99.9%内存，APP同步上线
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-21-4">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-21-4" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/home/runner/work/hugo/hugo/hugo_source/static/images/articles/37f60f73e77e58bc480e0bdbaac16ee5.png" loading="lazy" alt="Featured image of post ICML 2025 | 质量更高、噪声更低、生物信号更强，东京大学&amp;麦吉尔大学提出空间转录组数据建模新方法SUICA" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-21-4" target="_blank" rel="noopener noreferrer">ICML 2025 | 质量更高、噪声更低、生物信号更强，东京大学&amp;麦吉尔大学提出空间转录组数据建模新方法SUICA</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                东京大学&amp;麦吉尔大学提出的 SUICA 方法能处理空间转录组数据，提高质量、降低噪声、增强生物信号。该方法基于隐式神经表征和图自编码器，实现基因表达预测和数据增强。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-15-3">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-15-3" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg" loading="lazy" alt="Featured image of post ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-15-3" target="_blank" rel="noopener noreferrer">ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                M+框架扩展MemoryLLM，引入长期隐空间记忆，有效记忆跨度提升至160k tokens，显存占用不变。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/collaborating-with-the-force-nature-0709">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/collaborating-with-the-force-nature-0709" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/5c3d22bb-3247-4464-8177-44ccbd538f79.jpg" loading="lazy" alt="Featured image of post Collaborating with the force of nature" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/collaborating-with-the-force-nature-0709" target="_blank" rel="noopener noreferrer">Collaborating with the force of nature</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT professors collaborate to redirect lava flows using innovative steel structures in Iceland, aiming to protect habitats and infrastructure. …
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/changing-conversation-health-care-0709">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/changing-conversation-health-care-0709" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/2af950b9-5913-472d-9370-ff634729e065.jpg" loading="lazy" alt="Featured image of post Changing the conversation in health care" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/changing-conversation-health-care-0709" target="_blank" rel="noopener noreferrer">Changing the conversation in health care</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                人工智能改变医疗对话，弥合患者与医生间的沟通障碍，促进跨语言、跨文化交流。MIT的Language/AI孵化器探索AI在医疗领域的潜在应用，重视语言对健康护理的影响。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/4a0d44be-b1df-474f-b423-5a98852a5243.jpg" loading="lazy" alt="Featured image of post At MIT, musicians make new tools for new tunes" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708" target="_blank" rel="noopener noreferrer">At MIT, musicians make new tools for new tunes</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                MIT音乐科技项目培养学生创造新乐器和音乐软件，探索音乐与技术交汇之处。课程涵盖数字合成器、人机交互等，强调创意和技术结合。学生设计音乐系统，拓展工程问题与人文关怀。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://www.jiqizhixin.com/articles/2025-07-14-11">
+    
+        <div class="article-image">
+            <a href="https://www.jiqizhixin.com/articles/2025-07-14-11" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" loading="lazy" alt="Featured image of post AI下半场的「Game Changer」，直让老外惊呼「Amazing」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-14-11" target="_blank" rel="noopener noreferrer">AI下半场的「Game Changer」，直让老外惊呼「Amazing」</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                中国电信推出的智传网（AI Flow）技术，通过端-边-云协同、家族式同源模型和智能涌现，实现普适智能应用，解决AI下半场挑战。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                            基模
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                            具身智能
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+            
+<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-21" data-original-link="https://news.mit.edu/2025/ai-shapes-autonomous-underwater-gliders-0709">
+    
+        <div class="article-image">
+            <a href="https://news.mit.edu/2025/ai-shapes-autonomous-underwater-gliders-0709" target="_blank" rel="noopener noreferrer">
+                
+                    <img src="/hugo/images/articles/2c91e818-77d6-4b93-aa69-b702de92eca9.png" loading="lazy" alt="Featured image of post AI shapes autonomous underwater “gliders”" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://news.mit.edu/2025/ai-shapes-autonomous-underwater-gliders-0709" target="_blank" rel="noopener noreferrer">AI shapes autonomous underwater “gliders”</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                AI帮助设计海洋滑翔机，优化形状以提高效率。研究人员使用机器学习测试不同3D设计，通过3D打印制造更节能。新型机器可帮助海洋学家测量水温、盐度，了解洋流和气候变化影响。
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                            Infra
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
+                            AI4S
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
+                            能效优化
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
         
             
 <article class="has-image article-card custom-horizontal-layout" data-date="2025-07-20" data-original-link="https://www.jiqizhixin.com/articles/2025-07-19-5">
@@ -1155,1770 +2692,6 @@
                     <li class="article-tags-list-item">
                         <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
                             AI4S
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-4">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-16-4" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/dd150461-5105-4816-b9b8-6798cb208f53.jpg" loading="lazy" alt="Featured image of post 重塑记忆架构：LLM正在安装「操作系统」" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-16-4" target="_blank" rel="noopener noreferrer">重塑记忆架构：LLM正在安装「操作系统」</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                LLM记忆管理与大模型记忆系统的研究进展，包括长上下文处理能力和记忆类型，以及MemOS和MemoryOS等记忆操作系统的设计与实现。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/" class="article-tags-list-link">
-                            垂直大模型
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-17" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/67d06652-1c28-4be4-a318-594dd846f953.jpg" loading="lazy" alt="Featured image of post 舍弃自回归，离散扩散语言模型如何演化？NUS综述解构技术图谱与应用前沿" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-17" target="_blank" rel="noopener noreferrer">舍弃自回归，离散扩散语言模型如何演化？NUS综述解构技术图谱与应用前沿</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                离散扩散模型取代自回归模型，实现并行推理、输出可控、动态感知。dLLMs与dMLLMs在多领域应用中展现优势。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-12">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-16-12" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/e99eaa50-69a2-4e20-8838-a5f85c694d41.jpg" loading="lazy" alt="Featured image of post 种子轮就估值120亿美元，她能打造另一个OpenAI吗？" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-16-12" target="_blank" rel="noopener noreferrer">种子轮就估值120亿美元，她能打造另一个OpenAI吗？</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                Thinking Machines Lab在种子轮融资中募集20亿美元，估值达120亿美元，引发关注。创始人Mira Murati计划构建多模态AI，注重开源组件。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-8">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-16-8" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/012712cc-78ea-45d8-ae5b-6de1346aeac7.png" loading="lazy" alt="Featured image of post 玻色子采样在量子人工智能领域首次找到实际应用" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-16-8" target="_blank" rel="noopener noreferrer">玻色子采样在量子人工智能领域首次找到实际应用</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                玻色子采样首次应用于量子人工智能，利用随机干涉仪生成复杂动力学，实现图像识别。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17-4">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-17-4" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/24c1fe92-0e1f-47b3-9ea7-4efb95d6c985.jpg" loading="lazy" alt="Featured image of post 普林斯顿团队领衔发布最强开源数学定理证明模型：32B性能大幅超越前代SOTA DeepSeek 671B" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-17-4" target="_blank" rel="noopener noreferrer">普林斯顿团队领衔发布最强开源数学定理证明模型：32B性能大幅超越前代SOTA DeepSeek 671B</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                普林斯顿团队发布新一代数学定理证明模型Goedel-Prover-V2，32B性能超越前代SOTA DeepSeek 671B。项目包含32B旗舰模型和8B小尺寸模型，在MiniF2F和PutnamBench测试中取得显著成绩。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-6">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-16-6" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/b26c0688-dbb3-4cdb-b4f8-af1b3c03fcb8.jpg" loading="lazy" alt="Featured image of post 打造全球首个强化学习云平台，九章云极是如何做到的？" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-16-6" target="_blank" rel="noopener noreferrer">打造全球首个强化学习云平台，九章云极是如何做到的？</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                九章云极发布全球首个强化学习云平台AgentiCTRL，支持万卡级异构算力调度，提升训练效率500%，成本降低60%。系统性重构强化学习训练流程，实现端到端闭环。九章云极构建智能体原生云生态，引领AI基础设施竞争。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17-7">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-17-7" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/818c8397-3bcf-4055-b391-e127148da9c9.jpg" loading="lazy" alt="Featured image of post 强化学习的两个「大坑」，终于被两篇ICLR论文给解决了" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-17-7" target="_blank" rel="noopener noreferrer">强化学习的两个「大坑」，终于被两篇ICLR论文给解决了</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                两篇ICLR论文解决强化学习实时环境中的推理延迟和动作缺失问题。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17-2">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-17-2" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/4b35bc40-91a8-478d-9c09-d51218216b33.jpg" loading="lazy" alt="Featured image of post 两周反转：Anthropic「闪电」夺回被Cursor挖走的核心编程大将" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-17-2" target="_blank" rel="noopener noreferrer">两周反转：Anthropic「闪电」夺回被Cursor挖走的核心编程大将</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                Anthropic重新聘回被Cursor挖走的核心编程大将，公司毛利率有望达到70%。Claude Code助力Anthropic增长，周下载量暴增6倍。Cursor更新引发用户不满，转向按用量计费模式。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717">
-    
-        <div class="article-image">
-            <a href="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/21fcb607-24b0-49c7-8688-44808299c012.jpg" loading="lazy" alt="Featured image of post New tool gives anyone the ability to train a robot" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/new-tool-gives-anyone-ability-to-train-robot-0717" target="_blank" rel="noopener noreferrer">New tool gives anyone the ability to train a robot</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                新工具使任何人能够训练机器人，通过三种不同的训练方法，提供更灵活的培训选择。MIT工程师开发了多功能演示界面，可让机器人通过远程控制、物理操作或示范学习任务。该界面增加了培训灵活性，有助于扩大用户范围和机器人技能范围。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-5">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-16-5" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/7c4e6ea7-851a-432d-9a6f-891438fc9c8f.jpg" loading="lazy" alt="Featured image of post DeepMind让AI当「上帝」，导演一场只有AI演员的「西部世界」" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-16-5" target="_blank" rel="noopener noreferrer">DeepMind让AI当「上帝」，导演一场只有AI演员的「西部世界」</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                DeepMind提出Concordia软件库，将AI应用于TTRPG中，实现多角色生成式AI系统。采用实体-组件架构，灵活配置GM和AI角色，满足科学模拟、互动叙事和AI评估需求。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-16-7">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-16-7" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/1ab46cbc-567c-490a-a6ec-c7080fe6ebbd.png" loading="lazy" alt="Featured image of post AI驱动的自主酶工程平台，底物偏好提升90倍，伊利诺伊大学新研究登Nature子刊" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-16-7" target="_blank" rel="noopener noreferrer">AI驱动的自主酶工程平台，底物偏好提升90倍，伊利诺伊大学新研究登Nature子刊</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                伊利诺伊大学提出AI驱动的自主酶工程平台，底物偏好提升90倍，登Nature子刊。平台集成大型语言模型与生物制造自动化，推动蛋白质工程创新。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
-                            AI4S
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-17" data-original-link="https://www.jiqizhixin.com/articles/2025-07-17-5">
-    
-        <div class="article-image">
-            <a href="https://www.jiqizhixin.com/articles/2025-07-17-5" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/dd92f5c6-d96d-43a4-b9a9-602fff0a5f47.jpg" loading="lazy" alt="Featured image of post 「有望成为Transformer杀手」，谷歌DeepMind新架构MoR实现两倍推理速度" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://www.jiqizhixin.com/articles/2025-07-17-5" target="_blank" rel="noopener noreferrer">「有望成为Transformer杀手」，谷歌DeepMind新架构MoR实现两倍推理速度</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                谷歌DeepMind发布MoR架构，提升递归Transformer效率。动态路由和KV缓存优化，实现参数共享和计算路由，提升推理速度。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711">
-    
-        <div class="article-image">
-            <a href="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/d17bb4e5-0c8f-4803-82ac-73ef86a1438d.png" loading="lazy" alt="Featured image of post Simulation-based pipeline tailors training data for dexterous robots" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711" target="_blank" rel="noopener noreferrer">Simulation-based pipeline tailors training data for dexterous robots</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                MIT&#39;s PhysicsGen tailors robot training data for efficient movements using VR demonstrations and trajectory optimization, enhancing robotic tasks like …
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-16" data-original-link="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711">
-    
-        <div class="article-image">
-            <a href="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/dd0e8674-8e8f-415f-8aa3-53d8fa6eb115.jpg" loading="lazy" alt="Featured image of post New AI system uncovers hidden cell subtypes, boosts precision medicine" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711" target="_blank" rel="noopener noreferrer">New AI system uncovers hidden cell subtypes, boosts precision medicine</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                新AI系统揭示隐藏的细胞亚型，提升精准医学。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
-    
-        <div class="article-image">
-            <a href="" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/14bc487f-f566-4003-b18d-9b35796dc8ae.png" loading="lazy" alt="Featured image of post 科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">科学智能合辑｜AI会成为科学发现的同道者，还是只是统计上更聪明的螺丝刀？</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                科学研究面临AI合作转折，挑战深奥科学问题。资源不均衡限制科研发展。WAIC 2025探讨AI在科学智能领域的作用与挑战。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
-                            AI4S
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
-    
-        <div class="article-image">
-            <a href="" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/4325612f-ad0b-418a-a585-45a6be4e7c16.jpg" loading="lazy" alt="Featured image of post 智能时代，同球共济！2025世界人工智能大会将于7月26日启幕" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">智能时代，同球共济！2025世界人工智能大会将于7月26日启幕</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                2025世界人工智能大会将于7月26日启幕，聚焦全球人工智能发展与治理，展示技术前沿和产业趋势。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/agent/" class="article-tags-list-link">
-                            Agent
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
-    
-        <div class="article-image">
-            <a href="" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/ddffff6a-ed68-4df5-a0a7-57edd3ad63c6.jpg" loading="lazy" alt="Featured image of post 央企牵头！这个AI开源社区要让大模型跑遍「中国芯」" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">央企牵头！这个AI开源社区要让大模型跑遍「中国芯」</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                央企牵头的AI开源社区推出「模型推理适配协作计划」，旨在让大模型在国产芯片上顺利运行。社区提供工具中心和协作空间，促进模型与芯片的统一适配与性能优化。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
-    
-        <div class="article-image">
-            <a href="" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/1bf58b88-6586-4d52-844b-8b92a105319f.png" loading="lazy" alt="Featured image of post 元科学可以改进科学——但它也必须对社会有用" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">元科学可以改进科学——但它也必须对社会有用</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                元科学联盟推动科学改进，应对社会挑战。AI和大型语言模型助力科研发展。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
-                            AI4S
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
-    
-        <div class="article-image">
-            <a href="" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/252913f3-937c-4c58-8fea-d1dab20ee4b9.jpg" loading="lazy" alt="Featured image of post MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">MIRIX重塑AI多模态长期记忆：超Gemini 410%，节省99.9%内存，APP同步上线</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                MIRIX重塑AI多模态长期记忆，超Gemini 410%，节省99.9%内存，APP同步上线
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
-    
-        <div class="article-image">
-            <a href="" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/6d1e859d-70c8-4733-ab04-9f4034d81c6a.jpg" loading="lazy" alt="Featured image of post ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">ICML 2025 | M&#43;框架来了，增加LLM隐空间记忆，不再受上下文窗口限制</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                M+框架扩展MemoryLLM，引入长期隐空间记忆，有效记忆跨度提升至160k tokens，显存占用不变。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class="has-image article-card custom-horizontal-layout" data-date="2025-07-15" data-original-link="">
-    
-        <div class="article-image">
-            <a href="" target="_blank" rel="noopener noreferrer">
-                
-                    <img src="/images/articles/91813888-0a03-49f3-8d13-fac68f1f698c.jpg" loading="lazy" alt="Featured image of post AI下半场的「Game Changer」，直让老外惊呼「Amazing」" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="" target="_blank" rel="noopener noreferrer">AI下半场的「Game Changer」，直让老外惊呼「Amazing」</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                中国电信推出的智传网（AI Flow）技术，通过端-边-云协同、家族式同源模型和智能涌现，实现普适智能应用，解决AI下半场挑战。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
-                            基模
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707" target="_blank" rel="noopener noreferrer">Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                MIT计算机音乐领域的先驱Barry Lloyd Vercoe教授于6月15日去世，享年87岁。Vercoe在音乐、科学和创新领域做出了深远贡献，推动了音乐体验的提升，尤其是对年轻人的影响。他创办了MIT的实验音乐工作室，开发了先进的音乐技术，如算法作曲和数字合成，影响了音乐技术与工程的交叉领域，留
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707" target="_blank" rel="noopener noreferrer">New postdoctoral fellowship program to accelerate innovation in health care</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                麻省理工学院健康与生命科学合作计划（MIT HEALS）推出Biswas博士后奖学金计划，旨在通过资助杰出的博士后研究人员，将前沿研究应用于改善医疗保健和数百万人的生活。该计划将支持在人类健康保健创新领域致力于通过各种途径实现创新的博士后，如利用AI进行健康相关研究、开发低成本诊断工具等。首批资金为
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/ai4s/" class="article-tags-list-link">
-                            AI4S
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-14" data-original-link="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/mit-musicians-make-new-tools-for-new-tunes-0708" target="_blank" rel="noopener noreferrer">At MIT, musicians make new tools for new tunes</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                麻省理工学院音乐科技项目为探索新声音、曲调和体验开辟了空间。学生们在音乐科技中不仅探索创意科技，还发展自己的创造力。课程教授学生们数字乐器和音乐软件的开发，学生们通过创造音乐系统深入探讨工程问题和人类社区美感。音乐技术的发展里程碑标志着设计决策对历史的深远影响，而MIT的音乐科技课程则促使学生们探索
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/study-babies-poor-vision-may-help-organize-visual-brain-pathways-0703" target="_blank" rel="noopener noreferrer">Study: Babies’ poor vision may help organize visual brain pathways</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                麻省理工学院的一项新研究提供了关于视觉系统中两条通路如何受发育因素影响的解释。研究发现，早期视觉模糊、色彩有限的输入可能导致大细胞系统和小细胞系统的发展。通过训练计算视觉模型，研究人员发现，模型在接受模拟人类婴儿视觉发展轨迹的低质量图像后，展现出类似于真实视觉系统中两个通路的特征。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
-                            具身智能
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-13" data-original-link="https://news.mit.edu/2025/how-repetition-helps-art-samuel-jay-keyser-book-0701">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/how-repetition-helps-art-samuel-jay-keyser-book-0701" target="_blank" rel="noopener noreferrer">How repetition helps art speak to us</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                MIT Professor Emeritus Samuel Jay Keyser&#39;s new book &#39;Play It Again, Sam&#39; delves into the cognitive impact of repetition in art, using the 1953 jazz st
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-            
-
-        </footer>
-    </div>
-</article> 
-        
-            
-<article class=" article-card custom-horizontal-layout" data-date="2025-07-12" data-original-link="https://news.mit.edu/2025/walk-through-screening-system-enhances-airport-security-0710">
-    
-
-    <div class="article-details">
-        
-
-        <div class="article-content-wrapper">
-            <h2 class="article-title">
-                <a href="https://news.mit.edu/2025/walk-through-screening-system-enhances-airport-security-0710" target="_blank" rel="noopener noreferrer">Walk-through screening system enhances security at airports nationwide</a>
-            </h2>
-            
-            
-            
-            <div class="article-summary">
-                美国国家安全局（TSA）正在评估一种名为HEXWAVE的新型安检系统，该系统基于麻省理工学院林肯实验室开发的微波成像技术，可以取代金属探测器进行预检安检。这项技术能够快速、高效地扫描行人及其随身物品，以检测潜在的威胁物品，为公共场所提供更有效的安全保护。
-            </div>
-            
-        </div>
-
-        <footer class="article-footer">
-            
-            <div class="article-tags">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-                <ul class="article-tags-list">
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                            Infra
-                        </a>
-                    </li>
-                    
-                    <li class="article-tags-list-item">
-                        <a href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
-                            多模态
                         </a>
                     </li>
                     
