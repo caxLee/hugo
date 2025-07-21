@@ -9,6 +9,8 @@ import aiofiles
 import uuid
 from datetime import datetime
 from urllib.parse import urlparse, urljoin
+import hashlib
+import logging
 
 BASE_URL = "https://news.mit.edu"
 # 使用 HUGO_PROJECT_PATH 以便在 GitHub Action 中也能运行
@@ -21,6 +23,27 @@ HEADLESS = os.environ.get('GITHUB_ACTIONS') == 'true'
 debug_dir = os.path.join(base_dir, "debug")
 os.makedirs(debug_dir, exist_ok=True)
 
+# 全局图片清单路径
+IMAGE_MANIFEST_PATH = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'spiders', 'ai_news', 'image_manifest.json')
+
+def load_image_manifest():
+    """加载图片清单"""
+    if os.path.exists(IMAGE_MANIFEST_PATH):
+        try:
+            with open(IMAGE_MANIFEST_PATH, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"⚠️ 加载图片清单失败: {e}, 将创建一个新的清单。")
+            return {}
+    return {}
+
+def save_image_manifest(manifest):
+    """保存图片清单"""
+    try:
+        with open(IMAGE_MANIFEST_PATH, 'w', encoding='utf-8') as f:
+            json.dump(manifest, f, indent=2, ensure_ascii=False)
+    except IOError as e:
+        print(f"❌ 保存图片清单失败: {e}")
 
 async def download_image(session, url, save_path):
     """Downloads a single image and saves it."""
@@ -111,6 +134,62 @@ async def log_response(response):
                 print(f"📝 已保存错误响应到 {debug_file}")
             except:
                 print("⚠️ 无法保存错误响应内容")
+
+
+async def download_and_process_image(session, url, save_dir, image_manifest):
+    """
+    下载图片,计算哈希,查重并保存。
+    返回图片在仓库中的相对路径,如果失败则返回None。
+    """
+    try:
+        async with session.get(url) as response:
+            if response.status != 200:
+                print(f"❌ 下载图片失败，状态码: {response.status}, URL: {url}")
+                return None
+            
+            image_data = await response.read()
+            if not image_data:
+                print(f"❌ 下载的图片数据为空, URL: {url}")
+                return None
+
+            # 计算图片内容的哈希值
+            image_hash = hashlib.sha256(image_data).hexdigest()
+
+            # 检查哈希是否存在于清单中
+            if image_hash in image_manifest:
+                existing_path = image_manifest[image_hash]
+                print(f"🔄 图片已存在 (哈希: {image_hash[:8]}...), 使用现有路径: {existing_path}")
+                # 确认文件物理存在，如果不存在则重新下载
+                full_physical_path = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', existing_path)
+                if os.path.exists(full_physical_path):
+                    return existing_path
+                else:
+                    print(f"⚠️ 清单中记录的文件不存在，将重新下载: {full_physical_path}")
+
+            # 如果图片不存在, 则保存新图片
+            file_ext = os.path.splitext(urlparse(url).path)[1] or '.jpg'
+            # 确保扩展名前面有点
+            if not file_ext.startswith('.'):
+                file_ext = '.' + file_ext
+            
+            new_filename = f"{image_hash}{file_ext}"
+            hugo_relative_path = f"images/articles/{new_filename}"
+            physical_save_path = os.path.join(save_dir, new_filename)
+
+            async with aiofiles.open(physical_save_path, 'wb') as f:
+                await f.write(image_data)
+            
+            print(f"🖼️ 新图片已保存: {physical_save_path}")
+
+            # 更新清单
+            image_manifest[image_hash] = hugo_relative_path
+            
+            return hugo_relative_path
+
+    except Exception as e:
+        print(f"💥 下载或处理图片时发生严重错误: {e}")
+        print(traceback.format_exc())
+        return None
 
 
 async def scrape_mit_news_articles(save_path):
@@ -304,7 +383,6 @@ async def scrape_mit_news_articles(save_path):
 
                     # Extract image URL, but do not fail if it's not found
                     image_url = None
-                    local_image_path = None
                     try:
                         print("🔍 开始查找文章图片元素...")
                         # Try multiple selectors for images, in order of preference
@@ -343,43 +421,16 @@ async def scrape_mit_news_articles(save_path):
                         print(f"❌ 查找图片时发生错误: {e}")
 
                     # Download image if found
+                    local_image_path = None
                     if image_url:
                         try:
-                            file_ext = os.path.splitext(urlparse(image_url).path)[1] or '.jpg'
-                            
-                            # 使用日期和序号命名图片，而不是UUID
-                            current_date = datetime.now().strftime("%Y_%m_%d")
-                            
-                            # 创建日期目录
-                            date_dir = os.path.join(image_save_dir, current_date)
-                            os.makedirs(date_dir, exist_ok=True)
-                            
-                            # 获取当前日期目录下的文件数，用于生成序号
-                            existing_files = os.listdir(date_dir)
-                            next_index = len(existing_files) + 1
-                            
-                            # 格式化序号为三位数字（例如：001, 002, ...）
-                            image_name = f"{current_date}_{next_index:03d}{file_ext}"
-                            image_save_path = os.path.join(date_dir, f"{next_index:03d}{file_ext}")
-                            
-                            # Add retries for image download
-                            max_retries = 3
-                            for attempt in range(max_retries):
-                                try:
-                                    print(f"⬇️ 开始下载图片 (尝试 {attempt + 1}/{max_retries})...")
-                                    saved_physical_path = await download_image(session, image_url, image_save_path)
-                                    if saved_physical_path:
-                                        local_image_path = f"images/articles/{current_date}/{next_index:03d}{file_ext}"
-                                        print(f"✅ 图片下载成功，本地路径: {local_image_path}")
-                                        break
-                                    else:
-                                        print(f"⚠️ 图片下载尝试 {attempt + 1} 失败，准备重试...")
-                                except Exception as e:
-                                    if attempt == max_retries - 1:
-                                        print(f"💥 所有图片下载尝试都失败: {e}")
-                                    else:
-                                        print(f"⚠️ 图片下载尝试 {attempt + 1} 失败: {e}，准备重试...")
-                                        await asyncio.sleep(1)  # 重试前等待
+                            # 使用新的下载和处理函数
+                            saved_path = await download_and_process_image(session, image_url, image_save_dir, image_manifest)
+                            if saved_path:
+                                local_image_path = saved_path  # 这已经是正确的相对路径了
+                                print(f"✅ 图片处理完成, 最终路径: {local_image_path}")
+                            else:
+                                print(f"⚠️ 图片处理失败, URL: {image_url}")
                         except Exception as e:
                             print(f"💥 处理或下载图片时发生错误: {e}")
 
@@ -428,27 +479,25 @@ async def scrape_mit_news_articles(save_path):
                                 print(f"❌ 提取整个文章内容失败: {e}")
                                 paragraphs = ["[内容提取失败]"]
                         
-                        content = "\n\n".join(paragraphs)
-                        print(f"✅ 成功提取文章内容，长度: {len(content)} 字符")
+                        article_text = "\n\n".join(paragraphs)
+                        print(f"✅ 成功提取文章内容，长度: {len(article_text)} 字符")
                         
                         # 打印内容摘要用于验证
-                        content_preview = content[:150] + "..." if len(content) > 150 else content
+                        content_preview = article_text[:150] + "..." if len(article_text) > 150 else article_text
                         print(f"📝 内容摘要:\n{content_preview}")
                     except Exception as e:
                         print(f"❌ 提取内容时发生错误: {e}")
-                        content = "[内容提取失败]"
+                        article_text = "[内容提取失败]"
 
-                    data = {
+                    # 将文章数据写入文件
+                    article_data = {
                         "title": title.strip(),
+                        "content": article_text,
                         "url": full_url,
-                        "content": content.strip(),
-                        "image_path": local_image_path,
-                        "source": "MIT News",
-                        "author": ""  # MIT News doesn't always have clear author attribution
+                        "image_path": local_image_path, # 使用处理后的路径
+                        "source": "MIT News"
                     }
-
-                    print("💾 保存文章数据...")
-                    f.write(json.dumps(data, ensure_ascii=False) + "\n")
+                    f.write(json.dumps(article_data, ensure_ascii=False) + "\n")
                     f.flush()
 
                     existing_urls.add(full_url)
@@ -474,6 +523,10 @@ async def scrape_mit_news_articles(save_path):
                             await article_page.close()
                     except:
                         print("⚠️ 无法保存错误页面截图")
+
+        # 保存更新后的图片清单
+        save_image_manifest(image_manifest)
+        print("✅ 图片清单已更新并保存。")
 
         await browser.close()
         print("🏁 爬取完成")

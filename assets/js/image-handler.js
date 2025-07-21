@@ -1,171 +1,60 @@
-// 图片错误处理
+// assets/js/image-handler.js
+
 document.addEventListener('DOMContentLoaded', function() {
-    // 处理所有图片
-    const images = document.querySelectorAll('img');
-    const uuidPattern = /[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\.(jpg|jpeg|png|gif)/i;
-    const dateDirPattern = /\/images\/articles\/\d{4}_\d{2}_\d{2}\/\d{3}\.(jpg|jpeg|png|gif)/i;
-    
-    // 获取网站根路径
-    const baseUrl = document.querySelector('meta[name="base-url"]')?.content || '/';
-    
-    images.forEach(img => {
-        // 给所有图片添加错误处理
-        img.onerror = function() {
-            // 检查是否是UUID格式的图片
-            if (uuidPattern.test(img.src)) {
-                console.warn('UUID格式图片加载失败: ' + img.src);
-                
-                // 1. 首先尝试不同的大小写版本
-                const imgSrc = img.src;
-                const imgExt = imgSrc.split('.').pop().toLowerCase();
-                
-                // 尝试所有可能的扩展名大小写组合
-                const possibleExts = [imgExt.toUpperCase(), imgExt.toLowerCase()];
-                
-                let retryCount = 0;
-                const tryExtensions = () => {
-                    if (retryCount < possibleExts.length) {
-                        const newSrc = imgSrc.replace(new RegExp(imgExt + '$', 'i'), possibleExts[retryCount]);
-                        console.log('尝试替代扩展名: ' + newSrc);
-                        img.src = newSrc;
-                        retryCount++;
-                        return true;
-                    }
-                    return false;
-                };
-                
-                // 2. 如果扩展名尝试失败，尝试在日期子目录中查找
-                const tryDateDirFormat = () => {
-                    // 提取UUID部分
-                    const uuidMatch = img.src.match(/([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})\.(jpg|jpeg|png|gif)/i);
-                    if (uuidMatch) {
-                        // 获取当前日期，尝试最近3天的目录
-                        const today = new Date();
-                        
-                        for (let i = 0; i < 5; i++) {
-                            const date = new Date(today);
-                            date.setDate(date.getDate() - i);
-                            
-                            const year = date.getFullYear();
-                            // 月份需要+1，因为getMonth()返回0-11
-                            const month = String(date.getMonth() + 1).padStart(2, '0');
-                            const day = String(date.getDate()).padStart(2, '0');
-                            
-                            const dateDir = `${year}_${month}_${day}`;
-                            
-                            // 尝试该日期目录下的1-20号图片
-                            for (let num = 1; num <= 20; num++) {
-                                const numStr = String(num).padStart(3, '0');
-                                const newSrc = `/images/articles/${dateDir}/${numStr}.${imgExt}`;
-                                console.log(`尝试日期目录格式: ${newSrc}`);
-                                
-                                // 创建Image对象来预先检查图片是否存在
-                                const testImg = new Image();
-                                testImg.onload = function() {
-                                    console.log(`✅ 找到可用的图片: ${newSrc}`);
-                                    img.src = newSrc;
-                                };
-                                testImg.src = newSrc;
-                            }
-                        }
-                    }
+    // 为所有图片添加一个通用的错误处理器
+    document.addEventListener('error', function(event) {
+        // 确认错误事件的目标是一个图片
+        if (event.target.tagName.toLowerCase() === 'img') {
+            const imgElement = event.target;
+            
+            console.warn('图片加载失败，将应用占位样式:', imgElement.src);
+            
+            // 防止无限循环的错误触发
+            imgElement.onerror = null; 
+            
+            // 应用统一的错误占位样式
+            imgElement.style.backgroundColor = '#f5f5f5';
+            imgElement.style.minHeight = '150px'; // 调整高度以适应不同布局
+            imgElement.style.border = '1px dashed #ccc';
+            imgElement.style.width = '100%';
+            imgElement.style.display = 'block';
+            imgElement.style.position = 'relative'; // 为显示alt文本做准备
+
+            // 如果有alt文本，将其显示在占位符中央
+            if (imgElement.alt) {
+                // 检查是否已经添加了alt文本
+                if (!imgElement.parentElement.querySelector('.alt-text-overlay')) {
+                    const altTextOverlay = document.createElement('div');
+                    altTextOverlay.className = 'alt-text-overlay';
+                    altTextOverlay.textContent = `🖼️ ${imgElement.alt}`;
                     
-                    // 所有尝试都失败，添加默认样式
-                    setTimeout(() => {
-                        if (img.naturalWidth === 0) {
-                            applyErrorStyle(img);
-                        }
-                    }, 2000);
-                    
-                    return true;
-                };
-                
-                // 3. 添加默认的错误样式
-                const applyErrorStyle = (imgElement) => {
-                    imgElement.style.backgroundColor = '#f5f5f5';
-                    imgElement.style.minHeight = '200px';
-                    imgElement.style.border = '1px dashed #ccc';
-                    imgElement.style.width = '100%';
-                    imgElement.style.display = 'block';
-                    
-                    // 如果有alt文本，显示出来
-                    if (imgElement.alt) {
-                        const altText = document.createElement('div');
-                        altText.textContent = imgElement.alt;
-                        altText.style.position = 'absolute';
-                        altText.style.top = '50%';
-                        altText.style.left = '50%';
-                        altText.style.transform = 'translate(-50%, -50%)';
-                        altText.style.color = '#888';
-                        
-                        imgElement.parentElement.style.position = 'relative';
-                        imgElement.parentElement.appendChild(altText);
-                    }
-                };
-                
-                // 链式尝试：先尝试不同扩展名，再尝试日期目录格式
-                img.onerror = function() {
-                    if (!tryExtensions()) {
-                        tryDateDirFormat();
-                    }
-                };
-                
-                // 开始第一次尝试
-                tryExtensions();
-            } else if (dateDirPattern.test(img.src)) {
-                // 如果是日期目录格式的图片，尝试不同的扩展名
-                console.warn('日期目录格式图片加载失败: ' + img.src);
-                const imgSrc = img.src;
-                const imgExt = imgSrc.split('.').pop().toLowerCase();
-                
-                // 尝试所有可能的扩展名大小写组合
-                const possibleExts = [imgExt.toUpperCase(), imgExt.toLowerCase()];
-                
-                let retryCount = 0;
-                const tryNextExt = () => {
-                    if (retryCount < possibleExts.length) {
-                        const newSrc = imgSrc.replace(new RegExp(imgExt + '$', 'i'), possibleExts[retryCount]);
-                        console.log('尝试替代路径: ' + newSrc);
-                        img.src = newSrc;
-                        retryCount++;
-                    } else {
-                        // 所有尝试失败，添加默认样式
-                        this.style.backgroundColor = '#f5f5f5';
-                        this.style.minHeight = '200px';
-                        this.style.border = '1px dashed #ccc';
-                        this.style.width = '100%';
-                        this.style.display = 'block';
-                        
-                        if (this.alt) {
-                            const altText = document.createElement('div');
-                            altText.textContent = this.alt;
-                            altText.style.position = 'absolute';
-                            altText.style.top = '50%';
-                            altText.style.left = '50%';
-                            altText.style.transform = 'translate(-50%, -50%)';
-                            altText.style.color = '#888';
-                            
-                            this.parentElement.style.position = 'relative';
-                            this.parentElement.appendChild(altText);
-                        }
-                    }
-                };
-                
-                // 在错误事件上再次尝试
-                img.onerror = tryNextExt;
-                tryNextExt();
-            } else {
-                // 非UUID格式或日期目录格式图片的处理
-                this.style.backgroundColor = '#f5f5f5';
-                this.style.minHeight = '100px';
-                this.style.border = '1px dashed #ccc';
-                this.style.display = 'block';
-                this.style.width = '100%';
+                    // 定义一些样式
+                    Object.assign(altTextOverlay.style, {
+                        position: 'absolute',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)',
+                        color: '#666',
+                        textAlign: 'center',
+                        padding: '5px',
+                        fontSize: '14px',
+                        fontWeight: '500',
+                        backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                        borderRadius: '4px'
+                    });
+
+                    // 将alt文本添加到图片的父元素中
+                    imgElement.parentElement.style.position = 'relative'; // 确保父元素是相对定位
+                    imgElement.parentElement.appendChild(altTextOverlay);
+                }
             }
-        };
-    });
-    
-    // 添加默认favicon
+            
+            // 可以设置一个备用图片，如果需要的话
+            // imgElement.src = '/images/default-placeholder.png';
+        }
+    }, true); // 使用事件捕获，确保能监听到所有图片错误
+
+    // 添加默认的favicon，如果页面没有提供
     if (!document.querySelector("link[rel='icon']")) {
         const faviconLink = document.createElement('link');
         faviconLink.rel = 'icon';

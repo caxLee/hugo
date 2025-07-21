@@ -5,6 +5,7 @@ import traceback
 import aiohttp
 import aiofiles
 import random
+import hashlib
 import uuid  # 导入uuid模块
 from datetime import datetime
 from urllib.parse import urlparse
@@ -37,6 +38,62 @@ if os.path.exists(output_file):
                 continue
 
 # ========== 摘要生成函数 (已移除) ==========
+
+# 全局图片清单路径
+IMAGE_MANIFEST_PATH = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'spiders', 'ai_news', 'image_manifest.json')
+
+def load_image_manifest():
+    """加载图片清单"""
+    if os.path.exists(IMAGE_MANIFEST_PATH):
+        try:
+            with open(IMAGE_MANIFEST_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            print(f"⚠️ 图片清单文件 '{IMAGE_MANIFEST_PATH}' 格式错误，将创建新的。")
+    return {}
+
+def save_image_manifest(manifest):
+    """保存图片清单"""
+    try:
+        with open(IMAGE_MANIFEST_PATH, "w", encoding="utf-8") as f:
+            json.dump(manifest, f, ensure_ascii=False, indent=4)
+        print(f"✅ 图片清单已保存到 '{IMAGE_MANIFEST_PATH}'")
+    except Exception as e:
+        print(f"❌ 保存图片清单失败: {e}")
+
+async def download_and_process_image(session, url, save_dir, image_manifest):
+    """下载并处理图片，确保唯一性"""
+    try:
+        # 使用URL的哈希作为文件名
+        url_hash = hashlib.md5(url.encode()).hexdigest()
+        file_ext = os.path.splitext(urlparse(url).path)[1]
+        if not file_ext:
+            file_ext = '.jpg' # 默认扩展名
+
+        # 确保文件扩展名以点号开头
+        if not file_ext.startswith('.'):
+            file_ext = '.' + file_ext
+
+        # 检查是否已处理过
+        if url_hash in image_manifest:
+            print(f"🔄 图片已处理过，跳过下载: {url}")
+            return image_manifest[url_hash] # 返回已处理的路径
+
+        # 下载图片
+        save_path = os.path.join(save_dir, f"{url_hash}{file_ext}")
+        async with session.get(url) as response:
+            if response.status == 200:
+                async with aiofiles.open(save_path, 'wb') as f:
+                    await f.write(await response.read())
+                print(f"🖼️ 图片已下载并保存: {save_path}")
+                image_manifest[url_hash] = save_path # 更新清单
+                return save_path
+            else:
+                print(f"❌ 下载图片失败，状态码: {response.status}, URL: {url}")
+                return None
+    except Exception as e:
+        print(f"💥 下载或处理图片时发生错误: {e}")
+        return None
 
 async def download_image(session, url, save_path):
     """下载单张图片并保存"""
@@ -119,7 +176,10 @@ async def main():
     # 创建图片保存目录 - 改为Hugo的static目录
     image_save_dir = os.path.join(hugo_project_path, 'static', 'images', 'articles')
     os.makedirs(image_save_dir, exist_ok=True)
-    print(f"🖼️ 图片将保存在: {image_save_dir}")
+    print(f"🖼️ 图片将统一保存在: {image_save_dir}")
+
+    # 加载图片清单
+    image_manifest = load_image_manifest()
 
     async with async_playwright() as p, aiohttp.ClientSession() as session:
         # 在GitHub Actions中使用headless模式，本地开发可视化
@@ -174,38 +234,20 @@ async def main():
                     continue
                 
                 print(f"--- [调试日志] 否, 这是新文章，开始处理... ---")
+                
                 # 下载图片
                 local_image_path = None
                 if image_url:
                     try:
-                        # 从URL中提取文件扩展名
-                        file_ext = os.path.splitext(urlparse(image_url).path)[1]
-                        if not file_ext: # 如果没有扩展名，默认为.jpg
-                            file_ext = '.jpg'
-                        
-                        # 使用日期和序号命名图片，而不是UUID
-                        current_date = datetime.now().strftime("%Y_%m_%d")
-                        
-                        # 创建日期目录
-                        date_dir = os.path.join(image_save_dir, current_date)
-                        os.makedirs(date_dir, exist_ok=True)
-                        
-                        # 获取当前日期目录下的文件数，用于生成序号
-                        existing_files = os.listdir(date_dir)
-                        next_index = len(existing_files) + 1
-                        
-                        # 格式化序号为三位数字（例如：001, 002, ...）
-                        image_name = f"{current_date}_{next_index:03d}{file_ext}"
-                        image_save_path = os.path.join(date_dir, f"{next_index:03d}{file_ext}")
-                        
-                        # 下载并保存图片
-                        saved_physical_path = await download_image(session, image_url, image_save_path)
-                        if saved_physical_path:
-                            # 构建Hugo在markdown中使用的相对路径，移除开头的斜杠
-                            local_image_path = f"images/articles/{current_date}/{next_index:03d}{file_ext}"
-
+                        # 使用新的下载和处理函数
+                        saved_path = await download_and_process_image(session, image_url, image_save_dir, image_manifest)
+                        if saved_path:
+                            local_image_path = saved_path
+                            print(f"✅ 图片处理完成, 最终路径: {local_image_path}")
+                        else:
+                            print(f"⚠️ 图片处理失败, URL: {image_url}")
                     except Exception as e:
-                        print(f"�� 处理或下载图片时出错: {e}")
+                        print(f"💥 处理或下载图片时发生错误: {e}")
 
                 # 核心改进：解析HTML内容并提取纯文本
                 html_content = data.get("content")
@@ -251,6 +293,10 @@ async def main():
                     print(f"\n--- [操作日志] 等待 {delay:.2f} 秒后继续... ---\n")
                     await asyncio.sleep(delay)
 
+        # 保存更新后的图片清单
+        save_image_manifest(image_manifest)
+        print("✅ 图片清单已更新并保存。")
+        
         await browser.close()
 
 # 运行爬虫
