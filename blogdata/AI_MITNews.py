@@ -45,65 +45,7 @@ def save_image_manifest(manifest):
     except IOError as e:
         print(f"❌ 保存图片清单失败: {e}")
 
-async def download_image(session, url, save_path):
-    """Downloads a single image and saves it."""
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': BASE_URL
-        }
-        
-        # Ensure the directory exists
-        os.makedirs(os.path.dirname(save_path), exist_ok=True)
-        
-        print(f"⬇️ 开始下载图片: {url}")
-        async with session.get(url, headers=headers, timeout=30) as response:
-            if response.status != 200:
-                print(f"💥 图片下载失败，HTTP状态码: {response.status}")
-                return None
-                
-            content_type = response.headers.get('Content-Type', '')
-            print(f"📄 图片内容类型: {content_type}")
-            if not content_type.startswith('image/'):
-                print(f"💥 URL指向的不是图片。内容类型: {content_type}")
-                return None
-                
-            content_length = int(response.headers.get('Content-Length', 0))
-            print(f"📏 图片大小: {content_length} 字节")
-            if content_length > 0 and content_length < 100:  # 可疑的小图片
-                print(f"💥 图片大小可疑: {content_length} 字节")
-                return None
-                
-            image_data = await response.read()
-            if len(image_data) < 100:  # 再次检查
-                print(f"💥 下载的图片太小: {len(image_data)} 字节")
-                return None
-                
-            async with aiofiles.open(save_path, 'wb') as f:
-                await f.write(image_data)
-                
-            print(f"🖼️ 图片已保存: {save_path}")
-            return save_path
-    except aiohttp.ClientConnectorError as e:
-        print(f"💥 连接错误，下载图片 {url} 失败: {e}")
-        return None
-    except aiohttp.ClientResponseError as e:
-        print(f"💥 响应错误，下载图片 {url} 失败: {e}")
-        return None
-    except aiohttp.ClientPayloadError as e:
-        print(f"💥 数据负载错误，下载图片 {url} 失败: {e}")
-        return None
-    except aiohttp.ClientError as e:
-        print(f"💥 客户端错误，下载图片 {url} 失败: {e}")
-        return None
-    except asyncio.TimeoutError:
-        print(f"💥 下载图片 {url} 超时")
-        return None
-    except Exception as e:
-        print(f"💥 下载图片 {url} 时发生错误: {e}")
-        return None
+# The old download_image function is now removed.
 
 
 def load_existing_urls(path):
