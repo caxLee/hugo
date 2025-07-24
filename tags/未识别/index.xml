@@ -7,7 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ICML 2025 | 大模型能在信息不完备的情况下问出正确的问题吗？</title>
+        <link>https://caxlee.github.io/hugo/p/icml-2025-%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%83%BD%E5%9C%A8%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AE%8C%E5%A4%87%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E9%97%AE%E5%87%BA%E6%AD%A3%E7%A1%AE%E7%9A%84%E9%97%AE%E9%A2%98%E5%90%97/</link>
+        <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/icml-2025-%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%83%BD%E5%9C%A8%E4%BF%A1%E6%81%AF%E4%B8%8D%E5%AE%8C%E5%A4%87%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E9%97%AE%E5%87%BA%E6%AD%A3%E7%A1%AE%E7%9A%84%E9%97%AE%E9%A2%98%E5%90%97/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/home/runner/work/hugo/hugo/hugo_source/static/images/articles/790a1f5f87c56eeb7b981f6d3cec364e.jpg" alt="Featured image of post ICML 2025 | 大模型能在信息不完备的情况下问出正确的问题吗？" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/home/runner/work/hugo/hugo/hugo_source/static/images/articles/790a1f5f87c56eeb7b981f6d3cec364e.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ICML 2025 | 大模型能在信息不完备的情况下问出正确的问题吗？&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 大模型在信息不完备情况下的主动推理能力研究不足，AR-Bench评估了大语言模型在主动推理任务中的表现，发现存在严重短板。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>School of Architecture and Planning recognizes faculty with academic promotions in 2025</title>
         <link>https://caxlee.github.io/hugo/p/school-of-architecture-and-planning-recognizes-faculty-with-academic-promotions-in-2025/</link>
         <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
