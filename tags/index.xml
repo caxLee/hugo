@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Agent</title>
         <link>https://caxlee.github.io/hugo/tags/agent/</link>
-        <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/hugo/tags/agent/</guid>
         <description></description>
@@ -18,7 +18,7 @@
         <item>
         <title>Infra</title>
         <link>https://caxlee.github.io/hugo/tags/infra/</link>
-        <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/hugo/tags/infra/</guid>
         <description></description>
@@ -26,9 +26,17 @@
         <item>
         <title>具身智能</title>
         <link>https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</link>
-        <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>基模</title>
+        <link>https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/</link>
+        <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/</guid>
         <description></description>
         </item>
         <item>
@@ -37,14 +45,6 @@
         <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>基模</title>
-        <link>https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/</link>
-        <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/</guid>
         <description></description>
         </item>
         <item>
