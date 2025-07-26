@@ -39,61 +39,91 @@ if os.path.exists(output_file):
 
 # ========== 摘要生成函数 (已移除) ==========
 
-# 全局图片清单路径
-IMAGE_MANIFEST_PATH = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'spiders', 'ai_news', 'image_manifest.json')
+# 全局图片哈希记录路径
+IMAGE_HASHES_PATH = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'spiders', 'ai_news', 'image_hashes.json')
 
-def load_image_manifest():
-    """加载图片清单"""
-    if os.path.exists(IMAGE_MANIFEST_PATH):
+def load_image_hashes():
+    """加载图片哈希记录"""
+    if os.path.exists(IMAGE_HASHES_PATH):
         try:
-            with open(IMAGE_MANIFEST_PATH, "r", encoding="utf-8") as f:
+            with open(IMAGE_HASHES_PATH, "r", encoding="utf-8") as f:
                 return json.load(f)
         except json.JSONDecodeError:
-            print(f"⚠️ 图片清单文件 '{IMAGE_MANIFEST_PATH}' 格式错误，将创建新的。")
+            print(f"⚠️ 图片哈希记录文件 '{IMAGE_HASHES_PATH}' 格式错误，将创建新的。")
     return {}
 
-def save_image_manifest(manifest):
-    """保存图片清单"""
+def save_image_hashes(hashes):
+    """保存图片哈希记录"""
     try:
-        with open(IMAGE_MANIFEST_PATH, "w", encoding="utf-8") as f:
-            json.dump(manifest, f, ensure_ascii=False, indent=4)
-        print(f"✅ 图片清单已保存到 '{IMAGE_MANIFEST_PATH}'")
-    except Exception as e:
-        print(f"❌ 保存图片清单失败: {e}")
+        with open(IMAGE_HASHES_PATH, 'w', encoding='utf-8') as f:
+            json.dump(hashes, f, indent=4)
+        print("✅ 图片哈希记录已更新并保存。")
+    except IOError as e:
+        print(f"❌ 保存图片哈希记录失败: {e}")
 
-async def download_and_process_image(session, url, save_dir, image_manifest):
-    """下载并处理图片，确保唯一性"""
+async def download_and_process_image(session, url, date_str, index, image_hashes):
+    """
+    下载图片,计算内容哈希,查重并按日期和序号保存。
+    返回图片在仓库中的相对路径,如果失败则返回None。
+    """
     try:
-        # 使用URL的哈希作为文件名
-        url_hash = hashlib.md5(url.encode()).hexdigest()
-        file_ext = os.path.splitext(urlparse(url).path)[1]
-        if not file_ext:
-            file_ext = '.jpg' # 默认扩展名
-
-        # 确保文件扩展名以点号开头
-        if not file_ext.startswith('.'):
-            file_ext = '.' + file_ext
-
-        # 检查是否已处理过
-        if url_hash in image_manifest:
-            print(f"🔄 图片已处理过，跳过下载: {url}")
-            return image_manifest[url_hash] # 返回已处理的路径
-
-        # 下载图片
-        save_path = os.path.join(save_dir, f"{url_hash}{file_ext}")
         async with session.get(url) as response:
-            if response.status == 200:
-                async with aiofiles.open(save_path, 'wb') as f:
-                    await f.write(await response.read())
-                print(f"🖼️ 图片已下载并保存: {save_path}")
-                image_manifest[url_hash] = save_path # 更新清单
-                return save_path
-            else:
+            if response.status != 200:
                 print(f"❌ 下载图片失败，状态码: {response.status}, URL: {url}")
                 return None
+            
+            image_data = await response.read()
+            if not image_data:
+                print(f"❌ 下载的图片数据为空, URL: {url}")
+                return None
+
+            # 计算图片内容的哈希值
+            image_hash = hashlib.sha256(image_data).hexdigest()
+
+            # 检查哈希是否存在于记录中
+            if image_hash in image_hashes:
+                existing_path = image_hashes[image_hash]
+                print(f"🔄 图片已存在 (哈希: {image_hash[:8]}...), 使用现有路径: {existing_path}")
+                full_physical_path = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', existing_path)
+                if os.path.exists(full_physical_path):
+                    return existing_path
+                else:
+                    print(f"⚠️ 文件记录存在但物理文件丢失，将重新下载: {existing_path}")
+
+            # 创建基于日期的目录
+            date_folder = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', 'images', 'articles', date_str)
+            os.makedirs(date_folder, exist_ok=True)
+
+            # 获取文件扩展名
+            parsed_url = urlparse(url)
+            file_ext = os.path.splitext(parsed_url.path)[1]
+            if not file_ext or len(file_ext) > 5:
+                content_type = response.headers.get('Content-Type', '')
+                if 'jpeg' in content_type or 'jpg' in content_type: file_ext = '.jpg'
+                elif 'png' in content_type: file_ext = '.png'
+                elif 'gif' in content_type: file_ext = '.gif'
+                elif 'webp' in content_type: file_ext = '.webp'
+                else: file_ext = '.jpg'
+
+            # 构建新文件名和路径
+            new_filename = f"{index:03d}{file_ext}"
+            hugo_relative_path = f"images/articles/{date_str}/{new_filename}"
+            physical_save_path = os.path.join(date_folder, new_filename)
+
+            async with aiofiles.open(physical_save_path, 'wb') as f:
+                await f.write(image_data)
+            
+            print(f"🖼️ 新图片已保存: {physical_save_path}")
+
+            # 更新记录
+            image_hashes[image_hash] = hugo_relative_path
+            
+            return hugo_relative_path
+            
     except Exception as e:
-        print(f"💥 下载或处理图片时发生错误: {e}")
+        print(f"💥 下载或处理图片时发生严重错误: {e}")
         return None
+
 
 async def download_image(session, url, save_path):
     """下载单张图片并保存"""
@@ -178,8 +208,9 @@ async def main():
     os.makedirs(image_save_dir, exist_ok=True)
     print(f"🖼️ 图片将统一保存在: {image_save_dir}")
 
-    # 加载图片清单
-    image_manifest = load_image_manifest()
+    # 加载图片哈希记录
+    image_hashes = load_image_hashes()
+    print(f"🖼️ 已加载 {len(image_hashes)} 条图片哈希记录用于查重")
 
     async with async_playwright() as p, aiohttp.ClientSession() as session:
         # 在GitHub Actions中使用headless模式，本地开发可视化
@@ -189,6 +220,9 @@ async def main():
         await page.goto("https://www.jiqizhixin.com/articles", timeout=60000)
 
         cards = await page.locator("div.article-card").all()
+        
+        today_str = datetime.now().strftime('%Y_%m_%d') # 当天日期字符串
+        article_counter = 0 # 当天文章计数器
 
         with open(output_file, "a", encoding="utf-8") as f:
             for i, card in enumerate(cards):
@@ -235,12 +269,15 @@ async def main():
                 
                 print(f"--- [调试日志] 否, 这是新文章，开始处理... ---")
                 
+                article_counter += 1 # 是新文章，计数器增加
+                print(f"--- [新文章] 开始处理 #{article_counter}: {title} ---")
+                
                 # 下载图片
                 local_image_path = None
                 if image_url:
                     try:
                         # 使用新的下载和处理函数
-                        saved_path = await download_and_process_image(session, image_url, image_save_dir, image_manifest)
+                        saved_path = await download_and_process_image(session, image_url, today_str, article_counter, image_hashes)
                         if saved_path:
                             local_image_path = saved_path
                             print(f"✅ 图片处理完成, 最终路径: {local_image_path}")
@@ -273,7 +310,8 @@ async def main():
                     "url": article_url,
                     "content": content, # 提供给 AI_summary.py 的原文
                     "image_url": image_url, # 添加图片URL
-                    "image_path": local_image_path # 添加本地图片路径
+                    "image_path": local_image_path, # 添加本地图片路径
+                    "source": "jiqizhixin" # 添加来源
                 }
 
                 # 写入 JSONL
@@ -293,9 +331,8 @@ async def main():
                     print(f"\n--- [操作日志] 等待 {delay:.2f} 秒后继续... ---\n")
                     await asyncio.sleep(delay)
 
-        # 保存更新后的图片清单
-        save_image_manifest(image_manifest)
-        print("✅ 图片清单已更新并保存。")
+        # 保存更新后的图片哈希记录
+        save_image_hashes(image_hashes)
 
         await browser.close()
 

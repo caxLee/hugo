@@ -23,27 +23,28 @@ HEADLESS = os.environ.get('GITHUB_ACTIONS') == 'true'
 debug_dir = os.path.join(base_dir, "debug")
 os.makedirs(debug_dir, exist_ok=True)
 
-# 全局图片清单路径
-IMAGE_MANIFEST_PATH = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'spiders', 'ai_news', 'image_manifest.json')
+# 全局图片哈希记录路径
+IMAGE_HASHES_PATH = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'spiders', 'ai_news', 'image_hashes.json')
 
-def load_image_manifest():
-    """加载图片清单"""
-    if os.path.exists(IMAGE_MANIFEST_PATH):
+def load_image_hashes():
+    """加载图片哈希记录"""
+    if os.path.exists(IMAGE_HASHES_PATH):
         try:
-            with open(IMAGE_MANIFEST_PATH, 'r', encoding='utf-8') as f:
+            with open(IMAGE_HASHES_PATH, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except (json.JSONDecodeError, IOError) as e:
-            print(f"⚠️ 加载图片清单失败: {e}, 将创建一个新的清单。")
+            print(f"⚠️ 加载图片哈希记录失败: {e}, 将创建一个新的记录。")
             return {}
     return {}
 
-def save_image_manifest(manifest):
-    """保存图片清单"""
+def save_image_hashes(hashes):
+    """保存图片哈希记录"""
     try:
-        with open(IMAGE_MANIFEST_PATH, 'w', encoding='utf-8') as f:
-            json.dump(manifest, f, indent=2, ensure_ascii=False)
+        with open(IMAGE_HASHES_PATH, 'w', encoding='utf-8') as f:
+            json.dump(hashes, f, indent=4)
     except IOError as e:
-        print(f"❌ 保存图片清单失败: {e}")
+        print(f"❌ 保存图片哈希记录失败: {e}")
+
 
 # The old download_image function is now removed.
 
@@ -78,9 +79,9 @@ async def log_response(response):
                 print("⚠️ 无法保存错误响应内容")
 
 
-async def download_and_process_image(session, url, save_dir, image_manifest):
+async def download_and_process_image(session, url, date_str, index, image_hashes):
     """
-    下载图片,计算哈希,查重并保存。
+    下载图片,计算哈希,查重并按日期和序号保存。
     返回图片在仓库中的相对路径,如果失败则返回None。
     """
     try:
@@ -97,34 +98,50 @@ async def download_and_process_image(session, url, save_dir, image_manifest):
             # 计算图片内容的哈希值
             image_hash = hashlib.sha256(image_data).hexdigest()
 
-            # 检查哈希是否存在于清单中
-            if image_hash in image_manifest:
-                existing_path = image_manifest[image_hash]
+            # 检查哈希是否存在于记录中
+            if image_hash in image_hashes:
+                existing_path = image_hashes[image_hash]
                 print(f"🔄 图片已存在 (哈希: {image_hash[:8]}...), 使用现有路径: {existing_path}")
                 # 确认文件物理存在，如果不存在则重新下载
                 full_physical_path = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', existing_path)
                 if os.path.exists(full_physical_path):
                     return existing_path
                 else:
-                    print(f"⚠️ 清单中记录的文件不存在，将重新下载: {full_physical_path}")
+                    print(f"⚠️ 文件记录存在但物理文件丢失，将重新下载: {existing_path}")
 
-            # 如果图片不存在, 则保存新图片
-            file_ext = os.path.splitext(urlparse(url).path)[1] or '.jpg'
-            # 确保扩展名前面有点
-            if not file_ext.startswith('.'):
-                file_ext = '.' + file_ext
-            
-            new_filename = f"{image_hash}{file_ext}"
-            hugo_relative_path = f"images/articles/{new_filename}"
-            physical_save_path = os.path.join(save_dir, new_filename)
+            # 创建基于日期的目录
+            date_folder = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', 'images', 'articles', date_str)
+            os.makedirs(date_folder, exist_ok=True)
+
+            # 获取文件扩展名
+            parsed_url = urlparse(url)
+            file_ext = os.path.splitext(parsed_url.path)[1]
+            if not file_ext or len(file_ext) > 5: # 基本的扩展名验证
+                # 尝试从Content-Type获取
+                content_type = response.headers.get('Content-Type', '')
+                if 'jpeg' in content_type or 'jpg' in content_type:
+                    file_ext = '.jpg'
+                elif 'png' in content_type:
+                    file_ext = '.png'
+                elif 'gif' in content_type:
+                    file_ext = '.gif'
+                elif 'webp' in content_type:
+                    file_ext = '.webp'
+                else:
+                    file_ext = '.jpg' # 默认扩展名
+
+            # 构建新文件名和路径
+            new_filename = f"{index:03d}{file_ext}" # 001.jpg, 002.png ...
+            hugo_relative_path = f"images/articles/{date_str}/{new_filename}"
+            physical_save_path = os.path.join(date_folder, new_filename)
 
             async with aiofiles.open(physical_save_path, 'wb') as f:
                 await f.write(image_data)
             
             print(f"🖼️ 新图片已保存: {physical_save_path}")
 
-            # 更新清单
-            image_manifest[image_hash] = hugo_relative_path
+            # 更新记录
+            image_hashes[image_hash] = hugo_relative_path
             
             return hugo_relative_path
 
@@ -147,8 +164,8 @@ async def scrape_mit_news_articles(save_path):
     # 加载现有数据用于去重
     existing_urls = load_existing_urls(save_path)
     print(f"📋 已加载 {len(existing_urls)} 个现有URL用于去重")
-    image_manifest = load_image_manifest()
-    print(f"🖼️ 已加载 {len(image_manifest)} 条图片记录用于查重")
+    image_hashes = load_image_hashes()
+    print(f"🖼️ 已加载 {len(image_hashes)} 条图片哈希记录用于查重")
 
     browser = None
     try:
@@ -216,79 +233,81 @@ async def scrape_mit_news_articles(save_path):
                 ".front-page--section--news-articles a[href]"
             ]
             
-            links = []
+            all_articles = []
             for selector in link_selectors:
                 try:
                     print(f"🔍 尝试使用选择器 '{selector}' 查找链接...")
                     found_links = await page.query_selector_all(selector)
                     if found_links and len(found_links) > 0:
-                        links = found_links
-                        print(f"✅ 使用选择器 '{selector}' 找到 {len(links)} 个链接")
-                        break
+                        for link in found_links:
+                            href = await link.get_attribute("href")
+                            # 尝试多种方式获取标题
+                            title = ""
+                            title_span = await link.query_selector("span")
+                            if title_span:
+                                title = await title_span.inner_text()
+                            
+                            # 如果上面的方法没获取到标题，尝试直接获取链接文本
+                            if not title:
+                                title = await link.inner_text()
+                            
+                            # 如果还是没有标题，尝试获取其他可能包含标题的元素
+                            if not title:
+                                parent = await link.query_selector("xpath=..")
+                                if parent:
+                                    title_elem = await parent.query_selector("h3, h4, .title")
+                                    if title_elem:
+                                        title = await title_elem.inner_text()
+
+                            if not href or not title.strip():
+                                print(f"⏭️ 跳过无标题或无链接的项: {href}")
+                                continue  # 跳过无标题的
+
+                            # 处理相对URL
+                            if href.startswith('/'):
+                                full_url = BASE_URL + href
+                            else:
+                                full_url = href
+                            
+                            if full_url in existing_urls:
+                                print(f"⏭️ 已抓取，跳过：{full_url}")
+                                continue
+                            
+                            all_articles.append((title.strip(), full_url))
+                
+                        if all_articles:
+                            print(f"✅ 使用选择器 '{selector}' 找到 {len(all_articles)} 篇文章链接。")
+                            break # 找到链接后就跳出循环
+                        else:
+                            print(f"  ❌ 选择器 '{selector}' 未找到任何文章链接。")
                 except Exception as e:
                     print(f"⚠️ 选择器 '{selector}' 查找失败: {e}")
             
-            if not links:
-                print("❌ 未能找到任何新闻链接，保存页面内容用于调试")
-                html_content = await page.content()
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                debug_file = os.path.join(debug_dir, f"no_links_{timestamp}.html")
-                async with aiofiles.open(debug_file, 'w', encoding='utf-8') as f:
-                    await f.write(html_content)
-                print(f"📝 已保存页面内容到 {debug_file}")
+            if not all_articles:
+                print("❌ 使用所有选择器都未能提取到任何文章链接。")
                 await browser.close()
                 return
 
+            print(f"\n总共找到 {len(all_articles)} 篇不重复的文章待处理。\n")
+
+            new_articles = []
+            today_str = datetime.now().strftime('%Y_%m_%d') # 当天日期字符串
+            article_counter = 0 # 当天文章计数器
+
             with open(save_path, "a", encoding="utf-8") as f:
-                for link_idx, link in enumerate(links):
+                for title, article_url in all_articles:
+                    article_counter += 1
+                    print(f"\n--- [{article_counter}/{len(all_articles)}] 正在处理: {title} ---")
+                    print(f"URL: {article_url}")
+
+                    # 访问文章页面
                     try:
-                        href = await link.get_attribute("href")
-                        # 尝试多种方式获取标题
-                        title = ""
-                        title_span = await link.query_selector("span")
-                        if title_span:
-                            title = await title_span.inner_text()
-                        
-                        # 如果上面的方法没获取到标题，尝试直接获取链接文本
-                        if not title:
-                            title = await link.inner_text()
-                        
-                        # 如果还是没有标题，尝试获取其他可能包含标题的元素
-                        if not title:
-                            parent = await link.query_selector("xpath=..")
-                            if parent:
-                                title_elem = await parent.query_selector("h3, h4, .title")
-                                if title_elem:
-                                    title = await title_elem.inner_text()
-
-                        if not href or not title.strip():
-                            print(f"⏭️ 跳过无标题或无链接的项: {href}")
-                            continue  # 跳过无标题的
-
-                        # 处理相对URL
-                        if href.startswith('/'):
-                            full_url = BASE_URL + href
-                        else:
-                            full_url = href
-                            
-                        if full_url in existing_urls:
-                            print(f"⏭️ 已抓取，跳过：{full_url}")
-                            continue
-
-                        print(f"\n📰 [{link_idx + 1}/{len(links)}] 抓取：{title.strip()}")
-                        print(f"🔗 文章链接：{full_url}")
-                        
-                        # 添加随机延迟，模拟人类行为
-                        delay = random.uniform(1, 3)
-                        print(f"⏳ 等待 {delay:.2f} 秒后继续...")
-                        await asyncio.sleep(delay)
-                        
                         article_page = await context.new_page()
                         # 添加网络监控
                         article_page.on("response", log_response)
                         
                         print(f"🔗 开始访问文章页面...")
-                        await article_page.goto(full_url, timeout=60000)
+                        await article_page.goto(article_url, timeout=60000)
                         print(f"✅ 成功打开文章页面")
                         
                         # 保存文章页面截图用于调试
@@ -378,12 +397,10 @@ async def scrape_mit_news_articles(save_path):
                         if image_url:
                             try:
                                 # 使用新的下载和处理函数
-                                saved_path = await download_and_process_image(session, image_url, image_save_dir, image_manifest)
+                                saved_path = await download_and_process_image(session, image_url, today_str, article_counter, image_hashes)
                                 if saved_path:
                                     local_image_path = saved_path  # 这已经是正确的相对路径了
                                     print(f"✅ 图片处理完成, 最终路径: {local_image_path}")
-                                else:
-                                    print(f"⚠️ 图片处理失败, URL: {image_url}")
                             except Exception as e:
                                 print(f"💥 处理或下载图片时发生错误: {e}")
 
@@ -446,56 +463,34 @@ async def scrape_mit_news_articles(save_path):
                         article_data = {
                             "title": title.strip(),
                             "content": article_text,
-                            "url": full_url,
-                            "image_path": local_image_path, # 使用处理后的路径
+                            "url": article_url,
+                            "image_path": local_image_path,
                             "source": "MIT News"
                         }
-                        f.write(json.dumps(article_data, ensure_ascii=False) + "\n")
-                        f.flush()
-
-                        existing_urls.add(full_url)
-                        print(f"✅ 文章数据已保存: {title.strip()}")
-                        await article_page.close()
                         
-                        # 添加随机延迟，避免请求过快
-                        delay = random.uniform(2, 5)
-                        print(f"⏳ 等待 {delay:.2f} 秒后继续下一篇文章...\n")
-                        await asyncio.sleep(delay)
+                        f.write(json.dumps(article_data, ensure_ascii=False) + "\n")
+                        new_articles.append(article_data)
+                        existing_urls.add(article_url) # 更新已处理URL集合
+                        print(f"✅ 已抓取并保存文章数据: {title}")
 
                     except Exception as e:
-                        print(f"❌ 抓取失败: {e}")
-                        import traceback
-                        traceback.print_exc()
-                        try:
-                            # 保存错误截图
-                            if 'article_page' in locals() and article_page:
-                                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                                screenshot_path = os.path.join(debug_dir, f"error_{timestamp}.png")
-                                await article_page.screenshot(path=screenshot_path)
-                                print(f"📸 已保存错误页面截图到 {screenshot_path}")
-                                await article_page.close()
-                        except:
-                            print("⚠️ 无法保存错误页面截图")
+                        print(f"❌ 处理文章页面失败: {article_url}, 错误: {e}")
+                    
+                    # 随机延迟
+                    if article_counter < len(all_articles):
+                        delay = random.uniform(1, 3)
+                        print(f"--- 等待 {delay:.2f} 秒后继续 ---\n")
+                        await article_page.wait_for_timeout(delay * 1000)
 
-        # 保存更新后的图片清单
-        save_image_manifest(image_manifest)
-        print("✅ 图片清单已更新并保存。")
-
-        await browser.close()
-        print("🏁 爬取完成")
-
-    except Exception as e:
-        print(f"❌ 爬虫主流程发生严重错误: {e}")
-        print(traceback.format_exc())
+        # 步骤4: 清理和保存
     finally:
-        # 步骤3: 清理和保存
-        print("\n--- 清理和保存阶段 ---")
-        save_image_manifest(image_manifest)
-        
         if browser:
             await browser.close()
-            print("🏁 浏览器已关闭。")
-        print("流程结束。")
+        
+        # 保存更新后的图片哈希记录
+        save_image_hashes(image_hashes)
+        print("✅ 图片哈希记录已更新并保存。")
+        print(f"🎉 本次运行共抓取 {len(new_articles)} 篇新文章。")
 
 
 if __name__ == "__main__":
