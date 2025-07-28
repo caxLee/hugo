@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://caxlee.github.io/hugo/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,6 +19,9 @@
                 hreflang="en"
                 href="https://caxlee.github.io/hugo/"
                 />
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/post/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/p/%E5%B9%BB%E8%A7%89%E7%AB%9F%E6%98%AFkarpathy%E5%8D%81%E5%B9%B4%E5%89%8D%E5%91%BD%E5%90%8D%E7%9A%84%E8%BF%99%E4%B8%AAai%E5%9C%88%E8%B5%B7%E5%90%8D%E5%A4%A7%E5%B8%88%E5%B8%A6%E7%81%AB%E4%BA%86%E5%A4%9A%E5%B0%91%E6%A6%82%E5%BF%B5/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
@@ -45,9 +48,6 @@
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/tags/infra/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://caxlee.github.io/hugo/post/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/tags/</loc>
