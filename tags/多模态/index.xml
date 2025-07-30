@@ -7,7 +7,64 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI安全上，开源仍胜闭源，Meta、UCB防御LLM提示词注入攻击</title>
+        <link>https://caxlee.github.io/hugo/p/ai%E5%AE%89%E5%85%A8%E4%B8%8A%E5%BC%80%E6%BA%90%E4%BB%8D%E8%83%9C%E9%97%AD%E6%BA%90metaucb%E9%98%B2%E5%BE%A1llm%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%B3%A8%E5%85%A5%E6%94%BB%E5%87%BB/</link>
+        <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/ai%E5%AE%89%E5%85%A8%E4%B8%8A%E5%BC%80%E6%BA%90%E4%BB%8D%E8%83%9C%E9%97%AD%E6%BA%90metaucb%E9%98%B2%E5%BE%A1llm%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%B3%A8%E5%85%A5%E6%94%BB%E5%87%BB/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_30/001.jpg" alt="Featured image of post AI安全上，开源仍胜闭源，Meta、UCB防御LLM提示词注入攻击" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_30/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;AI安全上，开源仍胜闭源，Meta、UCB防御LLM提示词注入攻击&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Meta和UCB开源首个工业级安全大语言模型Meta-SecAlign-70B，防御LLM提示词注入攻击，超越闭源解决方案。SecAlign++算法教会LLM区分指令和数据，提供更鲁棒的解决方案。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>WAIC 2025大黑马，一个「谢耳朵AI」如何用分子式超越Grok-4</title>
+        <link>https://caxlee.github.io/hugo/p/waic-2025%E5%A4%A7%E9%BB%91%E9%A9%AC%E4%B8%80%E4%B8%AA%E8%B0%A2%E8%80%B3%E6%9C%B5ai%E5%A6%82%E4%BD%95%E7%94%A8%E5%88%86%E5%AD%90%E5%BC%8F%E8%B6%85%E8%B6%8Agrok-4/</link>
+        <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/waic-2025%E5%A4%A7%E9%BB%91%E9%A9%AC%E4%B8%80%E4%B8%AA%E8%B0%A2%E8%80%B3%E6%9C%B5ai%E5%A6%82%E4%BD%95%E7%94%A8%E5%88%86%E5%AD%90%E5%BC%8F%E8%B6%85%E8%B6%8Agrok-4/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_29/002.jpg" alt="Featured image of post WAIC 2025大黑马，一个「谢耳朵AI」如何用分子式超越Grok-4" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_29/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;WAIC 2025大黑马，一个「谢耳朵AI」如何用分子式超越Grok-4&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 上海AI实验室发布开源『书生』科学多模态大模型Intern-S1，性能超越闭源模型Grok-4，助力科研生产力重构。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>通义实验室大火的 WebAgent 续作：全开源模型方案超过GPT4.1 , 收获开源SOTA</title>
+        <link>https://caxlee.github.io/hugo/p/%E9%80%9A%E4%B9%89%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%A4%A7%E7%81%AB%E7%9A%84-webagent-%E7%BB%AD%E4%BD%9C%E5%85%A8%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E6%96%B9%E6%A1%88%E8%B6%85%E8%BF%87gpt4.1-%E6%94%B6%E8%8E%B7%E5%BC%80%E6%BA%90sota/</link>
+        <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E9%80%9A%E4%B9%89%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%A4%A7%E7%81%AB%E7%9A%84-webagent-%E7%BB%AD%E4%BD%9C%E5%85%A8%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E6%96%B9%E6%A1%88%E8%B6%85%E8%BF%87gpt4.1-%E6%94%B6%E8%8E%B7%E5%BC%80%E6%BA%90sota/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_07_29/003.jpg" alt="Featured image of post 通义实验室大火的 WebAgent 续作：全开源模型方案超过GPT4.1 , 收获开源SOTA" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_07_29/003.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;通义实验室大火的 WebAgent 续作：全开源模型方案超过GPT4.1 , 收获开源SOTA&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: WebAgent续作WebShaper提出形式化信息检索任务建模，全开源模型在GAIA评测达SOTA，解决训练数据瓶颈&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>ACL首届博士论文奖公布，华人学者李曼玲获荣誉提名</title>
         <link>https://caxlee.github.io/hugo/p/acl%E9%A6%96%E5%B1%8A%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87%E5%A5%96%E5%85%AC%E5%B8%83%E5%8D%8E%E4%BA%BA%E5%AD%A6%E8%80%85%E6%9D%8E%E6%9B%BC%E7%8E%B2%E8%8E%B7%E8%8D%A3%E8%AA%89%E6%8F%90%E5%90%8D/</link>
         <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
