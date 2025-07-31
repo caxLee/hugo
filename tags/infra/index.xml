@@ -8,6 +8,15 @@
         <language>en</language>
         <copyright>Example Person</copyright>
         <lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/infra/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ACL 2025主会论文 | TRIDENT：基于三维多样化红队数据合成的LLM安全增强方法</title>
+        <link>https://caxlee.github.io/hugo/p/acl-2025%E4%B8%BB%E4%BC%9A%E8%AE%BA%E6%96%87-trident%E5%9F%BA%E4%BA%8E%E4%B8%89%E7%BB%B4%E5%A4%9A%E6%A0%B7%E5%8C%96%E7%BA%A2%E9%98%9F%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E7%9A%84llm%E5%AE%89%E5%85%A8%E5%A2%9E%E5%BC%BA%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/acl-2025%E4%B8%BB%E4%BC%9A%E8%AE%BA%E6%96%87-trident%E5%9F%BA%E4%BA%8E%E4%B8%89%E7%BB%B4%E5%A4%9A%E6%A0%B7%E5%8C%96%E7%BA%A2%E9%98%9F%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E7%9A%84llm%E5%AE%89%E5%85%A8%E5%A2%9E%E5%BC%BA%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: TRIDENT提出三维多样化红队数据合成方法，增强大语言模型安全性。自动生成高质量红队数据，提升模型对抗鲁棒性。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Creeping crystals: Scientists observe “salt creep” at the single-crystal scale</title>
         <link>https://caxlee.github.io/hugo/p/creeping-crystals-scientists-observe-salt-creep-at-the-single-crystal-scale/</link>
         <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
