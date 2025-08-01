@@ -14,20 +14,36 @@ article:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* 文章标签样式 */
-.article-tags-list-item a {
-    font-size: 0.9rem !important;
-    padding: 0.25rem 0.75rem !important;
+/* 文章标签样式 - 尺寸调整 */
+.article-tags-list-item a,
+.article-tags a,
+.article-category a,
+.article-tags-list-link,
+.article-category a[href],
+.article-tags a[href],
+.article-tags-list-item a[href] {
+    font-size: 1.4rem !important;
+    padding: 0.4rem 1.1rem !important;
     font-weight: normal !important;
-    display: inline-block !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     background: var(--tertiary-background-color, #f0f0f0) !important;
     color: var(--secondary-text-color, #333) !important;
     border-radius: 4px !important;
     text-decoration: none !important;
     transition: background-color 0.2s, color 0.2s !important;
+    min-height: 43px !important;
+    margin: 0.4rem 0.4rem 0.4rem 0 !important;
 }
 
-.article-tags-list-item a:hover {
+.article-tags-list-item a:hover,
+.article-tags a:hover,
+.article-category a:hover,
+.article-tags-list-link:hover,
+.article-category a[href]:hover,
+.article-tags a[href]:hover,
+.article-tags-list-item a[href]:hover {
     background: var(--theme-color, #0066cc) !important;
     color: #ffffff !important;
 }
@@ -37,7 +53,8 @@ article:hover {
     display: flex !important;
     align-items: center !important;
     flex-wrap: wrap !important;
-    margin-top: 1rem !important;
+    margin-top: 1.4rem !important;
+    gap: 0.7rem !important;
 }
 
 .article-tags-list {
@@ -46,11 +63,11 @@ article:hover {
     padding: 0 !important;
     margin: 0 !important;
     list-style: none !important;
-    gap: 0.5rem !important;
+    gap: 0.7rem !important;
 }
 
 .article-tags-list-item {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.7rem !important;
 }
 
 /* 确保文章网格布局正常 */
@@ -73,6 +90,19 @@ article:hover {
 @media (max-width: 768px) {
     .article-grid {
         grid-template-columns: 1fr !important;
+    }
+    
+    /* 移动端tag标签尺寸调整 */
+    .article-tags-list-item a,
+    .article-tags a,
+    .article-category a,
+    .article-tags-list-link,
+    .article-category a[href],
+    .article-tags a[href],
+    .article-tags-list-item a[href] {
+        font-size: 1.2rem !important;
+        padding: 0.3rem 0.9rem !important;
+        min-height: 36px !important;
     }
 } 
 
