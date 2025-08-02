@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="阶跃星辰发布开源多模态推理模型Step 3，性能SOTA，实现多开好省。">
-<title>实测爆火的阶跃星辰Step 3，性能SOTA，开源多模态推理之王</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Deep Cogito发布四款混合推理模型，其中671B MoE模型超越DeepSeek R1和V3，成本不到350万美元。">
+<title>一个模型超了DeepSeek R1、V3，参数671B，成本不到350万美元</title>
 
-<link rel='canonical' href='https://caxlee.github.io/hugo/p/%E5%AE%9E%E6%B5%8B%E7%88%86%E7%81%AB%E7%9A%84%E9%98%B6%E8%B7%83%E6%98%9F%E8%BE%B0step-3%E6%80%A7%E8%83%BDsota%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A8%E7%90%86%E4%B9%8B%E7%8E%8B/'>
+<link rel='canonical' href='https://caxlee.github.io/hugo/p/%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E8%B6%85%E4%BA%86deepseek-r1v3%E5%8F%82%E6%95%B0671b%E6%88%90%E6%9C%AC%E4%B8%8D%E5%88%B0350%E4%B8%87%E7%BE%8E%E5%85%83/'>
 
-<link rel="stylesheet" href="/hugo/scss/style.min.87bbe05d49774423310fca109ddd3f85779e06f02c127b210b46d23f771ef5ac.css"><meta property='og:title' content="实测爆火的阶跃星辰Step 3，性能SOTA，开源多模态推理之王">
-<meta property='og:description' content="阶跃星辰发布开源多模态推理模型Step 3，性能SOTA，实现多开好省。">
-<meta property='og:url' content='https://caxlee.github.io/hugo/p/%E5%AE%9E%E6%B5%8B%E7%88%86%E7%81%AB%E7%9A%84%E9%98%B6%E8%B7%83%E6%98%9F%E8%BE%B0step-3%E6%80%A7%E8%83%BDsota%E5%BC%80%E6%BA%90%E5%A4%9A%E6%A8%A1%E6%80%81%E6%8E%A8%E7%90%86%E4%B9%8B%E7%8E%8B/'>
+<link rel="stylesheet" href="/hugo/scss/style.min.87bbe05d49774423310fca109ddd3f85779e06f02c127b210b46d23f771ef5ac.css"><meta property='og:title' content="一个模型超了DeepSeek R1、V3，参数671B，成本不到350万美元">
+<meta property='og:description' content="Deep Cogito发布四款混合推理模型，其中671B MoE模型超越DeepSeek R1和V3，成本不到350万美元。">
+<meta property='og:url' content='https://caxlee.github.io/hugo/p/%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E8%B6%85%E4%BA%86deepseek-r1v3%E5%8F%82%E6%95%B0671b%E6%88%90%E6%9C%AC%E4%B8%8D%E5%88%B0350%E4%B8%87%E7%BE%8E%E5%85%83/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-26T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-26T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/2025_07_26/002.jpg' />
-<meta name="twitter:title" content="实测爆火的阶跃星辰Step 3，性能SOTA，开源多模态推理之王">
-<meta name="twitter:description" content="阶跃星辰发布开源多模态推理模型Step 3，性能SOTA，实现多开好省。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/2025_07_26/002.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='Infra' /><meta property='article:published_time' content='2025-08-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-02T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/2025_08_02/002.jpg' />
+<meta name="twitter:title" content="一个模型超了DeepSeek R1、V3，参数671B，成本不到350万美元">
+<meta name="twitter:description" content="Deep Cogito发布四款混合推理模型，其中671B MoE模型超越DeepSeek R1和V3，成本不到350万美元。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/2025_08_02/002.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -365,7 +365,7 @@
         <div class="article-image">
             <a href="javascript:void(0);">
                 
-                    <img src="/hugo/images/articles/2025_07_26/002.jpg" loading="lazy" alt="Featured image of post 实测爆火的阶跃星辰Step 3，性能SOTA，开源多模态推理之王" />
+                    <img src="/hugo/images/articles/2025_08_02/002.jpg" loading="lazy" alt="Featured image of post 一个模型超了DeepSeek R1、V3，参数671B，成本不到350万美元" />
                 
             </a>
         </div>
@@ -376,7 +376,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="javascript:void(0);">实测爆火的阶跃星辰Step 3，性能SOTA，开源多模态推理之王</a>
+            <a href="javascript:void(0);">一个模型超了DeepSeek R1、V3，参数671B，成本不到350万美元</a>
         </h2>
     
         
@@ -398,7 +398,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 26, 2025</time>
+                <time class="article-time--published">Aug 02, 2025</time>
             </div>
         
 
@@ -431,8 +431,8 @@
             </li>
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/" class="article-tags-list-link">
-                    能效优化
+                <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
+                    Infra
                 </a>
             </li>
             
@@ -443,19 +443,19 @@
     
 </div> 
 </header><div class="article-image-container">
-        <img src="images/articles/2025_07_26/002.jpg" alt="实测爆火的阶跃星辰Step 3，性能SOTA，开源多模态推理之王" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+        <img src="images/articles/2025_08_02/002.jpg" alt="一个模型超了DeepSeek R1、V3，参数671B，成本不到350万美元" class="article-image" onerror="this.onerror=null; this.style.display='none';">
     </div><section class="article-content">
-    <p><img src="/hugo/images/articles/2025_07_26/002.jpg"
+    <p><img src="/hugo/images/articles/2025_08_02/002.jpg"
 	
 	
 	
 	loading="lazy"
 	
-		alt="实测爆火的阶跃星辰Step 3，性能SOTA，开源多模态推理之王"
+		alt="一个模型超了DeepSeek R1、V3，参数671B，成本不到350万美元"
 	
 	
 ></p>
-<p><strong>摘要</strong>: 阶跃星辰发布开源多模态推理模型Step 3，性能SOTA，实现多开好省。</p>
+<p><strong>摘要</strong>: Deep Cogito发布四款混合推理模型，其中671B MoE模型超越DeepSeek R1和V3，成本不到350万美元。</p>
 </section>
     
     <footer class="article-footer">
@@ -466,7 +466,7 @@
         
             <a href="/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/">多模态</a>
         
-            <a href="/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/">能效优化</a>
+            <a href="/hugo/tags/infra/">Infra</a>
         
     </section>
 
@@ -502,25 +502,6 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E8%B6%85%E4%BA%86deepseek-r1v3%E5%8F%82%E6%95%B0671b%E6%88%90%E6%9C%AC%E4%B8%8D%E5%88%B0350%E4%B8%87%E7%BE%8E%E5%85%83/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_08_02/002.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_02/002.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">一个模型超了DeepSeek R1、V3，参数671B，成本不到350万美元</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/hugo/p/%E5%88%9A%E5%88%9A%E8%B0%B7%E6%AD%8Cimo%E9%87%91%E7%89%8C%E6%A8%A1%E5%9E%8B%E4%B8%8A%E7%BA%BFgemini%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%AC%AC%E4%B8%80%E6%97%B6%E9%97%B4%E8%AF%81%E6%98%8E%E7%8C%9C%E6%83%B3/">
         
         
@@ -533,25 +514,6 @@
 
         <div class="article-details">
             <h2 class="article-title">刚刚，谷歌「IMO金牌」模型上线Gemini，数学家第一时间证明猜想</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/hugo/p/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%90%8E%E8%AE%AD%E7%BB%83%E5%8F%8D%E5%B8%B8%E8%AF%86%E9%95%BF%E6%80%9D%E7%BB%B4%E9%93%BEsft%E5%92%8Crl%E7%9A%84%E5%8D%8F%E5%90%8C%E5%9B%B0%E5%A2%83/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_08_02/003.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_02/003.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">多模态后训练反常识：长思维链SFT和RL的协同困境</h2>
         </div>
     </a>
 </article>
@@ -578,18 +540,50 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/%E4%B8%80%E6%AC%A1%E4%B8%AD%E7%A8%BF10%E7%AF%87acl25%E9%80%9A%E4%B9%89%E5%AE%9E%E9%AA%8C%E5%AE%A4-%E4%BB%A3%E7%A0%81%E6%99%BA%E8%83%BD%E5%AF%B9%E8%AF%9D%E6%99%BA%E8%83%BD%E5%9B%A2%E9%98%9F-%E5%9C%A8%E7%A0%94%E7%A9%B6%E4%BB%80%E4%B9%88/">
+    <a href="/hugo/p/%E9%A9%AF%E6%9C%8D%E5%A4%8D%E6%9D%82%E8%A1%A8%E6%A0%BC%E4%B9%9D%E5%A4%A9%E9%87%8D%E7%A3%85%E5%BC%80%E6%BA%90%E5%BC%80%E5%90%AF%E4%BA%BA%E4%B8%8E%E8%A1%A8%E6%A0%BC%E5%AF%B9%E8%AF%9D%E6%99%BA%E8%83%BD%E6%96%B0%E6%97%B6%E4%BB%A3/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_08_01/001.png" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_01/001.png"/>
+                    <img src="/hugo/images/articles/2025_08_01/005.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_01/005.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">一次中稿10篇ACL25，通义实验室 代码智能&amp;对话智能团队 在研究什么</h2>
+            <h2 class="article-title">驯服复杂表格：九天重磅开源，开启「人与表格对话」智能新时代</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo/p/acl-2025%E4%B8%BB%E4%BC%9A%E8%AE%BA%E6%96%87-trident%E5%9F%BA%E4%BA%8E%E4%B8%89%E7%BB%B4%E5%A4%9A%E6%A0%B7%E5%8C%96%E7%BA%A2%E9%98%9F%E6%95%B0%E6%8D%AE%E5%90%88%E6%88%90%E7%9A%84llm%E5%AE%89%E5%85%A8%E5%A2%9E%E5%BC%BA%E6%96%B9%E6%B3%95/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ACL 2025主会论文 | TRIDENT：基于三维多样化红队数据合成的LLM安全增强方法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/openai%E6%8F%90%E5%87%BA%E7%9A%84clip%E8%A2%ABmeta%E8%81%94%E5%90%88%E8%B0%A2%E8%B5%9B%E5%AE%81%E5%88%98%E5%A3%AE%E6%89%A9%E5%B1%95%E5%88%B0%E5%85%A8%E7%90%83300-%E8%AF%AD%E8%A8%80/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2025_07_31/004.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_31/004.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">OpenAI提出的CLIP，被Meta联合谢赛宁、刘壮，扩展到全球300&#43;语言</h2>
         </div>
     </a>
 </article>
