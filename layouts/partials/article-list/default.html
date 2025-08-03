@@ -8,6 +8,7 @@
                     {{- $Width := $image.resource.Width -}}
                     {{- $Height := $image.resource.Height -}}
                     {{- $Srcset := "" -}}
+                    {{- $Thumbnail := "" -}}
                     
                     {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
                         {{- $thumbnail := $image.resource.Resize "800x" -}}
@@ -16,9 +17,21 @@
                         {{- $Permalink = $thumbnail.RelPermalink -}}
                         {{- $Width = $thumbnail.Width -}}
                         {{- $Height = $thumbnail.Height -}}
+                        {{- $Thumbnail = $image.resource.Resize "50x" -}}
                     {{- end -}}
 
-                    <img src="{{ $Permalink }}"
+                    <!-- 缩略图占位 -->
+                    <img class="image-placeholder" 
+                        src="{{ $Thumbnail.RelPermalink }}" 
+                        width="{{ $Width }}" 
+                        height="{{ $Height }}" 
+                        alt="Featured image of post {{ .Title }}"
+                        data-original="{{ $Permalink }}"
+                        {{ with $Srcset }}data-srcset="{{ . }}"{{ end }} />
+                    
+                    <!-- 原图预加载 -->
+                    <img class="image-full" 
+                        src="{{ $Permalink }}"
                         {{ with $Srcset }}srcset="{{ . }}"{{ end }}
                         width="{{ $Width }}" 
                         height="{{ $Height }}" 

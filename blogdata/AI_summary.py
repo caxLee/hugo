@@ -97,7 +97,7 @@ def call_openai_with_function_calling(content, title):
                     "properties": {
                         "summary": {
                             "type": "string",
-                            "description": "2-3句极简中文摘要，不超过50字，直击核心内容"
+                            "description": "固定40-60字的中文摘要，直击核心内容"
                         },
                         "tags": {
                             "type": "array",
@@ -120,7 +120,7 @@ def call_openai_with_function_calling(content, title):
         你是一名精通技术的编辑，需要生成极简中文摘要。
         
         【摘要要求】
-        - 只用2-3句话，不超过50字
+        - 固定40-60字，严格控制字数
         - 直接点明核心内容，不要铺垫
         - 删除所有修饰词
         - 使用简单直接的表达
@@ -130,6 +130,7 @@ def call_openai_with_function_calling(content, title):
         - 严格限制：必须且只能从以下预定义标签中选择1-3个最相关的：{', '.join(predefined_tags)}
         - 不允许创建或使用列表之外的任何标签
         - 若文章内容与以下任何标签都不相关: {', '.join(predefined_tags[:-1])}，则只返回["未识别"]
+        - "未识别"标签只能单独出现，不能与其他标签一起使用
         - 不返回任何自创标签，只能从提供的列表中选择
     """).strip()
     
@@ -169,6 +170,11 @@ def call_openai_with_function_calling(content, title):
                 # 如果没有有效标签，则返回"未识别"
                 if not valid_tags:
                     print("❗ 未找到有效标签，使用默认标签: '未识别'")
+                    valid_tags = ["未识别"]
+                
+                # 确保"未识别"标签只能单独出现
+                if "未识别" in valid_tags and len(valid_tags) > 1:
+                    print("⚠️ '未识别'标签不能与其他标签一起使用，只保留'未识别'")
                     valid_tags = ["未识别"]
                 
                 # 如果标签过多，只保留前三个
