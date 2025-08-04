@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://caxlee.github.io/hugo/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,6 +19,33 @@
                 hreflang="en"
                 href="https://caxlee.github.io/hugo/"
                 />
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/post/</loc>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/tags/</loc>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://caxlee.github.io/hugo/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://caxlee.github.io/hugo/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://caxlee.github.io/hugo/tags/"
+                />
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/</loc>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E7%A0%94%E7%A9%B6%E8%80%85%E4%B8%8D%E5%AD%98%E5%9C%A8%E4%BA%86%E5%8F%AA%E6%9C%89%E5%B7%A5%E7%A8%8B%E5%B8%88lecun%E5%A4%A7%E9%94%99%E7%89%B9%E9%94%99/</loc>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/p/19%E5%B2%81%E5%B0%8F%E5%93%A5%E4%BC%AF%E5%85%8B%E5%88%A9%E8%BE%8D%E5%AD%A6%E5%88%9B%E4%B8%9A%E8%8E%B72800%E4%B8%87%E7%BE%8E%E5%85%83%E8%9E%8D%E8%B5%84openai%E6%8A%95%E4%BA%86/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
@@ -41,27 +68,6 @@
     <loc>https://caxlee.github.io/hugo/p/openai-imo%E9%87%91%E7%89%8C%E5%9B%A2%E9%98%9F%E7%88%86%E6%96%99ai%E6%8B%92%E7%BB%9D%E4%BD%9C%E7%AD%94%E7%AC%AC%E5%85%AD%E9%A2%98/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://caxlee.github.io/hugo/post/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://caxlee.github.io/hugo/tags/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://caxlee.github.io/hugo/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://caxlee.github.io/hugo/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://caxlee.github.io/hugo/tags/"
-                />
-  </url><url>
     <loc>https://caxlee.github.io/hugo/p/%E5%85%A8%E7%BD%91%E8%8B%A6%E7%AD%89gpt-5%E8%B6%85%E7%BA%A7%E5%AF%B9%E9%BD%90%E5%9B%A2%E9%98%9F%E9%81%97%E4%BD%9C%E6%88%90%E9%87%8D%E8%A6%81%E7%BA%BF%E7%B4%A2%E5%A5%A5%E7%89%B9%E6%9B%BC%E5%8F%91%E8%AF%9D%E6%83%8A%E5%96%9C%E5%BE%88%E5%A4%9A/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -69,9 +75,6 @@
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/p/%E5%9B%BE%E7%81%B5%E5%A5%96%E5%BE%97%E4%B8%BBsutton%E5%86%8D%E7%AA%81%E7%A0%B4%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%9C%A8%E6%8E%A7%E5%88%B6%E9%97%AE%E9%A2%98%E4%B8%8A%E5%AA%B2%E7%BE%8E%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/</loc>
