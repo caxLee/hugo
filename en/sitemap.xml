@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://caxlee.github.io/hugo/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -20,29 +20,17 @@
                 href="https://caxlee.github.io/hugo/"
                 />
   </url><url>
-    <loc>https://caxlee.github.io/hugo/p/3d-r1%E8%AE%A9ai%E7%90%86%E8%A7%A33d%E4%B8%96%E7%95%8C%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://caxlee.github.io/hugo/p/acm-mm-2025-%E5%B0%8F%E7%BA%A2%E4%B9%A6aigc%E5%9B%A2%E9%98%9F%E6%8F%90%E5%87%BA%E9%A3%8E%E6%A0%BC%E8%BF%81%E7%A7%BB%E5%8A%A0%E9%80%9F%E7%AE%97%E6%B3%95std/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://caxlee.github.io/hugo/tags/agent/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://caxlee.github.io/hugo/tags/ai4s/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://caxlee.github.io/hugo/tags/infra/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://caxlee.github.io/hugo/p/nature%E4%B8%A8%E4%BB%8E%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%88%B0%E7%94%B0%E9%97%B4%E5%8D%8E%E4%B8%AD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E7%AD%89%E6%8F%90%E5%87%BA%E8%9E%8D%E5%90%88%E7%94%9F%E7%89%A9%E6%8A%80%E6%9C%AF%E4%B8%8Eai%E7%9A%84%E8%82%B2%E7%A7%8D%E6%96%B0%E8%8C%83%E5%BC%8F/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+    <loc>https://caxlee.github.io/hugo/p/mit-tool-visualizes-and-edits-physically-impossible-objects/</loc>
+    <lastmod>2025-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/post/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/tags/</loc>
-    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -60,6 +48,21 @@
                 />
   </url><url>
     <loc>https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</loc>
+    <lastmod>2025-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/p/3d-r1%E8%AE%A9ai%E7%90%86%E8%A7%A33d%E4%B8%96%E7%95%8C%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5/</loc>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/p/acm-mm-2025-%E5%B0%8F%E7%BA%A2%E4%B9%A6aigc%E5%9B%A2%E9%98%9F%E6%8F%90%E5%87%BA%E9%A3%8E%E6%A0%BC%E8%BF%81%E7%A7%BB%E5%8A%A0%E9%80%9F%E7%AE%97%E6%B3%95std/</loc>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/tags/agent/</loc>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/tags/ai4s/</loc>
+    <lastmod>2025-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/p/nature%E4%B8%A8%E4%BB%8E%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%88%B0%E7%94%B0%E9%97%B4%E5%8D%8E%E4%B8%AD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E7%AD%89%E6%8F%90%E5%87%BA%E8%9E%8D%E5%90%88%E7%94%9F%E7%89%A9%E6%8A%80%E6%9C%AF%E4%B8%8Eai%E7%9A%84%E8%82%B2%E7%A7%8D%E6%96%B0%E8%8C%83%E5%BC%8F/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/p/%E5%88%9A%E5%88%9A%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E9%9B%86%E6%88%90%E4%BA%91%E7%AB%AFagent%E5%9B%A2%E9%98%9F%E7%9A%84ide%E7%99%BB%E5%9C%BA%E9%A1%B9%E7%9B%AE%E7%BA%A7%E5%BC%80%E5%8F%91%E5%85%A8%E7%A8%8B%E5%85%A8%E8%87%AA%E5%8A%A8/</loc>

@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Infra</title>
+        <link>https://caxlee.github.io/hugo/tags/infra/</link>
+        <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/tags/infra/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>具身智能</title>
+        <link>https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</link>
+        <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Agent</title>
         <link>https://caxlee.github.io/hugo/tags/agent/</link>
         <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
@@ -21,22 +37,6 @@
         <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>https://caxlee.github.io/hugo/tags/ai4s/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Infra</title>
-        <link>https://caxlee.github.io/hugo/tags/infra/</link>
-        <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://caxlee.github.io/hugo/tags/infra/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>具身智能</title>
-        <link>https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</link>
-        <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/</guid>
         <description></description>
         </item>
         <item>

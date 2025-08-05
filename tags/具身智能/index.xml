@@ -7,7 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MIT tool visualizes and edits “physically impossible” objects</title>
+        <link>https://caxlee.github.io/hugo/p/mit-tool-visualizes-and-edits-physically-impossible-objects/</link>
+        <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/mit-tool-visualizes-and-edits-physically-impossible-objects/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_05/005.png" alt="Featured image of post MIT tool visualizes and edits “physically impossible” objects" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_05/005.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;MIT tool visualizes and edits “physically impossible” objects&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: MIT开发的Meschers工具可将“不可能”的物体转换为2.5D结构，帮助研究人员和艺术家处理光照、平滑和研究独特几何形状，同时保留其视错觉特性。该工具可用于计算曲面上两点之间的距离和模拟热传导，以及创建多维度的物理突破设计。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>3D-R1：让AI理解3D世界的下一步</title>
         <link>https://caxlee.github.io/hugo/p/3d-r1%E8%AE%A9ai%E7%90%86%E8%A7%A33d%E4%B8%96%E7%95%8C%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AD%A5/</link>
         <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
