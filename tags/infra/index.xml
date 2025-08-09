@@ -46,6 +46,15 @@
 </description>
         </item>
         <item>
+        <title>ICCV 2025 | 新型后门攻击直指Scaffold联邦学习，NTU联手0G Labs揭示中心化训练安全漏洞</title>
+        <link>https://caxlee.github.io/hugo/p/iccv-2025-%E6%96%B0%E5%9E%8B%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB%E7%9B%B4%E6%8C%87scaffold%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0ntu%E8%81%94%E6%89%8B0g-labs%E6%8F%AD%E7%A4%BA%E4%B8%AD%E5%BF%83%E5%8C%96%E8%AE%AD%E7%BB%83%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/</link>
+        <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/iccv-2025-%E6%96%B0%E5%9E%8B%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB%E7%9B%B4%E6%8C%87scaffold%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0ntu%E8%81%94%E6%89%8B0g-labs%E6%8F%AD%E7%A4%BA%E4%B8%AD%E5%BF%83%E5%8C%96%E8%AE%AD%E7%BB%83%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: BadSFL是首个针对Scaffold的后门攻击方法，利用控制变元和GAN增强数据投毒策略，提高后门攻击持久性。攻击效果持续60轮以上，比基准方法长三倍。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>School of Architecture and Planning welcomes new faculty for 2025</title>
         <link>https://caxlee.github.io/hugo/p/school-of-architecture-and-planning-welcomes-new-faculty-for-2025/</link>
         <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
