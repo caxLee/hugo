@@ -7,7 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ARPO：智能体强化策略优化，让Agent在关键时刻多探索一步</title>
+        <link>https://caxlee.github.io/hugo/p/arpo%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E7%AD%96%E7%95%A5%E4%BC%98%E5%8C%96%E8%AE%A9agent%E5%9C%A8%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E5%A4%9A%E6%8E%A2%E7%B4%A2%E4%B8%80%E6%AD%A5/</link>
+        <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/arpo%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E7%AD%96%E7%95%A5%E4%BC%98%E5%8C%96%E8%AE%A9agent%E5%9C%A8%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E5%A4%9A%E6%8E%A2%E7%B4%A2%E4%B8%80%E6%AD%A5/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_09/002.jpg" alt="Featured image of post ARPO：智能体强化策略优化，让Agent在关键时刻多探索一步" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_09/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ARPO：智能体强化策略优化，让Agent在关键时刻多探索一步&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: ARPO方法针对多轮交互型LLM智能体设计，引入熵驱动的自适应rollout策略和优势归因估计，提升工具调用探索性能。在高难基准上表现优异，为多轮推理智能体训练提供新方案。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>3秒级破百&#43;820km续航，全新小鹏P7定义智能轿跑新标准</title>
         <link>https://caxlee.github.io/hugo/p/3%E7%A7%92%E7%BA%A7%E7%A0%B4%E7%99%BE-820km%E7%BB%AD%E8%88%AA%E5%85%A8%E6%96%B0%E5%B0%8F%E9%B9%8Fp7%E5%AE%9A%E4%B9%89%E6%99%BA%E8%83%BD%E8%BD%BF%E8%B7%91%E6%96%B0%E6%A0%87%E5%87%86/</link>
         <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>

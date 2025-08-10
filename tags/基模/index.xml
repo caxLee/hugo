@@ -7,7 +7,45 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ARPO：智能体强化策略优化，让Agent在关键时刻多探索一步</title>
+        <link>https://caxlee.github.io/hugo/p/arpo%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E7%AD%96%E7%95%A5%E4%BC%98%E5%8C%96%E8%AE%A9agent%E5%9C%A8%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E5%A4%9A%E6%8E%A2%E7%B4%A2%E4%B8%80%E6%AD%A5/</link>
+        <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/arpo%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%BA%E5%8C%96%E7%AD%96%E7%95%A5%E4%BC%98%E5%8C%96%E8%AE%A9agent%E5%9C%A8%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E5%A4%9A%E6%8E%A2%E7%B4%A2%E4%B8%80%E6%AD%A5/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_09/002.jpg" alt="Featured image of post ARPO：智能体强化策略优化，让Agent在关键时刻多探索一步" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_09/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ARPO：智能体强化策略优化，让Agent在关键时刻多探索一步&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: ARPO方法针对多轮交互型LLM智能体设计，引入熵驱动的自适应rollout策略和优势归因估计，提升工具调用探索性能。在高难基准上表现优异，为多轮推理智能体训练提供新方案。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>GPT-5问题太多，奥特曼带团回应一切，图表弄错是因「太累了」</title>
+        <link>https://caxlee.github.io/hugo/p/gpt-5%E9%97%AE%E9%A2%98%E5%A4%AA%E5%A4%9A%E5%A5%A5%E7%89%B9%E6%9B%BC%E5%B8%A6%E5%9B%A2%E5%9B%9E%E5%BA%94%E4%B8%80%E5%88%87%E5%9B%BE%E8%A1%A8%E5%BC%84%E9%94%99%E6%98%AF%E5%9B%A0%E5%A4%AA%E7%B4%AF%E4%BA%86/</link>
+        <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/gpt-5%E9%97%AE%E9%A2%98%E5%A4%AA%E5%A4%9A%E5%A5%A5%E7%89%B9%E6%9B%BC%E5%B8%A6%E5%9B%A2%E5%9B%9E%E5%BA%94%E4%B8%80%E5%88%87%E5%9B%BE%E8%A1%A8%E5%BC%84%E9%94%99%E6%98%AF%E5%9B%A0%E5%A4%AA%E7%B4%AF%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_09/001.jpg" alt="Featured image of post GPT-5问题太多，奥特曼带团回应一切，图表弄错是因「太累了」" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_09/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;GPT-5问题太多，奥特曼带团回应一切，图表弄错是因「太累了」&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: GPT-5发布引发失望，用户要求恢复GPT-4o，奥特曼回应用户需求并承诺改进。发布直播图表错误归因于疲劳。OpenAI计划提升GPT-5智能性能、用户体验和安全性。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>3 Questions: Measuring the financial impact of design in the built environment</title>
         <link>https://caxlee.github.io/hugo/p/3-questions-measuring-the-financial-impact-of-design-in-the-built-environment/</link>
         <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
