@@ -7,7 +7,45 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>LLM总是把简单任务复杂化，Karpathy无语：有些任务无需那么多思考</title>
+        <link>https://caxlee.github.io/hugo/p/llm%E6%80%BB%E6%98%AF%E6%8A%8A%E7%AE%80%E5%8D%95%E4%BB%BB%E5%8A%A1%E5%A4%8D%E6%9D%82%E5%8C%96karpathy%E6%97%A0%E8%AF%AD%E6%9C%89%E4%BA%9B%E4%BB%BB%E5%8A%A1%E6%97%A0%E9%9C%80%E9%82%A3%E4%B9%88%E5%A4%9A%E6%80%9D%E8%80%83/</link>
+        <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/llm%E6%80%BB%E6%98%AF%E6%8A%8A%E7%AE%80%E5%8D%95%E4%BB%BB%E5%8A%A1%E5%A4%8D%E6%9D%82%E5%8C%96karpathy%E6%97%A0%E8%AF%AD%E6%9C%89%E4%BA%9B%E4%BB%BB%E5%8A%A1%E6%97%A0%E9%9C%80%E9%82%A3%E4%B9%88%E5%A4%9A%E6%80%9D%E8%80%83/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_12/007.jpg" alt="Featured image of post LLM总是把简单任务复杂化，Karpathy无语：有些任务无需那么多思考" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_12/007.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;LLM总是把简单任务复杂化，Karpathy无语：有些任务无需那么多思考&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 大模型在简单任务中过度思考，影响效率。Karpathy指出模型倾向复杂任务，需调整思考模式。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>身家25亿刀，是四家公司创始人，这位伯克利教授还在给本科生上课</title>
+        <link>https://caxlee.github.io/hugo/p/%E8%BA%AB%E5%AE%B625%E4%BA%BF%E5%88%80%E6%98%AF%E5%9B%9B%E5%AE%B6%E5%85%AC%E5%8F%B8%E5%88%9B%E5%A7%8B%E4%BA%BA%E8%BF%99%E4%BD%8D%E4%BC%AF%E5%85%8B%E5%88%A9%E6%95%99%E6%8E%88%E8%BF%98%E5%9C%A8%E7%BB%99%E6%9C%AC%E7%A7%91%E7%94%9F%E4%B8%8A%E8%AF%BE/</link>
+        <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E8%BA%AB%E5%AE%B625%E4%BA%BF%E5%88%80%E6%98%AF%E5%9B%9B%E5%AE%B6%E5%85%AC%E5%8F%B8%E5%88%9B%E5%A7%8B%E4%BA%BA%E8%BF%99%E4%BD%8D%E4%BC%AF%E5%85%8B%E5%88%A9%E6%95%99%E6%8E%88%E8%BF%98%E5%9C%A8%E7%BB%99%E6%9C%AC%E7%A7%91%E7%94%9F%E4%B8%8A%E8%AF%BE/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_12/002.jpg" alt="Featured image of post 身家25亿刀，是四家公司创始人，这位伯克利教授还在给本科生上课" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_12/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;身家25亿刀，是四家公司创始人，这位伯克利教授还在给本科生上课&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 伯克利教授 Ion Stoica 创立多家公司，带领学生探索 AI 领域，获得巨额投资。他不离开实验室，继续为本科生授课。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>ACL 2025 | 湖南大学、腾讯生命科学实验室等提出蛋白互作预测新方法，让LLM学会解读蛋白质网络</title>
         <link>https://caxlee.github.io/hugo/p/acl-2025-%E6%B9%96%E5%8D%97%E5%A4%A7%E5%AD%A6%E8%85%BE%E8%AE%AF%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%AD%89%E6%8F%90%E5%87%BA%E8%9B%8B%E7%99%BD%E4%BA%92%E4%BD%9C%E9%A2%84%E6%B5%8B%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%A9llm%E5%AD%A6%E4%BC%9A%E8%A7%A3%E8%AF%BB%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BD%91%E7%BB%9C/</link>
         <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
