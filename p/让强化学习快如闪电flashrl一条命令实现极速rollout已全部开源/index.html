@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="商汤联合国产生态伙伴发布“算力Mall”，构建算力超级市场，推动国产AI生态建设。提供端到端解决方案，打通大模型落地“最后一公里”，满足多样化算力需求。">
-<title>联合十余家国产生态，商汤大装置发布“算力Mall”，打造算力超级市场</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="FlashRL是首个开源且可用的强化学习实现方案，应用INT8/FP8量化在rollout阶段，无性能损失。引入TIS技术解决rollout-训练不匹配问题，实现显著训练加速。">
+<title>让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源</title>
 
-<link rel='canonical' href='https://caxlee.github.io/hugo/p/%E8%81%94%E5%90%88%E5%8D%81%E4%BD%99%E5%AE%B6%E5%9B%BD%E4%BA%A7%E7%94%9F%E6%80%81%E5%95%86%E6%B1%A4%E5%A4%A7%E8%A3%85%E7%BD%AE%E5%8F%91%E5%B8%83%E7%AE%97%E5%8A%9Bmall%E6%89%93%E9%80%A0%E7%AE%97%E5%8A%9B%E8%B6%85%E7%BA%A7%E5%B8%82%E5%9C%BA/'>
+<link rel='canonical' href='https://caxlee.github.io/hugo/p/%E8%AE%A9%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%BF%AB%E5%A6%82%E9%97%AA%E7%94%B5flashrl%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9Frollout%E5%B7%B2%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90/'>
 
-<link rel="stylesheet" href="/hugo/scss/style.min.87bbe05d49774423310fca109ddd3f85779e06f02c127b210b46d23f771ef5ac.css"><meta property='og:title' content="联合十余家国产生态，商汤大装置发布“算力Mall”，打造算力超级市场">
-<meta property='og:description' content="商汤联合国产生态伙伴发布“算力Mall”，构建算力超级市场，推动国产AI生态建设。提供端到端解决方案，打通大模型落地“最后一公里”，满足多样化算力需求。">
-<meta property='og:url' content='https://caxlee.github.io/hugo/p/%E8%81%94%E5%90%88%E5%8D%81%E4%BD%99%E5%AE%B6%E5%9B%BD%E4%BA%A7%E7%94%9F%E6%80%81%E5%95%86%E6%B1%A4%E5%A4%A7%E8%A3%85%E7%BD%AE%E5%8F%91%E5%B8%83%E7%AE%97%E5%8A%9Bmall%E6%89%93%E9%80%A0%E7%AE%97%E5%8A%9B%E8%B6%85%E7%BA%A7%E5%B8%82%E5%9C%BA/'>
+<link rel="stylesheet" href="/hugo/scss/style.min.87bbe05d49774423310fca109ddd3f85779e06f02c127b210b46d23f771ef5ac.css"><meta property='og:title' content="让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源">
+<meta property='og:description' content="FlashRL是首个开源且可用的强化学习实现方案，应用INT8/FP8量化在rollout阶段，无性能损失。引入TIS技术解决rollout-训练不匹配问题，实现显著训练加速。">
+<meta property='og:url' content='https://caxlee.github.io/hugo/p/%E8%AE%A9%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%BF%AB%E5%A6%82%E9%97%AA%E7%94%B5flashrl%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9Frollout%E5%B7%B2%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='Infra' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-07-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-30T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/2025_07_30/015.png' />
-<meta name="twitter:title" content="联合十余家国产生态，商汤大装置发布“算力Mall”，打造算力超级市场">
-<meta name="twitter:description" content="商汤联合国产生态伙伴发布“算力Mall”，构建算力超级市场，推动国产AI生态建设。提供端到端解决方案，打通大模型落地“最后一公里”，满足多样化算力需求。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/2025_07_30/015.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='具身智能' /><meta property='article:tag' content='能效优化' /><meta property='article:published_time' content='2025-08-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-12T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/2025_08_12/001.jpg' />
+<meta name="twitter:title" content="让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源">
+<meta name="twitter:description" content="FlashRL是首个开源且可用的强化学习实现方案，应用INT8/FP8量化在rollout阶段，无性能损失。引入TIS技术解决rollout-训练不匹配问题，实现显著训练加速。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/2025_08_12/001.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -365,7 +365,7 @@
         <div class="article-image">
             <a href="javascript:void(0);">
                 
-                    <img src="/hugo/images/articles/2025_07_30/015.png" loading="lazy" alt="Featured image of post 联合十余家国产生态，商汤大装置发布“算力Mall”，打造算力超级市场" />
+                    <img src="/hugo/images/articles/2025_08_12/001.jpg" loading="lazy" alt="Featured image of post 让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源" />
                 
             </a>
         </div>
@@ -376,7 +376,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="javascript:void(0);">联合十余家国产生态，商汤大装置发布“算力Mall”，打造算力超级市场</a>
+            <a href="javascript:void(0);">让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源</a>
         </h2>
     
         
@@ -398,7 +398,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 30, 2025</time>
+                <time class="article-time--published">Aug 12, 2025</time>
             </div>
         
 
@@ -425,8 +425,8 @@
             </li>
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/infra/" class="article-tags-list-link">
-                    Infra
+                <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                    具身智能
                 </a>
             </li>
             
@@ -443,19 +443,19 @@
     
 </div> 
 </header><div class="article-image-container">
-        <img src="images/articles/2025_07_30/015.png" alt="联合十余家国产生态，商汤大装置发布“算力Mall”，打造算力超级市场" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+        <img src="images/articles/2025_08_12/001.jpg" alt="让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源" class="article-image" onerror="this.onerror=null; this.style.display='none';">
     </div><section class="article-content">
-    <p><img src="/hugo/images/articles/2025_07_30/015.png"
+    <p><img src="/hugo/images/articles/2025_08_12/001.jpg"
 	
 	
 	
 	loading="lazy"
 	
-		alt="联合十余家国产生态，商汤大装置发布“算力Mall”，打造算力超级市场"
+		alt="让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源"
 	
 	
 ></p>
-<p><strong>摘要</strong>: 商汤联合国产生态伙伴发布“算力Mall”，构建算力超级市场，推动国产AI生态建设。提供端到端解决方案，打通大模型落地“最后一公里”，满足多样化算力需求。</p>
+<p><strong>摘要</strong>: FlashRL是首个开源且可用的强化学习实现方案，应用INT8/FP8量化在rollout阶段，无性能损失。引入TIS技术解决rollout-训练不匹配问题，实现显著训练加速。</p>
 </section>
     
     <footer class="article-footer">
@@ -464,7 +464,7 @@
         
             <a href="/hugo/tags/%E5%9F%BA%E6%A8%A1/">基模</a>
         
-            <a href="/hugo/tags/infra/">Infra</a>
+            <a href="/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/">具身智能</a>
         
             <a href="/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/">能效优化</a>
         
@@ -501,19 +501,13 @@
         <div class="flex article-list--tile">
             
                 
-<article class="has-image">
-    <a href="/hugo/p/siggraph%E4%B8%8A%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%8F%91%E5%B8%83%E7%89%A9%E7%90%86ai%E5%BC%80%E6%BA%90%E6%96%B0%E6%8A%80%E6%9C%AF%E6%9B%B4%E6%96%B0rtx-pro%E4%BA%A7%E5%93%81%E7%BA%BF/">
+<article class="">
+    <a href="/hugo/p/%E8%A1%8C%E4%B8%9A%E5%94%AF%E4%B8%80%E5%A4%A7%E7%94%B5%E6%B1%A0%E6%97%97%E8%88%B0%E6%80%A7%E8%83%BD%E6%9C%BAiqoo-z10-turbo-2199%E5%85%83%E8%B5%B7%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83/">
         
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_08_12/001.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_12/001.jpg"/>
-                
-            </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">SIGGRAPH上，英伟达发布物理AI开源新技术，更新RTX Pro产品线</h2>
+            <h2 class="article-title">行业唯一大电池旗舰性能机，iQOO Z10 Turbo&#43; 2199元起正式发布</h2>
         </div>
     </a>
 </article>
@@ -521,18 +515,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/%E8%81%9A%E7%84%A6%E5%89%8D%E6%B2%BF%E8%A7%81%E8%AF%81%E6%9C%AA%E6%9D%A5x%E5%88%9B%E6%96%B0%E4%BA%A7%E5%93%81show%E5%9C%86%E6%BB%A1%E4%B8%BE%E5%8A%9E/">
+    <a href="/hugo/p/%E8%9B%8B%E7%99%BD%E8%B4%A8%E5%9F%BA%E5%BA%A7%E7%9A%84gpt%E6%97%B6%E4%BB%A3%E6%9D%A5%E4%BA%86amix%E7%94%A8test-time-scaling%E8%AE%A9%E8%9B%8B%E7%99%BD%E8%B4%A8%E8%AE%BE%E8%AE%A1%E8%BF%88%E5%90%91%E9%80%9A%E7%94%A8%E6%99%BA%E8%83%BD/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_08_12/009.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_12/009.jpg"/>
+                    <img src="/hugo/images/articles/2025_07_29/007.jpeg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_29/007.jpeg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">聚焦前沿，见证未来!「X·创新』产品SHOW圆满举办!</h2>
+            <h2 class="article-title">蛋白质基座的GPT时代来了？AMix用Test-time Scaling让蛋白质设计迈向通用智能</h2>
         </div>
     </a>
 </article>
@@ -540,18 +534,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/%E8%AE%A9%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%BF%AB%E5%A6%82%E9%97%AA%E7%94%B5flashrl%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9Frollout%E5%B7%B2%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90/">
+    <a href="/hugo/p/%E4%BD%A0%E7%9A%84ai%E7%AE%A1%E5%AE%B6%E5%8F%AF%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%8B%86%E5%AE%B6%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E6%8F%AD%E7%A7%98%E5%AE%B6%E5%85%B7%E6%99%BA%E8%83%BD%E4%BD%93%E7%9A%84%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_08_12/001.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_12/001.jpg"/>
+                    <img src="/hugo/images/articles/2025_07_27/002.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_27/002.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源</h2>
+            <h2 class="article-title">你的AI管家可能正在「拆家」？最新研究揭秘家⽤具⾝智能体的安全漏洞</h2>
         </div>
     </a>
 </article>
@@ -559,18 +553,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/4d%E7%A9%BA%E9%97%B4%E6%99%BA%E8%83%BDai%E5%A6%82%E4%BD%95%E4%B8%80%E6%AD%A5%E6%AD%A5%E7%9C%8B%E6%87%82%E6%97%B6%E7%A9%BA%E7%BB%93%E6%9E%84%E4%B8%80%E7%AF%87%E7%BB%BC%E8%BF%B0%E8%A7%A3%E6%9E%90%E9%80%9A%E5%BE%80%E5%9B%9B%E7%BB%B4%E4%B8%96%E7%95%8C%E7%9A%84%E4%BA%94%E5%A4%A7%E5%B1%82%E6%AC%A1/">
+    <a href="/hugo/p/harvey-kent-bowen-ceramics-scholar-and-mit-leaders-for-global-operations-co-founder-dies-at-83/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_08_11/002.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_11/002.jpg"/>
+                    <img src="/hugo/images/articles/2025_08_12/006.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_12/006.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">4D空间智能：AI如何一步步「看懂」时空结构？一篇综述解析通往四维世界的五大层次</h2>
+            <h2 class="article-title">Harvey Kent Bowen, ceramics scholar and MIT Leaders for Global Operations co-founder, dies at 83</h2>
         </div>
     </a>
 </article>
@@ -578,18 +572,18 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/%E7%AC%AC%E4%BA%8C%E5%B1%8A-%E5%85%B4%E6%99%BA%E6%9D%AF-%E5%85%A8%E5%9B%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%BA%94%E7%94%A8%E5%A4%A7%E8%B5%9B%E4%B8%93%E9%A2%98%E6%B4%BB%E5%8A%A8%E6%98%8E%E5%A4%A9%E5%BC%80%E5%90%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90--%E8%B5%84%E6%BA%90%E5%AF%B9%E6%8E%A5%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B9%B3%E5%8F%B0%E9%87%8D%E7%A3%85%E6%9D%A5%E8%A2%AD/">
+    <a href="/hugo/p/%E5%95%86%E6%B1%A4%E7%8E%8B%E6%99%93%E5%88%9A%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%B0%86%E5%8A%A0%E5%BF%ABai%E4%BB%8E%E6%95%B0%E5%AD%97%E7%A9%BA%E9%97%B4%E8%BF%9B%E5%85%A5%E7%89%A9%E7%90%86%E4%B8%96%E7%95%8C%E6%82%9F%E8%83%BD%E6%83%B3%E5%81%9A%E9%82%A3%E4%B8%AA%E6%A1%A5%E6%A2%81/">
         
         
             <div class="article-image">
                 
-                    <img src="/hugo/images/articles/2025_08_11/005.png" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_11/005.png"/>
+                    <img src="/hugo/images/articles/2025_08_12/003.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_12/003.jpg"/>
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">第二届 “兴智杯” 全国人工智能创新应用大赛专题活动明天开启，技术解析 &#43; 资源对接一站式平台重磅来袭！</h2>
+            <h2 class="article-title">商汤王晓刚：世界模型将加快AI从数字空间进入物理世界，「悟能」想做那个桥梁</h2>
         </div>
     </a>
 </article>

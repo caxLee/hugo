@@ -65,6 +65,25 @@
 </description>
         </item>
         <item>
+        <title>让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源</title>
+        <link>https://caxlee.github.io/hugo/p/%E8%AE%A9%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%BF%AB%E5%A6%82%E9%97%AA%E7%94%B5flashrl%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9Frollout%E5%B7%B2%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90/</link>
+        <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E8%AE%A9%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%BF%AB%E5%A6%82%E9%97%AA%E7%94%B5flashrl%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%80%9Frollout%E5%B7%B2%E5%85%A8%E9%83%A8%E5%BC%80%E6%BA%90/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_12/001.jpg" alt="Featured image of post 让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_12/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;让强化学习快如闪电：FlashRL一条命令实现极速Rollout，已全部开源&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: FlashRL是首个开源且可用的强化学习实现方案，应用INT8/FP8量化在rollout阶段，无性能损失。引入TIS技术解决rollout-训练不匹配问题，实现显著训练加速。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>身家25亿刀，是四家公司创始人，这位伯克利教授还在给本科生上课</title>
         <link>https://caxlee.github.io/hugo/p/%E8%BA%AB%E5%AE%B625%E4%BA%BF%E5%88%80%E6%98%AF%E5%9B%9B%E5%AE%B6%E5%85%AC%E5%8F%B8%E5%88%9B%E5%A7%8B%E4%BA%BA%E8%BF%99%E4%BD%8D%E4%BC%AF%E5%85%8B%E5%88%A9%E6%95%99%E6%8E%88%E8%BF%98%E5%9C%A8%E7%BB%99%E6%9C%AC%E7%A7%91%E7%94%9F%E4%B8%8A%E8%AF%BE/</link>
         <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
