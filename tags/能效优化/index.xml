@@ -7,7 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 14 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>谷歌开源Gemma 3 270M，性能超越Qwen 2.5同级模型</title>
+        <link>https://caxlee.github.io/hugo/p/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%BA%90gemma-3-270m%E6%80%A7%E8%83%BD%E8%B6%85%E8%B6%8Aqwen-2.5%E5%90%8C%E7%BA%A7%E6%A8%A1%E5%9E%8B/</link>
+        <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E8%B0%B7%E6%AD%8C%E5%BC%80%E6%BA%90gemma-3-270m%E6%80%A7%E8%83%BD%E8%B6%85%E8%B6%8Aqwen-2.5%E5%90%8C%E7%BA%A7%E6%A8%A1%E5%9E%8B/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_15/003.jpg" alt="Featured image of post 谷歌开源Gemma 3 270M，性能超越Qwen 2.5同级模型" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_15/003.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;谷歌开源Gemma 3 270M，性能超越Qwen 2.5同级模型&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 谷歌发布Gemma 3 270M，小巧语言模型性能超越同级模型，具备强大指令跟踪和节能优势。适用于特定任务微调，提高AI功能应用效率。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Would you like that coffee with iron?</title>
         <link>https://caxlee.github.io/hugo/p/would-you-like-that-coffee-with-iron/</link>
         <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
