@@ -8,6 +8,44 @@
         <language>en</language>
         <copyright>Example Person</copyright>
         <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>大模型如何推理？斯坦福CS25重要一课，DeepMind首席科学家主讲</title>
+        <link>https://caxlee.github.io/hugo/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A6%82%E4%BD%95%E6%8E%A8%E7%90%86%E6%96%AF%E5%9D%A6%E7%A6%8Fcs25%E9%87%8D%E8%A6%81%E4%B8%80%E8%AF%BEdeepmind%E9%A6%96%E5%B8%AD%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%BB%E8%AE%B2/</link>
+        <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A6%82%E4%BD%95%E6%8E%A8%E7%90%86%E6%96%AF%E5%9D%A6%E7%A6%8Fcs25%E9%87%8D%E8%A6%81%E4%B8%80%E8%AF%BEdeepmind%E9%A6%96%E5%B8%AD%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%BB%E8%AE%B2/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_16/001.jpg" alt="Featured image of post 大模型如何推理？斯坦福CS25重要一课，DeepMind首席科学家主讲" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_16/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;大模型如何推理？斯坦福CS25重要一课，DeepMind首席科学家主讲&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: DeepMind首席科学家Denny Zhou在斯坦福CS25课程中分享大模型推理洞见，强调中间token生成的重要性和强化学习微调方法。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>当AI比我们更聪明：李飞飞和Hinton给出截然相反的生存指南</title>
+        <link>https://caxlee.github.io/hugo/p/%E5%BD%93ai%E6%AF%94%E6%88%91%E4%BB%AC%E6%9B%B4%E8%81%AA%E6%98%8E%E6%9D%8E%E9%A3%9E%E9%A3%9E%E5%92%8Chinton%E7%BB%99%E5%87%BA%E6%88%AA%E7%84%B6%E7%9B%B8%E5%8F%8D%E7%9A%84%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/</link>
+        <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E5%BD%93ai%E6%AF%94%E6%88%91%E4%BB%AC%E6%9B%B4%E8%81%AA%E6%98%8E%E6%9D%8E%E9%A3%9E%E9%A3%9E%E5%92%8Chinton%E7%BB%99%E5%87%BA%E6%88%AA%E7%84%B6%E7%9B%B8%E5%8F%8D%E7%9A%84%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_16/002.jpg" alt="Featured image of post 当AI比我们更聪明：李飞飞和Hinton给出截然相反的生存指南" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_16/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;当AI比我们更聪明：李飞飞和Hinton给出截然相反的生存指南&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 李飞飞和Hinton对AI安全性观点相悖：李认为安全取决于设计与价值观，Hinton担忧超级智能失控。两种解读：工程失误或AI内在风险。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>简单即强大：全新生成模型「离散分布网络DDN」是如何做到原理简单，性质独特？</title>
         <link>https://caxlee.github.io/hugo/p/%E7%AE%80%E5%8D%95%E5%8D%B3%E5%BC%BA%E5%A4%A7%E5%85%A8%E6%96%B0%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%E7%A6%BB%E6%95%A3%E5%88%86%E5%B8%83%E7%BD%91%E7%BB%9Cddn%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%8E%9F%E7%90%86%E7%AE%80%E5%8D%95%E6%80%A7%E8%B4%A8%E7%8B%AC%E7%89%B9/</link>
         <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
