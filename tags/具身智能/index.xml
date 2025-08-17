@@ -7,7 +7,45 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CoRL 2025｜隐空间扩散世界模型LaDi-WM大幅提升机器人操作策略的成功率和跨场景泛化能力</title>
+        <link>https://caxlee.github.io/hugo/p/corl-2025%E9%9A%90%E7%A9%BA%E9%97%B4%E6%89%A9%E6%95%A3%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8Bladi-wm%E5%A4%A7%E5%B9%85%E6%8F%90%E5%8D%87%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%93%8D%E4%BD%9C%E7%AD%96%E7%95%A5%E7%9A%84%E6%88%90%E5%8A%9F%E7%8E%87%E5%92%8C%E8%B7%A8%E5%9C%BA%E6%99%AF%E6%B3%9B%E5%8C%96%E8%83%BD%E5%8A%9B/</link>
+        <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/corl-2025%E9%9A%90%E7%A9%BA%E9%97%B4%E6%89%A9%E6%95%A3%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8Bladi-wm%E5%A4%A7%E5%B9%85%E6%8F%90%E5%8D%87%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%93%8D%E4%BD%9C%E7%AD%96%E7%95%A5%E7%9A%84%E6%88%90%E5%8A%9F%E7%8E%87%E5%92%8C%E8%B7%A8%E5%9C%BA%E6%99%AF%E6%B3%9B%E5%8C%96%E8%83%BD%E5%8A%9B/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_17/002.jpg" alt="Featured image of post CoRL 2025｜隐空间扩散世界模型LaDi-WM大幅提升机器人操作策略的成功率和跨场景泛化能力" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_17/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;CoRL 2025｜隐空间扩散世界模型LaDi-WM大幅提升机器人操作策略的成功率和跨场景泛化能力&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: LaDi-WM基于隐空间扩散世界模型，提升机器人操作策略成功率和泛化能力。利用预训练视觉模型构建通用表示，通过迭代优化输出动作，显著提高任务成功率。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SEAgent：开启从实战经验中自我进化的GUI智能体新纪元</title>
+        <link>https://caxlee.github.io/hugo/p/seagent%E5%BC%80%E5%90%AF%E4%BB%8E%E5%AE%9E%E6%88%98%E7%BB%8F%E9%AA%8C%E4%B8%AD%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E7%9A%84gui%E6%99%BA%E8%83%BD%E4%BD%93%E6%96%B0%E7%BA%AA%E5%85%83/</link>
+        <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/seagent%E5%BC%80%E5%90%AF%E4%BB%8E%E5%AE%9E%E6%88%98%E7%BB%8F%E9%AA%8C%E4%B8%AD%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E7%9A%84gui%E6%99%BA%E8%83%BD%E4%BD%93%E6%96%B0%E7%BA%AA%E5%85%83/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_17/003.jpg" alt="Featured image of post SEAgent：开启从实战经验中自我进化的GUI智能体新纪元" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_17/003.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;SEAgent：开启从实战经验中自我进化的GUI智能体新纪元&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: SEAgent是一个无需人类干预的智能体框架，通过自主学习和进化，突破了对人工标注数据的依赖。其核心创新在于闭环的自主进化框架和优化的评判模型，以及「专才 - 通才」融合策略。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Meta视觉基座DINOv3王者归来：自监督首次全面超越弱监督，商用开源</title>
         <link>https://caxlee.github.io/hugo/p/meta%E8%A7%86%E8%A7%89%E5%9F%BA%E5%BA%A7dinov3%E7%8E%8B%E8%80%85%E5%BD%92%E6%9D%A5%E8%87%AA%E7%9B%91%E7%9D%A3%E9%A6%96%E6%AC%A1%E5%85%A8%E9%9D%A2%E8%B6%85%E8%B6%8A%E5%BC%B1%E7%9B%91%E7%9D%A3%E5%95%86%E7%94%A8%E5%BC%80%E6%BA%90/</link>
         <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
