@@ -7,7 +7,102 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>KDD 2025 | UoMo来了，首个无线网络流量预测模型，一个框架搞定三类任务</title>
+        <link>https://caxlee.github.io/hugo/p/kdd-2025-uomo%E6%9D%A5%E4%BA%86%E9%A6%96%E4%B8%AA%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C%E6%B5%81%E9%87%8F%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%90%9E%E5%AE%9A%E4%B8%89%E7%B1%BB%E4%BB%BB%E5%8A%A1/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/kdd-2025-uomo%E6%9D%A5%E4%BA%86%E9%A6%96%E4%B8%AA%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C%E6%B5%81%E9%87%8F%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%90%9E%E5%AE%9A%E4%B8%89%E7%B1%BB%E4%BB%BB%E5%8A%A1/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/004.jpg" alt="Featured image of post KDD 2025 | UoMo来了，首个无线网络流量预测模型，一个框架搞定三类任务" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/004.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;KDD 2025 | UoMo来了，首个无线网络流量预测模型，一个框架搞定三类任务&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: UoMo是全球首个移动网络流量预测模型，支持短期、长期预测和新区域生成任务。结合扩散模型与Transformer，理解城市地理信息与人流变化，实现智能网络优化。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>NextStep-1：一次在图像生成上自回归范式的探索</title>
+        <link>https://caxlee.github.io/hugo/p/nextstep-1%E4%B8%80%E6%AC%A1%E5%9C%A8%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90%E4%B8%8A%E8%87%AA%E5%9B%9E%E5%BD%92%E8%8C%83%E5%BC%8F%E7%9A%84%E6%8E%A2%E7%B4%A2/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/nextstep-1%E4%B8%80%E6%AC%A1%E5%9C%A8%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90%E4%B8%8A%E8%87%AA%E5%9B%9E%E5%BD%92%E8%8C%83%E5%BC%8F%E7%9A%84%E6%8E%A2%E7%B4%A2/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/003.jpg" alt="Featured image of post NextStep-1：一次在图像生成上自回归范式的探索" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/003.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NextStep-1：一次在图像生成上自回归范式的探索&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: NextStep-1 探索自回归图像生成新路径，采用流匹配头直接生成连续图像 Patch，实现端到端训练。团队认为构建简洁高效自回归模型是可行的，开源项目期待引发讨论并推动技术演进。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>一张图，开启四维时空：4DNeX让动态世界 「活」起来</title>
+        <link>https://caxlee.github.io/hugo/p/%E4%B8%80%E5%BC%A0%E5%9B%BE%E5%BC%80%E5%90%AF%E5%9B%9B%E7%BB%B4%E6%97%B6%E7%A9%BA4dnex%E8%AE%A9%E5%8A%A8%E6%80%81%E4%B8%96%E7%95%8C-%E6%B4%BB%E8%B5%B7%E6%9D%A5/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E4%B8%80%E5%BC%A0%E5%9B%BE%E5%BC%80%E5%90%AF%E5%9B%9B%E7%BB%B4%E6%97%B6%E7%A9%BA4dnex%E8%AE%A9%E5%8A%A8%E6%80%81%E4%B8%96%E7%95%8C-%E6%B4%BB%E8%B5%B7%E6%9D%A5/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/006.jpg" alt="Featured image of post 一张图，开启四维时空：4DNeX让动态世界 「活」起来" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/006.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;一张图，开启四维时空：4DNeX让动态世界 「活」起来&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 4DNeX是全球首个仅凭一张图生成4D动态场景的前馈框架，实现时空视频高效渲染。发布4DNeX-10M数据集解决高质量4D数据稀缺问题。方法架构包括6D统一表征和宽度融合策略，实验结果显示其在效率与质量上实现双重突破。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>从GPT-2到gpt-oss，深度详解OpenAI开放模型的进化之路</title>
+        <link>https://caxlee.github.io/hugo/p/%E4%BB%8Egpt-2%E5%88%B0gpt-oss%E6%B7%B1%E5%BA%A6%E8%AF%A6%E8%A7%A3openai%E5%BC%80%E6%94%BE%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%BF%9B%E5%8C%96%E4%B9%8B%E8%B7%AF/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E4%BB%8Egpt-2%E5%88%B0gpt-oss%E6%B7%B1%E5%BA%A6%E8%AF%A6%E8%A7%A3openai%E5%BC%80%E6%94%BE%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%BF%9B%E5%8C%96%E4%B9%8B%E8%B7%AF/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/002.jpg" alt="Featured image of post 从GPT-2到gpt-oss，深度详解OpenAI开放模型的进化之路" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;从GPT-2到gpt-oss，深度详解OpenAI开放模型的进化之路&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 深度分析OpenAI的gpt-oss模型演进，包括架构比较、MXFP4优化、注意力偏差和sinks、RMSNorm替换LayerNorm等细节。与Qwen3进行比较，探讨宽度与深度、专家数量、许可证等差异。介绍gpt-oss与GPT-5的性能对比。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>多模态大模型在化学与材料学的「体检表」——哪些能力靠谱，哪些还差很远？</title>
+        <link>https://caxlee.github.io/hugo/p/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9C%A8%E5%8C%96%E5%AD%A6%E4%B8%8E%E6%9D%90%E6%96%99%E5%AD%A6%E7%9A%84%E4%BD%93%E6%A3%80%E8%A1%A8%E5%93%AA%E4%BA%9B%E8%83%BD%E5%8A%9B%E9%9D%A0%E8%B0%B1%E5%93%AA%E4%BA%9B%E8%BF%98%E5%B7%AE%E5%BE%88%E8%BF%9C/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9C%A8%E5%8C%96%E5%AD%A6%E4%B8%8E%E6%9D%90%E6%96%99%E5%AD%A6%E7%9A%84%E4%BD%93%E6%A3%80%E8%A1%A8%E5%93%AA%E4%BA%9B%E8%83%BD%E5%8A%9B%E9%9D%A0%E8%B0%B1%E5%93%AA%E4%BA%9B%E8%BF%98%E5%B7%AE%E5%BE%88%E8%BF%9C/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/008.png" alt="Featured image of post 多模态大模型在化学与材料学的「体检表」——哪些能力靠谱，哪些还差很远？" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/008.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;多模态大模型在化学与材料学的「体检表」——哪些能力靠谱，哪些还差很远？&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: MaCBench评测多模态大模型在化学与材料科学中的表现与失败模式，揭示模型在跨模态整合与科学推理上的局限性。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>400万人围观的分层推理模型，「分层架构」竟不起作用？性能提升另有隐情？</title>
         <link>https://caxlee.github.io/hugo/p/400%E4%B8%87%E4%BA%BA%E5%9B%B4%E8%A7%82%E7%9A%84%E5%88%86%E5%B1%82%E6%8E%A8%E7%90%86%E6%A8%A1%E5%9E%8B%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84%E7%AB%9F%E4%B8%8D%E8%B5%B7%E4%BD%9C%E7%94%A8%E6%80%A7%E8%83%BD%E6%8F%90%E5%8D%87%E5%8F%A6%E6%9C%89%E9%9A%90%E6%83%85/</link>
         <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>

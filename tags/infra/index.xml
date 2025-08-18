@@ -7,7 +7,102 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/infra/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/infra/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>KDD 2025 | UoMo来了，首个无线网络流量预测模型，一个框架搞定三类任务</title>
+        <link>https://caxlee.github.io/hugo/p/kdd-2025-uomo%E6%9D%A5%E4%BA%86%E9%A6%96%E4%B8%AA%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C%E6%B5%81%E9%87%8F%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%90%9E%E5%AE%9A%E4%B8%89%E7%B1%BB%E4%BB%BB%E5%8A%A1/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/kdd-2025-uomo%E6%9D%A5%E4%BA%86%E9%A6%96%E4%B8%AA%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C%E6%B5%81%E9%87%8F%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%90%9E%E5%AE%9A%E4%B8%89%E7%B1%BB%E4%BB%BB%E5%8A%A1/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/004.jpg" alt="Featured image of post KDD 2025 | UoMo来了，首个无线网络流量预测模型，一个框架搞定三类任务" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/004.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;KDD 2025 | UoMo来了，首个无线网络流量预测模型，一个框架搞定三类任务&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: UoMo是全球首个移动网络流量预测模型，支持短期、长期预测和新区域生成任务。结合扩散模型与Transformer，理解城市地理信息与人流变化，实现智能网络优化。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>NextStep-1：一次在图像生成上自回归范式的探索</title>
+        <link>https://caxlee.github.io/hugo/p/nextstep-1%E4%B8%80%E6%AC%A1%E5%9C%A8%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90%E4%B8%8A%E8%87%AA%E5%9B%9E%E5%BD%92%E8%8C%83%E5%BC%8F%E7%9A%84%E6%8E%A2%E7%B4%A2/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/nextstep-1%E4%B8%80%E6%AC%A1%E5%9C%A8%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90%E4%B8%8A%E8%87%AA%E5%9B%9E%E5%BD%92%E8%8C%83%E5%BC%8F%E7%9A%84%E6%8E%A2%E7%B4%A2/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/003.jpg" alt="Featured image of post NextStep-1：一次在图像生成上自回归范式的探索" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/003.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NextStep-1：一次在图像生成上自回归范式的探索&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: NextStep-1 探索自回归图像生成新路径，采用流匹配头直接生成连续图像 Patch，实现端到端训练。团队认为构建简洁高效自回归模型是可行的，开源项目期待引发讨论并推动技术演进。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>一张图，开启四维时空：4DNeX让动态世界 「活」起来</title>
+        <link>https://caxlee.github.io/hugo/p/%E4%B8%80%E5%BC%A0%E5%9B%BE%E5%BC%80%E5%90%AF%E5%9B%9B%E7%BB%B4%E6%97%B6%E7%A9%BA4dnex%E8%AE%A9%E5%8A%A8%E6%80%81%E4%B8%96%E7%95%8C-%E6%B4%BB%E8%B5%B7%E6%9D%A5/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E4%B8%80%E5%BC%A0%E5%9B%BE%E5%BC%80%E5%90%AF%E5%9B%9B%E7%BB%B4%E6%97%B6%E7%A9%BA4dnex%E8%AE%A9%E5%8A%A8%E6%80%81%E4%B8%96%E7%95%8C-%E6%B4%BB%E8%B5%B7%E6%9D%A5/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/006.jpg" alt="Featured image of post 一张图，开启四维时空：4DNeX让动态世界 「活」起来" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/006.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;一张图，开启四维时空：4DNeX让动态世界 「活」起来&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 4DNeX是全球首个仅凭一张图生成4D动态场景的前馈框架，实现时空视频高效渲染。发布4DNeX-10M数据集解决高质量4D数据稀缺问题。方法架构包括6D统一表征和宽度融合策略，实验结果显示其在效率与质量上实现双重突破。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>开源扩散大模型首次跑赢自回归！上交大联手UCSD推出D2F，吞吐量达LLaMA3的2.5倍</title>
+        <link>https://caxlee.github.io/hugo/p/%E5%BC%80%E6%BA%90%E6%89%A9%E6%95%A3%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%A6%96%E6%AC%A1%E8%B7%91%E8%B5%A2%E8%87%AA%E5%9B%9E%E5%BD%92%E4%B8%8A%E4%BA%A4%E5%A4%A7%E8%81%94%E6%89%8Bucsd%E6%8E%A8%E5%87%BAd2f%E5%90%9E%E5%90%90%E9%87%8F%E8%BE%BEllama3%E7%9A%842.5%E5%80%8D/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E5%BC%80%E6%BA%90%E6%89%A9%E6%95%A3%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%A6%96%E6%AC%A1%E8%B7%91%E8%B5%A2%E8%87%AA%E5%9B%9E%E5%BD%92%E4%B8%8A%E4%BA%A4%E5%A4%A7%E8%81%94%E6%89%8Bucsd%E6%8E%A8%E5%87%BAd2f%E5%90%9E%E5%90%90%E9%87%8F%E8%BE%BEllama3%E7%9A%842.5%E5%80%8D/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/005.jpg" alt="Featured image of post 开源扩散大模型首次跑赢自回归！上交大联手UCSD推出D2F，吞吐量达LLaMA3的2.5倍" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/005.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;开源扩散大模型首次跑赢自回归！上交大联手UCSD推出D2F，吞吐量达LLaMA3的2.5倍&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 上交大与UCSD合作推出D2F，开源扩散大模型首次超越自回归模型，吞吐量提升2.5倍。D2F解决dLLMs推理速度瓶颈，结合自回归与扩散思想，实现高效KV缓存和块间并行解码。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>机器人全产业链接会 FAIR plus 2026新闻发布会在京召开</title>
+        <link>https://caxlee.github.io/hugo/p/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%A8%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%8E%A5%E4%BC%9A-fair-plus-2026%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%9C%A8%E4%BA%AC%E5%8F%AC%E5%BC%80/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%A8%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%8E%A5%E4%BC%9A-fair-plus-2026%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%9C%A8%E4%BA%AC%E5%8F%AC%E5%BC%80/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/012.png" alt="Featured image of post 机器人全产业链接会 FAIR plus 2026新闻发布会在京召开" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/012.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;机器人全产业链接会 FAIR plus 2026新闻发布会在京召开&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: FAIR plus 2026将于2026年4月在深圳举办，聚焦机器人产业链发展，吸引全球专业观众和海外买家。行业代表分享具身智能技术实践与前瞻观点，推动人工智能与机器人协同创新。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>AI 模特时代到来：字节x清华推出商用级视频换装模型DreamVVT，保真度显著领先SOTA</title>
         <link>https://caxlee.github.io/hugo/p/ai-%E6%A8%A1%E7%89%B9%E6%97%B6%E4%BB%A3%E5%88%B0%E6%9D%A5%E5%AD%97%E8%8A%82x%E6%B8%85%E5%8D%8E%E6%8E%A8%E5%87%BA%E5%95%86%E7%94%A8%E7%BA%A7%E8%A7%86%E9%A2%91%E6%8D%A2%E8%A3%85%E6%A8%A1%E5%9E%8Bdreamvvt%E4%BF%9D%E7%9C%9F%E5%BA%A6%E6%98%BE%E8%91%97%E9%A2%86%E5%85%88sota/</link>
         <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>

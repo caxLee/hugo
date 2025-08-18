@@ -7,7 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>开源扩散大模型首次跑赢自回归！上交大联手UCSD推出D2F，吞吐量达LLaMA3的2.5倍</title>
+        <link>https://caxlee.github.io/hugo/p/%E5%BC%80%E6%BA%90%E6%89%A9%E6%95%A3%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%A6%96%E6%AC%A1%E8%B7%91%E8%B5%A2%E8%87%AA%E5%9B%9E%E5%BD%92%E4%B8%8A%E4%BA%A4%E5%A4%A7%E8%81%94%E6%89%8Bucsd%E6%8E%A8%E5%87%BAd2f%E5%90%9E%E5%90%90%E9%87%8F%E8%BE%BEllama3%E7%9A%842.5%E5%80%8D/</link>
+        <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E5%BC%80%E6%BA%90%E6%89%A9%E6%95%A3%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%A6%96%E6%AC%A1%E8%B7%91%E8%B5%A2%E8%87%AA%E5%9B%9E%E5%BD%92%E4%B8%8A%E4%BA%A4%E5%A4%A7%E8%81%94%E6%89%8Bucsd%E6%8E%A8%E5%87%BAd2f%E5%90%9E%E5%90%90%E9%87%8F%E8%BE%BEllama3%E7%9A%842.5%E5%80%8D/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_18/005.jpg" alt="Featured image of post 开源扩散大模型首次跑赢自回归！上交大联手UCSD推出D2F，吞吐量达LLaMA3的2.5倍" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_18/005.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;开源扩散大模型首次跑赢自回归！上交大联手UCSD推出D2F，吞吐量达LLaMA3的2.5倍&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 上交大与UCSD合作推出D2F，开源扩散大模型首次超越自回归模型，吞吐量提升2.5倍。D2F解决dLLMs推理速度瓶颈，结合自回归与扩散思想，实现高效KV缓存和块间并行解码。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>链式思维是幻象吗？从数据分布视角重新审视大模型推理，马斯克回复，Grok破防</title>
         <link>https://caxlee.github.io/hugo/p/%E9%93%BE%E5%BC%8F%E6%80%9D%E7%BB%B4%E6%98%AF%E5%B9%BB%E8%B1%A1%E5%90%97%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83%E8%A7%86%E8%A7%92%E9%87%8D%E6%96%B0%E5%AE%A1%E8%A7%86%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E9%A9%AC%E6%96%AF%E5%85%8B%E5%9B%9E%E5%A4%8Dgrok%E7%A0%B4%E9%98%B2/</link>
         <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
