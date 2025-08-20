@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://caxlee.github.io/hugo/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,6 +19,9 @@
                 hreflang="en"
                 href="https://caxlee.github.io/hugo/"
                 />
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/post/</loc>
+    <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/p/a-shape-changing-antenna-for-more-versatile-sensing-and-communication/</loc>
     <lastmod>2025-08-20T00:00:00+00:00</lastmod>
@@ -48,9 +51,6 @@
     <lastmod>2025-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/p/nature%E5%AD%90%E5%88%8A-%E4%B8%8A%E6%99%BA%E9%99%A2%E7%BB%9F%E4%B8%80%E6%A1%86%E6%9E%B6rxngraphormer%E5%AE%9E%E7%8E%B0%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E5%A4%9A%E4%BB%BB%E5%8A%A1%E7%B2%BE%E5%87%86%E9%A2%84%E6%B5%8B%E8%87%AA%E5%8F%91%E6%8E%8C%E6%8F%A1%E5%88%86%E7%B1%BB%E8%A7%84%E5%BE%8B/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://caxlee.github.io/hugo/post/</loc>
     <lastmod>2025-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/p/professor-john-joannopoulos-photonics-pioneer-and-institute-for-soldier-nanotechnologies-director-dies-at-78/</loc>
