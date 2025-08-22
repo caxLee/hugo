@@ -27,6 +27,44 @@
 </description>
         </item>
         <item>
+        <title>ICCV 2025 | 打造通用工具智能体的基石：北大提出ToolVQA数据集，引领多模态多步推理VQA新范式</title>
+        <link>https://caxlee.github.io/hugo/p/iccv-2025-%E6%89%93%E9%80%A0%E9%80%9A%E7%94%A8%E5%B7%A5%E5%85%B7%E6%99%BA%E8%83%BD%E4%BD%93%E7%9A%84%E5%9F%BA%E7%9F%B3%E5%8C%97%E5%A4%A7%E6%8F%90%E5%87%BAtoolvqa%E6%95%B0%E6%8D%AE%E9%9B%86%E5%BC%95%E9%A2%86%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%9A%E6%AD%A5%E6%8E%A8%E7%90%86vqa%E6%96%B0%E8%8C%83%E5%BC%8F/</link>
+        <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/iccv-2025-%E6%89%93%E9%80%A0%E9%80%9A%E7%94%A8%E5%B7%A5%E5%85%B7%E6%99%BA%E8%83%BD%E4%BD%93%E7%9A%84%E5%9F%BA%E7%9F%B3%E5%8C%97%E5%A4%A7%E6%8F%90%E5%87%BAtoolvqa%E6%95%B0%E6%8D%AE%E9%9B%86%E5%BC%95%E9%A2%86%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%9A%E6%AD%A5%E6%8E%A8%E7%90%86vqa%E6%96%B0%E8%8C%83%E5%BC%8F/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_22/010.jpg" alt="Featured image of post ICCV 2025 | 打造通用工具智能体的基石：北大提出ToolVQA数据集，引领多模态多步推理VQA新范式" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_22/010.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ICCV 2025 | 打造通用工具智能体的基石：北大提出ToolVQA数据集，引领多模态多步推理VQA新范式&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 北京大学团队提出ToolVQA数据集，旨在提升多模态多步推理VQA能力。数据集包含真实场景与多步推理任务，涵盖10种工具，模拟人类工具使用过程。微调后模型在测试集与分布外数据集表现优异，展现泛化能力。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>从繁杂技巧到极简方案：ROLL团队带来RL4LLM新实践</title>
+        <link>https://caxlee.github.io/hugo/p/%E4%BB%8E%E7%B9%81%E6%9D%82%E6%8A%80%E5%B7%A7%E5%88%B0%E6%9E%81%E7%AE%80%E6%96%B9%E6%A1%88roll%E5%9B%A2%E9%98%9F%E5%B8%A6%E6%9D%A5rl4llm%E6%96%B0%E5%AE%9E%E8%B7%B5/</link>
+        <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E4%BB%8E%E7%B9%81%E6%9D%82%E6%8A%80%E5%B7%A7%E5%88%B0%E6%9E%81%E7%AE%80%E6%96%B9%E6%A1%88roll%E5%9B%A2%E9%98%9F%E5%B8%A6%E6%9D%A5rl4llm%E6%96%B0%E5%AE%9E%E8%B7%B5/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_22/008.jpg" alt="Featured image of post 从繁杂技巧到极简方案：ROLL团队带来RL4LLM新实践" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_22/008.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;从繁杂技巧到极简方案：ROLL团队带来RL4LLM新实践&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 研究团队基于开源框架ROLL，简化RL4LLM技术，提出Lite PPO算法，优于复杂方案。系统性对比RL优化技巧，揭示技术组合的稳定性和效率。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>刚刚，好莱坞特效师展示AI生成的中文科幻大片，成本只有330元</title>
         <link>https://caxlee.github.io/hugo/p/%E5%88%9A%E5%88%9A%E5%A5%BD%E8%8E%B1%E5%9D%9E%E7%89%B9%E6%95%88%E5%B8%88%E5%B1%95%E7%A4%BAai%E7%94%9F%E6%88%90%E7%9A%84%E4%B8%AD%E6%96%87%E7%A7%91%E5%B9%BB%E5%A4%A7%E7%89%87%E6%88%90%E6%9C%AC%E5%8F%AA%E6%9C%89330%E5%85%83/</link>
         <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
@@ -43,6 +81,25 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 好莱坞特效师展示AI生成的中文科幻大片，成本仅330元。百度蒸汽机2.0实现音视频同步，提供多版本选择。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>即梦推出“智能多帧”功能 突破AI视频长镜头创作瓶颈</title>
+        <link>https://caxlee.github.io/hugo/p/%E5%8D%B3%E6%A2%A6%E6%8E%A8%E5%87%BA%E6%99%BA%E8%83%BD%E5%A4%9A%E5%B8%A7%E5%8A%9F%E8%83%BD-%E7%AA%81%E7%A0%B4ai%E8%A7%86%E9%A2%91%E9%95%BF%E9%95%9C%E5%A4%B4%E5%88%9B%E4%BD%9C%E7%93%B6%E9%A2%88/</link>
+        <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E5%8D%B3%E6%A2%A6%E6%8E%A8%E5%87%BA%E6%99%BA%E8%83%BD%E5%A4%9A%E5%B8%A7%E5%8A%9F%E8%83%BD-%E7%AA%81%E7%A0%B4ai%E8%A7%86%E9%A2%91%E9%95%BF%E9%95%9C%E5%A4%B4%E5%88%9B%E4%BD%9C%E7%93%B6%E9%A2%88/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_22/003.png" alt="Featured image of post 即梦推出“智能多帧”功能 突破AI视频长镜头创作瓶颈" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_22/003.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;即梦推出“智能多帧”功能 突破AI视频长镜头创作瓶颈&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 即梦AI推出“智能多帧”功能，解决AI视频长镜头创作难题，提升用户体验。支持10张关键帧，通过提示词控制运镜方式，适用于多种场景创作。&lt;/p&gt;
 </description>
         </item>
         <item>
