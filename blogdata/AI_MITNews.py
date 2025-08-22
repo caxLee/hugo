@@ -11,6 +11,7 @@ from datetime import datetime
 from urllib.parse import urlparse, urljoin
 import hashlib
 import logging
+import traceback
 
 BASE_URL = "https://news.mit.edu"
 # 使用 HUGO_PROJECT_PATH 以便在 GitHub Action 中也能运行
@@ -40,13 +41,12 @@ def load_image_hashes():
 def save_image_hashes(hashes):
     """保存图片哈希记录"""
     try:
+        os.makedirs(os.path.dirname(IMAGE_HASHES_PATH), exist_ok=True)
         with open(IMAGE_HASHES_PATH, 'w', encoding='utf-8') as f:
-            json.dump(hashes, f, indent=4)
+            json.dump(hashes, f, indent=4, ensure_ascii=False)
+        print(f"✅ 图片哈希记录已保存，共 {len(hashes)} 条记录")
     except IOError as e:
         print(f"❌ 保存图片哈希记录失败: {e}")
-
-
-# The old download_image function is now removed.
 
 
 def load_existing_urls(path):
@@ -85,6 +85,18 @@ async def download_and_process_image(session, url, date_str, index, image_hashes
     返回图片在仓库中的相对路径,如果失败则返回None。
     """
     try:
+        # 首先检查URL是否已经在哈希记录中（基于URL的快速去重）
+        url_hash = hashlib.md5(url.encode('utf-8')).hexdigest()
+        if url_hash in image_hashes:
+            existing_path = image_hashes[url_hash]
+            print(f"🔄 图片URL已存在 (URL哈希: {url_hash[:8]}...), 使用现有路径: {existing_path}")
+            # 确认文件物理存在
+            full_physical_path = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', existing_path)
+            if os.path.exists(full_physical_path):
+                return existing_path
+            else:
+                print(f"⚠️ 文件记录存在但物理文件丢失，将重新下载: {existing_path}")
+
         async with session.get(url) as response:
             if response.status != 200:
                 print(f"❌ 下载图片失败，状态码: {response.status}, URL: {url}")
@@ -98,13 +110,15 @@ async def download_and_process_image(session, url, date_str, index, image_hashes
             # 计算图片内容的哈希值
             image_hash = hashlib.sha256(image_data).hexdigest()
 
-            # 检查哈希是否存在于记录中
+            # 检查内容哈希是否存在于记录中
             if image_hash in image_hashes:
                 existing_path = image_hashes[image_hash]
-                print(f"🔄 图片已存在 (哈希: {image_hash[:8]}...), 使用现有路径: {existing_path}")
+                print(f"🔄 图片内容已存在 (内容哈希: {image_hash[:8]}...), 使用现有路径: {existing_path}")
                 # 确认文件物理存在，如果不存在则重新下载
                 full_physical_path = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', existing_path)
                 if os.path.exists(full_physical_path):
+                    # 同时更新URL哈希记录
+                    image_hashes[url_hash] = existing_path
                     return existing_path
                 else:
                     print(f"⚠️ 文件记录存在但物理文件丢失，将重新下载: {existing_path}")
@@ -140,7 +154,8 @@ async def download_and_process_image(session, url, date_str, index, image_hashes
             
             print(f"🖼️ 新图片已保存: {physical_save_path}")
 
-            # 更新记录
+            # 更新记录：同时记录URL哈希和内容哈希
+            image_hashes[url_hash] = hugo_relative_path
             image_hashes[image_hash] = hugo_relative_path
             
             return hugo_relative_path
@@ -292,12 +307,11 @@ async def scrape_mit_news_articles(save_path):
 
             new_articles = []
             today_str = datetime.now().strftime('%Y_%m_%d') # 当天日期字符串
-            article_counter = 0 # 当天文章计数器
+            successful_article_counter = 0 # 成功处理的文章计数器
 
             with open(save_path, "a", encoding="utf-8") as f:
-                for title, article_url in all_articles:
-                    article_counter += 1
-                    print(f"\n--- [{article_counter}/{len(all_articles)}] 正在处理: {title} ---")
+                for i, (title, article_url) in enumerate(all_articles):
+                    print(f"\n--- [{i+1}/{len(all_articles)}] 正在处理: {title} ---")
                     print(f"URL: {article_url}")
 
                     # 访问文章页面
@@ -353,61 +367,38 @@ async def scrape_mit_news_articles(save_path):
                             await article_page.close()
                             continue
 
-                        # Extract image URL, but do not fail if it's not found
+                        # Extract image URL - 严格只获取第一张图片
                         image_url = None
                         try:
-                            print("🔍 开始查找文章图片元素...")
-                            # Try multiple selectors for images, in order of preference
                             selectors = [
-                                "figure picture img",  # Primary selector for MIT News
-                                "figure img",          # Fallback 1
-                                "article img",         # Fallback 2
-                                f"{article_body_selector} img",  # 使用找到的文章主体选择器
-                                ".page--article--body img",  # Fallback 3
-                                ".media-image img",    # Fallback 4
-                                "img.featured-image",  # Fallback 5
-                                "img"                  # 最后尝试任何图片
+                                "figure picture img",
+                                "figure img",
+                                "article img",
+                                f"{article_body_selector} img",
+                                ".page--article--body img",
+                                ".media-image img",
+                                "img.featured-image",
+                                "img"
                             ]
                             
                             for selector in selectors:
-                                print(f"  尝试图片选择器: {selector}")
                                 try:
                                     img_elements = await article_page.query_selector_all(selector)
                                     if img_elements and len(img_elements) > 0:
-                                        # Prioritize the first/main image
                                         image_src = await img_elements[0].get_attribute("src")
                                         if image_src:
-                                            # 处理相对URL
                                             if image_src.startswith('/'):
                                                 image_url = urljoin(BASE_URL, image_src)
                                             else:
                                                 image_url = image_src
-                                            print(f"✅ 使用选择器 '{selector}' 找到图片URL: {image_url}")
-                                            break
-                                except Exception as e:
-                                    print(f"  ❌ 选择器 '{selector}' 查找图片失败: {e}")
-                            
-                            if not image_url:
-                                print(f"⚠️ 使用所有选择器都未找到图片")
-                        except Exception as e:
-                            print(f"❌ 查找图片时发生错误: {e}")
+                                            break  # 找到第一张图片后立即停止
+                                except Exception:
+                                    continue
+                        except Exception:
+                            pass
 
-                        # Download image if found
-                        local_image_path = None
-                        if image_url:
-                            try:
-                                # 使用新的下载和处理函数
-                                saved_path = await download_and_process_image(session, image_url, today_str, article_counter, image_hashes)
-                                if saved_path:
-                                    local_image_path = saved_path  # 这已经是正确的相对路径了
-                                    print(f"✅ 图片处理完成, 最终路径: {local_image_path}")
-                            except Exception as e:
-                                print(f"💥 处理或下载图片时发生错误: {e}")
-
-                        # Get article content with better fallback strategies
+                        # Get article content
                         try:
-                            print("🔍 开始提取文章正文...")
-                            # Try to get paragraphs from the most common MIT News content container
                             selectors = [
                                 "div.paragraph--type--content-block-text p", 
                                 f"{article_body_selector} p", 
@@ -419,7 +410,6 @@ async def scrape_mit_news_articles(save_path):
                             
                             paragraphs = []
                             for selector in selectors:
-                                print(f"  尝试段落选择器: {selector}")
                                 try:
                                     paragraph_elements = await article_page.query_selector_all(selector)
                                     if paragraph_elements and len(paragraph_elements) > 0:
@@ -429,35 +419,35 @@ async def scrape_mit_news_articles(save_path):
                                             if text.strip():
                                                 paragraphs.append(text.strip())
                                         if paragraphs:
-                                            print(f"✅ 使用选择器 '{selector}' 找到 {len(paragraphs)} 个段落")
                                             break
-                                except Exception as e:
-                                    print(f"  ❌ 选择器 '{selector}' 查找段落失败: {e}")
+                                except Exception:
+                                    continue
                             
                             # If still no paragraphs, get the whole article text as fallback
                             if not paragraphs:
-                                print("⚠️ 所有段落选择器都未找到内容，尝试提取整个文章内容")
                                 try:
                                     article_body = await article_page.locator(article_body_selector).inner_text()
                                     if article_body:
                                         paragraphs = [article_body]
-                                        print("✅ 已提取整个文章主体文本作为备选")
                                     else:
-                                        print("❌ 无法提取任何内容")
                                         paragraphs = ["[内容提取失败]"]
-                                except Exception as e:
-                                    print(f"❌ 提取整个文章内容失败: {e}")
+                                except Exception:
                                     paragraphs = ["[内容提取失败]"]
                             
                             article_text = "\n\n".join(paragraphs)
-                            print(f"✅ 成功提取文章内容，长度: {len(article_text)} 字符")
-                            
-                            # 打印内容摘要用于验证
-                            content_preview = article_text[:150] + "..." if len(article_text) > 150 else article_text
-                            print(f"📝 内容摘要:\n{content_preview}")
-                        except Exception as e:
-                            print(f"❌ 提取内容时发生错误: {e}")
+                        except Exception:
                             article_text = "[内容提取失败]"
+
+                        # 文章内容提取成功后，才进行图片下载，确保一一对应
+                        local_image_path = None
+                        if image_url and article_text != "[内容提取失败]":
+                            try:
+                                saved_path = await download_and_process_image(session, image_url, today_str, successful_article_counter + 1, image_hashes)
+                                if saved_path:
+                                    local_image_path = saved_path
+                                    print(f"✅ 图片已保存: 第{successful_article_counter + 1}张")
+                            except Exception:
+                                pass
 
                         # 将文章数据写入文件
                         article_data = {
@@ -471,13 +461,14 @@ async def scrape_mit_news_articles(save_path):
                         f.write(json.dumps(article_data, ensure_ascii=False) + "\n")
                         new_articles.append(article_data)
                         existing_urls.add(article_url) # 更新已处理URL集合
-                        print(f"✅ 已抓取并保存文章数据: {title}")
+                        successful_article_counter += 1 # 只有成功处理文章才增加计数器
+                        print(f"✅ 已抓取并保存文章数据: {title} (第 {successful_article_counter} 篇)")
 
                     except Exception as e:
                         print(f"❌ 处理文章页面失败: {article_url}, 错误: {e}")
                     
                     # 随机延迟
-                    if article_counter < len(all_articles):
+                    if i < len(all_articles) - 1:
                         delay = random.uniform(1, 3)
                         print(f"--- 等待 {delay:.2f} 秒后继续 ---\n")
                         await article_page.wait_for_timeout(delay * 1000)
@@ -490,7 +481,30 @@ async def scrape_mit_news_articles(save_path):
         # 保存更新后的图片哈希记录
         save_image_hashes(image_hashes)
         print("✅ 图片哈希记录已更新并保存。")
-        print(f"🎉 本次运行共抓取 {len(new_articles)} 篇新文章。")
+        
+        # 验证一一对应关系
+        total_articles = len(new_articles)
+        total_images = 0
+        
+        # 统计实际生成的图片数量
+        today_image_dir = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', 'images', 'articles', today_str)
+        if os.path.exists(today_image_dir):
+            # 只统计今天新生成的图片
+            image_files = [f for f in os.listdir(today_image_dir) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp'))]
+            total_images = len(image_files)
+        
+        print(f"🎉 本次运行统计:")
+        print(f"   - 抓取文章数: {total_articles} 篇")
+        print(f"   - 生成图片数: {total_images} 张")
+        
+        if total_articles == total_images:
+            print(f"✅ 完美！图片与文章数量一一对应 ({total_articles}:{total_images})")
+        elif total_images < total_articles:
+            print(f"⚠️ 注意：图片数量少于文章数量 (文章:{total_articles}, 图片:{total_images})")
+            print(f"   原因：{total_articles - total_images} 篇文章未找到图片或图片下载失败")
+        else:
+            print(f"⚠️ 异常：图片数量超过文章数量 (文章:{total_articles}, 图片:{total_images})")
+            print(f"   这不应该发生，请检查代码逻辑")
 
 
 if __name__ == "__main__":
