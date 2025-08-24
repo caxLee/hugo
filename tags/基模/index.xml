@@ -7,7 +7,64 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9F%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>三个月、零基础手搓一块TPU，能推理能训练，还是开源的</title>
+        <link>https://caxlee.github.io/hugo/p/%E4%B8%89%E4%B8%AA%E6%9C%88%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%89%8B%E6%90%93%E4%B8%80%E5%9D%97tpu%E8%83%BD%E6%8E%A8%E7%90%86%E8%83%BD%E8%AE%AD%E7%BB%83%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E7%9A%84/</link>
+        <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E4%B8%89%E4%B8%AA%E6%9C%88%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%89%8B%E6%90%93%E4%B8%80%E5%9D%97tpu%E8%83%BD%E6%8E%A8%E7%90%86%E8%83%BD%E8%AE%AD%E7%BB%83%E8%BF%98%E6%98%AF%E5%BC%80%E6%BA%90%E7%9A%84/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_24/001.jpg" alt="Featured image of post 三个月、零基础手搓一块TPU，能推理能训练，还是开源的" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_24/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;三个月、零基础手搓一块TPU，能推理能训练，还是开源的&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 加拿大工程师团队在暑假手工打造开源 TinyTPU，实现ML推理和训练，挑战谷歌TPU效率。通过多层感知机理解，构建TPU核心机制，实现硬件设计与算法结合。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>仅靠5000&#43;样本，全新强化学习范式让30B轻松击败671B的DeepSeek V3</title>
+        <link>https://caxlee.github.io/hugo/p/%E4%BB%85%E9%9D%A05000-%E6%A0%B7%E6%9C%AC%E5%85%A8%E6%96%B0%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%8C%83%E5%BC%8F%E8%AE%A930b%E8%BD%BB%E6%9D%BE%E5%87%BB%E8%B4%A5671b%E7%9A%84deepseek-v3/</link>
+        <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E4%BB%85%E9%9D%A05000-%E6%A0%B7%E6%9C%AC%E5%85%A8%E6%96%B0%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%8C%83%E5%BC%8F%E8%AE%A930b%E8%BD%BB%E6%9D%BE%E5%87%BB%E8%B4%A5671b%E7%9A%84deepseek-v3/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_24/003.jpg" alt="Featured image of post 仅靠5000&#43;样本，全新强化学习范式让30B轻松击败671B的DeepSeek V3" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_24/003.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;仅靠5000&amp;#43;样本，全新强化学习范式让30B轻松击败671B的DeepSeek V3&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Rubicon-preview模型通过构建业界最大规模的评分标尺，用5000样本超越671B模型，拓展强化学习应用至主观任务领域。AI装上万能标尺，量化主观世界，告别机械味。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>超越宇宙极限：第六位海狸数再次突破，无法用常规数学符号表达</title>
+        <link>https://caxlee.github.io/hugo/p/%E8%B6%85%E8%B6%8A%E5%AE%87%E5%AE%99%E6%9E%81%E9%99%90%E7%AC%AC%E5%85%AD%E4%BD%8D%E6%B5%B7%E7%8B%B8%E6%95%B0%E5%86%8D%E6%AC%A1%E7%AA%81%E7%A0%B4%E6%97%A0%E6%B3%95%E7%94%A8%E5%B8%B8%E8%A7%84%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8%E8%BE%BE/</link>
+        <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E8%B6%85%E8%B6%8A%E5%AE%87%E5%AE%99%E6%9E%81%E9%99%90%E7%AC%AC%E5%85%AD%E4%BD%8D%E6%B5%B7%E7%8B%B8%E6%95%B0%E5%86%8D%E6%AC%A1%E7%AA%81%E7%A0%B4%E6%97%A0%E6%B3%95%E7%94%A8%E5%B8%B8%E8%A7%84%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8%E8%BE%BE/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_24/002.jpg" alt="Featured image of post 超越宇宙极限：第六位海狸数再次突破，无法用常规数学符号表达" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_24/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;超越宇宙极限：第六位海狸数再次突破，无法用常规数学符号表达&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 忙碌海狸数探索不断突破极限，挑战常规数学符号表达能力。BB(6)数值巨大无法完整书写，引发数学界狂热探讨。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>「只参与，不参赛」奖牌数却仅次于宇树，这个幕后玩家如何做到的？</title>
         <link>https://caxlee.github.io/hugo/p/%E5%8F%AA%E5%8F%82%E4%B8%8E%E4%B8%8D%E5%8F%82%E8%B5%9B%E5%A5%96%E7%89%8C%E6%95%B0%E5%8D%B4%E4%BB%85%E6%AC%A1%E4%BA%8E%E5%AE%87%E6%A0%91%E8%BF%99%E4%B8%AA%E5%B9%95%E5%90%8E%E7%8E%A9%E5%AE%B6%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E7%9A%84/</link>
         <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
