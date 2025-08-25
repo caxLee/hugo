@@ -7,7 +7,45 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>WAIC创作新纪元：通义万相WAIC美好奇妙世界</title>
+        <link>https://caxlee.github.io/hugo/p/waic%E5%88%9B%E4%BD%9C%E6%96%B0%E7%BA%AA%E5%85%83%E9%80%9A%E4%B9%89%E4%B8%87%E7%9B%B8waic%E7%BE%8E%E5%A5%BD%E5%A5%87%E5%A6%99%E4%B8%96%E7%95%8C/</link>
+        <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/waic%E5%88%9B%E4%BD%9C%E6%96%B0%E7%BA%AA%E5%85%83%E9%80%9A%E4%B9%89%E4%B8%87%E7%9B%B8waic%E7%BE%8E%E5%A5%BD%E5%A5%87%E5%A6%99%E4%B8%96%E7%95%8C/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_25/001.png" alt="Featured image of post WAIC创作新纪元：通义万相WAIC美好奇妙世界" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_25/001.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;WAIC创作新纪元：通义万相WAIC美好奇妙世界&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 通义万相与WAIC联合举办主题活动，展示WAN2.2升级成果，推动AI创作生态进化。创意新角色催生设计范式重构，AI视频生成工具交互方式创新，全民共创时代激活AI创作基因。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>大模型能否为不同硬件平台生成高性能内核？南大、浙大提出跨平台内核生成评测框架MultiKernelBench</title>
+        <link>https://caxlee.github.io/hugo/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%83%BD%E5%90%A6%E4%B8%BA%E4%B8%8D%E5%90%8C%E7%A1%AC%E4%BB%B6%E5%B9%B3%E5%8F%B0%E7%94%9F%E6%88%90%E9%AB%98%E6%80%A7%E8%83%BD%E5%86%85%E6%A0%B8%E5%8D%97%E5%A4%A7%E6%B5%99%E5%A4%A7%E6%8F%90%E5%87%BA%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%86%85%E6%A0%B8%E7%94%9F%E6%88%90%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6multikernelbench/</link>
+        <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%83%BD%E5%90%A6%E4%B8%BA%E4%B8%8D%E5%90%8C%E7%A1%AC%E4%BB%B6%E5%B9%B3%E5%8F%B0%E7%94%9F%E6%88%90%E9%AB%98%E6%80%A7%E8%83%BD%E5%86%85%E6%A0%B8%E5%8D%97%E5%A4%A7%E6%B5%99%E5%A4%A7%E6%8F%90%E5%87%BA%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%86%85%E6%A0%B8%E7%94%9F%E6%88%90%E8%AF%84%E6%B5%8B%E6%A1%86%E6%9E%B6multikernelbench/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_25/011.jpg" alt="Featured image of post 大模型能否为不同硬件平台生成高性能内核？南大、浙大提出跨平台内核生成评测框架MultiKernelBench" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_25/011.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;大模型能否为不同硬件平台生成高性能内核？南大、浙大提出跨平台内核生成评测框架MultiKernelBench&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 南大、浙大提出MultiKernelBench评测框架，实现多平台高性能内核生成。框架跨越单一硬件生态，推动大模型成为全能型选手。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>仅靠5000&#43;样本，全新强化学习范式让30B轻松击败671B的DeepSeek V3</title>
         <link>https://caxlee.github.io/hugo/p/%E4%BB%85%E9%9D%A05000-%E6%A0%B7%E6%9C%AC%E5%85%A8%E6%96%B0%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%8C%83%E5%BC%8F%E8%AE%A930b%E8%BD%BB%E6%9D%BE%E5%87%BB%E8%B4%A5671b%E7%9A%84deepseek-v3/</link>
         <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
