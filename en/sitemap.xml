@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://caxlee.github.io/hugo/</loc>
-    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,6 +19,9 @@
                 hreflang="en"
                 href="https://caxlee.github.io/hugo/"
                 />
+  </url><url>
+    <loc>https://caxlee.github.io/hugo/post/</loc>
+    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/tags/agent/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
@@ -48,9 +51,6 @@
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/p/new-technologies-tackle-brain-health-assessment-for-the-military/</loc>
-    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://caxlee.github.io/hugo/post/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://caxlee.github.io/hugo/tags/</loc>
