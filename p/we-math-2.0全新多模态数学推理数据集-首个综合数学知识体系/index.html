@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="多模态后训练反常识：长思维链SFT和RL的协同困境。研究发现在多模态视觉语言模型中，SFT和RL组合难以实现协同增益。五种组合策略全失效，包括两阶段、交替式和渐进式的混合训练。">
-<title>多模态后训练反常识：长思维链SFT和RL的协同困境</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="We-Math 2.0提出全新多模态数学推理数据集与综合知识体系，通过多层次知识点与难度扩展提升模型泛化能力。训练策略包括SFT冷启动与动态调度训练，实现知识奖惩与模态调度优化。">
+<title>We-Math 2.0：全新多模态数学推理数据集 × 首个综合数学知识体系</title>
 
-<link rel='canonical' href='https://caxlee.github.io/hugo/p/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%90%8E%E8%AE%AD%E7%BB%83%E5%8F%8D%E5%B8%B8%E8%AF%86%E9%95%BF%E6%80%9D%E7%BB%B4%E9%93%BEsft%E5%92%8Crl%E7%9A%84%E5%8D%8F%E5%90%8C%E5%9B%B0%E5%A2%83/'>
+<link rel='canonical' href='https://caxlee.github.io/hugo/p/we-math-2.0%E5%85%A8%E6%96%B0%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E5%AD%A6%E6%8E%A8%E7%90%86%E6%95%B0%E6%8D%AE%E9%9B%86-%E9%A6%96%E4%B8%AA%E7%BB%BC%E5%90%88%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/'>
 
-<link rel="stylesheet" href="/hugo/scss/style.min.87bbe05d49774423310fca109ddd3f85779e06f02c127b210b46d23f771ef5ac.css"><meta property='og:title' content="多模态后训练反常识：长思维链SFT和RL的协同困境">
-<meta property='og:description' content="多模态后训练反常识：长思维链SFT和RL的协同困境。研究发现在多模态视觉语言模型中，SFT和RL组合难以实现协同增益。五种组合策略全失效，包括两阶段、交替式和渐进式的混合训练。">
-<meta property='og:url' content='https://caxlee.github.io/hugo/p/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%90%8E%E8%AE%AD%E7%BB%83%E5%8F%8D%E5%B8%B8%E8%AF%86%E9%95%BF%E6%80%9D%E7%BB%B4%E9%93%BEsft%E5%92%8Crl%E7%9A%84%E5%8D%8F%E5%90%8C%E5%9B%B0%E5%A2%83/'>
+<link rel="stylesheet" href="/hugo/scss/style.min.87bbe05d49774423310fca109ddd3f85779e06f02c127b210b46d23f771ef5ac.css"><meta property='og:title' content="We-Math 2.0：全新多模态数学推理数据集 × 首个综合数学知识体系">
+<meta property='og:description' content="We-Math 2.0提出全新多模态数学推理数据集与综合知识体系，通过多层次知识点与难度扩展提升模型泛化能力。训练策略包括SFT冷启动与动态调度训练，实现知识奖惩与模态调度优化。">
+<meta property='og:url' content='https://caxlee.github.io/hugo/p/we-math-2.0%E5%85%A8%E6%96%B0%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E5%AD%A6%E6%8E%A8%E7%90%86%E6%95%B0%E6%8D%AE%E9%9B%86-%E9%A6%96%E4%B8%AA%E7%BB%BC%E5%90%88%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='未识别' /><meta property='article:published_time' content='2025-08-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-02T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/2025_08_02/003.jpg' />
-<meta name="twitter:title" content="多模态后训练反常识：长思维链SFT和RL的协同困境">
-<meta name="twitter:description" content="多模态后训练反常识：长思维链SFT和RL的协同困境。研究发现在多模态视觉语言模型中，SFT和RL组合难以实现协同增益。五种组合策略全失效，包括两阶段、交替式和渐进式的混合训练。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/2025_08_02/003.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='具身智能' /><meta property='article:published_time' content='2025-08-27T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-27T00:00:00&#43;00:00'/><meta property='og:image' content='https://caxlee.github.io/hugo/images/articles/2025_08_27/002.jpg' />
+<meta name="twitter:title" content="We-Math 2.0：全新多模态数学推理数据集 × 首个综合数学知识体系">
+<meta name="twitter:description" content="We-Math 2.0提出全新多模态数学推理数据集与综合知识体系，通过多层次知识点与难度扩展提升模型泛化能力。训练策略包括SFT冷启动与动态调度训练，实现知识奖惩与模态调度优化。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://caxlee.github.io/hugo/images/articles/2025_08_27/002.jpg' />
 <style>
      
     .custom-horizontal-layout {
@@ -365,7 +365,7 @@
         <div class="article-image">
             <a href="javascript:void(0);">
                 
-                    <img src="/hugo/images/articles/2025_08_02/003.jpg" loading="lazy" alt="Featured image of post 多模态后训练反常识：长思维链SFT和RL的协同困境" />
+                    <img src="/hugo/images/articles/2025_08_27/002.jpg" loading="lazy" alt="Featured image of post We-Math 2.0：全新多模态数学推理数据集 × 首个综合数学知识体系" />
                 
             </a>
         </div>
@@ -376,7 +376,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="javascript:void(0);">多模态后训练反常识：长思维链SFT和RL的协同困境</a>
+            <a href="javascript:void(0);">We-Math 2.0：全新多模态数学推理数据集 × 首个综合数学知识体系</a>
         </h2>
     
         
@@ -398,7 +398,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 02, 2025</time>
+                <time class="article-time--published">Aug 27, 2025</time>
             </div>
         
 
@@ -431,8 +431,8 @@
             </li>
             
             <li class="article-tags-list-item">
-                <a href="https://caxlee.github.io/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/" class="article-tags-list-link">
-                    未识别
+                <a href="https://caxlee.github.io/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/" class="article-tags-list-link">
+                    具身智能
                 </a>
             </li>
             
@@ -443,19 +443,19 @@
     
 </div> 
 </header><div class="article-image-container">
-        <img src="images/articles/2025_08_02/003.jpg" alt="多模态后训练反常识：长思维链SFT和RL的协同困境" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+        <img src="images/articles/2025_08_27/002.jpg" alt="We-Math 2.0：全新多模态数学推理数据集 × 首个综合数学知识体系" class="article-image" onerror="this.onerror=null; this.style.display='none';">
     </div><section class="article-content">
-    <p><img src="/hugo/images/articles/2025_08_02/003.jpg"
+    <p><img src="/hugo/images/articles/2025_08_27/002.jpg"
 	
 	
 	
 	loading="lazy"
 	
-		alt="多模态后训练反常识：长思维链SFT和RL的协同困境"
+		alt="We-Math 2.0：全新多模态数学推理数据集 × 首个综合数学知识体系"
 	
 	
 ></p>
-<p><strong>摘要</strong>: 多模态后训练反常识：长思维链SFT和RL的协同困境。研究发现在多模态视觉语言模型中，SFT和RL组合难以实现协同增益。五种组合策略全失效，包括两阶段、交替式和渐进式的混合训练。</p>
+<p><strong>摘要</strong>: We-Math 2.0提出全新多模态数学推理数据集与综合知识体系，通过多层次知识点与难度扩展提升模型泛化能力。训练策略包括SFT冷启动与动态调度训练，实现知识奖惩与模态调度优化。</p>
 </section>
     
     <footer class="article-footer">
@@ -466,7 +466,7 @@
         
             <a href="/hugo/tags/%E5%9F%BA%E6%A8%A1/">基模</a>
         
-            <a href="/hugo/tags/%E6%9C%AA%E8%AF%86%E5%88%AB/">未识别</a>
+            <a href="/hugo/tags/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/">具身智能</a>
         
     </section>
 
@@ -502,82 +502,6 @@
             
                 
 <article class="has-image">
-    <a href="/hugo/p/agentic-deep-research%E6%96%B0%E8%8C%83%E5%BC%8F%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B%E5%86%8D%E7%AA%81%E7%A0%B4%E5%8F%AF%E4%BF%A1%E5%BA%A6%E5%A2%9E%E5%8A%A0%E8%9A%82%E8%9A%81%E5%AE%89%E5%85%A8%E5%9B%A2%E9%98%9F%E5%87%BA%E5%93%81/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_08_27/005.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_27/005.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Agentic Deep Research新范式，推理能力再突破，可信度增加，蚂蚁安全团队出品</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/hugo/p/icml-2025-ai%E8%99%9A%E6%8B%9F%E7%BB%86%E8%83%9E%E8%90%BD%E5%9C%B0%E9%87%8D%E5%A4%A7%E8%BF%9B%E5%B1%95%E6%B8%85%E5%8D%8Eair%E6%B0%B4%E6%9C%A8%E5%88%86%E5%AD%90%E7%AD%89%E9%A6%96%E5%88%9B%E5%B9%B6%E5%BC%80%E6%BA%90%E5%A4%9A%E5%B0%BA%E5%BA%A6%E7%A9%BA%E9%97%B4%E8%BD%AC%E5%BD%95%E7%BB%84%E5%AD%A6%E5%9F%BA%E7%A1%80%E5%A4%A7%E6%A8%A1%E5%9E%8Bstofm/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_08_27/006.png" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_27/006.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">ICML 2025 | AI虚拟细胞落地重大进展：清华AIR，水木分子等首创并开源多尺度空间转录组学基础大模型SToFM</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/hugo/p/simpler-models-can-outperform-deep-learning-at-climate-prediction/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_08_26/001.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_26/001.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Simpler models can outperform deep learning at climate prediction</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/hugo/p/we-math-2.0%E5%85%A8%E6%96%B0%E5%A4%9A%E6%A8%A1%E6%80%81%E6%95%B0%E5%AD%A6%E6%8E%A8%E7%90%86%E6%95%B0%E6%8D%AE%E9%9B%86-%E9%A6%96%E4%B8%AA%E7%BB%BC%E5%90%88%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/hugo/images/articles/2025_08_27/002.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_27/002.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">We-Math 2.0：全新多模态数学推理数据集 × 首个综合数学知识体系</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/hugo/p/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%8F%90%E5%87%BArtr%E6%A1%86%E6%9E%B6%E8%AE%A9%E6%9C%BA%E6%A2%B0%E8%87%82%E5%8A%A9%E5%8A%9B%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9C%9F%E6%9C%BA%E8%AE%AD%E7%BB%83/">
         
         
@@ -590,6 +514,82 @@
 
         <div class="article-details">
             <h2 class="article-title">手把手教机器人：斯坦福大学提出RTR框架，让机械臂助力人形机器人真机训练</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/iccv-2025-%E6%89%93%E9%80%A0%E9%80%9A%E7%94%A8%E5%B7%A5%E5%85%B7%E6%99%BA%E8%83%BD%E4%BD%93%E7%9A%84%E5%9F%BA%E7%9F%B3%E5%8C%97%E5%A4%A7%E6%8F%90%E5%87%BAtoolvqa%E6%95%B0%E6%8D%AE%E9%9B%86%E5%BC%95%E9%A2%86%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%9A%E6%AD%A5%E6%8E%A8%E7%90%86vqa%E6%96%B0%E8%8C%83%E5%BC%8F/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2025_08_22/010.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_22/010.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ICCV 2025 | 打造通用工具智能体的基石：北大提出ToolVQA数据集，引领多模态多步推理VQA新范式</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/%E6%91%86%E8%84%B1%E9%81%A5%E6%8E%A7%E5%99%A8%E6%B3%A2%E5%A3%AB%E9%A1%BF%E5%8A%A8%E5%8A%9B%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%A7%8B%E9%95%BF%E8%84%91%E5%AD%90%E5%B9%B2%E6%B4%BB%E4%BA%86/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2025_08_21/002.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_21/002.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">摆脱遥控器，波士顿动力人形机器人，开始「长脑子」干活了</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/iccv-2025-%E8%B7%A8%E8%B6%8A%E8%A7%86%E8%A7%89%E4%B8%8E%E8%AF%AD%E8%A8%80%E8%BE%B9%E7%95%8C%E6%89%93%E5%BC%80%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92%E6%84%9F%E7%9F%A5%E7%9A%84%E6%96%B0%E7%AF%87%E7%AB%A0%E5%8C%97%E5%A4%A7%E5%9B%A2%E9%98%9F%E6%8F%90%E5%87%BAinp-cc%E6%A8%A1%E5%9E%8B%E9%87%8D%E5%A1%91%E5%BC%80%E6%94%BE%E8%AF%8D%E6%B1%87hoi%E6%A3%80%E6%B5%8B/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2025_08_20/010.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_20/010.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ICCV 2025 | 跨越视觉与语言边界，打开人机交互感知的新篇章：北大团队提出INP-CC模型重塑开放词汇HOI检测</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/sora%E6%B2%A1%E5%81%9A%E5%88%B0%E7%9A%84longvie%E6%A1%86%E6%9E%B6%E7%BB%99%E8%A7%A3%E5%86%B3%E4%BA%86%E8%B6%85%E9%95%BF%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90sota/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2025_08_20/002.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_08_20/002.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Sora没做到的，LongVie框架给解决了，超长视频生成SOTA</h2>
         </div>
     </a>
 </article>
