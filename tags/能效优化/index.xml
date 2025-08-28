@@ -7,7 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E8%83%BD%E6%95%88%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>EMNLP 2025 | 动态压缩CoT推理新方法LightThinker来了</title>
+        <link>https://caxlee.github.io/hugo/p/emnlp-2025-%E5%8A%A8%E6%80%81%E5%8E%8B%E7%BC%A9cot%E6%8E%A8%E7%90%86%E6%96%B0%E6%96%B9%E6%B3%95lightthinker%E6%9D%A5%E4%BA%86/</link>
+        <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/emnlp-2025-%E5%8A%A8%E6%80%81%E5%8E%8B%E7%BC%A9cot%E6%8E%A8%E7%90%86%E6%96%B0%E6%96%B9%E6%B3%95lightthinker%E6%9D%A5%E4%BA%86/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_28/005.jpg" alt="Featured image of post EMNLP 2025 | 动态压缩CoT推理新方法LightThinker来了" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_28/005.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;EMNLP 2025 | 动态压缩CoT推理新方法LightThinker来了&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: LightThinker是一种动态压缩CoT推理新方法，通过压缩中间思考步骤提高效率。实验证明在减少内存使用和推理时间方面取得平衡。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>夸克发布健康大模型技术报告，公开AI“主任医师”技术细节</title>
         <link>https://caxlee.github.io/hugo/p/%E5%A4%B8%E5%85%8B%E5%8F%91%E5%B8%83%E5%81%A5%E5%BA%B7%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A%E5%85%AC%E5%BC%80ai%E4%B8%BB%E4%BB%BB%E5%8C%BB%E5%B8%88%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82/</link>
         <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
