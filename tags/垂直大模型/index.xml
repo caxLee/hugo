@@ -7,7 +7,45 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://caxlee.github.io/hugo/tags/%E5%9E%82%E7%9B%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>IJCAI 2025 | 化学不是单向路：ChemDual大模型用拆分与重组，优化化学反应与分子逆合成预测</title>
+        <link>https://caxlee.github.io/hugo/p/ijcai-2025-%E5%8C%96%E5%AD%A6%E4%B8%8D%E6%98%AF%E5%8D%95%E5%90%91%E8%B7%AFchemdual%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%94%A8%E6%8B%86%E5%88%86%E4%B8%8E%E9%87%8D%E7%BB%84%E4%BC%98%E5%8C%96%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E4%B8%8E%E5%88%86%E5%AD%90%E9%80%86%E5%90%88%E6%88%90%E9%A2%84%E6%B5%8B/</link>
+        <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/ijcai-2025-%E5%8C%96%E5%AD%A6%E4%B8%8D%E6%98%AF%E5%8D%95%E5%90%91%E8%B7%AFchemdual%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%94%A8%E6%8B%86%E5%88%86%E4%B8%8E%E9%87%8D%E7%BB%84%E4%BC%98%E5%8C%96%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94%E4%B8%8E%E5%88%86%E5%AD%90%E9%80%86%E5%90%88%E6%88%90%E9%A2%84%E6%B5%8B/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_29/004.png" alt="Featured image of post IJCAI 2025 | 化学不是单向路：ChemDual大模型用拆分与重组，优化化学反应与分子逆合成预测" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_29/004.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;IJCAI 2025 | 化学不是单向路：ChemDual大模型用拆分与重组，优化化学反应与分子逆合成预测&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: ChemDual大模型优化化学反应与分子逆合成预测，突破数据稀缺挑战，引入对偶学习提升精度。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>谷歌Nano Banana全网刷屏，起底背后团队</title>
+        <link>https://caxlee.github.io/hugo/p/%E8%B0%B7%E6%AD%8Cnano-banana%E5%85%A8%E7%BD%91%E5%88%B7%E5%B1%8F%E8%B5%B7%E5%BA%95%E8%83%8C%E5%90%8E%E5%9B%A2%E9%98%9F/</link>
+        <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://caxlee.github.io/hugo/p/%E8%B0%B7%E6%AD%8Cnano-banana%E5%85%A8%E7%BD%91%E5%88%B7%E5%B1%8F%E8%B5%B7%E5%BA%95%E8%83%8C%E5%90%8E%E5%9B%A2%E9%98%9F/</guid>
+        <description>&lt;img src="https://caxlee.github.io/hugo/images/articles/2025_08_29/002.jpg" alt="Featured image of post 谷歌Nano Banana全网刷屏，起底背后团队" /&gt;&lt;p&gt;&lt;img src=&#34;https://caxlee.github.io/hugo/images/articles/2025_08_29/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;谷歌Nano Banana全网刷屏，起底背后团队&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 谷歌Nano Banana全网刷屏，Gemini团队展示Gemini 2.5 Flash Image，实现原生图像生成与多模态结合。团队成员Logan Kilpatrick、Kaushik Shivakumar、Robert Riachi、Nicole Brichtova、Mostafa Dehghani介绍技术亮点和未来展望。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>拒稿警告，靠大模型「偷摸水论文」被堵死，ICLR最严新规来了</title>
         <link>https://caxlee.github.io/hugo/p/%E6%8B%92%E7%A8%BF%E8%AD%A6%E5%91%8A%E9%9D%A0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%81%B7%E6%91%B8%E6%B0%B4%E8%AE%BA%E6%96%87%E8%A2%AB%E5%A0%B5%E6%AD%BBiclr%E6%9C%80%E4%B8%A5%E6%96%B0%E8%A7%84%E6%9D%A5%E4%BA%86/</link>
         <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
