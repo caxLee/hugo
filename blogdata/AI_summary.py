@@ -80,86 +80,220 @@ if os.path.exists(output_file):
 
 # 使用最新的OpenAI function calling格式
 def call_openai_with_function_calling(content, title):
-    """使用 function calling 调用 OpenAI API 生成摘要和标签"""
+    """使用 multi-step agent 调用 OpenAI API 生成结构化摘要和标签"""
     
     # 预定义的标签列表（包含"未识别"）
     predefined_tags = ["基模", "多模态", "Infra", "AI4S", "具身智能", "垂直大模型", "Agent", "能效优化", "未识别"]
     
-    # 定义工具（最新格式）
-    tools = [
-        {
-            "type": "function",
-            "function": {
-                "name": "generate_summary_and_tags",
-                "description": "生成极简中文摘要和标签",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "summary": {
-                            "type": "string",
-                            "description": "固定40-60字的中文摘要，直击核心内容"
-                        },
-                        "tags": {
-                            "type": "array",
-                            "items": {
+    # Step 1: 内容分析和关键信息提取
+    def extract_key_information(content, title):
+        """第一步：提取关键信息"""
+        tools_step1 = [
+            {
+                "type": "function",
+                "function": {
+                    "name": "extract_key_info",
+                    "description": "从文章中提取关键技术信息",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "main_technology": {
                                 "type": "string",
-                                "enum": predefined_tags
+                                "description": "文章涉及的主要技术或概念"
                             },
-                            "maxItems": 3,
-                            "description": "必须且只能从预定义标签列表中选择，最多3个标签。不允许创建新标签。"
-                        }
-                    },
-                    "required": ["summary", "tags"]
+                            "key_findings": {
+                                "type": "string",
+                                "description": "文章的核心发现或成果"
+                            },
+                            "technical_impact": {
+                                "type": "string",
+                                "description": "技术影响或应用价值"
+                            },
+                            "quantitative_data": {
+                                "type": "string",
+                                "description": "具体的数据、指标或性能提升（如有）"
+                            }
+                        },
+                        "required": ["main_technology", "key_findings", "technical_impact"]
+                    }
                 }
             }
-        }
-    ]
-    
-    # 构建系统提示
-    system_prompt = textwrap.dedent(f"""
-        你是一名精通技术的编辑，需要生成极简中文摘要。
+        ]
         
-        【摘要要求】
-        - 固定40-60字，严格控制字数
-        - 直接点明核心内容，不要铺垫
-        - 删除所有修饰词
-        - 使用简单直接的表达
-        - 必须是中文摘要
+        system_prompt_step1 = """你是一名技术信息分析专家。请客观地从文章中提取关键信息，避免使用任何主观修饰词。
         
-        【标签要求】
-        - 严格限制：必须且只能从以下预定义标签中选择1-3个最相关的：{', '.join(predefined_tags)}
-        - 不允许创建或使用列表之外的任何标签
-        - 若文章内容与以下任何标签都不相关: {', '.join(predefined_tags[:-1])}，则只返回["未识别"]
-        - "未识别"标签只能单独出现，不能与其他标签一起使用
-        - 不返回任何自创标签，只能从提供的列表中选择
-    """).strip()
-    
-    # 构建用户提示
-    user_prompt = f"标题：{title}\n\n内容：\n{content}"
-    
-    # 调用 API（使用最新格式）
-    try:
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
-            tools=tools,  # 使用tools而非functions
-            tool_choice={"type": "function", "function": {"name": "generate_summary_and_tags"}},  # 指定要使用的工具
-            temperature=0.1  # 降低温度，使输出更确定性
-        )
+        要求：
+        1. 只提取客观事实，不添加"革命性"、"突破性"等主观评价
+        2. 使用准确的技术术语
+        3. 如有具体数据或指标，请准确提取
+        4. 保持信息的准确性和客观性"""
         
-        # 提取函数调用结果（使用最新格式）
-        tool_calls = response.choices[0].message.tool_calls
-        if tool_calls and tool_calls[0].function.name == "generate_summary_and_tags":
-            try:
-                # 解析函数调用的参数
+        try:
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": system_prompt_step1},
+                    {"role": "user", "content": f"标题：{title}\n\n内容：\n{content}"}
+                ],
+                tools=tools_step1,
+                tool_choice={"type": "function", "function": {"name": "extract_key_info"}},
+                temperature=0.1
+            )
+            
+            tool_calls = response.choices[0].message.tool_calls
+            if tool_calls and tool_calls[0].function.name == "extract_key_info":
                 args = json.loads(tool_calls[0].function.arguments)
-                summary = args.get("summary", "")
+                return args
+            else:
+                return None
+                 except Exception as e:
+             print(f"❌ 关键信息提取失败: {str(e)}")
+             return None
+    
+    # Step 2: 结构化摘要生成
+    def generate_structured_summary(key_info):
+        """第二步：基于提取的信息生成结构化摘要"""
+        tools_step2 = [
+            {
+                "type": "function",
+                "function": {
+                    "name": "generate_structured_summary",
+                    "description": "生成结构化的三句话摘要",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "sentence_1_what": {
+                                "type": "string",
+                                "description": "第一句：是什么技术/研究/产品，10-15字"
+                            },
+                            "sentence_2_how": {
+                                "type": "string",
+                                "description": "第二句：如何实现/核心方法，15-20字"
+                            },
+                            "sentence_3_result": {
+                                "type": "string",
+                                "description": "第三句：结果/效果/应用，15-20字"
+                            }
+                        },
+                        "required": ["sentence_1_what", "sentence_2_how", "sentence_3_result"]
+                    }
+                }
+            }
+        ]
+        
+        system_prompt_step2 = """你是一名技术文档编辑专家。基于提取的关键信息，生成结构化的三句话摘要。
+
+        摘要结构要求：
+        1. 第一句：说明这是什么技术/研究/产品（10-15字）
+        2. 第二句：说明如何实现或核心方法（15-20字）  
+        3. 第三句：说明结果、效果或应用价值（15-20字）
+        
+        语言要求：
+        1. 使用客观、简洁的描述
+        2. 避免"首次"、"革命性"、"突破性"等主观修饰词
+        3. 使用准确的技术术语
+        4. 句式统一，表述清晰
+        5. 总字数控制在40-55字之间"""
+        
+        key_info_text = f"""
+        主要技术：{key_info.get('main_technology', '')}
+        核心发现：{key_info.get('key_findings', '')}
+        技术影响：{key_info.get('technical_impact', '')}
+        量化数据：{key_info.get('quantitative_data', '')}
+        """
+        
+        try:
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": system_prompt_step2},
+                    {"role": "user", "content": key_info_text}
+                ],
+                tools=tools_step2,
+                tool_choice={"type": "function", "function": {"name": "generate_structured_summary"}},
+                temperature=0.1
+            )
+            
+            tool_calls = response.choices[0].message.tool_calls
+            if tool_calls and tool_calls[0].function.name == "generate_structured_summary":
+                args = json.loads(tool_calls[0].function.arguments)
+                # 组合三句话成为完整摘要
+                summary = f"{args['sentence_1_what']}{args['sentence_2_how']}{args['sentence_3_result']}"
+                return summary
+            else:
+                return ""
+                 except Exception as e:
+             print(f"❌ 结构化摘要生成失败: {str(e)}")
+             return ""
+    
+    # Step 3: 标签分类
+    def classify_tags(key_info):
+        """第三步：基于关键信息进行标签分类"""
+        tools_step3 = [
+            {
+                "type": "function",
+                "function": {
+                    "name": "classify_article_tags",
+                    "description": "基于关键信息对文章进行标签分类",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "tags": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "enum": predefined_tags
+                                },
+                                "maxItems": 3,
+                                "description": "必须且只能从预定义标签列表中选择，最多3个标签"
+                            },
+                            "reasoning": {
+                                "type": "string",
+                                "description": "选择这些标签的理由"
+                            }
+                        },
+                        "required": ["tags", "reasoning"]
+                    }
+                }
+            }
+        ]
+        
+        system_prompt_step3 = f"""你是一名AI技术分类专家。基于提取的关键信息，从预定义标签中选择最合适的1-3个标签。
+
+        预定义标签：{', '.join(predefined_tags)}
+        
+        分类规则：
+        1. 严格限制：只能从预定义标签中选择
+        2. 最多选择3个最相关的标签
+        3. 如果内容与所有技术标签都不相关，则只返回["未识别"]
+        4. "未识别"标签只能单独出现
+        5. 基于技术内容的客观匹配，不做主观推测"""
+        
+        key_info_text = f"""
+        主要技术：{key_info.get('main_technology', '')}
+        核心发现：{key_info.get('key_findings', '')}
+        技术影响：{key_info.get('technical_impact', '')}
+        """
+        
+        try:
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": system_prompt_step3},
+                    {"role": "user", "content": key_info_text}
+                ],
+                tools=tools_step3,
+                tool_choice={"type": "function", "function": {"name": "classify_article_tags"}},
+                temperature=0.1
+            )
+            
+            tool_calls = response.choices[0].message.tool_calls
+            if tool_calls and tool_calls[0].function.name == "classify_article_tags":
+                args = json.loads(tool_calls[0].function.arguments)
                 tags = args.get("tags", [])
+                reasoning = args.get("reasoning", "")
                 
-                # 强化验证：确保返回的标签都在预定义列表中
+                # 验证标签的有效性
                 valid_tags = []
                 for tag in tags:
                     if tag in predefined_tags:
@@ -167,7 +301,6 @@ def call_openai_with_function_calling(content, title):
                     else:
                         print(f"⚠️ 忽略无效标签: {tag}")
                 
-                # 如果没有有效标签，则返回"未识别"
                 if not valid_tags:
                     print("❗ 未找到有效标签，使用默认标签: '未识别'")
                     valid_tags = ["未识别"]
@@ -177,20 +310,40 @@ def call_openai_with_function_calling(content, title):
                     print("⚠️ '未识别'标签不能与其他标签一起使用，只保留'未识别'")
                     valid_tags = ["未识别"]
                 
-                # 如果标签过多，只保留前三个
+                # 限制标签数量
                 if len(valid_tags) > 3:
                     valid_tags = valid_tags[:3]
                     print(f"⚠️ 标签数量过多，截取为: {valid_tags}")
-                    
-                return summary, valid_tags
-            except json.JSONDecodeError as e:
-                print(f"❌ 解析函数调用参数失败: {e}")
-                return "", ["未识别"]
-        else:
-            print(f"❌ 未获取到预期的函数调用")
-            return "", ["未识别"]
+                
+                print(f"🏷️ 标签分类理由: {reasoning}")
+                return valid_tags
+            else:
+                return ["未识别"]
+                 except Exception as e:
+             print(f"❌ 标签分类失败: {str(e)}")
+             return ["未识别"]
+    
+    # 执行多步骤处理流程
+    try:
+                 key_info = extract_key_information(content, title)
+         if not key_info:
+             print(f"❌ 关键信息提取失败，使用默认值")
+             return "", ["未识别"]
+         
+         summary = generate_structured_summary(key_info)
+         if not summary:
+             print(f"❌ 摘要生成失败")
+             return "", ["未识别"]
+         
+         tags = classify_tags(key_info)
+         
+         print(f"✅ 摘要生成完成: {title[:30]}...")
+         print(f"   摘要长度: {len(summary)} 字")
+        
+        return summary, tags
+        
     except Exception as e:
-        print(f"❌ API 调用失败: {str(e)}")
+        print(f"❌ Multi-step Agent 处理失败: {str(e)}")
         return "", ["未识别"]
 
 # 处理所有输入文件
@@ -240,8 +393,9 @@ with open(output_file, 'a', encoding='utf-8') as out_f:
 
         try:
             # 增加更多调试信息
-            print(f"正在为文章 '{title}' 调用OpenAI API生成摘要...")
-            # 调用 GPT-3.5 生成摘要（带重试）
+            print(f"\n🤖 正在为文章 '{title}' 启动Multi-step Agent...")
+            print(f"📄 文章长度: {len(content)} 字符")
+            # 调用 Multi-step Agent 生成结构化摘要（带重试）
             summary, tags = call_openai_with_function_calling(content, title)
             
             if not summary:
