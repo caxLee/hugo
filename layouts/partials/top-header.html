@@ -1,0 +1,159 @@
+<style>
+/* 强制设置顶部导航样式，确保不会被其他样式覆盖 */
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+/* 确保页面内容不会被顶部导航栏遮挡 */
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+
+/* 新增：用于通过JS控制文章显隐的class，使用高优先级确保生效 */
+.hidden-by-date-filter {
+    display: none !important;
+}
+</style>
+
+<div class="top-header-fixed">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">{{ .Site.Params.sidebar.emoji }}</span>
+            <span class="ai-news-title">AI News</span>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select">{{ T "select_date" }}</label>
+            {{ $today := now.Format "2006-01-02" }}
+            <input type="date" id="date-select" value="{{ $today }}">
+        </div>
+    </div>
+</div>
+
+<script>
+// 立即执行函数，确保变量不会污染全局作用域
+(function() {
+  // 在DOM加载完成后执行
+  document.addEventListener('DOMContentLoaded', function() {
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    // 获取今天的日期
+    const today = new Date().toISOString().slice(0, 10);
+    
+    // 过滤文章的函数
+    function filterArticles(initialLoad = false) {
+      let selectedDate = dateSelector.value;
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
+      }
+      
+      articleCards.forEach(function(card) {
+        // 使用 classList.toggle 来控制显隐，而不是直接修改style
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
+      });
+    }
+    
+    // 监听日期选择器变化
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    // 初始过滤
+    filterArticles(true);
+  });
+})();
+</script> 

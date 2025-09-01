@@ -1,0 +1,28 @@
+{{ define "main" }}
+    <style>
+    /* 简化的单列布局强制样式 */
+    .article-list {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+    }
+    </style>
+    
+    <header>
+        <h1 class="section-title">{{ .Title }}</h1>
+    </header>
+
+    {{- $pages := .Pages.ByDate.Reverse -}}
+    
+    <section class="article-list">
+        {{ range $pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }} 

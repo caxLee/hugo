@@ -1,0 +1,91 @@
+<!-- Custom styles -->
+<style>
+    /* 水平布局强制样式 */
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+    /* 原始源和摘要样式 */
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+    
+    /* 标签样式 - 更新为与CSS文件一致 */
+    .article-tags-list-item a {
+        font-size: 1.4rem !important; /* 与CSS文件保持一致 */
+        padding: 0.4rem 1.1rem !important; /* 与CSS文件保持一致 */
+        font-weight: normal !important; /* 与CSS文件保持一致 */
+        display: inline-flex !important; /* 与CSS文件保持一致 */
+        align-items: center !important; /* 与CSS文件保持一致 */
+        justify-content: center !important; /* 与CSS文件保持一致 */
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+        min-height: 43px !important; /* 与CSS文件保持一致 */
+        margin: 0.4rem 0.4rem 0.4rem 0 !important; /* 与CSS文件保持一致 */
+    }
+</style>
+
+<!-- Custom styles for the website -->
+<link rel="stylesheet" href="{{ "css/custom-post.css" | relURL }}"> 

@@ -1,0 +1,24 @@
+<article class="{{ if .Params.pinned }}pinned{{ end }}">
+    {{ partial "article/components/header" . }}
+    
+    {{- if .Params.image -}}
+    <div class="article-image-container">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-image" onerror="this.onerror=null; this.style.display='none';">
+    </div>
+    {{- end -}}
+    
+    {{ partial "article/components/content" . }}
+    
+    {{ partial "article/components/footer" . }}
+    
+    {{ if or .Params.math .Site.Params.article.math }}
+        {{ partialCached "article/components/math.html" . }}
+    {{ end }}
+    
+    {{ if .Site.Params.article.readingTime }}
+        {{ partial "helper/icon" "clock" }}
+        <time class="article-time--reading">
+            {{ i18n "article.read_time" .ReadingTime }}
+        </time>
+    {{ end }}
+</article> 

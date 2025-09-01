@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" rx="4" ry="4" fill="#f8f9fa"/>
+  
+  <!-- Icon -->
+  <g transform="translate(390, 30) scale(0.6)">
+    <circle cx="0" cy="0" r="15" fill="#6c757d"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="white">i</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="430" y="36" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#495057">
+    点击查看原文链接和摘要
+  </text>
+  
+  <!-- Border -->
+  <rect width="100%" height="100%" rx="4" ry="4" fill="transparent" stroke="#ddd" stroke-width="1"/>
+</svg> 
