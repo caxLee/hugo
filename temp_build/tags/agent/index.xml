@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Agent on Example Site</title>
+        <link>https://caxlee.github.io/tags/agent/</link>
+        <description>Recent content in Agent on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Mon, 14 Jul 2025 21:13:58 +0800</lastBuildDate><atom:link href="https://caxlee.github.io/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ICML 2025 | 清华、上海AI Lab提出专家级医学基准MedXpertQA，看o3、R1哪家强</title>
+        <link>https://caxlee.github.io/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/</link>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/icml-2025-%E6%B8%85%E5%8D%8E%E4%B8%8A%E6%B5%B7ai-lab%E6%8F%90%E5%87%BA%E4%B8%93%E5%AE%B6%E7%BA%A7%E5%8C%BB%E5%AD%A6%E5%9F%BA%E5%87%86medxpertqa%E7%9C%8Bo3r1%E5%93%AA%E5%AE%B6%E5%BC%BA/</guid>
+        <description>&lt;p&gt;MedXpertQA是一个高难度、高临床相关性、全面的医学基准，旨在评估专家级医学知识和高级推理能力。该基准包括文本医学评估和多模态医学评估两个子集，涵盖了17个专业和11个身体系统的4460个问题。通过严格的筛选和增强，MedXpertQA有效区分前沿模型并提供真实诊断场景的临床相关性。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>斯坦福毕业，用RL做Agent，华人创业团队种子轮融资1200万美元</title>
+        <link>https://caxlee.github.io/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/</link>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E6%96%AF%E5%9D%A6%E7%A6%8F%E6%AF%95%E4%B8%9A%E7%94%A8rl%E5%81%9Aagent%E5%8D%8E%E4%BA%BA%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E7%A7%8D%E5%AD%90%E8%BD%AE%E8%9E%8D%E8%B5%841200%E4%B8%87%E7%BE%8E%E5%85%83/</guid>
+        <description>&lt;p&gt;Pokee AI 创始人朱哲清介绍了公司的发展历程和产品特点。Pokee.ai 聚焦于开发一款交互式、个性化、高效的 AI Agent，以 RL 为核心构建 Agent，与传统的以 LLM 为核心的模型有所不同。公司最新完成了 1200 万美元种子轮融资，公开测试版也已上线。朱哲清表示创业是一种全新的体验，公司团队一直秉承着轻量级的理念，目前团队规模为 7 人，强调远程办公的高效性。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>还在为AI数据发愁？张文涛和鄂维南院士团队推出Data-centric AI系统</title>
+        <link>https://caxlee.github.io/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/</link>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E8%BF%98%E5%9C%A8%E4%B8%BAai%E6%95%B0%E6%8D%AE%E5%8F%91%E6%84%81%E5%BC%A0%E6%96%87%E6%B6%9B%E5%92%8C%E9%84%82%E7%BB%B4%E5%8D%97%E9%99%A2%E5%A3%AB%E5%9B%A2%E9%98%9F%E6%8E%A8%E5%87%BAdata-centric-ai%E7%B3%BB%E7%BB%9F/</guid>
+        <description>&lt;p&gt;近年来，大型科技公司主导大模型发展，但学术界在大模型训练数据构建与优化方面受限。张文涛和鄂维南院士团队提出了以数据为中心的 AI 系统 DataFlow，支持多模态数据治理，可提升大语言模型在通用及特定领域的性能。该系统提供多种数据处理流水线，算子和 Agent 自动化任务处理系统。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>马斯克吹牛了吗？Grok 4第一波实测出炉：既能完虐o3，也菜到数不清6根手指</title>
+        <link>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</link>
+        <pubDate>Sat, 12 Jul 2025 23:34:59 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%B9%E7%89%9B%E4%BA%86%E5%90%97grok-4%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%AE%9E%E6%B5%8B%E5%87%BA%E7%82%89%E6%97%A2%E8%83%BD%E5%AE%8C%E8%99%90o3%E4%B9%9F%E8%8F%9C%E5%88%B0%E6%95%B0%E4%B8%8D%E6%B8%856%E6%A0%B9%E6%89%8B%E6%8C%87/</guid>
+        <description>&lt;p&gt;马斯克亮相 Grok 4 发布会，宣称所有学科都达到博士后水平，吸引全球网友兴趣。比较 Grok 4 和 o3 在多个测试中表现，Grok 4 获得更多胜利。Grok 4 在教育领域应用潜力巨大，能够让抽象概念可视化，制作经典游戏和模拟。然而在实测中也出现翻车现象，引发一些讨论。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>亚马逊云科技推出基于NVIDIA Blackwell的最新、超强GPU实例</title>
+        <link>https://caxlee.github.io/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E6%8E%A8%E5%87%BA%E5%9F%BA%E4%BA%8Envidia-blackwell%E7%9A%84%E6%9C%80%E6%96%B0%E8%B6%85%E5%BC%BAgpu%E5%AE%9E%E4%BE%8B/</link>
+        <pubDate>Thu, 10 Jul 2025 22:06:08 +0800</pubDate>
+        
+        <guid>https://caxlee.github.io/p/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E7%A7%91%E6%8A%80%E6%8E%A8%E5%87%BA%E5%9F%BA%E4%BA%8Envidia-blackwell%E7%9A%84%E6%9C%80%E6%96%B0%E8%B6%85%E5%BC%BAgpu%E5%AE%9E%E4%BE%8B/</guid>
+        <description>&lt;p&gt;亚马逊云科技推出了由 NVIDIA Grace Blackwell Superchips 加速的 Amazon EC2 P6e-GB200 UltraServer，专为训练和部署最大规模、最复杂的 AI 模型而设计。P6e-GB200 UltraServer 提供高达 360 petaflops 的高密度算力和 13.4TB 的高带宽显存，支持大规模 AI 工作负载。客户可根据具体需求选择适合的实例，以满足不同的训练与推理任务。&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

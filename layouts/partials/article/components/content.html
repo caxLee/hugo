@@ -1,0 +1,84 @@
+{{- $hasContent := ne (trim .Content " \t\n\r") "" -}}
+
+{{- if $hasContent -}}
+<section class="article-content">
+    {{ .Content }}
+
+    {{- if or .Params.original_link .Params.original_summary -}}
+    <div class="original-content-trigger">
+        <div class="trigger-box">
+            <div class="trigger-icon">📄</div>
+            <div class="trigger-text">点击查看原文链接和摘要</div>
+        </div>
+    </div>
+
+    <div class="original-content-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title">原文信息</h3>
+            
+            <div class="modal-content-inner">
+                {{- if .Params.original_link -}}
+                <div class="original-source" style="display: block;">
+                    <h4>原文链接 (Original Article):</h4>
+                    <a href="{{ .Params.original_link }}" target="_blank" rel="noopener">{{ .Params.original_link }}</a>
+                </div>
+                {{- end -}}
+
+                {{- if .Params.original_summary -}}
+                <div class="original-summary" style="display: block;">
+                    <h4>原文摘要 (Original Summary):</h4>
+                    <p>{{ .Params.original_summary }}</p>
+                </div>
+                {{- end -}}
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var trigger = document.querySelector('.original-content-trigger');
+            var modal = document.querySelector('.original-content-modal');
+            var closeButton = document.querySelector('.close-modal');
+            
+            if (trigger && modal && closeButton) {
+                // Open modal when clicking the trigger
+                trigger.addEventListener('click', function() {
+                    modal.style.display = 'block';
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling behind modal
+                });
+                
+                // Close modal when clicking the close button
+                closeButton.addEventListener('click', function() {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = 'auto'; // Restore scrolling
+                });
+                
+                // Close modal when clicking outside the content
+                modal.addEventListener('click', function(event) {
+                    if (event.target === modal) {
+                        modal.style.display = 'none';
+                        document.body.style.overflow = 'auto'; // Restore scrolling
+                    }
+                });
+                
+                // Close modal when pressing Escape key
+                document.addEventListener('keydown', function(event) {
+                    if (event.key === 'Escape' && modal.style.display === 'block') {
+                        modal.style.display = 'none';
+                        document.body.style.overflow = 'auto'; // Restore scrolling
+                    }
+                });
+            }
+        });
+    </script>
+    {{- end -}}
+</section>
+{{- else -}}
+<!-- 如果文章设置了image参数，显示为顶部图片 -->
+{{- if .Params.image -}}
+<section class="article-hero">
+    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-hero-image">
+</section>
+{{- end -}}
+{{- end -}} 

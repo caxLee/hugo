@@ -1,0 +1,16 @@
+{{- partial "helper/external" (dict "Context" . "Namespace" "Vibrant") -}}
+
+{{- $opts := dict "minify" hugo.IsProduction -}}
+{{- $script := resources.Get "ts/main.ts" | js.Build $opts | fingerprint -}}
+
+<script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script>
+
+{{- with resources.Get "ts/custom.ts" -}}
+    {{/* Place your custom script in HUGO_SITE_FOLDER/assets/ts/custom.ts */}}
+    {{- $customScript := . | js.Build $opts | fingerprint -}}
+    <script type="text/javascript" src="{{ $customScript.RelPermalink }}" defer></script>
+{{- end -}}
+{{- with resources.Get "js/modal.js" -}}
+    {{- $modalScript := . | js.Build $opts | fingerprint -}}
+    <script type="text/javascript" src="{{ $modalScript.RelPermalink }}" defer></script>
+{{- end -}}

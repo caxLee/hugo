@@ -1,0 +1,278 @@
+/* 基本文章卡片样式 */
+article {
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    font-family: "等线", "DengXian", "Microsoft YaHei", sans-serif;
+    font-weight: 500;
+}
+
+article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 文章标签样式 - 尺寸调整 */
+.article-tags-list-item a,
+.article-tags a,
+.article-category a,
+.article-tags-list-link,
+.article-category a[href],
+.article-tags a[href],
+.article-tags-list-item a[href] {
+    font-size: 1.4rem !important;
+    padding: 0.4rem 1.1rem !important;
+    font-weight: normal !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: var(--tertiary-background-color, #f0f0f0) !important;
+    color: var(--secondary-text-color, #333) !important;
+    border-radius: 4px !important;
+    text-decoration: none !important;
+    transition: background-color 0.2s, color 0.2s !important;
+    min-height: 43px !important;
+    margin: 0.4rem 0.4rem 0.4rem 0 !important;
+}
+
+.article-tags-list-item a:hover,
+.article-tags a:hover,
+.article-category a:hover,
+.article-tags-list-link:hover,
+.article-category a[href]:hover,
+.article-tags a[href]:hover,
+.article-tags-list-item a[href]:hover {
+    background: var(--theme-color, #0066cc) !important;
+    color: #ffffff !important;
+}
+
+
+
+.article-tags-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    gap: 0.7rem !important;
+}
+
+.article-tags-list-item {
+    margin-bottom: 0.7rem !important;
+}
+
+/* 确保文章网格布局正常 */
+.article-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 30px !important;
+    margin-top: 30px !important;
+    padding: 0 20px !important;
+    counter-reset: article-counter !important;
+}
+
+/* 响应式调整 */
+@media (max-width: 1200px) {
+    .article-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .article-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* 移动端tag标签尺寸调整 */
+    .article-tags-list-item a,
+    .article-tags a,
+    .article-category a,
+    .article-tags-list-link,
+    .article-category a[href],
+    .article-tags a[href],
+    .article-tags-list-item a[href] {
+        font-size: 1.2rem !important;
+        padding: 0.3rem 0.9rem !important;
+        min-height: 36px !important;
+    }
+} 
+
+/* 文章内容图片样式 */
+.article-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+}
+
+/* 图片容器样式 */
+.article-image-container {
+    margin: 1rem 0 2rem;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.article-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 图片加载失败样式 */
+img.error {
+    background-color: #f5f5f5;
+    min-height: 200px;
+    border: 1px dashed #ccc;
+    position: relative;
+}
+
+/* 修复favicon错误导致的问题 */
+link[rel="icon"][href=""] {
+    display: none;
+}
+
+/* 修复外部链接错误 */
+img[src*="dh.summer5188.com"] {
+    display: none !important;
+}
+
+/* 设置卡片高度和内部间距 */
+article {
+    height: 200px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* 文章详情容器 */
+.article-details {
+    padding: var(--card-padding) var(--card-padding) 0 var(--card-padding) !important; /* 移除底部padding */
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    gap: 0 !important; /* 覆盖主题的gap: 15px设置 */
+    justify-content: space-between !important; /* 让内容分布在顶部和底部 */
+}
+
+/* 文章标题间距 */
+.article-title {
+    margin: 0 !important;
+    white-space: nowrap !important; /* 固定为1行 */
+    overflow: hidden !important; /* 隐藏超出部分 */
+    text-overflow: ellipsis !important; /* 用省略号代替 */
+    width: 720px !important; /* 固定宽度，超出部分用省略号 */
+}
+
+.article-title a {
+    display: block !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    width: 100% !important;
+}
+
+/* 文章摘要间距 */
+.article-summary {
+    margin-top: 15px !important; /* summary距离title 15px */
+    margin-bottom: 0 !important;
+    color: var(--card-text-color-secondary, #666) !important;
+    font-size: 1.4rem !important;
+    line-height: 1.6 !important;
+    position: relative !important; /* 防止影响其他元素定位 */
+}
+
+/* 文章页脚间距 */
+.article-footer {
+    margin: 0 !important; /* 覆盖主题的margin: var(--card-padding)设置 */
+    margin-bottom: 0px !important; /* 调整为0px底部间距 */
+    position: relative !important; /* 确保独立定位 */
+}
+
+/* 文章标签间距 */
+.article-tags {
+    margin: 0 !important;
+    position: relative !important; /* 确保独立定位 */
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 0.7rem !important;
+}
+
+/* 移动端调整 */
+@media (max-width: 768px) {
+    article {
+        height: 180px !important;
+    }
+    
+
+    
+    .article-summary {
+        margin-top: 12px !important;
+    }
+    
+    .article-footer {
+        margin-bottom: 8px !important; /* 移动端底部间距调整为8px */
+    }
+} 
+
+/* 文章分类标签间距调整 */
+.article-category {
+    margin-bottom: 15px !important;
+    margin-top: 0 !important;
+}
+
+/* 图片占位预加载样式 */
+.article-image {
+    position: relative;
+    overflow: hidden;
+    background-color: #f5f5f5; /* 占位背景色 */
+}
+
+.article-image .image-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(3px);
+    transform: scale(1.05);
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    opacity: 1;
+}
+
+.article-image .image-full {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 2;
+}
+
+.article-image .image-full.loaded {
+    opacity: 1;
+}
+
+.article-image .image-placeholder.fade-out {
+    opacity: 0;
+}
+
+/* 图片加载失败时的样式 */
+.article-image .image-placeholder.error,
+.article-image .image-full.error {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 12px;
+    filter: none;
+    transform: none;
+} 
