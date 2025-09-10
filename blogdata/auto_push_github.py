@@ -57,13 +57,8 @@ def commit_content_to_main(hugo_source_path, token=None):
     print("添加 content/post 目录下的所有更改...")
     run_command(['git', 'add', os.path.join('content', 'post') + os.sep], cwd=hugo_source_path)
     
-    # 2. 添加所有新生成或修改过的图片
-    images_dir = os.path.join('static', 'images', 'articles')
-    if os.path.isdir(os.path.join(hugo_source_path, images_dir)):
-        print(f"添加 {images_dir} 目录下的所有更改...")
-        run_command(['git', 'add', images_dir + os.sep], cwd=hugo_source_path)
-    else:
-        print(f"⚠️ 图片目录不存在: {images_dir}")
+    # 2. 图片现已存储在S3云存储，无需提交到Git
+    print("📦 图片已上传到S3云存储，跳过本地图片文件添加")
 
     # 检查是否有更改需要提交
     success, status_output = run_command(['git', 'status', '--porcelain'], cwd=hugo_source_path, silent=True)
@@ -72,7 +67,7 @@ def commit_content_to_main(hugo_source_path, token=None):
         return False
     
     # 提交更改
-    commit_message = f"feat: 添加 {today} 的每日文章和图片"
+    commit_message = f"feat: 添加 {today} 的每日文章 (图片已上传S3)"
     print(f"提交更改: {commit_message}")
     success, _ = run_command(['git', 'commit', '-m', commit_message], cwd=hugo_source_path)
     if not success:

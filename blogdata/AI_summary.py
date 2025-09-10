@@ -146,9 +146,9 @@ def call_openai_with_function_calling(content, title):
                 return args
             else:
                 return None
-                 except Exception as e:
-             print(f"❌ 关键信息提取失败: {str(e)}")
-             return None
+        except Exception as e:
+            print(f"❌ 关键信息提取失败: {str(e)}")
+            return None
     
     # Step 2: 结构化摘要生成
     def generate_structured_summary(key_info):
@@ -222,9 +222,9 @@ def call_openai_with_function_calling(content, title):
                 return summary
             else:
                 return ""
-                 except Exception as e:
-             print(f"❌ 结构化摘要生成失败: {str(e)}")
-             return ""
+        except Exception as e:
+            print(f"❌ 结构化摘要生成失败: {str(e)}")
+            return ""
     
     # Step 3: 标签分类
     def classify_tags(key_info):
@@ -319,26 +319,26 @@ def call_openai_with_function_calling(content, title):
                 return valid_tags
             else:
                 return ["未识别"]
-                 except Exception as e:
-             print(f"❌ 标签分类失败: {str(e)}")
-             return ["未识别"]
+        except Exception as e:
+            print(f"❌ 标签分类失败: {str(e)}")
+            return ["未识别"]
     
     # 执行多步骤处理流程
     try:
-                 key_info = extract_key_information(content, title)
-         if not key_info:
-             print(f"❌ 关键信息提取失败，使用默认值")
-             return "", ["未识别"]
-         
-         summary = generate_structured_summary(key_info)
-         if not summary:
-             print(f"❌ 摘要生成失败")
-             return "", ["未识别"]
-         
-         tags = classify_tags(key_info)
-         
-         print(f"✅ 摘要生成完成: {title[:30]}...")
-         print(f"   摘要长度: {len(summary)} 字")
+        key_info = extract_key_information(content, title)
+        if not key_info:
+            print(f"❌ 关键信息提取失败，使用默认值")
+            return "", ["未识别"]
+        
+        summary = generate_structured_summary(key_info)
+        if not summary:
+            print(f"❌ 摘要生成失败")
+            return "", ["未识别"]
+        
+        tags = classify_tags(key_info)
+        
+        print(f"✅ 摘要生成完成: {title[:30]}...")
+        print(f"   摘要长度: {len(summary)} 字")
         
         return summary, tags
         

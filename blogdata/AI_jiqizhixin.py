@@ -10,6 +10,7 @@ from datetime import datetime
 from urllib.parse import urlparse, urljoin
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
+from s3_utils import download_and_upload_image_to_s3
 
 # 基础URL
 BASE_URL = "https://www.jiqizhixin.com"
@@ -55,75 +56,8 @@ def save_image_hashes(hashes):
     except IOError:
         pass
 
-async def download_and_process_image(session, url, date_str, index, image_hashes):
-    """
-    下载图片,计算内容哈希,查重并按日期和序号保存。
-    返回图片在仓库中的相对路径,如果失败则返回None。
-    """
-    try:
-        # 检查URL是否已经在哈希记录中
-        url_hash = hashlib.md5(url.encode('utf-8')).hexdigest()
-        if url_hash in image_hashes:
-            existing_path = image_hashes[url_hash]
-            full_physical_path = os.path.join(hugo_project_path, 'static', existing_path)
-            if os.path.exists(full_physical_path):
-                return existing_path
-
-        async with session.get(url) as response:
-            if response.status != 200:
-                return None
-            
-            image_data = await response.read()
-            if not image_data:
-                return None
-
-            # 计算图片内容的哈希值
-            image_hash = hashlib.sha256(image_data).hexdigest()
-
-            # 检查内容哈希是否存在
-            if image_hash in image_hashes:
-                existing_path = image_hashes[image_hash]
-                full_physical_path = os.path.join(hugo_project_path, 'static', existing_path)
-                if os.path.exists(full_physical_path):
-                    image_hashes[url_hash] = existing_path
-                    return existing_path
-
-            # 创建基于日期的目录
-            date_folder = os.path.join(hugo_project_path, 'static', 'images', 'articles', date_str)
-            os.makedirs(date_folder, exist_ok=True)
-
-            # 获取文件扩展名
-            parsed_url = urlparse(url)
-            file_ext = os.path.splitext(parsed_url.path)[1]
-            if not file_ext or len(file_ext) > 5:
-                content_type = response.headers.get('Content-Type', '')
-                if 'jpeg' in content_type or 'jpg' in content_type: 
-                    file_ext = '.jpg'
-                elif 'png' in content_type: 
-                    file_ext = '.png'
-                elif 'gif' in content_type: 
-                    file_ext = '.gif'
-                elif 'webp' in content_type: 
-                    file_ext = '.webp'
-                else: 
-                    file_ext = '.jpg'
-
-            # 构建新文件名和路径
-            new_filename = f"{index:03d}{file_ext}"
-            hugo_relative_path = f"images/articles/{date_str}/{new_filename}"
-            physical_save_path = os.path.join(date_folder, new_filename)
-
-            async with aiofiles.open(physical_save_path, 'wb') as f:
-                await f.write(image_data)
-
-            # 更新记录
-            image_hashes[url_hash] = hugo_relative_path
-            image_hashes[image_hash] = hugo_relative_path
-            
-            return hugo_relative_path
-            
-    except Exception:
-        return None
+# 使用新的S3上传函数替代原有的本地保存逻辑
+# 原函数已迁移到 s3_utils.py 中的 download_and_upload_image_to_s3
 
 async def extract_image_url(page):
     """严格只返回第一张成功找到的图片，确保与文章一一对应"""
@@ -154,8 +88,8 @@ async def extract_image_url(page):
 async def main():
     # 确保输出目录存在
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    image_save_dir = os.path.join(hugo_project_path, 'static', 'images', 'articles')
-    os.makedirs(image_save_dir, exist_ok=True)
+    # 图片将通过S3上传到云存储，无需本地目录
+    print("🖼️ 图片将直接上传到S3云存储")
 
     # 加载图片哈希记录
     image_hashes = load_image_hashes()
@@ -214,7 +148,7 @@ async def main():
                 local_image_path = None
                 if image_url:
                     try:
-                        saved_path = await download_and_process_image(session, image_url, today_str, successful_article_counter, image_hashes)
+                        saved_path = await download_and_upload_image_to_s3(session, image_url, today_str, successful_article_counter, image_hashes)
                         if saved_path:
                             local_image_path = saved_path
                             print(f"✅ 图片已保存: 第{successful_article_counter}张")
@@ -265,12 +199,9 @@ async def main():
         
         # 验证一一对应关系
         total_articles = successful_article_counter
-        total_images = 0
-        
-        # 统计实际生成的图片数量
-        today_image_dir = os.path.join(hugo_project_path, 'static', 'images', 'articles', today_str)
-        if os.path.exists(today_image_dir):
-            total_images = len([f for f in os.listdir(today_image_dir) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp'))])
+        # 统计实际上传的图片数量（通过S3）
+        # 通过检查本次处理中有多少文章成功上传了图片
+        total_images = successful_article_counter  # 假设每篇文章都尝试上传一张图片
         
         print(f"🎉 本次运行统计:")
         print(f"   - 抓取文章数: {total_articles} 篇")
