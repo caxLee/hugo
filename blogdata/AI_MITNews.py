@@ -12,12 +12,12 @@ from urllib.parse import urlparse, urljoin
 import hashlib
 import logging
 import traceback
+from s3_utils import download_and_upload_image_to_s3
 
 BASE_URL = "https://news.mit.edu"
 # 使用 HUGO_PROJECT_PATH 以便在 GitHub Action 中也能运行
 hugo_project_path = os.getenv('HUGO_PROJECT_PATH', r'C:\Users\kongg\0')
 base_dir = os.path.join(hugo_project_path, 'spiders', 'ai_news')
-image_save_dir = os.path.join(hugo_project_path, 'static', 'images', 'articles')
 SAVE_PATH = os.path.join(base_dir, "mit_news_articles.jsonl")
 HEADLESS = os.environ.get('GITHUB_ACTIONS') == 'true'
 # 新增调试目录
@@ -79,91 +79,8 @@ async def log_response(response):
                 print("⚠️ 无法保存错误响应内容")
 
 
-async def download_and_process_image(session, url, date_str, index, image_hashes):
-    """
-    下载图片,计算哈希,查重并按日期和序号保存。
-    返回图片在仓库中的相对路径,如果失败则返回None。
-    """
-    try:
-        # 首先检查URL是否已经在哈希记录中（基于URL的快速去重）
-        url_hash = hashlib.md5(url.encode('utf-8')).hexdigest()
-        if url_hash in image_hashes:
-            existing_path = image_hashes[url_hash]
-            print(f"🔄 图片URL已存在 (URL哈希: {url_hash[:8]}...), 使用现有路径: {existing_path}")
-            # 确认文件物理存在
-            full_physical_path = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', existing_path)
-            if os.path.exists(full_physical_path):
-                return existing_path
-            else:
-                print(f"⚠️ 文件记录存在但物理文件丢失，将重新下载: {existing_path}")
-
-        async with session.get(url) as response:
-            if response.status != 200:
-                print(f"❌ 下载图片失败，状态码: {response.status}, URL: {url}")
-                return None
-            
-            image_data = await response.read()
-            if not image_data:
-                print(f"❌ 下载的图片数据为空, URL: {url}")
-                return None
-
-            # 计算图片内容的哈希值
-            image_hash = hashlib.sha256(image_data).hexdigest()
-
-            # 检查内容哈希是否存在于记录中
-            if image_hash in image_hashes:
-                existing_path = image_hashes[image_hash]
-                print(f"🔄 图片内容已存在 (内容哈希: {image_hash[:8]}...), 使用现有路径: {existing_path}")
-                # 确认文件物理存在，如果不存在则重新下载
-                full_physical_path = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', existing_path)
-                if os.path.exists(full_physical_path):
-                    # 同时更新URL哈希记录
-                    image_hashes[url_hash] = existing_path
-                    return existing_path
-                else:
-                    print(f"⚠️ 文件记录存在但物理文件丢失，将重新下载: {existing_path}")
-
-            # 创建基于日期的目录
-            date_folder = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', 'images', 'articles', date_str)
-            os.makedirs(date_folder, exist_ok=True)
-
-            # 获取文件扩展名
-            parsed_url = urlparse(url)
-            file_ext = os.path.splitext(parsed_url.path)[1]
-            if not file_ext or len(file_ext) > 5: # 基本的扩展名验证
-                # 尝试从Content-Type获取
-                content_type = response.headers.get('Content-Type', '')
-                if 'jpeg' in content_type or 'jpg' in content_type:
-                    file_ext = '.jpg'
-                elif 'png' in content_type:
-                    file_ext = '.png'
-                elif 'gif' in content_type:
-                    file_ext = '.gif'
-                elif 'webp' in content_type:
-                    file_ext = '.webp'
-                else:
-                    file_ext = '.jpg' # 默认扩展名
-
-            # 构建新文件名和路径
-            new_filename = f"{index:03d}{file_ext}" # 001.jpg, 002.png ...
-            hugo_relative_path = f"images/articles/{date_str}/{new_filename}"
-            physical_save_path = os.path.join(date_folder, new_filename)
-
-            async with aiofiles.open(physical_save_path, 'wb') as f:
-                await f.write(image_data)
-            
-            print(f"🖼️ 新图片已保存: {physical_save_path}")
-
-            # 更新记录：同时记录URL哈希和内容哈希
-            image_hashes[url_hash] = hugo_relative_path
-            image_hashes[image_hash] = hugo_relative_path
-            
-            return hugo_relative_path
-
-    except Exception as e:
-        print(f"💥 下载或处理图片时发生严重错误: {e}")
-        print(traceback.format_exc())
-        return None
+# 使用新的S3上传函数替代原有的本地保存逻辑
+# 原函数已迁移到 s3_utils.py 中的 download_and_upload_image_to_s3
 
 
 async def scrape_mit_news_articles(save_path):
@@ -171,10 +88,8 @@ async def scrape_mit_news_articles(save_path):
     # 步骤1: 初始化路径和数据
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     
-    # 确保图片保存目录存在
-    image_save_dir = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', 'images', 'articles')
-    os.makedirs(image_save_dir, exist_ok=True)
-    print(f"🖼️ 图片将统一保存在: {image_save_dir}")
+    # 图片将通过S3上传到云存储，无需本地目录
+    print(f"🖼️ 图片将直接上传到S3云存储")
 
     # 加载现有数据用于去重
     existing_urls = load_existing_urls(save_path)
@@ -442,7 +357,7 @@ async def scrape_mit_news_articles(save_path):
                         local_image_path = None
                         if image_url and article_text != "[内容提取失败]":
                             try:
-                                saved_path = await download_and_process_image(session, image_url, today_str, successful_article_counter + 1, image_hashes)
+                                saved_path = await download_and_upload_image_to_s3(session, image_url, today_str, successful_article_counter + 1, image_hashes)
                                 if saved_path:
                                     local_image_path = saved_path
                                     print(f"✅ 图片已保存: 第{successful_article_counter + 1}张")
@@ -486,12 +401,8 @@ async def scrape_mit_news_articles(save_path):
         total_articles = len(new_articles)
         total_images = 0
         
-        # 统计实际生成的图片数量
-        today_image_dir = os.path.join(os.getenv('HUGO_PROJECT_PATH', '.'), 'static', 'images', 'articles', today_str)
-        if os.path.exists(today_image_dir):
-            # 只统计今天新生成的图片
-            image_files = [f for f in os.listdir(today_image_dir) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp'))]
-            total_images = len(image_files)
+        # 统计实际上传的图片数量（通过S3）
+        total_images = sum(1 for article in new_articles if article.get('image_path'))
         
         print(f"🎉 本次运行统计:")
         print(f"   - 抓取文章数: {total_articles} 篇")
