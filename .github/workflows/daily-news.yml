@@ -1,0 +1,46 @@
+name: Daily News Update
+
+on:
+  schedule:
+    # 每天UTC时间23:00（北京时间7:00）运行
+    - cron: '0 23 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install Python dependencies
+      run: |
+        cd blogdata
+        pip install -r requirements.txt
+        
+    - name: Run daily news scraping
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        HUGO_PROJECT_PATH: ${{ github.workspace }}
+      run: |
+        cd blogdata
+        python run_all_daily.py
+        
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+    - name: Commit and push changes
+      run: |
+        git add articles/
+        git commit -m "Daily news update - $(date +'%Y-%m-%d')" || exit 0
+        git push 

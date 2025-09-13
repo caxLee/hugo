@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# blogdata specific
+blogdata/.env
+blogdata/__pycache__/
+blogdata/*.log
+
+# Keep articles directory for deployment
+# articles/ - 注释掉，让文章被提交到Git

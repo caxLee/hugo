@@ -6,12 +6,13 @@ import os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # 定义要按顺序运行的脚本列表
+# 注意：在GitHub Actions中不需要运行auto_push_github.py，因为Actions会自动处理Git操作
 scripts_to_run = [
     'AI_jiqizhixin.py',
-    'AI_MITNews.py',
+    'AI_MITNews.py', 
     'AI_summary.py',
     'daily_md_generator.py',
-    'auto_push_github.py',
+    # 'auto_push_github.py',  # 在GitHub Actions中不需要
 ]
 
 print("🚀 开始执行每日构建流程...")

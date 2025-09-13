@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
+    <head>
+        {{- partial "head/head.html" . -}}
+        {{- block "head" . -}}{{ end }}
+        
+        <!-- 错误处理脚本 -->
+        {{ $errorHandler := resources.Get "js/error-handler.js" | fingerprint }}
+        <script src="{{ $errorHandler.RelPermalink }}"></script>
+        
+        <!-- 图片处理器脚本 -->
+        {{ $imageHandler := resources.Get "js/image-handler.js" | fingerprint }}
+        <script src="{{ $imageHandler.RelPermalink }}"></script>
+        
+        <!-- 保留主要布局样式，但移除可能与顶部导航冲突的样式 -->
+        <style>
+            /* 强制水平布局样式 - 全局应用 */
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
+            /* 基本标签样式 */
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            /* 注释掉这部分，由custom-post.css提供 */
+            /* .article-tags .article-tags-list-item a {
+                display: inline-block;
+                background: var(--tertiary-background-color);
+                color: var(--secondary-text-color);
+                padding: 0.25rem 0.75rem;
+                border-radius: var(--card-border-radius);
+                font-size: 0.875rem;
+                text-decoration: none;
+                transition: background-color 0.2s, color 0.2s;
+            } */
+        </style>
+    </head>
+    <body class="{{ block `body-class` . }}{{ end }} simplified-layout">
+        {{- partial "head/colorScheme" . -}}
+        
+        {{- partial "top-header.html" . -}}
+
+        <div class="container main-container">
+            <main class="main full-width">
+                {{- block "main" . }}{{- end }}
+            </main>
+        </div>
+        {{ partial "footer/include.html" . }}
+    </body>
+</html> 
