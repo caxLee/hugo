@@ -42,7 +42,7 @@ def commit_content_to_main(hugo_source_path, token=None):
     
     # 获取今天的日期，用于查找新生成的文章目录
     today = datetime.now().strftime('%Y_%m_%d')
-    content_dir = os.path.join(hugo_source_path, 'content', 'post')
+    articles_dir = os.path.join(hugo_source_path, 'articles')
     
     # 配置Git
     is_github_actions = os.environ.get('GITHUB_ACTIONS') == 'true'
@@ -54,8 +54,8 @@ def commit_content_to_main(hugo_source_path, token=None):
     
     # --- 简化并修复的添加逻辑 ---
     # 1. 添加所有新生成的或修改过的文章
-    print("添加 content/post 目录下的所有更改...")
-    run_command(['git', 'add', os.path.join('content', 'post') + os.sep], cwd=hugo_source_path)
+    print("添加 articles 目录下的所有更改...")
+    run_command(['git', 'add', os.path.join('articles') + os.sep], cwd=hugo_source_path)
     
     # 2. 图片现已存储在S3云存储，无需提交到Git
     print("📦 图片已上传到S3云存储，跳过本地图片文件添加")

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Agent on Example Site</title>
+        <link>http://localhost:1313/hugo/tags/agent/</link>
+        <description>Recent content in Agent on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo/tags/agent/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>全球首款通用AI科研智能体问世：我一个文科生用它写了份CRISPR基因编辑综述报告</title>
+        <link>http://localhost:1313/hugo/p/%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E9%80%9A%E7%94%A8ai%E7%A7%91%E7%A0%94%E6%99%BA%E8%83%BD%E4%BD%93%E9%97%AE%E4%B8%96%E6%88%91%E4%B8%80%E4%B8%AA%E6%96%87%E7%A7%91%E7%94%9F%E7%94%A8%E5%AE%83%E5%86%99%E4%BA%86%E4%BB%BDcrispr%E5%9F%BA%E5%9B%A0%E7%BC%96%E8%BE%91%E7%BB%BC%E8%BF%B0%E6%8A%A5%E5%91%8A/</link>
+        <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E9%80%9A%E7%94%A8ai%E7%A7%91%E7%A0%94%E6%99%BA%E8%83%BD%E4%BD%93%E9%97%AE%E4%B8%96%E6%88%91%E4%B8%80%E4%B8%AA%E6%96%87%E7%A7%91%E7%94%9F%E7%94%A8%E5%AE%83%E5%86%99%E4%BA%86%E4%BB%BDcrispr%E5%9F%BA%E5%9B%A0%E7%BC%96%E8%BE%91%E7%BB%BC%E8%BF%B0%E6%8A%A5%E5%91%8A/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_08_01/003.jpg" alt="Featured image of post 全球首款通用AI科研智能体问世：我一个文科生用它写了份CRISPR基因编辑综述报告" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_08_01/003.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;全球首款通用AI科研智能体问世：我一个文科生用它写了份CRISPR基因编辑综述报告&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 全球首个通用科研智能体SciMaster发布，可自动进行科研流程，提升效率。基于X-Master的工具增强型推理智能体在HLE基准上创造新记录。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>微软花重金做的Copilot，居然被WPS一个按钮给秒了?</title>
+        <link>http://localhost:1313/hugo/p/%E5%BE%AE%E8%BD%AF%E8%8A%B1%E9%87%8D%E9%87%91%E5%81%9A%E7%9A%84copilot%E5%B1%85%E7%84%B6%E8%A2%ABwps%E4%B8%80%E4%B8%AA%E6%8C%89%E9%92%AE%E7%BB%99%E7%A7%92%E4%BA%86/</link>
+        <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E5%BE%AE%E8%BD%AF%E8%8A%B1%E9%87%8D%E9%87%91%E5%81%9A%E7%9A%84copilot%E5%B1%85%E7%84%B6%E8%A2%ABwps%E4%B8%80%E4%B8%AA%E6%8C%89%E9%92%AE%E7%BB%99%E7%A7%92%E4%BA%86/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_31/002.jpg" alt="Featured image of post 微软花重金做的Copilot，居然被WPS一个按钮给秒了?" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_31/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;微软花重金做的Copilot，居然被WPS一个按钮给秒了?&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: WPS推出智能体灵犀，实现AI办公全面升级，包括写作、搜索、数据分析、PPT生成等功能。与微软Copilot竞争，重新定义AI办公标准，实现多轮对话、保留原有格式的文档生成。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SPIRAL：零和游戏自对弈成为语言模型推理训练的「免费午餐」</title>
+        <link>http://localhost:1313/hugo/p/spiral%E9%9B%B6%E5%92%8C%E6%B8%B8%E6%88%8F%E8%87%AA%E5%AF%B9%E5%BC%88%E6%88%90%E4%B8%BA%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E8%AE%AD%E7%BB%83%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%88%E9%A4%90/</link>
+        <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/spiral%E9%9B%B6%E5%92%8C%E6%B8%B8%E6%88%8F%E8%87%AA%E5%AF%B9%E5%BC%88%E6%88%90%E4%B8%BA%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E8%AE%AD%E7%BB%83%E7%9A%84%E5%85%8D%E8%B4%B9%E5%8D%88%E9%A4%90/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_30/004.jpg" alt="Featured image of post SPIRAL：零和游戏自对弈成为语言模型推理训练的「免费午餐」" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_30/004.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;SPIRAL：零和游戏自对弈成为语言模型推理训练的「免费午餐」&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: SPIRAL通过自对弈在零和游戏中强化语言模型推理能力，摆脱人工监督。游戏训练提升数学推理，展示多智能体强化学习潜力。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>开出10亿美元天价，小扎挖人Mira创业公司惨遭拒：俺们不差钱</title>
+        <link>http://localhost:1313/hugo/p/%E5%BC%80%E5%87%BA10%E4%BA%BF%E7%BE%8E%E5%85%83%E5%A4%A9%E4%BB%B7%E5%B0%8F%E6%89%8E%E6%8C%96%E4%BA%BAmira%E5%88%9B%E4%B8%9A%E5%85%AC%E5%8F%B8%E6%83%A8%E9%81%AD%E6%8B%92%E4%BF%BA%E4%BB%AC%E4%B8%8D%E5%B7%AE%E9%92%B1/</link>
+        <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E5%BC%80%E5%87%BA10%E4%BA%BF%E7%BE%8E%E5%85%83%E5%A4%A9%E4%BB%B7%E5%B0%8F%E6%89%8E%E6%8C%96%E4%BA%BAmira%E5%88%9B%E4%B8%9A%E5%85%AC%E5%8F%B8%E6%83%A8%E9%81%AD%E6%8B%92%E4%BF%BA%E4%BB%AC%E4%B8%8D%E5%B7%AE%E9%92%B1/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_30/002.jpg" alt="Featured image of post 开出10亿美元天价，小扎挖人Mira创业公司惨遭拒：俺们不差钱" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_30/002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;开出10亿美元天价，小扎挖人Mira创业公司惨遭拒：俺们不差钱&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Meta开出10亿美元天价挖人Thinking Machines Lab，未成功吸引顶级人才。同时挖走苹果核心成员Bowen Zhang加入超级智能团队。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>通义实验室大火的 WebAgent 续作：全开源模型方案超过GPT4.1 , 收获开源SOTA</title>
+        <link>http://localhost:1313/hugo/p/%E9%80%9A%E4%B9%89%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%A4%A7%E7%81%AB%E7%9A%84-webagent-%E7%BB%AD%E4%BD%9C%E5%85%A8%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E6%96%B9%E6%A1%88%E8%B6%85%E8%BF%87gpt4.1-%E6%94%B6%E8%8E%B7%E5%BC%80%E6%BA%90sota/</link>
+        <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E9%80%9A%E4%B9%89%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%A4%A7%E7%81%AB%E7%9A%84-webagent-%E7%BB%AD%E4%BD%9C%E5%85%A8%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E6%96%B9%E6%A1%88%E8%B6%85%E8%BF%87gpt4.1-%E6%94%B6%E8%8E%B7%E5%BC%80%E6%BA%90sota/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_29/003.jpg" alt="Featured image of post 通义实验室大火的 WebAgent 续作：全开源模型方案超过GPT4.1 , 收获开源SOTA" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_29/003.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;通义实验室大火的 WebAgent 续作：全开源模型方案超过GPT4.1 , 收获开源SOTA&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: WebAgent续作WebShaper提出形式化信息检索任务建模，全开源模型在GAIA评测达SOTA，解决训练数据瓶颈&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AI Agents的“超级大脑”来了  阿里云正式发布无影Agentbay</title>
+        <link>http://localhost:1313/hugo/p/ai-agents%E7%9A%84%E8%B6%85%E7%BA%A7%E5%A4%A7%E8%84%91%E6%9D%A5%E4%BA%86-%E9%98%BF%E9%87%8C%E4%BA%91%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%E6%97%A0%E5%BD%B1agentbay/</link>
+        <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/ai-agents%E7%9A%84%E8%B6%85%E7%BA%A7%E5%A4%A7%E8%84%91%E6%9D%A5%E4%BA%86-%E9%98%BF%E9%87%8C%E4%BA%91%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%E6%97%A0%E5%BD%B1agentbay/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_28/001.png" alt="Featured image of post AI Agents的“超级大脑”来了  阿里云正式发布无影Agentbay" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_28/001.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;AI Agents的“超级大脑”来了  阿里云正式发布无影Agentbay&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 阿里云发布无影AgentBay，为AI Agents提供弹性算力和安全沙箱环境，支持多模态输入和智能决策。未来将演进为全能型Agent Infra，覆盖完整生命周期。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>GMI Cloud 于 WAIC 2025 展现全栈 AI 基建实力，破解出海成本与效率难题</title>
+        <link>http://localhost:1313/hugo/p/gmi-cloud-%E4%BA%8E-waic-2025-%E5%B1%95%E7%8E%B0%E5%85%A8%E6%A0%88-ai-%E5%9F%BA%E5%BB%BA%E5%AE%9E%E5%8A%9B%E7%A0%B4%E8%A7%A3%E5%87%BA%E6%B5%B7%E6%88%90%E6%9C%AC%E4%B8%8E%E6%95%88%E7%8E%87%E9%9A%BE%E9%A2%98/</link>
+        <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/gmi-cloud-%E4%BA%8E-waic-2025-%E5%B1%95%E7%8E%B0%E5%85%A8%E6%A0%88-ai-%E5%9F%BA%E5%BB%BA%E5%AE%9E%E5%8A%9B%E7%A0%B4%E8%A7%A3%E5%87%BA%E6%B5%B7%E6%88%90%E6%9C%AC%E4%B8%8E%E6%95%88%E7%8E%87%E9%9A%BE%E9%A2%98/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_29/009.png" alt="Featured image of post GMI Cloud 于 WAIC 2025 展现全栈 AI 基建实力，破解出海成本与效率难题" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_29/009.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;GMI Cloud 于 WAIC 2025 展现全栈 AI 基建实力，破解出海成本与效率难题&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: GMI Cloud在WAIC 2025展示全栈AI基建实力，解决出海成本与效率难题。展示三大核心产品，提供灵活公有云与定制私有云服务。推出AI Agent成本计算器和Inference Engine实战体验，助力AI应用全球推广。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>WAIC 2025: 斑马智行元神AI大模型，获全球机构测评第一</title>
+        <link>http://localhost:1313/hugo/p/waic-2025-%E6%96%91%E9%A9%AC%E6%99%BA%E8%A1%8C%E5%85%83%E7%A5%9Eai%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%8E%B7%E5%85%A8%E7%90%83%E6%9C%BA%E6%9E%84%E6%B5%8B%E8%AF%84%E7%AC%AC%E4%B8%80/</link>
+        <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/waic-2025-%E6%96%91%E9%A9%AC%E6%99%BA%E8%A1%8C%E5%85%83%E7%A5%9Eai%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%8E%B7%E5%85%A8%E7%90%83%E6%9C%BA%E6%9E%84%E6%B5%8B%E8%AF%84%E7%AC%AC%E4%B8%80/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_29/010.png" alt="Featured image of post WAIC 2025: 斑马智行元神AI大模型，获全球机构测评第一" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_29/010.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;WAIC 2025: 斑马智行元神AI大模型，获全球机构测评第一&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 斑马智行发布端侧多模态大模型解决方案，推动汽车智能座舱进入主动智能时代。元神AI大模型在全球机构评估中获得第一。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>2025 WAIC容联云AI AGENT论坛启幕，以技术引擎驱动产业智能跃迁</title>
+        <link>http://localhost:1313/hugo/p/2025-waic%E5%AE%B9%E8%81%94%E4%BA%91ai-agent%E8%AE%BA%E5%9D%9B%E5%90%AF%E5%B9%95%E4%BB%A5%E6%8A%80%E6%9C%AF%E5%BC%95%E6%93%8E%E9%A9%B1%E5%8A%A8%E4%BA%A7%E4%B8%9A%E6%99%BA%E8%83%BD%E8%B7%83%E8%BF%81/</link>
+        <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/2025-waic%E5%AE%B9%E8%81%94%E4%BA%91ai-agent%E8%AE%BA%E5%9D%9B%E5%90%AF%E5%B9%95%E4%BB%A5%E6%8A%80%E6%9C%AF%E5%BC%95%E6%93%8E%E9%A9%B1%E5%8A%A8%E4%BA%A7%E4%B8%9A%E6%99%BA%E8%83%BD%E8%B7%83%E8%BF%81/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_28/001.png" alt="Featured image of post 2025 WAIC容联云AI AGENT论坛启幕，以技术引擎驱动产业智能跃迁" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_28/001.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;2025 WAIC容联云AI AGENT论坛启幕，以技术引擎驱动产业智能跃迁&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 2025 WAIC容联云AI AGENT论坛聚焦AI Agent技术演进与产业融合，推动企业数智化转型，重构增长范式。全球趋势洞察显示AI Agent成产业智能引擎，东南亚市场迎来爆发期。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>扣子开源全家桶，Apache 2.0加持，AI Agent又一次卷到起飞</title>
+        <link>http://localhost:1313/hugo/p/%E6%89%A3%E5%AD%90%E5%BC%80%E6%BA%90%E5%85%A8%E5%AE%B6%E6%A1%B6apache-2.0%E5%8A%A0%E6%8C%81ai-agent%E5%8F%88%E4%B8%80%E6%AC%A1%E5%8D%B7%E5%88%B0%E8%B5%B7%E9%A3%9E/</link>
+        <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E6%89%A3%E5%AD%90%E5%BC%80%E6%BA%90%E5%85%A8%E5%AE%B6%E6%A1%B6apache-2.0%E5%8A%A0%E6%8C%81ai-agent%E5%8F%88%E4%B8%80%E6%AC%A1%E5%8D%B7%E5%88%B0%E8%B5%B7%E9%A3%9E/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_28/007.jpg" alt="Featured image of post 扣子开源全家桶，Apache 2.0加持，AI Agent又一次卷到起飞" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_28/007.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;扣子开源全家桶，Apache 2.0加持，AI Agent又一次卷到起飞&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 扣子开源全家桶，Apache 2.0加持，AI Agent再次卷起风浪。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>蚂蚁数科发布金融推理大模型 助力金融机构加速落地智能体应用</title>
+        <link>http://localhost:1313/hugo/p/%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%8F%91%E5%B8%83%E9%87%91%E8%9E%8D%E6%8E%A8%E7%90%86%E5%A4%A7%E6%A8%A1%E5%9E%8B-%E5%8A%A9%E5%8A%9B%E9%87%91%E8%9E%8D%E6%9C%BA%E6%9E%84%E5%8A%A0%E9%80%9F%E8%90%BD%E5%9C%B0%E6%99%BA%E8%83%BD%E4%BD%93%E5%BA%94%E7%94%A8/</link>
+        <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E8%9A%82%E8%9A%81%E6%95%B0%E7%A7%91%E5%8F%91%E5%B8%83%E9%87%91%E8%9E%8D%E6%8E%A8%E7%90%86%E5%A4%A7%E6%A8%A1%E5%9E%8B-%E5%8A%A9%E5%8A%9B%E9%87%91%E8%9E%8D%E6%9C%BA%E6%9E%84%E5%8A%A0%E9%80%9F%E8%90%BD%E5%9C%B0%E6%99%BA%E8%83%BD%E4%BD%93%E5%BA%94%E7%94%A8/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_28/001.png" alt="Featured image of post 蚂蚁数科发布金融推理大模型 助力金融机构加速落地智能体应用" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_28/001.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;蚂蚁数科发布金融推理大模型 助力金融机构加速落地智能体应用&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 蚂蚁数科发布金融推理大模型Agentar-Fin-R1，助力金融机构智能化应用。模型基于Qwen3研发，超越通用大模型，具备金融专业性和安全合规能力。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>这届WAIC，无问芯穹发布了三个「盒子」</title>
+        <link>http://localhost:1313/hugo/p/%E8%BF%99%E5%B1%8Awaic%E6%97%A0%E9%97%AE%E8%8A%AF%E7%A9%B9%E5%8F%91%E5%B8%83%E4%BA%86%E4%B8%89%E4%B8%AA%E7%9B%92%E5%AD%90/</link>
+        <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E8%BF%99%E5%B1%8Awaic%E6%97%A0%E9%97%AE%E8%8A%AF%E7%A9%B9%E5%8F%91%E5%B8%83%E4%BA%86%E4%B8%89%E4%B8%AA%E7%9B%92%E5%AD%90/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_28/001.jpg" alt="Featured image of post 这届WAIC，无问芯穹发布了三个「盒子」" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_28/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;这届WAIC，无问芯穹发布了三个「盒子」&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 无问芯穹发布全规模AI效能跃升方案，推出三大核心产品：无穹AI云、无界智算平台与无垠终端智能。产品涵盖大中小算力场景，提供全链路支持。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>3 Questions: Applying lessons in data, economics, and policy design to the real world</title>
+        <link>http://localhost:1313/hugo/p/3-questions-applying-lessons-in-data-economics-and-policy-design-to-the-real-world/</link>
+        <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/3-questions-applying-lessons-in-data-economics-and-policy-design-to-the-real-world/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_27/007.jpg" alt="Featured image of post 3 Questions: Applying lessons in data, economics, and policy design to the real world" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_27/007.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;3 Questions: Applying lessons in data, economics, and policy design to the real world&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Gevorg Minasyan应用MIT的数据、经济和政策设计课程经验，推动亚美尼亚央行实施基于证据的决策，促进政策评估文化。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92</title>
+        <link>http://localhost:1313/hugo/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/</link>
+        <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/professor-emeritus-daniel-kleppner-highly-influential-atomic-physicist-dies-at-92/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_27/016.JPG" alt="Featured image of post Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_27/016.JPG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Daniel Kleppner, influential atomic physicist, passed away at 92. His research on atomic physics, hydrogen masers, Rydberg atoms, and Bose-Einstein condensation left a lasting impact on the field. Kleppner&amp;rsquo;&amp;rsquo;s mentorship and contributions shaped modern physics.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>This “smart coach” helps LLMs switch between text and code</title>
+        <link>http://localhost:1313/hugo/p/this-smart-coach-helps-llms-switch-between-text-and-code/</link>
+        <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/this-smart-coach-helps-llms-switch-between-text-and-code/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_27/023.jpg" alt="Featured image of post This “smart coach” helps LLMs switch between text and code" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_27/023.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;This “smart coach” helps LLMs switch between text and code&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: CodeSteer是一款智能助手，帮助LLMs在文本和代码之间切换以解决符号任务，提高准确性超过30%。研究者设计了SymBench数据集，优化CodeSteer性能，使LLMs能够智能选择文本或代码解决问题。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>尖峰对话17分钟全记录：Hinton与周伯文的思想碰撞</title>
+        <link>http://localhost:1313/hugo/p/%E5%B0%96%E5%B3%B0%E5%AF%B9%E8%AF%9D17%E5%88%86%E9%92%9F%E5%85%A8%E8%AE%B0%E5%BD%95hinton%E4%B8%8E%E5%91%A8%E4%BC%AF%E6%96%87%E7%9A%84%E6%80%9D%E6%83%B3%E7%A2%B0%E6%92%9E/</link>
+        <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E5%B0%96%E5%B3%B0%E5%AF%B9%E8%AF%9D17%E5%88%86%E9%92%9F%E5%85%A8%E8%AE%B0%E5%BD%95hinton%E4%B8%8E%E5%91%A8%E4%BC%AF%E6%96%87%E7%9A%84%E6%80%9D%E6%83%B3%E7%A2%B0%E6%92%9E/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_26/003.PNG" alt="Featured image of post 尖峰对话17分钟全记录：Hinton与周伯文的思想碰撞" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_26/003.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;尖峰对话17分钟全记录：Hinton与周伯文的思想碰撞&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: Hinton与周伯文探讨AI多模态大模型、主观体验、训练善良超级智能、AI与科学发现，以及对年轻科学家的建议。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>数学之问 | 当 AI 与数学在上海相遇：WAIC 2025 背后的智慧革命</title>
+        <link>http://localhost:1313/hugo/p/%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE-%E5%BD%93-ai-%E4%B8%8E%E6%95%B0%E5%AD%A6%E5%9C%A8%E4%B8%8A%E6%B5%B7%E7%9B%B8%E9%81%87waic-2025-%E8%83%8C%E5%90%8E%E7%9A%84%E6%99%BA%E6%85%A7%E9%9D%A9%E5%91%BD/</link>
+        <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E6%95%B0%E5%AD%A6%E4%B9%8B%E9%97%AE-%E5%BD%93-ai-%E4%B8%8E%E6%95%B0%E5%AD%A6%E5%9C%A8%E4%B8%8A%E6%B5%B7%E7%9B%B8%E9%81%87waic-2025-%E8%83%8C%E5%90%8E%E7%9A%84%E6%99%BA%E6%85%A7%E9%9D%A9%E5%91%BD/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_26/002.png" alt="Featured image of post 数学之问 | 当 AI 与数学在上海相遇：WAIC 2025 背后的智慧革命" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_26/002.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;数学之问 | 当 AI 与数学在上海相遇：WAIC 2025 背后的智慧革命&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 上海举办WAIC 2025，探讨AI与数学交叉领域前沿动态，包括大模型优化、机器推理、多模态融合等。顶尖学者参与，展示人机协同与思维碰撞。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>钛动科技发布首个全球营销 AI Agent，改写中国品牌出海「新叙事」</title>
+        <link>http://localhost:1313/hugo/p/%E9%92%9B%E5%8A%A8%E7%A7%91%E6%8A%80%E5%8F%91%E5%B8%83%E9%A6%96%E4%B8%AA%E5%85%A8%E7%90%83%E8%90%A5%E9%94%80-ai-agent%E6%94%B9%E5%86%99%E4%B8%AD%E5%9B%BD%E5%93%81%E7%89%8C%E5%87%BA%E6%B5%B7%E6%96%B0%E5%8F%99%E4%BA%8B/</link>
+        <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E9%92%9B%E5%8A%A8%E7%A7%91%E6%8A%80%E5%8F%91%E5%B8%83%E9%A6%96%E4%B8%AA%E5%85%A8%E7%90%83%E8%90%A5%E9%94%80-ai-agent%E6%94%B9%E5%86%99%E4%B8%AD%E5%9B%BD%E5%93%81%E7%89%8C%E5%87%BA%E6%B5%B7%E6%96%B0%E5%8F%99%E4%BA%8B/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_27/001.jpg" alt="Featured image of post 钛动科技发布首个全球营销 AI Agent，改写中国品牌出海「新叙事」" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_27/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;钛动科技发布首个全球营销 AI Agent，改写中国品牌出海「新叙事」&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 钛动科技发布首个全球营销 AI Agent—Navos，助力中国品牌出海，重塑营销方式。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>阿里模型三连发闪耀WAIC，中国开源模型“周级迭代”引领AI新变革</title>
+        <link>http://localhost:1313/hugo/p/%E9%98%BF%E9%87%8C%E6%A8%A1%E5%9E%8B%E4%B8%89%E8%BF%9E%E5%8F%91%E9%97%AA%E8%80%80waic%E4%B8%AD%E5%9B%BD%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E5%91%A8%E7%BA%A7%E8%BF%AD%E4%BB%A3%E5%BC%95%E9%A2%86ai%E6%96%B0%E5%8F%98%E9%9D%A9/</link>
+        <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E9%98%BF%E9%87%8C%E6%A8%A1%E5%9E%8B%E4%B8%89%E8%BF%9E%E5%8F%91%E9%97%AA%E8%80%80waic%E4%B8%AD%E5%9B%BD%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E5%91%A8%E7%BA%A7%E8%BF%AD%E4%BB%A3%E5%BC%95%E9%A2%86ai%E6%96%B0%E5%8F%98%E9%9D%A9/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_27/001.jpg" alt="Featured image of post 阿里模型三连发闪耀WAIC，中国开源模型“周级迭代”引领AI新变革" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_27/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;阿里模型三连发闪耀WAIC，中国开源模型“周级迭代”引领AI新变革&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 阿里模型三连发闪耀WAIC，中国开源模型“周级迭代”引领AI新变革。阿里大模型全球开源，千问系列斩获多项冠军，引发全球AI开发者热潮。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>手机AGI助手还有多远？移动智能体复合长程任务测试基准与调度系统发布</title>
+        <link>http://localhost:1313/hugo/p/%E6%89%8B%E6%9C%BAagi%E5%8A%A9%E6%89%8B%E8%BF%98%E6%9C%89%E5%A4%9A%E8%BF%9C%E7%A7%BB%E5%8A%A8%E6%99%BA%E8%83%BD%E4%BD%93%E5%A4%8D%E5%90%88%E9%95%BF%E7%A8%8B%E4%BB%BB%E5%8A%A1%E6%B5%8B%E8%AF%95%E5%9F%BA%E5%87%86%E4%B8%8E%E8%B0%83%E5%BA%A6%E7%B3%BB%E7%BB%9F%E5%8F%91%E5%B8%83/</link>
+        <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/%E6%89%8B%E6%9C%BAagi%E5%8A%A9%E6%89%8B%E8%BF%98%E6%9C%89%E5%A4%9A%E8%BF%9C%E7%A7%BB%E5%8A%A8%E6%99%BA%E8%83%BD%E4%BD%93%E5%A4%8D%E5%90%88%E9%95%BF%E7%A8%8B%E4%BB%BB%E5%8A%A1%E6%B5%8B%E8%AF%95%E5%9F%BA%E5%87%86%E4%B8%8E%E8%B0%83%E5%BA%A6%E7%B3%BB%E7%BB%9F%E5%8F%91%E5%B8%83/</guid>
+        <description>&lt;img src="http://localhost:1313/hugo/images/articles/2025_07_26/001.jpg" alt="Featured image of post 手机AGI助手还有多远？移动智能体复合长程任务测试基准与调度系统发布" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hugo/images/articles/2025_07_26/001.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;手机AGI助手还有多远？移动智能体复合长程任务测试基准与调度系统发布&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;: 移动智能体面临复合长程任务挑战，提出UI-Nexus测试基准和Agent-Nexus调度系统。实验显示主流智能体泛化困难，Agent-Nexus显著提升任务完成率。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/hugo/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="演示说明">
+<title>Pages</title>
+
+<link rel='canonical' href='http://localhost:1313/hugo/zh-cn/page/'>
+
+<link rel="stylesheet" href="/hugo/scss/style.min.87bbe05d49774423310fca109ddd3f85779e06f02c127b210b46d23f771ef5ac.css"><meta property='og:title' content="Pages">
+<meta property='og:description' content="演示说明">
+<meta property='og:url' content='http://localhost:1313/hugo/zh-cn/page/'>
+<meta property='og:site_name' content='演示站点'>
+<meta property='og:type' content='website'>
+<meta name="twitter:title" content="Pages">
+<meta name="twitter:description" content="演示说明"><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/hugo/zh-cn/page/index.xml">
+<style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.4rem !important;  
+        padding: 0.4rem 1.1rem !important;  
+        font-weight: normal !important;  
+        display: inline-flex !important;  
+        align-items: center !important;  
+        justify-content: center !important;  
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+        min-height: 43px !important;  
+        margin: 0.4rem 0.4rem 0.4rem 0 !important;  
+    }
+</style>
+
+
+<link rel="stylesheet" href="/hugo/css/custom-post.css"> 
+        
+        
+        
+        <script src="/hugo/js/error-handler.5931ab2a935bf7fe7172a3c0aeacb7c7774feb5afe84f67eeb69a6479d084427.js"></script>
+        
+        
+        
+        <script src="/hugo/js/image-handler.4c041bbe1368df952cf0233cc125d3d685a2dcc298434cfe1dd10377ba104ca6.js"></script>
+        
+        
+        <style>
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
+             
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+             
+             
+        </style>
+    </head>
+    <body class=" simplified-layout">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<style>
+ 
+.top-header-fixed {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 25px 30px !important;
+}
+
+.top-header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.ai-news-logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.ai-news-emoji {
+    font-size: 2.2rem !important;
+}
+
+.ai-news-title {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+.date-selector {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+.date-selector label {
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #555 !important;
+}
+
+.date-selector input[type="date"] {
+    padding: 12px 20px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background-color: #f8f9fa !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    min-width: 220px !important;
+}
+
+.date-selector input[type="date"]:hover {
+    border-color: #aaa !important;
+    background-color: #f0f0f0 !important;
+}
+
+.date-selector input[type="date"]:focus {
+    outline: none !important;
+    border-color: #0066cc !important;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25) !important;
+}
+
+ 
+.main-container {
+    padding-top: 90px !important;
+}
+
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .main-container {
+        padding-top: 150px !important;
+    }
+    
+    .date-selector {
+        width: 100% !important;
+    }
+    
+    .date-selector input[type="date"] {
+        width: 100% !important;
+    }
+}
+
+ 
+.hidden-by-date-filter {
+    display: none !important;
+}
+</style>
+
+<div class="top-header-fixed">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <span class="ai-news-emoji">🍥</span>
+            <span class="ai-news-title">AI News</span>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select">选择日期</label>
+            
+            <input type="date" id="date-select" value="2025-08-01">
+        </div>
+    </div>
+</div>
+
+<script>
+
+(function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    const dateSelector = document.getElementById('date-select');
+    const articleCards = document.querySelectorAll('.article-card');
+    
+    if (!dateSelector || articleCards.length === 0) {
+      console.error('日期选择器或文章卡片未找到');
+      return;
+    }
+    
+    
+    const today = new Date().toISOString().slice(0, 10);
+    
+    
+    function filterArticles(initialLoad = false) {
+      let selectedDate = dateSelector.value;
+      
+      if (initialLoad) {
+        dateSelector.value = today;
+        selectedDate = today;
+      }
+      
+      articleCards.forEach(function(card) {
+        
+        const shouldHide = selectedDate && card.dataset.date !== selectedDate;
+        card.classList.toggle('hidden-by-date-filter', shouldHide);
+      });
+    }
+    
+    
+    dateSelector.addEventListener('change', function() {
+      filterArticles(false);
+    });
+    
+    
+    filterArticles(true);
+  });
+})();
+</script> <div class="container main-container">
+            <main class="main full-width">
+    <style>
+     
+    .article-list {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+    }
+    </style>
+    
+    <header>
+        <h1 class="section-title">Pages</h1>
+    </header><section class="article-list">
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="0001-01-01" data-original-link="">
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="" target="_blank" rel="noopener noreferrer">关于</a>
+            </h2>
+            
+            
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+    </section>
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/hugo/js/modal.e106ee7de55d650d4233c00483c2bbcc1d6bc25a3d46f7f9da7b03deafee8193.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html> 

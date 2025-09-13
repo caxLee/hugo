@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>科学 on Example Site</title>
+        <link>http://localhost:1313/hugo/tags/%E7%A7%91%E5%AD%A6/</link>
+        <description>Recent content in 科学 on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Sun, 13 Jul 2025 13:55:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/hugo/tags/%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Summer 2025 reading from MIT</title>
+        <link>http://localhost:1313/hugo/p/summer-2025-reading-from-mit/</link>
+        <pubDate>Sun, 13 Jul 2025 13:55:19 +0800</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/summer-2025-reading-from-mit/</guid>
+        <description>&lt;p&gt;MIT faculty and staff have published a variety of books in the past year, covering topics ranging from science and technology to culture, humanities, and social sciences. Some notable titles include a book on the history of infectious diseases, a guide to health care analytics, and a blueprint for harnessing AI for societal good. Other works explore themes like retirement, innovation, and the ethical promise of minority presence, showcasing the diverse intellectual contributions from the MIT community.&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

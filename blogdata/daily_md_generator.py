@@ -59,9 +59,9 @@ def find_latest_summary_jsonl():
 # 例如：C:\Users\kongg\0\content\post
 # 可根据实际情况调整
 # 这里假设与原逻辑一致
-# 你可以根据实际Hugo路径修改 target_root
+# 你可以根据实际NextJS项目路径修改 target_root
 #
-target_root = os.path.join(hugo_project_path, 'content', 'post')
+target_root = os.path.join(hugo_project_path, 'articles')
 
 # 确保目标目录存在
 os.makedirs(target_root, exist_ok=True)

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/hugo/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Example description">
+<title>Tag: 编码器-解码器 - Example Site</title>
+
+<link rel='canonical' href='http://localhost:1313/hugo/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/'>
+
+<link rel="stylesheet" href="/hugo/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="Tag: 编码器-解码器 - Example Site">
+<meta property='og:description' content="Example description">
+<meta property='og:url' content='http://localhost:1313/hugo/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-20T00:00:00&#43;00:00 '/>
+<meta name="twitter:title" content="Tag: 编码器-解码器 - Example Site">
+<meta name="twitter:description" content="Example description"><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/hugo/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/index.xml">
+<style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/hugo/css/custom-post.css"> 
+        
+        
+        
+        <script src="/hugo/js/error-handler.5931ab2a935bf7fe7172a3c0aeacb7c7774feb5afe84f67eeb69a6479d084427.js"></script>
+        
+        
+        
+        <script src="/hugo/js/image-handler.4c041bbe1368df952cf0233cc125d3d685a2dcc298434cfe1dd10377ba104ca6.js"></script>
+        
+        
+        <style>
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
+             
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+             
+             
+        </style>
+    </head>
+    <body class=" simplified-layout">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+
+<div class="top-header-fixed">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <a href="/" class="ai-news-link">
+                <span class="ai-news-emoji">🍥</span>
+                <span class="ai-news-title">AI News</span>
+            </a>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select" class="date-selector-label">Select Date</label>
+            
+            <input type="date" id="date-select" class="date-selector-input" value="2025-07-21">
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const dateSelector = document.getElementById('date-select');
+    
+    
+    const articleCards = document.querySelectorAll('[data-date]'); 
+
+    if (!dateSelector) return;
+
+    function filterArticles() {
+        const selectedDate = dateSelector.value;
+        
+        articleCards.forEach(function(card) {
+            const articleDate = card.getAttribute('data-date');
+            
+            if (!selectedDate || articleDate === selectedDate) {
+                card.style.display = ''; 
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    dateSelector.addEventListener('change', filterArticles);
+
+    
+    filterArticles();
+});
+</script>
+
+<style>
+ 
+.top-header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;  
+    background-color: var(--card-background-color);
+    box-shadow: var(--card-box-shadow);
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+ 
+.top-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+ 
+.ai-news-logo .ai-news-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.ai-news-emoji {
+    font-size: 1.5rem;
+}
+
+.ai-news-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-text-color);
+}
+
+ 
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.date-selector-label {
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+
+.date-selector-input {
+    padding: 0.4rem 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-small);
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-size: 0.9rem;
+}
+
+ 
+.container.main-container {
+    padding-top: 60px;  
+}
+
+ 
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .container.main-container {
+        padding-top: 110px;  
+    }
+}
+</style> <div class="container main-container">
+            <main class="main full-width">
+    <style>
+     
+    .article-list {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+    }
+    </style>
+    
+    <header>
+        <h1 class="section-title">编码器-解码器</h1>
+    </header><section class="article-list">
+        
+            
+<article class=" article-card custom-horizontal-layout" data-date="2025-07-10" data-original-link="https://www.jiqizhixin.com/articles/2025-07-10-17">
+    
+
+    <div class="article-details">
+        
+
+        <div class="article-content-wrapper">
+            <h2 class="article-title">
+                <a href="https://www.jiqizhixin.com/articles/2025-07-10-17" target="_blank" rel="noopener noreferrer">编码器-解码器架构的复兴？谷歌一口气发布32个T5Gemma模型</a>
+            </h2>
+            
+            
+            
+            <div class="article-summary">
+                谷歌发布了一系列用于健康 AI 开发的多模态模型MedGemma，能够根据医疗图像和文本描述辅助诊断并提供医疗建议。而重点是谷歌发布的编码器-解码器架构的Gemmaseries模型T5Gemma，通过适应技术将已完成预训练的仅解码器模型转换为编码器-解码器架构，表现出色，提供了多种大小的编码器与解码
+            </div>
+            
+        </div>
+
+        <footer class="article-footer">
+            
+            <div class="article-tags">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                <ul class="article-tags-list">
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/hugo/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/" class="article-tags-list-link">
+                            编码器-解码器
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                            多模态
+                        </a>
+                    </li>
+                    
+                    <li class="article-tags-list-item">
+                        <a href="http://localhost:1313/hugo/tags/t5gemma/" class="article-tags-list-link">
+                            T5Gemma
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            
+
+        </footer>
+    </div>
+</article> 
+        
+    </section>
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/hugo/js/modal.e106ee7de55d650d4233c00483c2bbcc1d6bc25a3d46f7f9da7b03deafee8193.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html> 

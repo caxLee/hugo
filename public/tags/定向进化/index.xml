@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>定向进化 on Example Site</title>
+        <link>http://localhost:1313/hugo/tags/%E5%AE%9A%E5%90%91%E8%BF%9B%E5%8C%96/</link>
+        <description>Recent content in 定向进化 on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Mon, 14 Jul 2025 21:13:58 +0800</lastBuildDate><atom:link href="http://localhost:1313/hugo/tags/%E5%AE%9A%E5%90%91%E8%BF%9B%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MIT chemists boost the efficiency of a key enzyme in photosynthesis</title>
+        <link>http://localhost:1313/hugo/p/mit-chemists-boost-the-efficiency-of-a-key-enzyme-in-photosynthes/</link>
+        <pubDate>Mon, 14 Jul 2025 21:13:58 +0800</pubDate>
+        
+        <guid>http://localhost:1313/hugo/p/mit-chemists-boost-the-efficiency-of-a-key-enzyme-in-photosynthes/</guid>
+        <description>&lt;p&gt;麻省理工学院的化学家们通过定向进化技术，成功提高了细菌中一种rubisco酶的催化效率高达25%。他们计划将这一技术应用于植物中的rubisco形式，以提高光合作用速率，潜在地提高作物产量。研究结果发表在《美国国家科学院院刊》上，这一进展为改良rubisco的动力学特性打开了新的研究方向，有望提高农业生产力。&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

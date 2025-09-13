@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><script src="/hugo/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ENCODE计划揭示人类基因组中大部分序列为非编码区，长期调控功能成谜。研究团队通过转基因小鼠模型和机器学习系统性绘制了人类发育增强子的突变敏感性图谱，揭示了增强子在动物发育中的重要作用。研究结果有助于解释人类非编码变异和进化变化，为设计合成增强子以满足生物技术和治疗需求提供基础。\n">
+<title>人类增强子突变敏感性图谱首次绘制：AI 与体内实验揭示发育调控密码</title>
+
+<link rel='canonical' href='http://localhost:1313/hugo/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/'>
+
+<link rel="stylesheet" href="/hugo/scss/style.min.d515bc3ac27289e0f9c86bfbe4ae5efa8f4cbeb68cbf75ce9328f370a19bc4da.css"><meta property='og:title' content="人类增强子突变敏感性图谱首次绘制：AI 与体内实验揭示发育调控密码">
+<meta property='og:description' content="ENCODE计划揭示人类基因组中大部分序列为非编码区，长期调控功能成谜。研究团队通过转基因小鼠模型和机器学习系统性绘制了人类发育增强子的突变敏感性图谱，揭示了增强子在动物发育中的重要作用。研究结果有助于解释人类非编码变异和进化变化，为设计合成增强子以满足生物技术和治疗需求提供基础。\n">
+<meta property='og:url' content='http://localhost:1313/hugo/p/%E4%BA%BA%E7%B1%BB%E5%A2%9E%E5%BC%BA%E5%AD%90%E7%AA%81%E5%8F%98%E6%95%8F%E6%84%9F%E6%80%A7%E5%9B%BE%E8%B0%B1%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6ai-%E4%B8%8E%E4%BD%93%E5%86%85%E5%AE%9E%E9%AA%8C%E6%8F%AD%E7%A4%BA%E5%8F%91%E8%82%B2%E8%B0%83%E6%8E%A7%E5%AF%86%E7%A0%81/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='基模' /><meta property='article:tag' content='多模态' /><meta property='article:tag' content='AI4S' /><meta property='article:published_time' content='2025-07-10T22:06:08&#43;08:00'/><meta property='article:modified_time' content='2025-07-10T22:06:08&#43;08:00'/>
+<meta name="twitter:title" content="人类增强子突变敏感性图谱首次绘制：AI 与体内实验揭示发育调控密码">
+<meta name="twitter:description" content="ENCODE计划揭示人类基因组中大部分序列为非编码区，长期调控功能成谜。研究团队通过转基因小鼠模型和机器学习系统性绘制了人类发育增强子的突变敏感性图谱，揭示了增强子在动物发育中的重要作用。研究结果有助于解释人类非编码变异和进化变化，为设计合成增强子以满足生物技术和治疗需求提供基础。\n">
+<style>
+     
+    .custom-horizontal-layout {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+    .custom-horizontal-layout .article-image {
+        flex: 1 0 33% !important; 
+        max-width: 33% !important;
+        margin-right: 2% !important;
+        height: auto !important;
+        min-height: 200px !important;
+        position: relative !important;
+    }
+    .custom-horizontal-layout .article-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .custom-horizontal-layout .article-details {
+        flex: 2 0 65% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+    }
+    @media (max-width: 768px) {
+        .custom-horizontal-layout {
+            flex-direction: column !important;
+        }
+        .custom-horizontal-layout .article-image {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+            margin-right: 0 !important;
+            height: 200px !important;
+        }
+        .custom-horizontal-layout .article-details {
+            flex: 0 0 100% !important;
+        }
+    }
+
+     
+    .original-source,
+    .original-summary {
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border-left: 4px solid #6c757d;
+        border-radius: 4px;
+    }
+    
+    .original-source h4,
+    .original-summary h4 {
+        margin-top: 0;
+        color: #495057;
+        font-size: 1.1rem;
+    }
+    
+    .original-source a {
+        word-break: break-all;
+    }
+    
+    .original-summary {
+        margin-top: 1rem;
+    }
+    
+     
+    .article-tags-list-item a {
+        font-size: 1.3rem !important;  
+        padding: 0.4rem 1rem !important;  
+        font-weight: 500 !important;  
+        display: inline-block !important;
+        background: var(--tertiary-background-color, #f0f0f0) !important;
+        color: var(--secondary-text-color, #333) !important;
+        border-radius: 4px !important;
+        text-decoration: none !important;
+        transition: background-color 0.2s, color 0.2s !important;
+    }
+</style>
+
+
+<link rel="stylesheet" href="/hugo/css/custom-post.css"> 
+        
+        
+        
+        <script src="/hugo/js/error-handler.5931ab2a935bf7fe7172a3c0aeacb7c7774feb5afe84f67eeb69a6479d084427.js"></script>
+        
+        
+        
+        <script src="/hugo/js/image-handler.4c041bbe1368df952cf0233cc125d3d685a2dcc298434cfe1dd10377ba104ca6.js"></script>
+        
+        
+        <style>
+             
+            .custom-horizontal-layout {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: stretch !important;
+                overflow: hidden !important;
+            }
+            .custom-horizontal-layout .article-image {
+                flex: 1 0 33% !important; 
+                max-width: 33% !important;
+                margin-right: 2% !important;
+                height: auto !important;
+                min-height: 200px !important;
+                position: relative !important;
+            }
+            .custom-horizontal-layout .article-image img {
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+            .custom-horizontal-layout .article-details {
+                flex: 2 0 65% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 1rem !important;
+            }
+            @media (max-width: 768px) {
+                .custom-horizontal-layout {
+                    flex-direction: column !important;
+                }
+                .custom-horizontal-layout .article-image {
+                    flex: 0 0 100% !important;
+                    max-width: 100% !important;
+                    margin-right: 0 !important;
+                    height: 200px !important;
+                }
+                .custom-horizontal-layout .article-details {
+                    flex: 0 0 100% !important;
+                }
+            }
+            
+             
+            .article-tags {
+                margin-top: 1rem;
+            }
+            .article-tags .article-tags-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+             
+             
+        </style>
+    </head>
+    <body class="
+    article-page
+     simplified-layout">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+
+<div class="top-header-fixed">
+    <div class="top-header-container">
+        <div class="ai-news-logo">
+            <a href="/" class="ai-news-link">
+                <span class="ai-news-emoji">🍥</span>
+                <span class="ai-news-title">AI News</span>
+            </a>
+        </div>
+        
+        <div class="date-selector">
+            <label for="date-select" class="date-selector-label">Select Date</label>
+            
+            <input type="date" id="date-select" class="date-selector-input" value="2025-07-21">
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const dateSelector = document.getElementById('date-select');
+    
+    
+    const articleCards = document.querySelectorAll('[data-date]'); 
+
+    if (!dateSelector) return;
+
+    function filterArticles() {
+        const selectedDate = dateSelector.value;
+        
+        articleCards.forEach(function(card) {
+            const articleDate = card.getAttribute('data-date');
+            
+            if (!selectedDate || articleDate === selectedDate) {
+                card.style.display = ''; 
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    dateSelector.addEventListener('change', filterArticles);
+
+    
+    filterArticles();
+});
+</script>
+
+<style>
+ 
+.top-header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;  
+    background-color: var(--card-background-color);
+    box-shadow: var(--card-box-shadow);
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+ 
+.top-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+ 
+.ai-news-logo .ai-news-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.ai-news-emoji {
+    font-size: 1.5rem;
+}
+
+.ai-news-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-text-color);
+}
+
+ 
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.date-selector-label {
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+
+.date-selector-input {
+    padding: 0.4rem 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-small);
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-size: 0.9rem;
+}
+
+ 
+.container.main-container {
+    padding-top: 60px;  
+}
+
+ 
+@media (max-width: 768px) {
+    .top-header-container {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .container.main-container {
+        padding-top: 110px;  
+    }
+}
+</style> <div class="container main-container">
+            <main class="main full-width">
+    <article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="javascript:void(0);">人类增强子突变敏感性图谱首次绘制：AI 与体内实验揭示发育调控密码</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 10, 2025</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+    <footer class="article-tags">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+        <ul class="article-tags-list">
+            
+            <li class="article-tags-list-item">
+                <a href="http://localhost:1313/hugo/tags/%E5%9F%BA%E6%A8%A1/" class="article-tags-list-link">
+                    基模
+                </a>
+            </li>
+            
+            <li class="article-tags-list-item">
+                <a href="http://localhost:1313/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/" class="article-tags-list-link">
+                    多模态
+                </a>
+            </li>
+            
+            <li class="article-tags-list-item">
+                <a href="http://localhost:1313/hugo/tags/ai4s/" class="article-tags-list-link">
+                    AI4S
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+    
+
+    
+</div> 
+</header><section class="article-content">
+    <p>ENCODE计划揭示人类基因组中大部分序列为非编码区，长期调控功能成谜。研究团队通过转基因小鼠模型和机器学习系统性绘制了人类发育增强子的突变敏感性图谱，揭示了增强子在动物发育中的重要作用。研究结果有助于解释人类非编码变异和进化变化，为设计合成增强子以满足生物技术和治疗需求提供基础。</p></section>
+    
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/hugo/tags/%E5%9F%BA%E6%A8%A1/">基模</a>
+        
+            <a href="/hugo/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/">多模态</a>
+        
+            <a href="/hugo/tags/ai4s/">AI4S</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Jul 10, 2025 22:06 CST
+        </span>
+    </section></footer>
+
+    
+    
+    
+    
+</article> 
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/hugo/p/%E6%8B%8D%E6%88%91aipixverse%E4%B8%8A%E7%BA%BF%E5%A4%9A%E5%85%B3%E9%94%AE%E5%B8%A7%E7%94%9F%E6%88%90%E5%8A%9F%E8%83%BD-ai%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E4%BB%8E%E7%89%87%E6%AE%B5%E8%BF%88%E5%90%91%E6%95%85%E4%BA%8B%E6%80%A7%E8%A1%A8%E8%BE%BE/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">拍我AI（PixVerse）上线多关键帧生成功能 ，AI视频创作从“片段”迈向“故事性表达” </h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo/p/8%E5%B0%8F%E6%97%B6%E5%A4%84%E7%90%86300%E4%B8%87%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E5%A4%8D%E6%97%A6%E4%B8%8A%E4%BA%A4%E7%A0%94%E5%8F%91%E5%8F%8C%E5%88%86%E6%94%AF%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B%E7%99%BBnature%E5%AD%90%E5%88%8A/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">8小时处理300万细胞数据，复旦&amp;上交研发双分支架构模型，登Nature子刊</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo/p/%E6%88%91%E4%BB%AC%E7%94%A8%E9%A3%9E%E4%B9%A6%E5%BC%80%E4%BA%86%E4%B8%AA%E9%80%89%E9%A2%98%E4%BC%9A%E4%B8%80%E4%B8%8B%E8%BF%9B%E5%85%A5%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%8A%9E%E5%85%AC%E7%BC%96%E8%BE%91%E9%83%A8%E7%9B%B4%E5%91%BC%E7%9C%9F%E9%A6%99/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">我们用飞书开了个选题会，一下进入现代化办公，编辑部直呼：真香</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/hugo/p/%E8%81%94%E5%90%88%E5%9B%BD%E7%82%B9%E8%B5%9E%E7%88%B1%E8%AF%97%E7%A7%91%E6%8A%80pixverse%E5%85%A5%E9%80%89ai-for-good%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">联合国点赞爱诗科技，PixVerse入选AI for Good优秀案例</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo/p/ai%E5%81%B7%E5%AD%A6%E4%BD%A0%E7%9A%84%E6%95%B0%E6%8D%AE6%E5%A4%A7%E9%A1%B6%E7%BA%A7%E6%9C%BA%E6%9E%84%E8%81%94%E6%89%8B%E6%8F%90%E5%87%BA%E6%95%B0%E6%8D%AE%E4%BF%9D%E6%8A%A44%E5%A4%A7%E5%88%86%E7%BA%A7%E4%BD%93%E7%B3%BB/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/hugo/images/articles/2025_07_19/038.jpg" loading="lazy" data-key="" data-hash="/hugo/images/articles/2025_07_19/038.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AI「偷学」你的数据？6大顶级机构联手提出数据保护4大分级体系</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Example Person
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo/ts/main.95f9844a5e2c392e19771fe007a767f265494f26f8f3205d1d4681b077de59b1.js" defer></script><script type="text/javascript" src="/hugo/js/modal.e106ee7de55d650d4233c00483c2bbcc1d6bc25a3d46f7f9da7b03deafee8193.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html> 
